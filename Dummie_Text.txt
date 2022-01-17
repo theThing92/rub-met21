@@ -1,0 +1,6 @@
+Dies ist ein sogenannter Dummie Text.
+Der Nutzen des Dummie Textes ist es, das Export Format von WebAnno zu testen.
+Dafür wird dieser Text mit allen möglichen Parametern annotiert um ihn im Nachhinein zu exportieren.
+Der Export sollte in einem Tabellen Format dargestellt werden, damit die nachfolgenden linguistischen Informationen ergänzt werden können.
+Die Infos werden durch eine Pipeline ergänzt und so entsteht ein kompletter Datensatz.
+Dieses Dokument wird annotiert und unannotiert hochgeladen.
