@@ -49,39 +49,54 @@ def prep_europarl(path: str):
 
 
 def tokenize_text(text: str, path: str):
-    with open(path, "w", encoding="utf-8") as f:
-        for paragraph in segmenter.process(text):
-            for sentence in paragraph:
-                for token in sentence:
-                    # roughly reproduce the input,
-                    # except for hyphenated word-breaks
-                    # and replacing "n't" contractions with "not",
-                    # separating tokens by single spaces
-                    print(token.value, end=' ', file=f)
-                print(file=f)  # print one sentence per line
+    try:
+        with open(path, "w", encoding="utf-8") as f:
+            for paragraph in segmenter.process(text):
+                for sentence in paragraph:
+                    for token in sentence:
+                        # roughly reproduce the input,
+                        # except for hyphenated word-breaks
+                        # and replacing "n't" contractions with "not",
+                        # separating tokens by single spaces
+                        print(token.value, end=' ', file=f)
+                    print(file=f)  # print one sentence per line
 
+    except (IOError, Exception) as e:
+        raise e
+
+
+def convert_to_one_token_per_line(path: str):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            tokens_per_line = [sent.split() for sent in f.readlines()]
+
+        with open(path, "w", encoding="utf-8") as f:
+            for sent in tokens_per_line:
+                for token in sent:
+                    print(token, file=f)
+                print(file=f)
+
+    except (IOError, Exception) as e:
+        raise e
 
 if __name__ == "__main__":
     import os
 
-    subdirs = os.listdir("../data")
+    subdirs = os.listdir("../data")[2:]
 
     for dir in subdirs:
-        dir_path = os.path.abspath(os.path.join("../data", dir))
+        dir_path = os.path.abspath(os.path.join("../data", dir, "tokenized_token_per_line"))
         filepaths = [os.path.abspath(os.path.join(dir_path, f)) for f in os.listdir(dir_path)]
 
         for fp in filepaths:
             print(fp)
-            filepath_out = fp + ".tok"
-            if dir == "Bundestagsreden" and fp.endswith(".xml"):
-                text = prep_bund(fp)
-                tokenize_text(text, filepath_out)
+            convert_to_one_token_per_line(fp)
 
-            elif dir == "EUROPARL" and fp.endswith(".txt"):
-                text = prep_europarl(fp)
-                tokenize_text(text, filepath_out)
 
-            elif dir == "WikiBooks" and fp.endswith(".html"):
-                text = prep_wikibooks2(fp)
-                tokenize_text(text, filepath_out)
+        for fp in filepaths:
+            print(fp)
+            fp_out = fp+".pos.morph.lemma"
+
+            os.system("..\\rnn-tagger-german.bat " + fp + "> " + fp_out)
+
 
