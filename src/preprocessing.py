@@ -5,6 +5,7 @@ import syntok.segmenter as segmenter
 import csv
 import os
 from copy import deepcopy
+import re
 
 def prep_bund(path: str):
     # takes the path of the corresponding xml file and returns the speech as a string.
@@ -83,6 +84,27 @@ def convert_to_one_token_per_line(path: str):
         raise e
 
 
+def _split_pos_morph_info(row_tagged):
+    # ['wird', 'VAFIN.3.Sg.Pres.Ind', 'werden'] -> ['wird', 'VAFIN', '.3.Sg.Pres.Ind', 'werden']
+    # ['.', '$.', '.']                          -> ['.', '$.', '_', '.']
+    token = row_tagged[0]
+    lemma = row_tagged[-1]
+    if not row_tagged[1].startswith("$") and len(row_tagged[1].split(".")) == 2:
+        pos, morph = row_tagged[1].split(".")
+        row_tagged_out = [token, pos, morph, lemma]
+        return row_tagged_out
+    else:
+        pos = row_tagged[1]
+        row_tagged_out = [token, pos, "_", lemma]
+
+        return row_tagged_out
+
+def _merge_row_anno_tagged(row_anno, row_tagged):
+    # anno: ['126-11', '18637-18641', 'sein', '_', '_', '_', '_', '_', '_', '_', '_', '_']
+    # tagged: ['VAFIN', '.3.Sg.Pres.Ind', 'werden']
+    # merged: ['126-11', '18637-18641', 'sein', '_', '_', '_', '_', '_', '_', '_', '_', '_']
+    return row_anno + row_tagged[1:]
+
 def merge_webanno_tsv_with_tagger_anno(data_directory = "data"):
     file_extension_annotated = ".tok.pos.morph.lemma"
     file_out = "merge.tsv"
@@ -111,13 +133,15 @@ def merge_webanno_tsv_with_tagger_anno(data_directory = "data"):
              "MET_B|c_mark",
              "MET_B2|b_Lex",
              "MET_D|a_Par",
-             "METD|BT_webanno.custom.MET_A",
+             "SATELLITES",
              "POS",
              "MORPH",
-             "LEMMA"]
+             "LEMMA",
+             "METAPHORICAL_FUNC_WORD",
+             "METAPHORICAL_FUNC_VERB_PHRASE"]
 
     # TODO: add list with function words (# noun, verb adverb) -> col with true/false marks interesting case (Satelliten und Kerne)
-    # add list with verbs for analysis -> true marks interesting case
+    # add list with verbs for analysis -> true marks interesting case Apfel nehmen -> false, Abschied nehmen -> true _
     # single texts per line + whole corpus as file
 
     # convert sem to 2sem
@@ -130,78 +154,179 @@ def merge_webanno_tsv_with_tagger_anno(data_directory = "data"):
     for path_anno in annotated_files:
         print(path_anno)
 
+        rows_anno = []
+        rows_tagged = []
+
         dir_name_anno = path_anno.split("/")[-2]
 
         with open(path_anno, newline='', encoding="utf-8") as f:
-            csv_reader_anno = csv.reader(f, delimiter='\t', quotechar='"')
+            csv_reader_anno = csv.reader(f, delimiter='\t', quotechar=None)
             for row_anno in csv_reader_anno:
-                #print(row_anno)
                 try:
 
-                    row_anno_out = deepcopy(row_anno)
+                    if row_anno[0].startswith("#") and len(row_anno) == 1:
+                        continue
 
-                    sent_id_anno = int(row_anno[0].split("-")[0])
-                    token_id_anno = int(row_anno[0].split("-")[1])
+                    elif row_anno == []:
+                        continue
 
-                    # iterate through pos morph lemma files and add tagging info
-                    file_name = None
+                    elif "." in row_anno[0]:
+                        continue
 
-                    for path_tagged in tokenized_pos_morph_lemma_files:
-                        if dir_name_anno in path_tagged:
-                            file_name = path_tagged
+                    else:
+                        rows_anno.append(row_anno[:-1])
+                except IndexError:
+                    continue
 
-                    token_id_tagged = 1
-                    sent_id_tagged = 1
-                    rows_tagged_sent_token_id = []
+        # iterate through pos morph lemma files and add tagging info
+        file_name = None
+        for path_tagged in tokenized_pos_morph_lemma_files:
+            if dir_name_anno in path_tagged:
+                file_name = path_tagged
+        with open(file_name, newline='', encoding="utf-8") as f:
+            csv_reader_tagged = csv.reader(f, delimiter='\t', quotechar=None)
+            for row_tagged in csv_reader_tagged:
+                if row_tagged:
 
-                    with open(file_name, newline='', encoding="utf-8") as f:
-                        csv_reader_tagged = csv.reader(f, delimiter='\t', quotechar='"')
-
-                        for row_tagged in csv_reader_tagged:
-                            row_tagged_out = deepcopy(row_tagged)
-
-                            if row_tagged != []:
-
-                                row_tagged_out.insert(0,token_id_tagged)
-                                row_tagged_out.insert(0,sent_id_tagged)
-                                token_id_tagged += 1
-
-                                rows_tagged_sent_token_id.append(row_tagged_out)
+                    # tokenize cardinal expressions like 1998/99 according to syntok tokenizer before adding to list
+                    # cf. 1998/99 -> 1998 / 99 (1 Token -> 3 Tokens)
+                    regex_slash_alphanumeric = re.compile(r"(\w+)\/(\w+)")
+                    regex_abbr_point = re.compile(r"\.\.\.")
+                    regex_date_timespan = re.compile(r"(\d+)(\.)(-)(\d+)")
+                    regex_year_timespan = re.compile(r"(\d+)(-)(\d+)")
 
 
-                                # TODO: add morph info seperately
-                                #morph = row_tagged_out[-2].split(".",1)[-1] if len(row_tagged_out[-2].split(".",1))==2 else "_"
+                    if regex_slash_alphanumeric.match(row_tagged[2]):
+                        alphanumeric1, alphanumeric2 = row_tagged[2].split("/")
 
-                            elif row_tagged == []:
-                                sent_id_tagged += 1
-                                token_id_tagged = 1
-                                rows_tagged_sent_token_id.append([])
+                        row_tagged_alphanumeric1 = deepcopy(row_tagged)
+                        row_tagged_alphanumeric1[-1] = alphanumeric1
+                        row_tagged_alphanumeric1[0] = alphanumeric1
+                        row_tagged_slash = deepcopy(row_tagged)
+                        row_tagged_slash[-1] = "/"
+                        row_tagged_slash[0] = "/"
+                        row_tagged_alphanumeric2 = deepcopy(row_tagged)
+                        row_tagged_alphanumeric2[-1] = alphanumeric2
+                        row_tagged_alphanumeric2[0] = alphanumeric2
 
-                    #print(rows_tagged_sent_token_id)
+                        rows_tagged.append(_split_pos_morph_info(row_tagged_alphanumeric1))
+                        rows_tagged.append(_split_pos_morph_info(row_tagged_slash))
+                        rows_tagged.append(_split_pos_morph_info(row_tagged_alphanumeric2))
 
-                    for r in rows_tagged_sent_token_id:
-                        if r != []:
-                            token_id = r[1]
-                            sent_id = r[0]
+                    elif regex_abbr_point.match(row_tagged[-1]):
+                        row_tagged_abbr = deepcopy(row_tagged)
+                        row_tagged_abbr[0] = "."
+                        row_tagged_abbr[-1] = "."
 
-                            print("#######")
-                            print(sent_id)
-                            print(token_id)
+                        for i in range(3):
+                            rows_tagged.append(_split_pos_morph_info(row_tagged_abbr))
 
-                            print(sent_id_anno)
-                            print(token_id_anno)
-                            print("#######")
+                    elif regex_date_timespan.match(row_tagged[2]):
+                        tokens = regex_date_timespan.match(row_tagged[2]).groups()
 
-                            if token_id == token_id_anno and sent_id == sent_id_anno:
-                                row_anno_out.append(r[-2])
-                                row_anno_out.append(r[-1])
+                        for token in tokens:
+                            row_date_timespan = deepcopy(row_tagged)
+                            row_date_timespan[0] = token
+                            row_date_timespan[-1] = token
 
-                                rows_anno_out.append(rows_anno_out)
-                        elif r == []:
-                            rows_anno_out.append([])
-                except (IndexError, ValueError, Exception):
-                    pass
-        return rows_anno_out
+                            rows_tagged.append(_split_pos_morph_info(row_date_timespan))
+
+                    elif regex_year_timespan.match(row_tagged[2]):
+                        tokens = regex_year_timespan.match(row_tagged[2]).groups()
+
+                        for token in tokens:
+                            row_date_timespan = deepcopy(row_tagged)
+                            row_date_timespan[0] = token
+                            row_date_timespan[-1] = token
+
+                            rows_tagged.append(_split_pos_morph_info(row_date_timespan))
+
+
+                    else:
+                        rows_tagged.append(_split_pos_morph_info(row_tagged))
+
+        merged = list(map(_merge_row_anno_tagged, rows_anno, rows_tagged))
+
+        try:
+            assert len(rows_tagged) == len(rows_anno), f"Mismatch between tokens from files {path_anno} and {file_name} - " \
+                                                       f"annotated: {len(rows_anno)} tagged: {len(rows_tagged)}."
+        except AssertionError:
+            texts = {"anno": rows_anno, "tagged": rows_tagged}
+            for k,v in texts.items():
+                with open(k+".tsv", "w", encoding="utf-8") as f:
+                    for row in v:
+                        print(row,file=f)
+            return rows_anno, rows_tagged
+
+
+
+        #         #print(row_anno)
+        #         try:
+        #
+        #             row_anno_out = deepcopy(row_anno)
+        #
+        #             sent_id_anno = int(row_anno[0].split("-")[0])
+        #             token_id_anno = int(row_anno[0].split("-")[1])
+        #
+        #             # iterate through pos morph lemma files and add tagging info
+        #             file_name = None
+        #
+        #             for path_tagged in tokenized_pos_morph_lemma_files:
+        #                 if dir_name_anno in path_tagged:
+        #                     file_name = path_tagged
+        #
+        #             token_id_tagged = 1
+        #             sent_id_tagged = 1
+        #             rows_tagged_sent_token_id = []
+        #
+        #             with open(file_name, newline='', encoding="utf-8") as f:
+        #                 csv_reader_tagged = csv.reader(f, delimiter='\t', quotechar='"')
+        #
+        #                 for row_tagged in csv_reader_tagged:
+        #                     row_tagged_out = deepcopy(row_tagged)
+        #
+        #                     if row_tagged != []:
+        #
+        #                         row_tagged_out.insert(0,token_id_tagged)
+        #                         row_tagged_out.insert(0,sent_id_tagged)
+        #                         token_id_tagged += 1
+        #
+        #                         rows_tagged_sent_token_id.append(row_tagged_out)
+        #
+        #
+        #                         # TODO: add morph info seperately
+        #                         #morph = row_tagged_out[-2].split(".",1)[-1] if len(row_tagged_out[-2].split(".",1))==2 else "_"
+        #
+        #                     elif row_tagged == []:
+        #                         sent_id_tagged += 1
+        #                         token_id_tagged = 1
+        #                         rows_tagged_sent_token_id.append([])
+        #
+        #             #print(rows_tagged_sent_token_id)
+        #
+        #             for r in rows_tagged_sent_token_id:
+        #                 if r != []:
+        #                     token_id = r[1]
+        #                     sent_id = r[0]
+        #
+        #                     print("#######")
+        #                     print(sent_id)
+        #                     print(token_id)
+        #
+        #                     print(sent_id_anno)
+        #                     print(token_id_anno)
+        #                     print("#######")
+        #
+        #                     if token_id == token_id_anno and sent_id == sent_id_anno:
+        #                         row_anno_out.append(r[-2])
+        #                         row_anno_out.append(r[-1])
+        #
+        #                         rows_anno_out.append(rows_anno_out)
+        #                 elif r == []:
+        #                     rows_anno_out.append([])
+        #         except (IndexError, ValueError, Exception):
+        #             pass
+        # return rows_anno_out
 
 
 if __name__ == "__main__":
