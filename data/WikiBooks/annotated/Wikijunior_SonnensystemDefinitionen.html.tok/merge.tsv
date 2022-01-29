@@ -1,0 +1,1745 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.MET_A|MFlag|Rolle
+#T_SP=webanno.custom.MET_B|basic|c_mark
+#T_SP=webanno.custom.MET_B2|b_Lex
+#T_SP=webanno.custom.MET_C|a_Ref|b_Art
+#T_SP=webanno.custom.MET_D|a_Par
+#T_RL=webanno.custom.METD|BT_webanno.custom.MET_A
+
+
+#Text=Ohne unsere Sonne würde auf der Erde völlige Dunkelheit herrschen - nicht nur das , es wäre auch bitterkalt .
+1-1	0-4	Ohne	_	_	_	_	_	_	_	_	_	APPR	_	ohne
+1-2	5-11	unsere	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Fem	unser
+1-3	12-17	Sonne	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Sonne
+1-4	18-23	würde	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Subj	werden
+1-5	24-27	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+1-6	28-31	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+1-7	32-36	Erde	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Erde
+1-8	37-44	völlige	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	völlig
+1-9	45-55	Dunkelheit	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Dunkelheit
+1-10	56-65	herrschen	_	_	_	_	_	_	_	_	_	VVINF	Inf	herrschen
+1-11	66-67	-	_	_	_	_	_	_	_	_	_	$(	_	-
+1-12	68-73	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+1-13	74-77	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur
+1-14	78-81	das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+1-15	82-83	,	_	_	_	_	_	_	_	_	_	$,	_	,
+1-16	84-86	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+1-17	87-91	wäre	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Subj	sein
+1-18	92-96	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+1-19	97-107	bitterkalt	_	_	_	_	_	_	_	_	_	VVPP	Psp	bitterkalten
+1-20	108-109	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wenn du schon mal einem Lagerfeuer zu nahe gekommen bist , hast du bereits eine gute Vorstellung davon , was unsere Sonne ist .
+2-1	112-116	Wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn
+2-2	117-119	du	_	_	_	_	_	_	_	_	_	PPER	2.Nom.Sg.*	du
+2-3	120-125	schon	_	_	_	_	_	_	_	_	_	ADV	_	schon
+2-4	126-129	mal	_	_	_	_	_	_	_	_	_	ADV	_	mal
+2-5	130-135	einem	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Neut	ein
+2-6	136-146	Lagerfeuer	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Lagerfeuer
+2-7	147-149	zu	_	_	_	_	_	_	_	_	_	PTKA	_	zu
+2-8	150-154	nahe	_	_	_	_	_	_	_	_	_	ADJD	Pos	nah
+2-9	155-163	gekommen	_	_	_	_	_	_	_	_	_	VVPP	Psp	kommen
+2-10	164-168	bist	_	_	_	_	_	_	_	_	_	VAFIN	2.Sg.Pres.Ind	sein
+2-11	169-170	,	_	_	_	_	_	_	_	_	_	$,	_	,
+2-12	171-175	hast	_	_	_	_	_	_	_	_	_	VAFIN	2.Sg.Pres.Ind	haben
+2-13	176-178	du	_	_	_	_	_	_	_	_	_	PPER	2.Nom.Sg.*	du
+2-14	179-186	bereits	_	_	_	_	_	_	_	_	_	ADV	_	bereits
+2-15	187-191	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+2-16	192-196	gute	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	gut
+2-17	197-208	Vorstellung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Vorstellung
+2-18	209-214	davon	_	_	_	_	_	_	_	_	_	PROAV	_	davon
+2-19	215-216	,	_	_	_	_	_	_	_	_	_	$,	_	,
+2-20	217-220	was	_	_	_	_	_	_	_	_	_	PWS	Nom.Sg.Neut	was
+2-21	221-227	unsere	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Fem	unser
+2-22	228-233	Sonne	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Sonne
+2-23	234-237	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+2-24	238-239	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Ein riesiger Feuerball , so groß wie ein Fußball ; äh ... allerdings nur wenn die Erde nicht größer als der Kopf einer Stecknadel wäre !
+3-1	242-245	Ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+3-2	246-254	riesiger	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	riesig
+3-3	255-264	Feuerball	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Feuerball
+3-3.1	255-260	Feuer	false	2sem	_	_	_	_	_	_	_		_	_	_	_	_	_	_	_	_
+3-3.2	260-264	ball	false	0Kern	true	true	kugelförmiger, gewöhnlich mit Luft gefüllter \[elastischer\] Gegenstand, der als Spielzeug oder Sportgerät verwendet wird	true	*	kugel	_		_	_	_	_	_	_	_	_	_
+3-4	265-266	,	_	_	_	_	_	_	_	_	_	$,	_	,
+3-5	267-269	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+3-6	270-274	groß	_	_	_	_	_	_	_	_	_	ADJD	Pos	groß
+3-7	275-278	wie	true	*	_	_	_	_	_	_	_	KOKOM	_	wie
+3-8	279-282	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+3-9	283-290	Fußball	false	*	true	true	mit Luft gefüllter Leder- oder Kunststoffball zum Fußballspielen	true	*	so rund wie ein Ball	3-7	NN	Nom.Sg.Masc	Fußball
+3-10	291-292	;	_	_	_	_	_	_	_	_	_	$.	_	;
+3-11	293-295	äh	_	_	_	_	_	_	_	_	_	ITJ	_	äh
+3-12	296-297	.	_	_	_	_	_	_	_	_	_	$(	_	.
+3-13	297-298	.	_	_	_	_	_	_	_	_	_	$(	_	.
+3-14	298-299	.	_	_	_	_	_	_	_	_	_	$(	_	.
+3-15	300-310	allerdings	_	_	_	_	_	_	_	_	_	ADV	_	allerdings
+3-16	311-314	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur
+3-17	315-319	wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn
+3-18	320-323	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+3-19	324-328	Erde	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Erde
+3-20	329-334	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+3-21	335-341	größer	_	_	_	_	_	_	_	_	_	ADJD	Comp	groß
+3-22	342-345	als	_	_	_	_	_	_	_	_	_	KOKOM	_	als
+3-23	346-349	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+3-24	350-354	Kopf	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Kopf
+3-25	355-360	einer	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	ein
+3-26	361-371	Stecknadel	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Stecknadel
+3-27	372-376	wäre	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Subj	sein
+3-28	377-378	!	_	_	_	_	_	_	_	_	_	$.	_	!
+
+#Text=Die Sonne hat ihren Platz im All , weit entfernt , so dass selbst ein moderner Düsenjet für die Reise mindestens zehn Jahre brauchen würde , ankommen täte er allerdings nie , vorher brächte die Hitze das Flugzeug zum Schmelzen .
+4-1	381-384	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+4-2	385-390	Sonne	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Sonne
+4-3	391-394	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben
+4-4	395-400	ihren	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Masc	ihr
+4-5	401-406	Platz	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Platz
+4-6	407-409	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	in
+4-7	410-413	All	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	All
+4-8	414-415	,	_	_	_	_	_	_	_	_	_	$,	_	,
+4-9	416-420	weit	_	_	_	_	_	_	_	_	_	ADJD	Pos	weit
+4-10	421-429	entfernt	_	_	_	_	_	_	_	_	_	ADJD	Pos	entfernt
+4-11	430-431	,	_	_	_	_	_	_	_	_	_	$,	_	,
+4-12	432-434	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+4-13	435-439	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+4-14	440-446	selbst	_	_	_	_	_	_	_	_	_	ADV	_	selbst
+4-15	447-450	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+4-16	451-459	moderner	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	modern
+4-17	460-468	Düsenjet	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Düsenjet
+4-18	469-472	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+4-19	473-476	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+4-20	477-482	Reise	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Reise
+4-21	483-493	mindestens	_	_	_	_	_	_	_	_	_	ADV	_	mindestens
+4-22	494-498	zehn	_	_	_	_	_	_	_	_	_	CARD	_	zehn
+4-23	499-504	Jahre	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Jahr
+4-24	505-513	brauchen	_	_	_	_	_	_	_	_	_	VVINF	Inf	brauchen
+4-25	514-519	würde	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Subj	werden
+4-26	520-521	,	_	_	_	_	_	_	_	_	_	$,	_	,
+4-27	522-530	ankommen	_	_	_	_	_	_	_	_	_	VVINF	Inf	ankommen
+4-28	531-535	täte	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Subj	tun
+4-29	536-538	er	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+4-30	539-549	allerdings	_	_	_	_	_	_	_	_	_	ADV	_	allerdings
+4-31	550-553	nie	_	_	_	_	_	_	_	_	_	ADV	_	nie
+4-32	554-555	,	_	_	_	_	_	_	_	_	_	$,	_	,
+4-33	556-562	vorher	_	_	_	_	_	_	_	_	_	ADV	_	vorher
+4-34	563-570	brächte	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Subj	bringen
+4-35	571-574	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+4-36	575-580	Hitze	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Hitze
+4-37	581-584	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der
+4-38	585-593	Flugzeug	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Flugzeug
+4-39	594-597	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	zu
+4-40	598-607	Schmelzen	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	schmelzen
+4-41	608-609	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Trotz dieser unfassbaren Entfernung sind ihre Strahlen auf der Erde immer noch sehr stark .
+5-1	612-617	Trotz	_	_	_	_	_	_	_	_	_	APPR	_	trotz
+5-2	618-624	dieser	_	_	_	_	_	_	_	_	_	PDAT	*.Sg.Fem	dieser
+5-3	625-636	unfassbaren	_	_	_	_	_	_	_	_	_	ADJA	Pos.*.Sg.Fem	unfassbar
+5-4	637-647	Entfernung	_	_	_	_	_	_	_	_	_	NN	*.Sg.Fem	Entfernung
+5-5	648-652	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+5-6	653-657	ihre	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Pl.Masc	ihr
+5-7	658-666	Strahlen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Strahl
+5-8	667-670	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+5-9	671-674	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+5-10	675-679	Erde	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Erde
+5-11	680-685	immer	_	_	_	_	_	_	_	_	_	ADV	_	immer
+5-12	686-690	noch	_	_	_	_	_	_	_	_	_	ADV	_	noch
+5-13	691-695	sehr	_	_	_	_	_	_	_	_	_	ADV	_	sehr
+5-14	696-701	stark	_	_	_	_	_	_	_	_	_	ADJD	Pos	stark
+5-15	702-703	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wer im Sommer nicht aufpasst und zu lange in der Sonne liegt , bekommt wahrscheinlich Sonnenbrand .
+6-1	706-709	Wer	_	_	_	_	_	_	_	_	_	PWS	Nom.Sg.Masc	wer
+6-2	710-712	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in
+6-3	713-719	Sommer	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Sommer
+6-4	720-725	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+6-5	726-734	aufpasst	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	aufpassen
+6-6	735-738	und	_	_	_	_	_	_	_	_	_	KON	_	und
+6-7	739-741	zu	_	_	_	_	_	_	_	_	_	PTKA	_	zu
+6-8	742-747	lange	_	_	_	_	_	_	_	_	_	ADV	_	lange
+6-9	748-750	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+6-10	751-754	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+6-11	755-760	Sonne	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Sonne
+6-12	761-766	liegt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	liegen
+6-13	767-768	,	_	_	_	_	_	_	_	_	_	$,	_	,
+6-14	769-776	bekommt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	bekommen
+6-15	777-791	wahrscheinlich	_	_	_	_	_	_	_	_	_	ADJD	Pos	wahrscheinlich
+6-16	792-803	Sonnenbrand	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Sonnenbrand
+6-17	804-805	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Du darfst auch niemals in die Sonne schauen , ohne deine Augen besonders zu schützen .
+7-1	808-810	Du	_	_	_	_	_	_	_	_	_	PPER	2.Nom.Sg.*	du
+7-2	811-817	darfst	_	_	_	_	_	_	_	_	_	ADV	_	darfst
+7-3	818-822	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+7-4	823-830	niemals	_	_	_	_	_	_	_	_	_	ADV	_	niemals
+7-5	831-833	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+7-6	834-837	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+7-7	838-843	Sonne	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Sonne
+7-8	844-851	schauen	_	_	_	_	_	_	_	_	_	VVINF	Inf	schauen
+7-9	852-853	,	_	_	_	_	_	_	_	_	_	$,	_	,
+7-10	854-858	ohne	_	_	_	_	_	_	_	_	_	KOUI	_	ohne
+7-11	859-864	deine	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Pl.Neut	dein
+7-12	865-870	Augen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Auge
+7-13	871-880	besonders	_	_	_	_	_	_	_	_	_	ADV	_	besonders
+7-14	881-883	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+7-15	884-892	schützen	_	_	_	_	_	_	_	_	_	VVINF	Inf	schützen
+7-16	893-894	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Dabei kannst du blind werden !
+8-1	897-902	Dabei	_	_	_	_	_	_	_	_	_	PROAV	_	dabei
+8-2	903-909	kannst	_	_	_	_	_	_	_	_	_	VVFIN	2.Sg.Pres.Ind	kannen
+8-3	910-912	du	_	_	_	_	_	_	_	_	_	PPER	2.Nom.Sg.*	du
+8-4	913-918	blind	_	_	_	_	_	_	_	_	_	ADJD	Pos	blind
+8-5	919-925	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+8-6	926-927	!	_	_	_	_	_	_	_	_	_	$.	_	!
+
+#Text=Warum leuchtet sie eigentlich nur am Tag ?
+9-1	930-935	Warum	_	_	_	_	_	_	_	_	_	PWAV	_	warum
+9-2	936-944	leuchtet	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	leuchten
+9-3	945-948	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Fem	sie
+9-4	949-959	eigentlich	_	_	_	_	_	_	_	_	_	ADV	_	eigentlich
+9-5	960-963	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur
+9-6	964-966	am	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	an
+9-7	967-970	Tag	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Tag
+9-8	971-972	?	_	_	_	_	_	_	_	_	_	$.	_	?
+
+#Text=Was passiert Nachts ?
+10-1	975-978	Was	_	_	_	_	_	_	_	_	_	PWS	Acc.Sg.Neut	was
+10-2	979-987	passiert	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	passieren
+10-3	988-994	Nachts	_	_	_	_	_	_	_	_	_	ADV	_	nachts
+10-4	995-996	?	_	_	_	_	_	_	_	_	_	$.	_	?
+
+#Text=Gibt es etwa einen Schalter ?
+11-1	999-1003	Gibt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	geben
+11-2	1004-1006	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+11-3	1007-1011	etwa	_	_	_	_	_	_	_	_	_	ADV	_	etwa
+11-4	1012-1017	einen	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein
+11-5	1018-1026	Schalter	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Schalter
+11-6	1027-1028	?	_	_	_	_	_	_	_	_	_	$.	_	?
+
+#Text=Nein !
+12-1	1031-1035	Nein	_	_	_	_	_	_	_	_	_	PTKANT	_	nein
+12-2	1036-1037	!	_	_	_	_	_	_	_	_	_	$.	_	!
+
+#Text=Anders als eine Wohnzimmerlampe lässt sich die Sonne nicht abschalten und das ist auch gut so .
+13-1	1040-1046	Anders	_	_	_	_	_	_	_	_	_	ADV	_	anders
+13-2	1047-1050	als	true	*	_	_	_	_	_	_	_	KOKOM	_	als
+13-3	1051-1055	eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein
+13-4	1056-1071	Wohnzimmerlampe	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Wohnzimmerlampe
+13-5	1072-1077	lässt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	lassen
+13-6	1078-1082	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+13-7	1083-1086	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+13-8	1087-1092	Sonne	false	5clash	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Sonne
+13-9	1093-1098	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+13-10	1099-1109	abschalten	false	*	true	true	den elektrischen Strom ausschalten	true	*	sie scheint nicht, es gibt kein Licht mehr	13-2|13-8	VVINF	Inf	abschalten
+13-11	1110-1113	und	_	_	_	_	_	_	_	_	_	KON	_	und
+13-12	1114-1117	das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+13-13	1118-1121	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+13-14	1122-1126	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+13-15	1127-1130	gut	_	_	_	_	_	_	_	_	_	ADJD	Pos	gut
+13-16	1131-1133	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+13-17	1134-1135	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Sie leuchtet ohne Pause , Tag und Nacht .
+14-1	1138-1141	Sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Fem	sie
+14-2	1142-1150	leuchtet	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	leuchten
+14-3	1151-1155	ohne	_	_	_	_	_	_	_	_	_	APPR	_	ohne
+14-4	1156-1161	Pause	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Pause
+14-5	1162-1163	,	_	_	_	_	_	_	_	_	_	$,	_	,
+14-6	1164-1167	Tag	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Tag
+14-7	1168-1171	und	_	_	_	_	_	_	_	_	_	KON	_	und
+14-8	1172-1177	Nacht	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Nacht
+14-9	1178-1179	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wie kommt es , das es Nachts dunkel ist , wo sie doch immer leuchtet ?
+15-1	1182-1185	Wie	_	_	_	_	_	_	_	_	_	PWAV	_	wie
+15-2	1186-1191	kommt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	kommen
+15-3	1192-1194	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+15-4	1195-1196	,	_	_	_	_	_	_	_	_	_	$,	_	,
+15-5	1197-1200	das	_	_	_	_	_	_	_	_	_	PRELS	Nom.Sg.Neut	der
+15-6	1201-1203	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+15-7	1204-1210	Nachts	_	_	_	_	_	_	_	_	_	ADV	_	nachts
+15-8	1211-1217	dunkel	_	_	_	_	_	_	_	_	_	ADJD	Pos	dunkel
+15-9	1218-1221	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+15-10	1222-1223	,	_	_	_	_	_	_	_	_	_	$,	_	,
+15-11	1224-1226	wo	_	_	_	_	_	_	_	_	_	PWAV	_	wo
+15-12	1227-1230	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Fem	sie
+15-13	1231-1235	doch	_	_	_	_	_	_	_	_	_	ADV	_	doch
+15-14	1236-1241	immer	_	_	_	_	_	_	_	_	_	ADV	_	immer
+15-15	1242-1250	leuchtet	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	leuchten
+15-16	1251-1252	?	_	_	_	_	_	_	_	_	_	$.	_	?
+
+#Text=Das liegt an der besonderen Form unserer Erde .
+16-1	1255-1258	Das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+16-2	1259-1264	liegt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	liegen
+16-3	1265-1267	an	_	_	_	_	_	_	_	_	_	APPR	_	an
+16-4	1268-1271	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+16-5	1272-1282	besonderen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	besonderer
+16-6	1283-1287	Form	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Form
+16-7	1288-1295	unserer	_	_	_	_	_	_	_	_	_	PPOSAT	Gen.Sg.Fem	unser
+16-8	1296-1300	Erde	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Erde
+16-9	1301-1302	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Sie ist eine Kugel und die dreht sich auch noch .
+17-1	1305-1308	Sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Fem	sie
+17-2	1309-1312	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+17-3	1313-1317	eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein
+17-4	1318-1323	Kugel	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Kugel
+17-5	1324-1327	und	_	_	_	_	_	_	_	_	_	KON	_	und
+17-6	1328-1331	die	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Fem	der
+17-7	1332-1337	dreht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	drehen
+17-8	1338-1342	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+17-9	1343-1347	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+17-10	1348-1352	noch	_	_	_	_	_	_	_	_	_	ADV	_	noch
+17-11	1353-1354	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Ständig , ohne Pause , Tag für Tag !
+18-1	1357-1364	Ständig	_	_	_	_	_	_	_	_	_	ADJD	Pos	ständig
+18-2	1365-1366	,	_	_	_	_	_	_	_	_	_	$,	_	,
+18-3	1367-1371	ohne	_	_	_	_	_	_	_	_	_	APPR	_	ohne
+18-4	1372-1377	Pause	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Pause
+18-5	1378-1379	,	_	_	_	_	_	_	_	_	_	$,	_	,
+18-6	1380-1383	Tag	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Tag
+18-7	1384-1387	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+18-8	1388-1391	Tag	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Tag
+18-9	1392-1393	!	_	_	_	_	_	_	_	_	_	$.	_	!
+
+#Text=Nimm einen Ball und eine Taschenlampe , gehe mit beidem in einen dunklen Raum .
+19-1	1396-1400	Nimm	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Nimm
+19-2	1401-1406	einen	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein
+19-3	1407-1411	Ball	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Ball
+19-4	1412-1415	und	_	_	_	_	_	_	_	_	_	KON	_	und
+19-5	1416-1420	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+19-6	1421-1433	Taschenlampe	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Taschenlampe
+19-7	1434-1435	,	_	_	_	_	_	_	_	_	_	$,	_	,
+19-8	1436-1440	gehe	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Subj	gehen
+19-9	1441-1444	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+19-10	1445-1451	beidem	_	_	_	_	_	_	_	_	_	PIS	Dat.Sg.Neut	beide
+19-11	1452-1454	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+19-12	1455-1460	einen	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein
+19-13	1461-1468	dunklen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	dunkel
+19-14	1469-1473	Raum	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Raum
+19-15	1474-1475	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wenn du den Ball in die eine und die angeknipste Taschenlampe in die andere Ecke legst , hast du schon ein recht gutes Erde Sonne Modell .
+20-1	1478-1482	Wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn
+20-2	1483-1485	du	_	_	_	_	_	_	_	_	_	PPER	2.Nom.Sg.*	du
+20-3	1486-1489	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der
+20-4	1490-1494	Ball	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Ball
+20-5	1495-1497	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+20-6	1498-1501	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+20-7	1502-1506	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+20-8	1507-1510	und	_	_	_	_	_	_	_	_	_	KON	_	und
+20-9	1511-1514	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+20-10	1515-1526	angeknipste	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	angeknip
+20-11	1527-1539	Taschenlampe	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Taschenlampe
+20-12	1540-1542	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+20-13	1543-1546	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+20-14	1547-1553	andere	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	anderer
+20-15	1554-1558	Ecke	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Ecke
+20-16	1559-1564	legst	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	legsen
+20-17	1565-1566	,	_	_	_	_	_	_	_	_	_	$,	_	,
+20-18	1567-1571	hast	_	_	_	_	_	_	_	_	_	VAFIN	2.Sg.Pres.Ind	haben
+20-19	1572-1574	du	_	_	_	_	_	_	_	_	_	PPER	2.Nom.Sg.*	du
+20-20	1575-1580	schon	_	_	_	_	_	_	_	_	_	ADV	_	schon
+20-21	1581-1584	ein	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	ein
+20-22	1585-1590	recht	_	_	_	_	_	_	_	_	_	ADJD	Pos	recht
+20-23	1591-1596	gutes	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Neut	gut
+20-24	1597-1601	Erde	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Erde
+20-25	1602-1607	Sonne	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Sonne
+20-26	1608-1614	Modell	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Modell
+20-27	1615-1616	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Schau dir den angeleuchteten Ball genauer an .
+21-1	1619-1624	Schau	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Schau
+21-2	1625-1628	dir	_	_	_	_	_	_	_	_	_	PPER	1.Dat.Sg.*	dir
+21-3	1629-1632	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der
+21-4	1633-1647	angeleuchteten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	angeleuchtet
+21-5	1648-1652	Ball	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Ball
+21-6	1653-1660	genauer	_	_	_	_	_	_	_	_	_	ADJD	Comp	genau
+21-7	1661-1663	an	_	_	_	_	_	_	_	_	_	PTKVZ	_	an
+21-8	1664-1665	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Eine Seite , die der Lampe zugewandte , ist hell , die andere liegt im Dunkeln .
+22-1	1668-1672	Eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein
+22-2	1673-1678	Seite	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Seite
+22-3	1679-1680	,	_	_	_	_	_	_	_	_	_	$,	_	,
+22-4	1681-1684	die	_	_	_	_	_	_	_	_	_	PRELS	Nom.Sg.Fem	der
+22-5	1685-1688	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+22-6	1689-1694	Lampe	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Lampe
+22-7	1695-1705	zugewandte	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	zugewenden
+22-8	1706-1707	,	_	_	_	_	_	_	_	_	_	$,	_	,
+22-9	1708-1711	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+22-10	1712-1716	hell	_	_	_	_	_	_	_	_	_	ADJD	Pos	hell
+22-11	1717-1718	,	_	_	_	_	_	_	_	_	_	$,	_	,
+22-12	1719-1722	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+22-13	1723-1729	andere	_	_	_	_	_	_	_	_	_	PIS	Nom.Sg.Fem	anderer
+22-14	1730-1735	liegt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	liegen
+22-15	1736-1738	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	in
+22-16	1739-1746	Dunkeln	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	dunkele
+22-17	1747-1748	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Tag und Nacht auf deinem Ball Planeten .
+23-1	1751-1754	Tag	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Tag
+23-2	1755-1758	und	_	_	_	_	_	_	_	_	_	KON	_	und
+23-3	1759-1764	Nacht	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Nacht
+23-4	1765-1768	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+23-5	1769-1775	deinem	_	_	_	_	_	_	_	_	_	PPOSAT	Dat.Sg.Masc	dein
+23-6	1776-1780	Ball	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Ball
+23-7	1781-1789	Planeten	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Planet
+23-8	1790-1791	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wenn du den Ball jetzt drehst , ist die eben noch dunkle Seite hell , und die andere wird finster , sie hat Nacht .
+24-1	1794-1798	Wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn
+24-2	1799-1801	du	_	_	_	_	_	_	_	_	_	PPER	2.Nom.Sg.*	du
+24-3	1802-1805	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der
+24-4	1806-1810	Ball	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Ball
+24-5	1811-1816	jetzt	_	_	_	_	_	_	_	_	_	ADV	_	jetzt
+24-6	1817-1823	drehst	_	_	_	_	_	_	_	_	_	VVFIN	2.Sg.Pres.Ind	drehen
+24-7	1824-1825	,	_	_	_	_	_	_	_	_	_	$,	_	,
+24-8	1826-1829	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+24-9	1830-1833	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+24-10	1834-1838	eben	_	_	_	_	_	_	_	_	_	ADV	_	eben
+24-11	1839-1843	noch	_	_	_	_	_	_	_	_	_	ADV	_	noch
+24-12	1844-1850	dunkle	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	dunkel
+24-13	1851-1856	Seite	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Seite
+24-14	1857-1861	hell	_	_	_	_	_	_	_	_	_	ADJD	Pos	hell
+24-15	1862-1863	,	_	_	_	_	_	_	_	_	_	$,	_	,
+24-16	1864-1867	und	_	_	_	_	_	_	_	_	_	KON	_	und
+24-17	1868-1871	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+24-18	1872-1878	andere	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	anderer
+24-19	1879-1883	wird	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	werden
+24-20	1884-1891	finster	_	_	_	_	_	_	_	_	_	ADJD	Pos	finster
+24-21	1892-1893	,	_	_	_	_	_	_	_	_	_	$,	_	,
+24-22	1894-1897	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Fem	sie
+24-23	1898-1901	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben
+24-24	1902-1907	Nacht	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Nacht
+24-25	1908-1909	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Es liegt also an der Kugelform , die Sonne kann immer nur eine Seite davon anleuchten .
+25-1	1912-1914	Es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+25-2	1915-1920	liegt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	liegen
+25-3	1921-1925	also	_	_	_	_	_	_	_	_	_	ADV	_	also
+25-4	1926-1928	an	_	_	_	_	_	_	_	_	_	APPR	_	an
+25-5	1929-1932	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+25-6	1933-1942	Kugelform	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Kugelform
+25-7	1943-1944	,	_	_	_	_	_	_	_	_	_	$,	_	,
+25-8	1945-1948	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+25-9	1949-1954	Sonne	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Sonne
+25-10	1955-1959	kann	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	können
+25-11	1960-1965	immer	_	_	_	_	_	_	_	_	_	ADV	_	immer
+25-12	1966-1969	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur
+25-13	1970-1974	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+25-14	1975-1980	Seite	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Seite
+25-15	1981-1986	davon	_	_	_	_	_	_	_	_	_	PROAV	_	davon
+25-16	1987-1997	anleuchten	_	_	_	_	_	_	_	_	_	VVINF	Inf	anleuchten
+25-17	1998-1999	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das bedeutet : wenn bei uns Nacht ist , freuen sich die Menschen auf der anderen Seite der Erdkugel über den schönen Sonnenschein .
+26-1	2002-2005	Das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+26-2	2006-2014	bedeutet	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	bedeuten
+26-3	2015-2016	:	_	_	_	_	_	_	_	_	_	$.	_	:
+26-4	2017-2021	wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn
+26-5	2022-2025	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei
+26-6	2026-2029	uns	_	_	_	_	_	_	_	_	_	PPER	1.Dat.Pl.*	uns
+26-7	2030-2035	Nacht	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Nacht
+26-8	2036-2039	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+26-9	2040-2041	,	_	_	_	_	_	_	_	_	_	$,	_	,
+26-10	2042-2048	freuen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	freuen
+26-11	2049-2053	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Pl	sich
+26-12	2054-2057	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der
+26-13	2058-2066	Menschen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Mensch
+26-14	2067-2070	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+26-15	2071-2074	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+26-16	2075-2082	anderen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	anderer
+26-17	2083-2088	Seite	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Seite
+26-18	2089-2092	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+26-19	2093-2101	Erdkugel	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Erdkugel
+26-20	2102-2106	über	_	_	_	_	_	_	_	_	_	APPR	_	über
+26-21	2107-2110	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der
+26-22	2111-2118	schönen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	schön
+26-23	2119-2131	Sonnenschein	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Sonnenschein
+26-24	2132-2133	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Beobachten wir jetzt mal den Mond .
+27-1	2136-2146	Beobachten	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	beobachten
+27-2	2147-2150	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+27-3	2151-2156	jetzt	_	_	_	_	_	_	_	_	_	ADV	_	jetzt
+27-4	2157-2160	mal	_	_	_	_	_	_	_	_	_	ADV	_	mal
+27-5	2161-2164	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der
+27-6	2165-2169	Mond	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Mond
+27-7	2170-2171	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Du hast es bestimmt erraten : er steht nicht still , sondern bewegt sich .
+28-1	2174-2176	Du	_	_	_	_	_	_	_	_	_	PPER	2.Nom.Sg.*	du
+28-2	2177-2181	hast	_	_	_	_	_	_	_	_	_	VAFIN	2.Sg.Pres.Ind	haben
+28-3	2182-2184	es	_	_	_	_	_	_	_	_	_	PPER	3.Acc.Sg.Neut	es
+28-4	2185-2193	bestimmt	_	_	_	_	_	_	_	_	_	ADJD	Pos	bestimmt
+28-5	2194-2201	erraten	_	_	_	_	_	_	_	_	_	VVPP	Psp	erraten
+28-6	2202-2203	:	_	_	_	_	_	_	_	_	_	$.	_	:
+28-7	2204-2206	er	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+28-8	2207-2212	steht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	stehen
+28-9	2213-2218	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+28-10	2219-2224	still	_	_	_	_	_	_	_	_	_	PTKVZ	_	still
+28-11	2225-2226	,	_	_	_	_	_	_	_	_	_	$,	_	,
+28-12	2227-2234	sondern	_	_	_	_	_	_	_	_	_	KON	_	sondern
+28-13	2235-2241	bewegt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	bewegen
+28-14	2242-2246	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+28-15	2247-2248	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das macht er auf zwei Arten , er dreht sich wie ein Kreisel um sich selbst und in einem weiten Bogen rund um die Erde .
+29-1	2251-2254	Das	_	_	_	_	_	_	_	_	_	PDS	Acc.Sg.Neut	der
+29-2	2255-2260	macht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	machen
+29-3	2261-2263	er	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+29-4	2264-2267	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+29-5	2268-2272	zwei	_	_	_	_	_	_	_	_	_	CARD	_	zwei
+29-6	2273-2278	Arten	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Art
+29-7	2279-2280	,	_	_	_	_	_	_	_	_	_	$,	_	,
+29-8	2281-2283	er	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+29-9	2284-2289	dreht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	drehen
+29-10	2290-2294	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+29-11	2295-2298	wie	true	*	_	_	_	_	_	_	_	KOKOM	_	wie
+29-12	2299-2302	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+29-13	2303-2310	Kreisel	false	0Kern	true	true	kleines, meist kegelförmiges Spielzeug	true	*	sich um die eigene Achse drehendes Objekt	29-11	NN	Nom.Sg.Masc	Kreisel
+29-14	2311-2313	um	_	_	_	_	_	_	_	_	_	APPR	_	um
+29-15	2314-2318	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+29-16	2319-2325	selbst	_	_	_	_	_	_	_	_	_	ADV	_	selbst
+29-17	2326-2329	und	_	_	_	_	_	_	_	_	_	KON	_	und
+29-18	2330-2332	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+29-19	2333-2338	einem	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	ein
+29-20	2339-2345	weiten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Masc	weit
+29-21	2346-2351	Bogen	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Bogen
+29-22	2352-2356	rund	_	_	_	_	_	_	_	_	_	ADV	_	rund
+29-23	2357-2359	um	_	_	_	_	_	_	_	_	_	APPR	_	um
+29-24	2360-2363	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+29-25	2364-2368	Erde	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Erde
+29-26	2369-2370	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=In der Zeit in der er einmal um die Erde saust , dreht er sich auch einmal um sich selbst .
+30-1	2373-2375	In	_	_	_	_	_	_	_	_	_	APPR	_	in
+30-2	2376-2379	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+30-3	2380-2384	Zeit	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Zeit
+30-4	2385-2387	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+30-5	2388-2391	der	_	_	_	_	_	_	_	_	_	PRELS	Dat.Sg.Fem	der
+30-6	2392-2394	er	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+30-7	2395-2401	einmal	_	_	_	_	_	_	_	_	_	ADV	_	einmal
+30-8	2402-2404	um	_	_	_	_	_	_	_	_	_	APPR	_	um
+30-9	2405-2408	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+30-10	2409-2413	Erde	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Erde
+30-11	2414-2419	saust	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	sausen
+30-12	2420-2421	,	_	_	_	_	_	_	_	_	_	$,	_	,
+30-13	2422-2427	dreht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	drehen
+30-14	2428-2430	er	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+30-15	2431-2435	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+30-16	2436-2440	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+30-17	2441-2447	einmal	_	_	_	_	_	_	_	_	_	ADV	_	einmal
+30-18	2448-2450	um	_	_	_	_	_	_	_	_	_	APPR	_	um
+30-19	2451-2455	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+30-20	2456-2462	selbst	_	_	_	_	_	_	_	_	_	ADV	_	selbst
+30-21	2463-2464	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das ist der Grund dafür , warum wir immer nur ein und die selbe Seite des Mondes sehen können .
+31-1	2467-2470	Das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+31-2	2471-2474	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+31-3	2475-2478	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+31-4	2479-2484	Grund	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Grund
+31-5	2485-2490	dafür	_	_	_	_	_	_	_	_	_	PROAV	_	dafür
+31-6	2491-2492	,	_	_	_	_	_	_	_	_	_	$,	_	,
+31-7	2493-2498	warum	_	_	_	_	_	_	_	_	_	PWAV	_	warum
+31-8	2499-2502	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+31-9	2503-2508	immer	_	_	_	_	_	_	_	_	_	ADV	_	immer
+31-10	2509-2512	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur
+31-11	2513-2516	ein	_	_	_	_	_	_	_	_	_	PTKVZ	_	ein
+31-12	2517-2520	und	_	_	_	_	_	_	_	_	_	KON	_	und
+31-13	2521-2524	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+31-14	2525-2530	selbe	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	selber
+31-15	2531-2536	Seite	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Seite
+31-16	2537-2540	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der
+31-17	2541-2547	Mondes	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Mond
+31-18	2548-2553	sehen	_	_	_	_	_	_	_	_	_	VVINF	Inf	sehen
+31-19	2554-2560	können	_	_	_	_	_	_	_	_	_	VMFIN	1.Pl.Pres.Ind	können
+31-20	2561-2562	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Warum aber können wir ihn überhaupt sehen ?
+32-1	2565-2570	Warum	_	_	_	_	_	_	_	_	_	PWAV	_	warum
+32-2	2571-2575	aber	_	_	_	_	_	_	_	_	_	ADV	_	aber
+32-3	2576-2582	können	_	_	_	_	_	_	_	_	_	VMFIN	1.Pl.Pres.Ind	können
+32-4	2583-2586	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+32-5	2587-2590	ihn	_	_	_	_	_	_	_	_	_	PPER	3.Acc.Sg.Masc	ihn
+32-6	2591-2600	überhaupt	_	_	_	_	_	_	_	_	_	ADV	_	überhaupt
+32-7	2601-2606	sehen	_	_	_	_	_	_	_	_	_	VVINF	Inf	sehen
+32-8	2607-2608	?	_	_	_	_	_	_	_	_	_	$.	_	?
+
+#Text=Der Mond leuchtet nicht !
+33-1	2611-2614	Der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+33-2	2615-2619	Mond	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Mond
+33-3	2620-2628	leuchtet	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	leuchten
+33-4	2629-2634	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+33-5	2635-2636	!	_	_	_	_	_	_	_	_	_	$.	_	!
+
+#Text=Er bekommt sein Licht von der Sonne und spiegelt es zur Erde .
+34-1	2639-2641	Er	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+34-2	2642-2649	bekommt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	bekommen
+34-3	2650-2654	sein	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Neut	sein
+34-4	2655-2660	Licht	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Licht
+34-5	2661-2664	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+34-6	2665-2668	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+34-7	2669-2674	Sonne	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Sonne
+34-8	2675-2678	und	_	_	_	_	_	_	_	_	_	KON	_	und
+34-9	2679-2687	spiegelt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	spiegeln
+34-10	2688-2690	es	_	_	_	_	_	_	_	_	_	PPER	3.Acc.Sg.Neut	es
+34-11	2691-2694	zur	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Fem	zu
+34-12	2695-2699	Erde	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Erde
+34-13	2700-2701	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Es wird also reflektiert , wie es die Rückstrahler an einem Fahrrad tun .
+35-1	2704-2706	Es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+35-2	2707-2711	wird	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	werden
+35-3	2712-2716	also	_	_	_	_	_	_	_	_	_	ADV	_	also
+35-4	2717-2728	reflektiert	_	_	_	_	_	_	_	_	_	VVPP	Psp	reflektieren
+35-5	2729-2730	,	_	_	_	_	_	_	_	_	_	$,	_	,
+35-6	2731-2734	wie	true	*	_	_	_	_	_	_	_	PWAV	_	wie
+35-7	2735-2737	es	_	_	_	_	_	_	_	_	_	PPER	3.Acc.Sg.Neut	es
+35-8	2738-2741	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der
+35-9	2742-2754	Rückstrahler	false	0Kern	true	true	besonders im Straßenverkehr als Warnsignal verwendete Vorrichtung	true	*	reflektierendes Objekt	35-6|35-12	NN	Nom.Pl.Masc	Rückstrahler
+35-10	2755-2757	an	_	_	_	_	_	_	_	_	_	APPR	_	an
+35-11	2758-2763	einem	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Neut	ein
+35-12	2764-2771	Fahrrad	false	2sem	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Fahrrad
+35-13	2772-2775	tun	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	tun
+35-14	2776-2777	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Der Mond ist übrigens bislang der einzige Himmelskörper , außer der Erde , auf dem schon Menschen waren .
+36-1	2780-2783	Der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+36-2	2784-2788	Mond	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Mond
+36-3	2789-2792	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+36-4	2793-2801	übrigens	_	_	_	_	_	_	_	_	_	ADV	_	übrigens
+36-5	2802-2809	bislang	_	_	_	_	_	_	_	_	_	ADV	_	bislang
+36-6	2810-2813	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+36-7	2814-2821	einzige	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	einzig
+36-8	2822-2835	Himmelskörper	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Himmelskörper
+36-9	2836-2837	,	_	_	_	_	_	_	_	_	_	$,	_	,
+36-10	2838-2843	außer	_	_	_	_	_	_	_	_	_	APPR	_	außer
+36-11	2844-2847	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+36-12	2848-2852	Erde	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Erde
+36-13	2853-2854	,	_	_	_	_	_	_	_	_	_	$,	_	,
+36-14	2855-2858	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+36-15	2859-2862	dem	_	_	_	_	_	_	_	_	_	PRELS	Dat.Sg.Masc	der
+36-16	2863-2868	schon	_	_	_	_	_	_	_	_	_	ADV	_	schon
+36-17	2869-2877	Menschen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Mensch
+36-18	2878-2883	waren	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Ind	sein
+36-19	2884-2885	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Vor vierzig Jahren sind amerikanische Astronauten auf seiner Oberfläche gelandet und ein wenig rumgelaufen , oder eher gesprungen .
+37-1	2888-2891	Vor	_	_	_	_	_	_	_	_	_	APPR	_	vor
+37-2	2892-2899	vierzig	_	_	_	_	_	_	_	_	_	CARD	_	vierzig
+37-3	2900-2906	Jahren	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Neut	Jahr
+37-4	2907-2911	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+37-5	2912-2925	amerikanische	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Masc	amerikanisch
+37-6	2926-2937	Astronauten	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Astronaut
+37-7	2938-2941	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+37-8	2942-2948	seiner	_	_	_	_	_	_	_	_	_	PPOSAT	Dat.Sg.Fem	sein
+37-9	2949-2959	Oberfläche	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Oberfläche
+37-10	2960-2968	gelandet	_	_	_	_	_	_	_	_	_	VVPP	Psp	landen
+37-11	2969-2972	und	_	_	_	_	_	_	_	_	_	KON	_	und
+37-12	2973-2976	ein	_	_	_	_	_	_	_	_	_	ART	*.*.*	ein
+37-13	2977-2982	wenig	_	_	_	_	_	_	_	_	_	PIS	*.*.*	wenig
+37-14	2983-2994	rumgelaufen	_	_	_	_	_	_	_	_	_	VVPP	Psp	rumlaufen
+37-15	2995-2996	,	_	_	_	_	_	_	_	_	_	$,	_	,
+37-16	2997-3001	oder	_	_	_	_	_	_	_	_	_	KON	_	oder
+37-17	3002-3006	eher	_	_	_	_	_	_	_	_	_	ADV	_	eher
+37-18	3007-3017	gesprungen	_	_	_	_	_	_	_	_	_	VVPP	Psp	springen
+37-19	3018-3019	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Besonders auffallend sind die vielen Millionen Lichtpunkte , die jede Nacht zu sehen sind .
+38-1	3022-3031	Besonders	_	_	_	_	_	_	_	_	_	ADV	_	besonders
+38-2	3032-3042	auffallend	_	_	_	_	_	_	_	_	_	ADJD	Pos	auffallend
+38-3	3043-3047	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+38-4	3048-3051	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der
+38-5	3052-3058	vielen	_	_	_	_	_	_	_	_	_	PIAT	Nom.Pl.Fem	vieler
+38-6	3059-3068	Millionen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Million
+38-7	3069-3080	Lichtpunkte	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Lichtpunkt
+38-8	3081-3082	,	_	_	_	_	_	_	_	_	_	$,	_	,
+38-9	3083-3086	die	_	_	_	_	_	_	_	_	_	PRELS	Nom.Pl.Masc	der
+38-10	3087-3091	jede	_	_	_	_	_	_	_	_	_	PIAT	Acc.Sg.Fem	jeder
+38-11	3092-3097	Nacht	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Nacht
+38-12	3098-3100	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+38-13	3101-3106	sehen	_	_	_	_	_	_	_	_	_	VVINF	Inf	sehen
+38-14	3107-3111	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+38-15	3112-3113	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wir nennen sie Sterne .
+39-1	3116-3119	Wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+39-2	3120-3126	nennen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	nennen
+39-3	3127-3130	sie	_	_	_	_	_	_	_	_	_	PPER	3.Acc.*.*	sie
+39-4	3131-3137	Sterne	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Stern
+39-5	3138-3139	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Es sind Himmelskörper die von sich aus leuchten .
+40-1	3142-3144	Es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+40-2	3145-3149	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+40-3	3150-3163	Himmelskörper	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Himmelskörper
+40-4	3164-3167	die	_	_	_	_	_	_	_	_	_	PDS	Nom.Pl.Masc	der
+40-5	3168-3171	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+40-6	3172-3176	sich	_	_	_	_	_	_	_	_	_	PRF	3.Dat.Pl	sich
+40-7	3177-3180	aus	_	_	_	_	_	_	_	_	_	APZR	_	aus
+40-8	3181-3189	leuchten	_	_	_	_	_	_	_	_	_	VVINF	Inf	leuchten
+40-9	3190-3191	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Sie sind alle so weit von uns entfernt , dass Ihr Licht jahrelang im All unterwegs ist , bis wir es sehen können .
+41-1	3194-3197	Sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie
+41-2	3198-3202	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+41-3	3203-3207	alle	_	_	_	_	_	_	_	_	_	PIS	Nom.Pl.*	alle
+41-4	3208-3210	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+41-5	3211-3215	weit	_	_	_	_	_	_	_	_	_	ADJD	Pos	weit
+41-6	3216-3219	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+41-7	3220-3223	uns	_	_	_	_	_	_	_	_	_	PPER	1.Dat.Pl.*	uns
+41-8	3224-3232	entfernt	_	_	_	_	_	_	_	_	_	ADJD	Pos	entfernt
+41-9	3233-3234	,	_	_	_	_	_	_	_	_	_	$,	_	,
+41-10	3235-3239	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+41-11	3240-3243	Ihr	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Neut	ihr
+41-12	3244-3249	Licht	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Licht
+41-13	3250-3259	jahrelang	_	_	_	_	_	_	_	_	_	ADJD	Pos	jahrelang
+41-14	3260-3262	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	in
+41-15	3263-3266	All	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	All
+41-16	3267-3276	unterwegs	_	_	_	_	_	_	_	_	_	ADV	_	unterwegs
+41-17	3277-3280	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+41-18	3281-3282	,	_	_	_	_	_	_	_	_	_	$,	_	,
+41-19	3283-3286	bis	_	_	_	_	_	_	_	_	_	KOUS	_	bis
+41-20	3287-3290	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+41-21	3291-3293	es	_	_	_	_	_	_	_	_	_	PPER	3.Acc.Sg.Neut	es
+41-22	3294-3299	sehen	_	_	_	_	_	_	_	_	_	VVINF	Inf	sehen
+41-23	3300-3306	können	_	_	_	_	_	_	_	_	_	VMFIN	1.Pl.Pres.Ind	können
+41-24	3307-3308	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Auf den ersten Blick denkt man vielleicht , sie wären wahllos verstreut und würden planlos umherschwirren .
+42-1	3311-3314	Auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+42-2	3315-3318	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der
+42-3	3319-3325	ersten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	erster
+42-4	3326-3331	Blick	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Blick
+42-5	3332-3337	denkt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	denken
+42-6	3338-3341	man	_	_	_	_	_	_	_	_	_	PIS	Nom.Sg.*	man
+42-7	3342-3352	vielleicht	_	_	_	_	_	_	_	_	_	ADV	_	vielleicht
+42-8	3353-3354	,	_	_	_	_	_	_	_	_	_	$,	_	,
+42-9	3355-3358	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie
+42-10	3359-3364	wären	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Subj	sein
+42-11	3365-3372	wahllos	_	_	_	_	_	_	_	_	_	ADJD	Pos	wahllos
+42-12	3373-3382	verstreut	_	_	_	_	_	_	_	_	_	VVPP	Psp	verstreuen
+42-13	3383-3386	und	_	_	_	_	_	_	_	_	_	KON	_	und
+42-14	3387-3393	würden	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Subj	werden
+42-15	3394-3401	planlos	_	_	_	_	_	_	_	_	_	ADJD	Pos	planlos
+42-16	3402-3416	umherschwirren	_	_	_	_	_	_	_	_	_	VVINF	Inf	umherschwirren
+42-17	3417-3418	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das stimmt aber so nicht .
+43-1	3421-3424	Das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+43-2	3425-3431	stimmt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	stimmen
+43-3	3432-3436	aber	_	_	_	_	_	_	_	_	_	ADV	_	aber
+43-4	3437-3439	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+43-5	3440-3445	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+43-6	3446-3447	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Sie haben eine besondere Ordnung zueinander und bilden ganze Gruppen , die wir Galaxien nennen .
+44-1	3450-3453	Sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie
+44-2	3454-3459	haben	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	haben
+44-3	3460-3464	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+44-4	3465-3474	besondere	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	besonderer
+44-5	3475-3482	Ordnung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Ordnung
+44-6	3483-3493	zueinander	_	_	_	_	_	_	_	_	_	ADV	_	zueinander
+44-7	3494-3497	und	_	_	_	_	_	_	_	_	_	KON	_	und
+44-8	3498-3504	bilden	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	bilden
+44-9	3505-3510	ganze	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Fem	ganz
+44-10	3511-3518	Gruppen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Gruppe
+44-11	3519-3520	,	_	_	_	_	_	_	_	_	_	$,	_	,
+44-12	3521-3524	die	_	_	_	_	_	_	_	_	_	PRELS	Acc.Pl.Fem	der
+44-13	3525-3528	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+44-14	3529-3537	Galaxien	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Galaxie
+44-15	3538-3544	nennen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	nennen
+44-16	3545-3546	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Auch unsere Erde mit Sonne , Mond und den anderen Planeten steckt in einer solchen Galaxie : Die Milchstraße .
+45-1	3549-3553	Auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+45-2	3554-3560	unsere	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Fem	unser
+45-3	3561-3565	Erde	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Erde
+45-4	3566-3569	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+45-5	3570-3575	Sonne	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Sonne
+45-6	3576-3577	,	_	_	_	_	_	_	_	_	_	$,	_	,
+45-7	3578-3582	Mond	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Mond
+45-8	3583-3586	und	_	_	_	_	_	_	_	_	_	KON	_	und
+45-9	3587-3590	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Masc	der
+45-10	3591-3598	anderen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Masc	anderer
+45-11	3599-3607	Planeten	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Planet
+45-12	3608-3614	steckt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	stecken
+45-13	3615-3617	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+45-14	3618-3623	einer	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	ein
+45-15	3624-3631	solchen	_	_	_	_	_	_	_	_	_	PIAT	Dat.Sg.Fem	solcher
+45-16	3632-3639	Galaxie	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Galaxie
+45-17	3640-3641	:	_	_	_	_	_	_	_	_	_	$.	_	:
+45-18	3642-3645	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+45-19	3646-3657	Milchstraße	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	Milchstraße
+45-20	3658-3659	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Unsere Sonne ist übrigens auch ein Stern .
+46-1	3662-3668	Unsere	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Fem	unser
+46-2	3669-3674	Sonne	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Sonne
+46-3	3675-3678	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+46-4	3679-3687	übrigens	_	_	_	_	_	_	_	_	_	ADV	_	übrigens
+46-5	3688-3692	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+46-6	3693-3696	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+46-7	3697-3702	Stern	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Stern
+46-8	3703-3704	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Planeten gibt es zahlreich , mit den verschiedensten Oberflächen und in allen Größen .
+47-1	3707-3715	Planeten	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Planet
+47-2	3716-3720	gibt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	geben
+47-3	3721-3723	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+47-4	3724-3733	zahlreich	_	_	_	_	_	_	_	_	_	ADJD	Pos	zahlreich
+47-5	3734-3735	,	_	_	_	_	_	_	_	_	_	$,	_	,
+47-6	3736-3739	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+47-7	3740-3743	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Fem	der
+47-8	3744-3759	verschiedensten	_	_	_	_	_	_	_	_	_	ADJA	Sup.Dat.Pl.Fem	verschieden
+47-9	3760-3771	Oberflächen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Oberfläche
+47-10	3772-3775	und	_	_	_	_	_	_	_	_	_	KON	_	und
+47-11	3776-3778	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+47-12	3779-3784	allen	_	_	_	_	_	_	_	_	_	PIAT	Dat.Pl.Fem	aller
+47-13	3785-3791	Größen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Größe
+47-14	3792-3793	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Am schönsten ist natürlich unsere Erde , ganz klar .
+48-1	3796-3798	Am	_	_	_	_	_	_	_	_	_	PTKA	_	am
+48-2	3799-3808	schönsten	_	_	_	_	_	_	_	_	_	ADJD	Sup	schön
+48-3	3809-3812	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+48-4	3813-3822	natürlich	_	_	_	_	_	_	_	_	_	ADV	_	natürlich
+48-5	3823-3829	unsere	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Fem	unser
+48-6	3830-3834	Erde	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Erde
+48-7	3835-3836	,	_	_	_	_	_	_	_	_	_	$,	_	,
+48-8	3837-3841	ganz	_	_	_	_	_	_	_	_	_	ADV	_	ganz
+48-9	3842-3846	klar	_	_	_	_	_	_	_	_	_	ADJD	Pos	klar
+48-10	3847-3848	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Bei uns ist es nicht zu kalt oder zu heiß .
+49-1	3851-3854	Bei	_	_	_	_	_	_	_	_	_	APPR	_	bei
+49-2	3855-3858	uns	_	_	_	_	_	_	_	_	_	PPER	1.Dat.Pl.*	uns
+49-3	3859-3862	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+49-4	3863-3865	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+49-5	3866-3871	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+49-6	3872-3874	zu	_	_	_	_	_	_	_	_	_	PTKA	_	zu
+49-7	3875-3879	kalt	_	_	_	_	_	_	_	_	_	ADJD	Pos	kalt
+49-8	3880-3884	oder	_	_	_	_	_	_	_	_	_	KON	_	oder
+49-9	3885-3887	zu	_	_	_	_	_	_	_	_	_	PTKA	_	zu
+49-10	3888-3892	heiß	_	_	_	_	_	_	_	_	_	ADJD	Pos	heiß
+49-11	3893-3894	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wasser ist ausreichend da und eine Atmosphäre mit viel Luft zum Atmen .
+50-1	3897-3903	Wasser	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Wasser
+50-2	3904-3907	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+50-3	3908-3919	ausreichend	_	_	_	_	_	_	_	_	_	ADJD	Pos	ausreichend
+50-4	3920-3922	da	_	_	_	_	_	_	_	_	_	ADV	_	da
+50-5	3923-3926	und	_	_	_	_	_	_	_	_	_	KON	_	und
+50-6	3927-3931	eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein
+50-7	3932-3942	Atmosphäre	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Atmosphäre
+50-8	3943-3946	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+50-9	3947-3951	viel	_	_	_	_	_	_	_	_	_	PIAT	*.*.*	viel
+50-10	3952-3956	Luft	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Luft
+50-11	3957-3960	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	zu
+50-12	3961-3966	Atmen	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	atmen
+50-13	3967-3968	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das ist nicht überall so .
+51-1	3971-3974	Das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+51-2	3975-3978	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+51-3	3979-3984	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+51-4	3985-3992	überall	_	_	_	_	_	_	_	_	_	ADV	_	überall
+51-5	3993-3995	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+51-6	3996-3997	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Es ist ungeheuer heiß auf den Planeten , die näher an der Sonne sind , und extrem kalt auf denen , die weiter weg sind .
+52-1	4000-4002	Es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+52-2	4003-4006	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+52-3	4007-4016	ungeheuer	_	_	_	_	_	_	_	_	_	ADJD	Pos	ungeheuer
+52-4	4017-4021	heiß	_	_	_	_	_	_	_	_	_	ADJD	Pos	heiß
+52-5	4022-4025	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+52-6	4026-4029	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der
+52-7	4030-4038	Planeten	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Planet
+52-8	4039-4040	,	_	_	_	_	_	_	_	_	_	$,	_	,
+52-9	4041-4044	die	_	_	_	_	_	_	_	_	_	PRELS	Nom.Pl.Masc	der
+52-10	4045-4050	näher	_	_	_	_	_	_	_	_	_	ADJD	Comp	nah
+52-11	4051-4053	an	_	_	_	_	_	_	_	_	_	APPR	_	an
+52-12	4054-4057	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+52-13	4058-4063	Sonne	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Sonne
+52-14	4064-4068	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+52-15	4069-4070	,	_	_	_	_	_	_	_	_	_	$,	_	,
+52-16	4071-4074	und	_	_	_	_	_	_	_	_	_	KON	_	und
+52-17	4075-4081	extrem	_	_	_	_	_	_	_	_	_	ADJD	Pos	extrem
+52-18	4082-4086	kalt	_	_	_	_	_	_	_	_	_	ADJD	Pos	kalt
+52-19	4087-4090	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+52-20	4091-4096	denen	_	_	_	_	_	_	_	_	_	PDS	Dat.Pl.*	der
+52-21	4097-4098	,	_	_	_	_	_	_	_	_	_	$,	_	,
+52-22	4099-4102	die	_	_	_	_	_	_	_	_	_	PRELS	Nom.Pl.*	der
+52-23	4103-4109	weiter	_	_	_	_	_	_	_	_	_	ADV	_	weiter
+52-24	4110-4113	weg	_	_	_	_	_	_	_	_	_	ADV	_	weg
+52-25	4114-4118	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+52-26	4119-4120	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Einige bestehen überwiegend aus Eis , und andere sind die größten Wüsten , die du dir nur vorstellen kannst .
+53-1	4123-4129	Einige	_	_	_	_	_	_	_	_	_	PIS	Nom.Pl.*	einige
+53-2	4130-4138	bestehen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	bestehen
+53-3	4139-4150	überwiegend	_	_	_	_	_	_	_	_	_	ADJD	Pos	überwiegend
+53-4	4151-4154	aus	_	_	_	_	_	_	_	_	_	APPR	_	aus
+53-5	4155-4158	Eis	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Eis
+53-6	4159-4160	,	_	_	_	_	_	_	_	_	_	$,	_	,
+53-7	4161-4164	und	_	_	_	_	_	_	_	_	_	KON	_	und
+53-8	4165-4171	andere	_	_	_	_	_	_	_	_	_	PIS	Nom.Pl.Fem	anderer
+53-9	4172-4176	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+53-10	4177-4180	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der
+53-11	4181-4188	größten	_	_	_	_	_	_	_	_	_	ADJA	Sup.Nom.Pl.Fem	groß
+53-12	4189-4195	Wüsten	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Wüste
+53-13	4196-4197	,	_	_	_	_	_	_	_	_	_	$,	_	,
+53-14	4198-4201	die	_	_	_	_	_	_	_	_	_	PRELS	Acc.Pl.Fem	der
+53-15	4202-4204	du	_	_	_	_	_	_	_	_	_	PPER	2.Nom.Sg.*	du
+53-16	4205-4208	dir	_	_	_	_	_	_	_	_	_	PPER	2.Dat.Sg.*	dir
+53-17	4209-4212	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur
+53-18	4213-4223	vorstellen	_	_	_	_	_	_	_	_	_	VVINF	Inf	vorstellen
+53-19	4224-4230	kannst	_	_	_	_	_	_	_	_	_	VVFIN	2.Sg.Pres.Ind	kannen
+53-20	4231-4232	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Pluto ist so klein , dass er seit 2006 nicht mehr als Planet gezählt wird wie bisher seit seiner Entdeckung 1930 .
+54-1	4235-4240	Pluto	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Pluto
+54-2	4241-4244	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+54-3	4245-4247	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+54-4	4248-4253	klein	_	_	_	_	_	_	_	_	_	ADJD	Pos	klein
+54-5	4254-4255	,	_	_	_	_	_	_	_	_	_	$,	_	,
+54-6	4256-4260	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+54-7	4261-4263	er	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+54-8	4264-4268	seit	_	_	_	_	_	_	_	_	_	APPR	_	seit
+54-9	4269-4273	2006	_	_	_	_	_	_	_	_	_	CARD	_	2006
+54-10	4274-4279	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+54-11	4280-4284	mehr	_	_	_	_	_	_	_	_	_	ADV	_	mehr
+54-12	4285-4288	als	_	_	_	_	_	_	_	_	_	APPR	_	als
+54-13	4289-4295	Planet	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Planet
+54-14	4296-4303	gezählt	_	_	_	_	_	_	_	_	_	VVPP	Psp	zählen
+54-15	4304-4308	wird	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	werden
+54-16	4309-4312	wie	_	_	_	_	_	_	_	_	_	KOKOM	_	wie
+54-17	4313-4319	bisher	_	_	_	_	_	_	_	_	_	ADV	_	bisher
+54-18	4320-4324	seit	_	_	_	_	_	_	_	_	_	APPR	_	seit
+54-19	4325-4331	seiner	_	_	_	_	_	_	_	_	_	PPOSAT	Dat.Sg.Fem	sein
+54-20	4332-4342	Entdeckung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Entdeckung
+54-21	4343-4347	1930	_	_	_	_	_	_	_	_	_	CARD	_	1930
+54-22	4348-4349	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Er hat zwar seine eigenen drei Monde , ist aber selbst noch kleiner als unser Erdenmond .
+55-1	4352-4354	Er	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+55-2	4355-4358	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben
+55-3	4359-4363	zwar	_	_	_	_	_	_	_	_	_	ADV	_	zwar
+55-4	4364-4369	seine	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Pl.Masc	sein
+55-5	4370-4377	eigenen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Masc	eigen
+55-6	4378-4382	drei	_	_	_	_	_	_	_	_	_	CARD	_	drei
+55-7	4383-4388	Monde	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Mond
+55-8	4389-4390	,	_	_	_	_	_	_	_	_	_	$,	_	,
+55-9	4391-4394	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+55-10	4395-4399	aber	_	_	_	_	_	_	_	_	_	ADV	_	aber
+55-11	4400-4406	selbst	_	_	_	_	_	_	_	_	_	ADV	_	selbst
+55-12	4407-4411	noch	_	_	_	_	_	_	_	_	_	ADV	_	noch
+55-13	4412-4419	kleiner	_	_	_	_	_	_	_	_	_	ADJD	Comp	klein
+55-14	4420-4423	als	_	_	_	_	_	_	_	_	_	KOKOM	_	als
+55-15	4424-4429	unser	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Masc	unser
+55-16	4430-4439	Erdenmond	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Erdenmond
+55-17	4440-4441	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Als Zwergplaneten gelten jene Objekte in unserem Sonnensystem , die eine Umlaufbahn um die Sonne haben , deren Gestalt annährend kugelförmig ist , aber auf deren Umlaufbahn sich noch andere Objekte befinden .
+56-1	4444-4447	Als	_	_	_	_	_	_	_	_	_	APPR	_	als
+56-2	4448-4461	Zwergplaneten	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.*	zwergplaneter
+56-3	4462-4468	gelten	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	gelten
+56-4	4469-4473	jene	_	_	_	_	_	_	_	_	_	PDAT	Nom.Pl.Neut	jener
+56-5	4474-4481	Objekte	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Objekt
+56-6	4482-4484	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+56-7	4485-4492	unserem	_	_	_	_	_	_	_	_	_	PPOSAT	Dat.Sg.Neut	unser
+56-8	4493-4505	Sonnensystem	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Sonnensystem
+56-9	4506-4507	,	_	_	_	_	_	_	_	_	_	$,	_	,
+56-10	4508-4511	die	_	_	_	_	_	_	_	_	_	PRELS	Nom.Pl.Neut	der
+56-11	4512-4516	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+56-12	4517-4527	Umlaufbahn	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Umlaufbahn
+56-13	4528-4530	um	_	_	_	_	_	_	_	_	_	APPR	_	um
+56-14	4531-4534	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+56-15	4535-4540	Sonne	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Sonne
+56-16	4541-4546	haben	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	haben
+56-17	4547-4548	,	_	_	_	_	_	_	_	_	_	$,	_	,
+56-18	4549-4554	deren	_	_	_	_	_	_	_	_	_	PRELAT	Gen.Sg.Fem	der
+56-19	4555-4562	Gestalt	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Gestalt
+56-20	4563-4572	annährend	_	_	_	_	_	_	_	_	_	ADJD	Pos	annährend
+56-21	4573-4584	kugelförmig	_	_	_	_	_	_	_	_	_	ADJD	Pos	kugelförmig
+56-22	4585-4588	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+56-23	4589-4590	,	_	_	_	_	_	_	_	_	_	$,	_	,
+56-24	4591-4595	aber	_	_	_	_	_	_	_	_	_	KON	_	aber
+56-25	4596-4599	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+56-26	4600-4605	deren	_	_	_	_	_	_	_	_	_	PDS	Gen.Sg.Fem	der
+56-27	4606-4616	Umlaufbahn	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Umlaufbahn
+56-28	4617-4621	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Pl	sich
+56-29	4622-4626	noch	_	_	_	_	_	_	_	_	_	ADV	_	noch
+56-30	4627-4633	andere	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Neut	anderer
+56-31	4634-4641	Objekte	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Objekt
+56-32	4642-4650	befinden	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	befinden
+56-33	4651-4652	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wenn wir das Sonnensystem betrachten , versuchen wir zu messen , was wir sehen .
+57-1	4655-4659	Wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn
+57-2	4660-4663	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+57-3	4664-4667	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der
+57-4	4668-4680	Sonnensystem	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Sonnensystem
+57-5	4681-4691	betrachten	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	betrachten
+57-6	4692-4693	,	_	_	_	_	_	_	_	_	_	$,	_	,
+57-7	4694-4703	versuchen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	versuchen
+57-8	4704-4707	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+57-9	4708-4710	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+57-10	4711-4717	messen	_	_	_	_	_	_	_	_	_	VVINF	Inf	messen
+57-11	4718-4719	,	_	_	_	_	_	_	_	_	_	$,	_	,
+57-12	4720-4723	was	_	_	_	_	_	_	_	_	_	PRELS	Acc.Sg.Neut	wer
+57-13	4724-4727	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+57-14	4728-4733	sehen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	sehen
+57-15	4734-4735	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wir können so die vielen Objekte miteinander vergleichen und erfahren zum Beispiel , welche Größe sie haben und wie sie sich bewegen .
+58-1	4738-4741	Wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+58-2	4742-4748	können	_	_	_	_	_	_	_	_	_	VMFIN	1.Pl.Pres.Ind	können
+58-3	4749-4751	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+58-4	4752-4755	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Neut	der
+58-5	4756-4762	vielen	_	_	_	_	_	_	_	_	_	PIAT	Acc.Pl.Neut	vieler
+58-6	4763-4770	Objekte	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Objekt
+58-7	4771-4782	miteinander	_	_	_	_	_	_	_	_	_	ADV	_	miteinander
+58-8	4783-4794	vergleichen	_	_	_	_	_	_	_	_	_	VVINF	Inf	vergleichen
+58-9	4795-4798	und	_	_	_	_	_	_	_	_	_	KON	_	und
+58-10	4799-4807	erfahren	_	_	_	_	_	_	_	_	_	VVINF	Inf	erfahren
+58-11	4808-4811	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	zu
+58-12	4812-4820	Beispiel	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Beispiel
+58-13	4821-4822	,	_	_	_	_	_	_	_	_	_	$,	_	,
+58-14	4823-4829	welche	_	_	_	_	_	_	_	_	_	PWAT	Acc.Sg.Fem	welcher
+58-15	4830-4835	Größe	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Größe
+58-16	4836-4839	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie
+58-17	4840-4845	haben	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	haben
+58-18	4846-4849	und	_	_	_	_	_	_	_	_	_	KON	_	und
+58-19	4850-4853	wie	_	_	_	_	_	_	_	_	_	PWAV	_	wie
+58-20	4854-4857	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie
+58-21	4858-4862	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Pl	sich
+58-22	4863-4870	bewegen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	bewegen
+58-23	4871-4872	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Weil unsere Augen aber nicht so weit sehen können , wie die vielen Himmelskörper entfernt sind , benutzen wir dafür Geräte .
+59-1	4875-4879	Weil	_	_	_	_	_	_	_	_	_	KOUS	_	weil
+59-2	4880-4886	unsere	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Pl.Neut	unser
+59-3	4887-4892	Augen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Auge
+59-4	4893-4897	aber	_	_	_	_	_	_	_	_	_	ADV	_	aber
+59-5	4898-4903	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+59-6	4904-4906	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+59-7	4907-4911	weit	_	_	_	_	_	_	_	_	_	ADJD	Pos	weit
+59-8	4912-4917	sehen	_	_	_	_	_	_	_	_	_	VVINF	Inf	sehen
+59-9	4918-4924	können	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	können
+59-10	4925-4926	,	_	_	_	_	_	_	_	_	_	$,	_	,
+59-11	4927-4930	wie	_	_	_	_	_	_	_	_	_	PWAV	_	wie
+59-12	4931-4934	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der
+59-13	4935-4941	vielen	_	_	_	_	_	_	_	_	_	PIAT	Nom.Pl.Masc	vieler
+59-14	4942-4955	Himmelskörper	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Himmelskörper
+59-15	4956-4964	entfernt	_	_	_	_	_	_	_	_	_	VVPP	Psp	entfernen
+59-16	4965-4969	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+59-17	4970-4971	,	_	_	_	_	_	_	_	_	_	$,	_	,
+59-18	4972-4980	benutzen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	benutzen
+59-19	4981-4984	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+59-20	4985-4990	dafür	_	_	_	_	_	_	_	_	_	PROAV	_	dafür
+59-21	4991-4997	Geräte	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Gerat
+59-22	4998-4999	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Du hast sicherlich schon einmal durch ein Fernglas geschaut und warst erstaunt , wie nahe die Gegenstände plötzlich waren .
+60-1	5002-5004	Du	_	_	_	_	_	_	_	_	_	PPER	2.Nom.Sg.*	du
+60-2	5005-5009	hast	_	_	_	_	_	_	_	_	_	VAFIN	2.Sg.Pres.Ind	haben
+60-3	5010-5020	sicherlich	_	_	_	_	_	_	_	_	_	ADV	_	sicherlich
+60-4	5021-5026	schon	_	_	_	_	_	_	_	_	_	ADV	_	schon
+60-5	5027-5033	einmal	_	_	_	_	_	_	_	_	_	ADV	_	einmal
+60-6	5034-5039	durch	_	_	_	_	_	_	_	_	_	APPR	_	durch
+60-7	5040-5043	ein	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	ein
+60-8	5044-5052	Fernglas	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Fernglas
+60-9	5053-5061	geschaut	_	_	_	_	_	_	_	_	_	VVPP	Psp	schauen
+60-10	5062-5065	und	_	_	_	_	_	_	_	_	_	KON	_	und
+60-11	5066-5071	warst	_	_	_	_	_	_	_	_	_	VAFIN	2.Sg.Pres.Ind	werden
+60-12	5072-5080	erstaunt	_	_	_	_	_	_	_	_	_	ADJD	Pos	erstaunt
+60-13	5081-5082	,	_	_	_	_	_	_	_	_	_	$,	_	,
+60-14	5083-5086	wie	_	_	_	_	_	_	_	_	_	PWAV	_	wie
+60-15	5087-5091	nahe	_	_	_	_	_	_	_	_	_	ADJD	Pos	nah
+60-16	5092-5095	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der
+60-17	5096-5107	Gegenstände	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Gegenstand
+60-18	5108-5117	plötzlich	_	_	_	_	_	_	_	_	_	ADJD	Pos	plötzlich
+60-19	5118-5123	waren	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Ind	sein
+60-20	5124-5125	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Mit so einem Instrument können wir auch in den Himmel sehen und uns zum Beispiel die Krater auf dem Mond anschauen .
+61-1	5128-5131	Mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+61-2	5132-5134	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+61-3	5135-5140	einem	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Neut	ein
+61-4	5141-5151	Instrument	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Instrument
+61-5	5152-5158	können	_	_	_	_	_	_	_	_	_	VMFIN	1.Pl.Pres.Ind	können
+61-6	5159-5162	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+61-7	5163-5167	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+61-8	5168-5170	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+61-9	5171-5174	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der
+61-10	5175-5181	Himmel	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Himmel
+61-11	5182-5187	sehen	_	_	_	_	_	_	_	_	_	VVINF	Inf	sehen
+61-12	5188-5191	und	_	_	_	_	_	_	_	_	_	KON	_	und
+61-13	5192-5195	uns	_	_	_	_	_	_	_	_	_	PPER	1.Acc.Pl.*	uns
+61-14	5196-5199	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	zu
+61-15	5200-5208	Beispiel	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Beispiel
+61-16	5209-5212	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Masc	der
+61-17	5213-5219	Krater	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Krater
+61-18	5220-5223	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+61-19	5224-5227	dem	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	der
+61-20	5228-5232	Mond	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Mond
+61-21	5233-5242	anschauen	_	_	_	_	_	_	_	_	_	VVINF	Inf	anschauen
+61-22	5243-5244	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wissenschaftler haben riesengroße Teleskope gebaut , mit denen wir das sehr genau machen können .
+62-1	5247-5262	Wissenschaftler	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Wissenschaftler
+62-2	5263-5268	haben	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	haben
+62-3	5269-5280	riesengroße	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Neut	riesengroß
+62-4	5281-5290	Teleskope	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Teleskop
+62-5	5291-5297	gebaut	_	_	_	_	_	_	_	_	_	VVPP	Psp	bauen
+62-6	5298-5299	,	_	_	_	_	_	_	_	_	_	$,	_	,
+62-7	5300-5303	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+62-8	5304-5309	denen	_	_	_	_	_	_	_	_	_	PRELS	Dat.Pl.Neut	der
+62-9	5310-5313	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+62-10	5314-5317	das	_	_	_	_	_	_	_	_	_	PDS	Acc.Sg.Neut	der
+62-11	5318-5322	sehr	_	_	_	_	_	_	_	_	_	ADV	_	sehr
+62-12	5323-5328	genau	_	_	_	_	_	_	_	_	_	ADJD	Pos	genau
+62-13	5329-5335	machen	_	_	_	_	_	_	_	_	_	VVINF	Inf	machen
+62-14	5336-5342	können	_	_	_	_	_	_	_	_	_	VMFIN	1.Pl.Pres.Ind	können
+62-15	5343-5344	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Um noch weiter entfernte Planeten zu erkunden , schiessen wir Satelliten mit Raketen ins Weltall .
+63-1	5347-5349	Um	_	_	_	_	_	_	_	_	_	KOUI	_	um
+63-2	5350-5354	noch	_	_	_	_	_	_	_	_	_	ADV	_	noch
+63-3	5355-5361	weiter	_	_	_	_	_	_	_	_	_	ADV	_	weiter
+63-4	5362-5371	entfernte	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Masc	entfernt
+63-5	5372-5380	Planeten	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Planet
+63-6	5381-5383	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+63-7	5384-5392	erkunden	_	_	_	_	_	_	_	_	_	VVINF	Inf	erkunden
+63-8	5393-5394	,	_	_	_	_	_	_	_	_	_	$,	_	,
+63-9	5395-5404	schiessen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	schiessen
+63-10	5405-5408	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+63-11	5409-5419	Satelliten	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Satellit
+63-12	5420-5423	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+63-13	5424-5431	Raketen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Rakete
+63-14	5432-5435	ins	_	_	_	_	_	_	_	_	_	APPRART	Acc.Sg.Neut	in
+63-15	5436-5443	Weltall	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Weltall
+63-16	5444-5445	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die reisen dann manchmal jahrelang , bis sie am Jupiter oder Saturn vorbeifliegen .
+64-1	5448-5451	Die	_	_	_	_	_	_	_	_	_	PDS	Nom.Pl.*	der
+64-2	5452-5458	reisen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	reisen
+64-3	5459-5463	dann	_	_	_	_	_	_	_	_	_	ADV	_	dann
+64-4	5464-5472	manchmal	_	_	_	_	_	_	_	_	_	ADV	_	manchmal
+64-5	5473-5482	jahrelang	_	_	_	_	_	_	_	_	_	ADJD	Pos	jahrelang
+64-6	5483-5484	,	_	_	_	_	_	_	_	_	_	$,	_	,
+64-7	5485-5488	bis	_	_	_	_	_	_	_	_	_	KOUS	_	bis
+64-8	5489-5492	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie
+64-9	5493-5495	am	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	an
+64-10	5496-5503	Jupiter	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Jupiter
+64-11	5504-5508	oder	_	_	_	_	_	_	_	_	_	KON	_	oder
+64-12	5509-5515	Saturn	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Saturn
+64-13	5516-5529	vorbeifliegen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	vorbeifliegen
+64-14	5530-5531	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Satelliten machen Fotos und schicken sie per Funk zu uns auf die Erde .
+65-1	5534-5537	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der
+65-2	5538-5548	Satelliten	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Satellit
+65-3	5549-5555	machen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	machen
+65-4	5556-5561	Fotos	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Foto
+65-5	5562-5565	und	_	_	_	_	_	_	_	_	_	KON	_	und
+65-6	5566-5574	schicken	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	schicken
+65-7	5575-5578	sie	_	_	_	_	_	_	_	_	_	PPER	3.Acc.Pl.*	sie
+65-8	5579-5582	per	_	_	_	_	_	_	_	_	_	APPR	_	per
+65-9	5583-5587	Funk	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Funk
+65-10	5588-5590	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu
+65-11	5591-5594	uns	_	_	_	_	_	_	_	_	_	PPER	1.Dat.Pl.*	uns
+65-12	5595-5598	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+65-13	5599-5602	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+65-14	5603-5607	Erde	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Erde
+65-15	5608-5609	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Einige landen sogar auf Planeten und fahren dort ein wenig herum .
+66-1	5612-5618	Einige	_	_	_	_	_	_	_	_	_	PIS	Nom.Pl.*	einige
+66-2	5619-5625	landen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	linden
+66-3	5626-5631	sogar	_	_	_	_	_	_	_	_	_	ADV	_	sogar
+66-4	5632-5635	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+66-5	5636-5644	Planeten	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Planet
+66-6	5645-5648	und	_	_	_	_	_	_	_	_	_	KON	_	und
+66-7	5649-5655	fahren	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	fahren
+66-8	5656-5660	dort	_	_	_	_	_	_	_	_	_	ADV	_	dort
+66-9	5661-5664	ein	_	_	_	_	_	_	_	_	_	ART	*.*.*	ein
+66-10	5665-5670	wenig	_	_	_	_	_	_	_	_	_	PIS	*.*.*	wenig
+66-11	5671-5676	herum	_	_	_	_	_	_	_	_	_	PTKVZ	_	herum
+66-12	5677-5678	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Damit wir unser Wissen über Sonne , Mond und Sterne einfacher untereinander austauschen können , haben sich die meisten Menschen auf eine gemeinsame Methode dafür geeinigt : das metrische System .
+67-1	5681-5686	Damit	_	_	_	_	_	_	_	_	_	KOUS	_	damit
+67-2	5687-5690	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+67-3	5691-5696	unser	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Neut	unser
+67-4	5697-5703	Wissen	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Wissen
+67-5	5704-5708	über	_	_	_	_	_	_	_	_	_	APPR	_	über
+67-6	5709-5714	Sonne	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Sonne
+67-7	5715-5716	,	_	_	_	_	_	_	_	_	_	$,	_	,
+67-8	5717-5721	Mond	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Mond
+67-9	5722-5725	und	_	_	_	_	_	_	_	_	_	KON	_	und
+67-10	5726-5732	Sterne	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Stern
+67-11	5733-5742	einfacher	_	_	_	_	_	_	_	_	_	ADJD	Comp	einfach
+67-12	5743-5756	untereinander	_	_	_	_	_	_	_	_	_	ADV	_	untereinander
+67-13	5757-5768	austauschen	_	_	_	_	_	_	_	_	_	VVINF	Inf	austauschen
+67-14	5769-5775	können	_	_	_	_	_	_	_	_	_	VMFIN	1.Pl.Pres.Ind	können
+67-15	5776-5777	,	_	_	_	_	_	_	_	_	_	$,	_	,
+67-16	5778-5783	haben	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	haben
+67-17	5784-5788	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Pl	sich
+67-18	5789-5792	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der
+67-19	5793-5800	meisten	_	_	_	_	_	_	_	_	_	PIAT	Nom.Pl.Masc	meister
+67-20	5801-5809	Menschen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Mensch
+67-21	5810-5813	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+67-22	5814-5818	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+67-23	5819-5829	gemeinsame	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	gemeinsam
+67-24	5830-5837	Methode	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Methode
+67-25	5838-5843	dafür	_	_	_	_	_	_	_	_	_	PROAV	_	dafür
+67-26	5844-5852	geeinigt	_	_	_	_	_	_	_	_	_	VVPP	Psp	einigen
+67-27	5853-5854	:	_	_	_	_	_	_	_	_	_	$.	_	:
+67-28	5855-5858	das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+67-29	5859-5868	metrische	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Neut	metrisch
+67-30	5869-5875	System	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	System
+67-31	5876-5877	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Was bedeutet denn das ?
+68-1	5880-5883	Was	_	_	_	_	_	_	_	_	_	PWS	Acc.Sg.Neut	was
+68-2	5884-5892	bedeutet	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	bedeuten
+68-3	5893-5897	denn	_	_	_	_	_	_	_	_	_	ADV	_	denn
+68-4	5898-5901	das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+68-5	5902-5903	?	_	_	_	_	_	_	_	_	_	$.	_	?
+
+#Text=Schaue Dir zum Beispiel deinen Körper an .
+69-1	5906-5912	Schaue	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Subj	schauen
+69-2	5913-5916	Dir	_	_	_	_	_	_	_	_	_	PPER	2.Dat.Sg.*	dir
+69-3	5917-5920	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	zu
+69-4	5921-5929	Beispiel	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Beispiel
+69-5	5930-5936	deinen	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Masc	dein
+69-6	5937-5943	Körper	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Körper
+69-7	5944-5946	an	_	_	_	_	_	_	_	_	_	PTKVZ	_	an
+69-8	5947-5948	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Er hat verschiedene Eigenschaften , die Du messen kannst : Deine Länge von Kopf bis Fuß , oder dein Gewicht .
+70-1	5951-5953	Er	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+70-2	5954-5957	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben
+70-3	5958-5970	verschiedene	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Fem	verschieden
+70-4	5971-5984	Eigenschaften	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Eigenschaft
+70-5	5985-5986	,	_	_	_	_	_	_	_	_	_	$,	_	,
+70-6	5987-5990	die	_	_	_	_	_	_	_	_	_	PRELS	Acc.Pl.Fem	der
+70-7	5991-5993	Du	_	_	_	_	_	_	_	_	_	PPER	2.Nom.Sg.*	du
+70-8	5994-6000	messen	_	_	_	_	_	_	_	_	_	VVINF	Inf	messen
+70-9	6001-6007	kannst	_	_	_	_	_	_	_	_	_	VVFIN	2.Sg.Pres.Ind	kannen
+70-10	6008-6009	:	_	_	_	_	_	_	_	_	_	$.	_	:
+70-11	6010-6015	Deine	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Fem	dein
+70-12	6016-6021	Länge	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Länge
+70-13	6022-6025	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+70-14	6026-6030	Kopf	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Kopf
+70-15	6031-6034	bis	_	_	_	_	_	_	_	_	_	APPR	_	bis
+70-16	6035-6038	Fuß	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Fuß
+70-17	6039-6040	,	_	_	_	_	_	_	_	_	_	$,	_	,
+70-18	6041-6045	oder	_	_	_	_	_	_	_	_	_	KON	_	oder
+70-19	6046-6050	dein	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Neut	dein
+70-20	6051-6058	Gewicht	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Gewicht
+70-21	6059-6060	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Um deine Länge zu messen nimmst Du ein Maßband oder ein Lineal , auf dem draufsteht , wie lang dieses ist , und vergleichst es mit deinem Körper .
+71-1	6063-6065	Um	_	_	_	_	_	_	_	_	_	KOUI	_	um
+71-2	6066-6071	deine	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Fem	dein
+71-3	6072-6077	Länge	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Länge
+71-4	6078-6080	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+71-5	6081-6087	messen	_	_	_	_	_	_	_	_	_	VVINF	Inf	messen
+71-6	6088-6094	nimmst	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	nehmen
+71-7	6095-6097	Du	_	_	_	_	_	_	_	_	_	PPER	2.Nom.Sg.*	du
+71-8	6098-6101	ein	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	ein
+71-9	6102-6109	Maßband	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Maßband
+71-10	6110-6114	oder	_	_	_	_	_	_	_	_	_	KON	_	oder
+71-11	6115-6118	ein	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	ein
+71-12	6119-6125	Lineal	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Lineal
+71-13	6126-6127	,	_	_	_	_	_	_	_	_	_	$,	_	,
+71-14	6128-6131	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+71-15	6132-6135	dem	_	_	_	_	_	_	_	_	_	PRELS	Dat.Sg.Neut	der
+71-16	6136-6146	draufsteht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	draufstehen
+71-17	6147-6148	,	_	_	_	_	_	_	_	_	_	$,	_	,
+71-18	6149-6152	wie	_	_	_	_	_	_	_	_	_	PWAV	_	wie
+71-19	6153-6157	lang	_	_	_	_	_	_	_	_	_	ADJD	Pos	lang
+71-20	6158-6164	dieses	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	dieser
+71-21	6165-6168	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+71-22	6169-6170	,	_	_	_	_	_	_	_	_	_	$,	_	,
+71-23	6171-6174	und	_	_	_	_	_	_	_	_	_	KON	_	und
+71-24	6175-6186	vergleichst	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	vergleichsen
+71-25	6187-6189	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+71-26	6190-6193	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+71-27	6194-6200	deinem	_	_	_	_	_	_	_	_	_	PPOSAT	Dat.Sg.Masc	dein
+71-28	6201-6207	Körper	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Körper
+71-29	6208-6209	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Zahlen auf dem Maßband haben einen bestimmten Abstand , und das metrische System schreibt diesen Abstand vor : Der Abstand soll in Metern gemessen werden .
+72-1	6212-6215	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der
+72-2	6216-6222	Zahlen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Zahl
+72-3	6223-6226	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+72-4	6227-6230	dem	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Neut	der
+72-5	6231-6238	Maßband	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Maßband
+72-6	6239-6244	haben	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	haben
+72-7	6245-6250	einen	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein
+72-8	6251-6261	bestimmten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	bestimmt
+72-9	6262-6269	Abstand	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Abstand
+72-10	6270-6271	,	_	_	_	_	_	_	_	_	_	$,	_	,
+72-11	6272-6275	und	_	_	_	_	_	_	_	_	_	KON	_	und
+72-12	6276-6279	das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+72-13	6280-6289	metrische	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Neut	metrisch
+72-14	6290-6296	System	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	System
+72-15	6297-6305	schreibt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	schreiben
+72-16	6306-6312	diesen	_	_	_	_	_	_	_	_	_	PDAT	Acc.Sg.Masc	dieser
+72-17	6313-6320	Abstand	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Abstand
+72-18	6321-6324	vor	_	_	_	_	_	_	_	_	_	PTKVZ	_	vor
+72-19	6325-6326	:	_	_	_	_	_	_	_	_	_	$.	_	:
+72-20	6327-6330	Der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+72-21	6331-6338	Abstand	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Abstand
+72-22	6339-6343	soll	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	sollen
+72-23	6344-6346	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+72-24	6347-6353	Metern	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Meter
+72-25	6354-6362	gemessen	_	_	_	_	_	_	_	_	_	VVPP	Psp	messen
+72-26	6363-6369	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+72-27	6370-6371	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das ist die Einheit der Länge in diesem System .
+73-1	6374-6377	Das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+73-2	6378-6381	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+73-3	6382-6385	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+73-4	6386-6393	Einheit	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Einheit
+73-5	6394-6397	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+73-6	6398-6403	Länge	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Länge
+73-7	6404-6406	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+73-8	6407-6413	diesem	_	_	_	_	_	_	_	_	_	PDAT	Dat.Sg.Neut	dieser
+73-9	6414-6420	System	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	System
+73-10	6421-6422	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Messen wir etwas , erhalten wir immer eine Zahl und eine Einheit .
+74-1	6425-6431	Messen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	messen
+74-2	6432-6435	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+74-3	6436-6441	etwas	_	_	_	_	_	_	_	_	_	PIS	*.*.Neut	etwas
+74-4	6442-6443	,	_	_	_	_	_	_	_	_	_	$,	_	,
+74-5	6444-6452	erhalten	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	erhalten
+74-6	6453-6456	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+74-7	6457-6462	immer	_	_	_	_	_	_	_	_	_	ADV	_	immer
+74-8	6463-6467	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+74-9	6468-6472	Zahl	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Zahl
+74-10	6473-6476	und	_	_	_	_	_	_	_	_	_	KON	_	und
+74-11	6477-6481	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+74-12	6482-6489	Einheit	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Einheit
+74-13	6490-6491	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Ein Grundschulkind ist zum Beispiel ungefähr ein Meter lang .
+75-1	6494-6497	Ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	ein
+75-2	6498-6512	Grundschulkind	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Grundschulkind
+75-3	6513-6516	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+75-4	6517-6520	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	zu
+75-5	6521-6529	Beispiel	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Beispiel
+75-6	6530-6538	ungefähr	_	_	_	_	_	_	_	_	_	ADJD	Pos	ungefähr
+75-7	6539-6542	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+75-8	6543-6548	Meter	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Meter
+75-9	6549-6553	lang	_	_	_	_	_	_	_	_	_	ADJD	Pos	lang
+75-10	6554-6555	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Zahl ist Eins und die Einheit ist Meter .
+76-1	6558-6561	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+76-2	6562-6566	Zahl	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Zahl
+76-3	6567-6570	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+76-4	6571-6575	Eins	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Eins
+76-5	6576-6579	und	_	_	_	_	_	_	_	_	_	KON	_	und
+76-6	6580-6583	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+76-7	6584-6591	Einheit	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Einheit
+76-8	6592-6595	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+76-9	6596-6601	Meter	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Meter
+76-10	6602-6603	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Um nicht so viel schreiben zu müssen , kürzen wir Meter mit dem kleinen Buchstaben m ab .
+77-1	6606-6608	Um	_	_	_	_	_	_	_	_	_	KOUI	_	um
+77-2	6609-6614	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+77-3	6615-6617	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+77-4	6618-6622	viel	_	_	_	_	_	_	_	_	_	PIS	*.*.*	viel
+77-5	6623-6632	schreiben	_	_	_	_	_	_	_	_	_	VVINF	Inf	schreiben
+77-6	6633-6635	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+77-7	6636-6642	müssen	_	_	_	_	_	_	_	_	_	VMINF	Inf	müssen
+77-8	6643-6644	,	_	_	_	_	_	_	_	_	_	$,	_	,
+77-9	6645-6651	kürzen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	kürzen
+77-10	6652-6655	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+77-11	6656-6661	Meter	_	_	_	_	_	_	_	_	_	NN	Nom.*.Masc	Meter
+77-12	6662-6665	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+77-13	6666-6669	dem	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	der
+77-14	6670-6677	kleinen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Masc	klein
+77-15	6678-6688	Buchstaben	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Buchstabe
+77-16	6689-6690	m	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	m
+77-17	6691-6693	ab	_	_	_	_	_	_	_	_	_	PTKVZ	_	ab
+77-18	6694-6695	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das metrische System wurde zuerst im Europa des achtzehnten Jahrhunderts verwendet und sollte die vielen älteren Mess Systeme ersetzen , wie das Englische System , das Fuß und Zoll anstelle von Meter benutzte .
+78-1	6698-6701	Das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+78-2	6702-6711	metrische	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Neut	metrisch
+78-3	6712-6718	System	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	System
+78-4	6719-6724	wurde	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	werden
+78-5	6725-6731	zuerst	_	_	_	_	_	_	_	_	_	ADV	_	zuerst
+78-6	6732-6734	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	in
+78-7	6735-6741	Europa	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Europa
+78-8	6742-6745	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	der
+78-9	6746-6757	achtzehnten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Neut	achtzehnter
+78-10	6758-6770	Jahrhunderts	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Jahrhundert
+78-11	6771-6780	verwendet	_	_	_	_	_	_	_	_	_	VVPP	Psp	verwenden
+78-12	6781-6784	und	_	_	_	_	_	_	_	_	_	KON	_	und
+78-13	6785-6791	sollte	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Past.Ind	sollen
+78-14	6792-6795	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Neut	der
+78-15	6796-6802	vielen	_	_	_	_	_	_	_	_	_	PIAT	Acc.Pl.Neut	vieler
+78-16	6803-6810	älteren	_	_	_	_	_	_	_	_	_	ADJA	Comp.Acc.Pl.Neut	alt
+78-17	6811-6815	Mess	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Mess
+78-18	6816-6823	Systeme	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	System
+78-19	6824-6832	ersetzen	_	_	_	_	_	_	_	_	_	VVINF	Inf	ersetzen
+78-20	6833-6834	,	_	_	_	_	_	_	_	_	_	$,	_	,
+78-21	6835-6838	wie	_	_	_	_	_	_	_	_	_	KOKOM	_	wie
+78-22	6839-6842	das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+78-23	6843-6852	Englische	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Neut	englisch
+78-24	6853-6859	System	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	System
+78-25	6860-6861	,	_	_	_	_	_	_	_	_	_	$,	_	,
+78-26	6862-6865	das	_	_	_	_	_	_	_	_	_	PRELS	Nom.Sg.Neut	der
+78-27	6866-6869	Fuß	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Fuß
+78-28	6870-6873	und	_	_	_	_	_	_	_	_	_	KON	_	und
+78-29	6874-6878	Zoll	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Zoll
+78-30	6879-6887	anstelle	_	_	_	_	_	_	_	_	_	APPR	_	anstelle
+78-31	6888-6891	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+78-32	6892-6897	Meter	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.*	Meter
+78-33	6898-6906	benutzte	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	benutzen
+78-34	6907-6908	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Menschen konnten sich nun schneller auf gemeinsame Größen und Mengen von Dingen einigen , zum Beispiel beim Einkaufen und beim Handeln mit Waren .
+79-1	6911-6914	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der
+79-2	6915-6923	Menschen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Mensch
+79-3	6924-6931	konnten	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Past.Ind	können
+79-4	6932-6936	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Pl	sich
+79-5	6937-6940	nun	_	_	_	_	_	_	_	_	_	ADV	_	nun
+79-6	6941-6950	schneller	_	_	_	_	_	_	_	_	_	ADJD	Comp	schnell
+79-7	6951-6954	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+79-8	6955-6965	gemeinsame	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Fem	gemeinsam
+79-9	6966-6972	Größen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Größe
+79-10	6973-6976	und	_	_	_	_	_	_	_	_	_	KON	_	und
+79-11	6977-6983	Mengen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Menge
+79-12	6984-6987	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+79-13	6988-6994	Dingen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Neut	Ding
+79-14	6995-7002	einigen	_	_	_	_	_	_	_	_	_	VVINF	Inf	einigen
+79-15	7003-7004	,	_	_	_	_	_	_	_	_	_	$,	_	,
+79-16	7005-7008	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	zu
+79-17	7009-7017	Beispiel	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Beispiel
+79-18	7018-7022	beim	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	bei
+79-19	7023-7032	Einkaufen	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Einkaufen
+79-20	7033-7036	und	_	_	_	_	_	_	_	_	_	KON	_	und
+79-21	7037-7041	beim	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	bei
+79-22	7042-7049	Handeln	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	handeln
+79-23	7050-7053	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+79-24	7054-7059	Waren	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Ware
+79-25	7060-7061	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=In diesem Buch lernen wir mehrere Größen kennen , die wir im metrischen System messen : außer Länge sind das Masse , Temperatur und Zeit .
+80-1	7064-7066	In	_	_	_	_	_	_	_	_	_	APPR	_	in
+80-2	7067-7073	diesem	_	_	_	_	_	_	_	_	_	PDAT	Dat.Sg.Neut	dieser
+80-3	7074-7078	Buch	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Buch
+80-4	7079-7085	lernen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	lernen
+80-5	7086-7089	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+80-6	7090-7097	mehrere	_	_	_	_	_	_	_	_	_	PIAT	Acc.Pl.Fem	mehrere
+80-7	7098-7104	Größen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Größe
+80-8	7105-7111	kennen	_	_	_	_	_	_	_	_	_	VVINF	Inf	kennen
+80-9	7112-7113	,	_	_	_	_	_	_	_	_	_	$,	_	,
+80-10	7114-7117	die	_	_	_	_	_	_	_	_	_	PRELS	Acc.Pl.Fem	der
+80-11	7118-7121	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+80-12	7122-7124	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	in
+80-13	7125-7135	metrischen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Neut	metrisch
+80-14	7136-7142	System	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	System
+80-15	7143-7149	messen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	messen
+80-16	7150-7151	:	_	_	_	_	_	_	_	_	_	$.	_	:
+80-17	7152-7157	außer	_	_	_	_	_	_	_	_	_	APPR	_	außer
+80-18	7158-7163	Länge	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Länge
+80-19	7164-7168	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+80-20	7169-7172	das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+80-21	7173-7178	Masse	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Masse
+80-22	7179-7180	,	_	_	_	_	_	_	_	_	_	$,	_	,
+80-23	7181-7191	Temperatur	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Temperatur
+80-24	7192-7195	und	_	_	_	_	_	_	_	_	_	KON	_	und
+80-25	7196-7200	Zeit	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Zeit
+80-26	7201-7202	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Länge benutzen wir , um den Durchmesser eines Planeten , von der einen Seite direkt durch den Mittelpunkt bis zur anderen Seite , oder die Entfernung von der Sonne anzugeben .
+81-1	7205-7208	Die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+81-2	7209-7214	Länge	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Länge
+81-3	7215-7223	benutzen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	benutzen
+81-4	7224-7227	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+81-5	7228-7229	,	_	_	_	_	_	_	_	_	_	$,	_	,
+81-6	7230-7232	um	_	_	_	_	_	_	_	_	_	KOUI	_	um
+81-7	7233-7236	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der
+81-8	7237-7248	Durchmesser	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Durchmesser
+81-9	7249-7254	eines	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	ein
+81-10	7255-7263	Planeten	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Planet
+81-11	7264-7265	,	_	_	_	_	_	_	_	_	_	$,	_	,
+81-12	7266-7269	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+81-13	7270-7273	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+81-14	7274-7279	einen	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein
+81-15	7280-7285	Seite	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Seite
+81-16	7286-7292	direkt	_	_	_	_	_	_	_	_	_	ADJD	Pos	direkt
+81-17	7293-7298	durch	_	_	_	_	_	_	_	_	_	APPR	_	durch
+81-18	7299-7302	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der
+81-19	7303-7314	Mittelpunkt	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Mittelpunkt
+81-20	7315-7318	bis	_	_	_	_	_	_	_	_	_	APPR	_	bis
+81-21	7319-7322	zur	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Fem	zu
+81-22	7323-7330	anderen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	anderer
+81-23	7331-7336	Seite	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Seite
+81-24	7337-7338	,	_	_	_	_	_	_	_	_	_	$,	_	,
+81-25	7339-7343	oder	_	_	_	_	_	_	_	_	_	KON	_	oder
+81-26	7344-7347	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+81-27	7348-7358	Entfernung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Entfernung
+81-28	7359-7362	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+81-29	7363-7366	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+81-30	7367-7372	Sonne	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Sonne
+81-31	7373-7382	anzugeben	_	_	_	_	_	_	_	_	_	VVIZU	Infzu	angeben
+81-32	7383-7384	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Weil sie sehr groß ist , benutzen wir Kilometer anstatt Meter .
+82-1	7387-7391	Weil	_	_	_	_	_	_	_	_	_	KOUS	_	weil
+82-2	7392-7395	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Fem	sie
+82-3	7396-7400	sehr	_	_	_	_	_	_	_	_	_	ADV	_	sehr
+82-4	7401-7405	groß	_	_	_	_	_	_	_	_	_	ADJD	Pos	groß
+82-5	7406-7409	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+82-6	7410-7411	,	_	_	_	_	_	_	_	_	_	$,	_	,
+82-7	7412-7420	benutzen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	benutzen
+82-8	7421-7424	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+82-9	7425-7434	Kilometer	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Kilometer
+82-10	7435-7442	anstatt	_	_	_	_	_	_	_	_	_	APPR	_	anstatt
+82-11	7443-7448	Meter	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Meter
+82-12	7449-7450	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Ein Kilometer sind eintausend Meter , und wir schreiben dafür kurz km .
+83-1	7453-7456	Ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+83-2	7457-7466	Kilometer	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Kilometer
+83-3	7467-7471	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+83-4	7472-7482	eintausend	_	_	_	_	_	_	_	_	_	CARD	_	eintausend
+83-5	7483-7488	Meter	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Meter
+83-6	7489-7490	,	_	_	_	_	_	_	_	_	_	$,	_	,
+83-7	7491-7494	und	_	_	_	_	_	_	_	_	_	KON	_	und
+83-8	7495-7498	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+83-9	7499-7508	schreiben	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	schreiben
+83-10	7509-7514	dafür	_	_	_	_	_	_	_	_	_	PROAV	_	dafür
+83-11	7515-7519	kurz	_	_	_	_	_	_	_	_	_	ADJD	Pos	kurz
+83-12	7520-7522	km	_	_	_	_	_	_	_	_	_	PTKVZ	_	km
+83-13	7523-7524	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Masse sagt dir , aus wieviel Material ein Objekt besteht .
+84-1	7527-7530	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+84-2	7531-7536	Masse	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Masse
+84-3	7537-7541	sagt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	sagen
+84-4	7542-7545	dir	_	_	_	_	_	_	_	_	_	PPER	2.Dat.Sg.*	dir
+84-5	7546-7547	,	_	_	_	_	_	_	_	_	_	$,	_	,
+84-6	7548-7551	aus	_	_	_	_	_	_	_	_	_	APPR	_	aus
+84-7	7552-7559	wieviel	_	_	_	_	_	_	_	_	_	PWAT	Dat.Pl.Neut	wieviel
+84-8	7560-7568	Material	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Material
+84-9	7569-7572	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	ein
+84-10	7573-7579	Objekt	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Objekt
+84-11	7580-7587	besteht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	bestehen
+84-12	7588-7589	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Je mehr Stoff oder Materie da ist , desto größer ist die Masse .
+85-1	7592-7594	Je	_	_	_	_	_	_	_	_	_	ADV	_	je
+85-2	7595-7599	mehr	_	_	_	_	_	_	_	_	_	PIAT	*.*.*	mehr
+85-3	7600-7605	Stoff	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Stoff
+85-4	7606-7610	oder	_	_	_	_	_	_	_	_	_	KON	_	oder
+85-5	7611-7618	Materie	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Materie
+85-6	7619-7621	da	_	_	_	_	_	_	_	_	_	ADV	_	da
+85-7	7622-7625	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+85-8	7626-7627	,	_	_	_	_	_	_	_	_	_	$,	_	,
+85-9	7628-7633	desto	_	_	_	_	_	_	_	_	_	ADV	_	desto
+85-10	7634-7640	größer	_	_	_	_	_	_	_	_	_	ADJD	Comp	groß
+85-11	7641-7644	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+85-12	7645-7648	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+85-13	7649-7654	Masse	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Masse
+85-14	7655-7656	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wenn du viel gegessen hast , steckt mehr in deinem Körper drin und deine Masse ist größer .
+86-1	7659-7663	Wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn
+86-2	7664-7666	du	_	_	_	_	_	_	_	_	_	PPER	2.Nom.Sg.*	du
+86-3	7667-7671	viel	_	_	_	_	_	_	_	_	_	PIS	*.*.*	viel
+86-4	7672-7680	gegessen	_	_	_	_	_	_	_	_	_	VVPP	Psp	gessen
+86-5	7681-7685	hast	_	_	_	_	_	_	_	_	_	VAFIN	2.Sg.Pres.Ind	haben
+86-6	7686-7687	,	_	_	_	_	_	_	_	_	_	$,	_	,
+86-7	7688-7694	steckt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	stecken
+86-8	7695-7699	mehr	_	_	_	_	_	_	_	_	_	ADV	_	mehr
+86-9	7700-7702	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+86-10	7703-7709	deinem	_	_	_	_	_	_	_	_	_	PPOSAT	Dat.Sg.Masc	dein
+86-11	7710-7716	Körper	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Körper
+86-12	7717-7721	drin	_	_	_	_	_	_	_	_	_	PTKVZ	_	drin
+86-13	7722-7725	und	_	_	_	_	_	_	_	_	_	KON	_	und
+86-14	7726-7731	deine	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Fem	dein
+86-15	7732-7737	Masse	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Masse
+86-16	7738-7741	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+86-17	7742-7748	größer	_	_	_	_	_	_	_	_	_	ADJD	Comp	groß
+86-18	7749-7750	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wir messen die Masse in Kilogramm und kürzen das ab mit kg .
+87-1	7753-7756	Wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+87-2	7757-7763	messen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	messen
+87-3	7764-7767	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+87-4	7768-7773	Masse	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Masse
+87-5	7774-7776	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+87-6	7777-7786	Kilogramm	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Kilogramm
+87-7	7787-7790	und	_	_	_	_	_	_	_	_	_	KON	_	und
+87-8	7791-7797	kürzen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	kürzen
+87-9	7798-7801	das	_	_	_	_	_	_	_	_	_	PDS	Acc.Sg.Neut	der
+87-10	7802-7804	ab	_	_	_	_	_	_	_	_	_	PTKVZ	_	ab
+87-11	7805-7808	mit	_	_	_	_	_	_	_	_	_	ADV	_	mit
+87-12	7809-7811	kg	_	_	_	_	_	_	_	_	_	FM	_	kg
+87-13	7812-7813	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Ob etwas wärmer oder kälter als etwas anderes ist , verrät dir die Temperatur , die wir in Grad Celcius messen .
+88-1	7816-7818	Ob	_	_	_	_	_	_	_	_	_	KOUS	_	ob
+88-2	7819-7824	etwas	_	_	_	_	_	_	_	_	_	ADV	_	etwas
+88-3	7825-7831	wärmer	_	_	_	_	_	_	_	_	_	ADJD	Comp	warm
+88-4	7832-7836	oder	_	_	_	_	_	_	_	_	_	KON	_	oder
+88-5	7837-7843	kälter	_	_	_	_	_	_	_	_	_	ADJD	Comp	kalt
+88-6	7844-7847	als	_	_	_	_	_	_	_	_	_	KOKOM	_	als
+88-7	7848-7853	etwas	_	_	_	_	_	_	_	_	_	PIAT	*.*.*	etwas
+88-8	7854-7861	anderes	_	_	_	_	_	_	_	_	_	PIS	Nom.Sg.Neut	anderer
+88-9	7862-7865	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+88-10	7866-7867	,	_	_	_	_	_	_	_	_	_	$,	_	,
+88-11	7868-7874	verrät	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	verraten
+88-12	7875-7878	dir	_	_	_	_	_	_	_	_	_	PPER	2.Dat.Sg.*	dir
+88-13	7879-7882	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+88-14	7883-7893	Temperatur	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Temperatur
+88-15	7894-7895	,	_	_	_	_	_	_	_	_	_	$,	_	,
+88-16	7896-7899	die	_	_	_	_	_	_	_	_	_	PRELS	Acc.Sg.Fem	der
+88-17	7900-7903	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+88-18	7904-7906	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+88-19	7907-7911	Grad	_	_	_	_	_	_	_	_	_	NE	*.*.*	Grad
+88-20	7912-7919	Celcius	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Celcius
+88-21	7920-7926	messen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	messen
+88-22	7927-7928	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Abgekürzt schreiben wir ° C . Bei null Grad Celcius gefriert Wasser zu Eis , und bei einhundert Grad Celcius kocht Wasser .
+89-1	7931-7940	Abgekürzt	_	_	_	_	_	_	_	_	_	VVPP	Psp	abkürzen
+89-2	7941-7950	schreiben	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	schreiben
+89-3	7951-7954	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+89-4	7955-7956	°	_	_	_	_	_	_	_	_	_	APPR	_	°
+89-5	7957-7958	C	_	_	_	_	_	_	_	_	_	NE	Acc.Sg.*	C
+89-6	7959-7960	.	_	_	_	_	_	_	_	_	_	$.	_	.
+89-7	7961-7964	Bei	_	_	_	_	_	_	_	_	_	APPR	_	bei
+89-8	7965-7969	null	_	_	_	_	_	_	_	_	_	CARD	_	null
+89-9	7970-7974	Grad	_	_	_	_	_	_	_	_	_	NN	*.*.Neut	Grad
+89-10	7975-7982	Celcius	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.*	Celcius
+89-11	7983-7991	gefriert	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	gefrieren
+89-12	7992-7998	Wasser	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Wasser
+89-13	7999-8001	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu
+89-14	8002-8005	Eis	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Eis
+89-15	8006-8007	,	_	_	_	_	_	_	_	_	_	$,	_	,
+89-16	8008-8011	und	_	_	_	_	_	_	_	_	_	KON	_	und
+89-17	8012-8015	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei
+89-18	8016-8026	einhundert	_	_	_	_	_	_	_	_	_	CARD	_	einhundert
+89-19	8027-8031	Grad	_	_	_	_	_	_	_	_	_	NE	*.*.*	Grad
+89-20	8032-8039	Celcius	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Masc	Celcius
+89-21	8040-8045	kocht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	kochen
+89-22	8046-8052	Wasser	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Wasser
+89-23	8053-8054	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=In manchen Ländern , zum Beispiel den Vereinigten Staaten von Amerika , benutzen die Menschen anstatt Celcius die Fahrenheit Skala , und sie schreiben ° F .
+90-1	8057-8059	In	_	_	_	_	_	_	_	_	_	APPR	_	in
+90-2	8060-8067	manchen	_	_	_	_	_	_	_	_	_	PIAT	Dat.Pl.Neut	mancher
+90-3	8068-8075	Ländern	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Neut	Land
+90-4	8076-8077	,	_	_	_	_	_	_	_	_	_	$,	_	,
+90-5	8078-8081	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	zu
+90-6	8082-8090	Beispiel	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Beispiel
+90-7	8091-8094	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Masc	der
+90-8	8095-8106	Vereinigten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Masc	vereinigt
+90-9	8107-8114	Staaten	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Staat
+90-10	8115-8118	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+90-11	8119-8126	Amerika	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Amerika
+90-12	8127-8128	,	_	_	_	_	_	_	_	_	_	$,	_	,
+90-13	8129-8137	benutzen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	benutzen
+90-14	8138-8141	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der
+90-15	8142-8150	Menschen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Mensch
+90-16	8151-8158	anstatt	_	_	_	_	_	_	_	_	_	APPR	_	anstatt
+90-17	8159-8166	Celcius	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.*	Celcius
+90-18	8167-8170	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+90-19	8171-8181	Fahrenheit	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Fahrenheit
+90-20	8182-8187	Skala	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Skala
+90-21	8188-8189	,	_	_	_	_	_	_	_	_	_	$,	_	,
+90-22	8190-8193	und	_	_	_	_	_	_	_	_	_	KON	_	und
+90-23	8194-8197	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.Masc	sie
+90-24	8198-8207	schreiben	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	schreiben
+90-25	8208-8209	°	_	_	_	_	_	_	_	_	_	$(	_	°
+90-26	8210-8211	F	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	F
+90-27	8212-8213	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Zeit schließlich sagt uns , wie lange etwas dauert .
+91-1	8216-8219	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+91-2	8220-8224	Zeit	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Zeit
+91-3	8225-8236	schließlich	_	_	_	_	_	_	_	_	_	ADV	_	schließlich
+91-4	8237-8241	sagt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	sagen
+91-5	8242-8245	uns	_	_	_	_	_	_	_	_	_	PPER	1.Dat.Pl.*	uns
+91-6	8246-8247	,	_	_	_	_	_	_	_	_	_	$,	_	,
+91-7	8248-8251	wie	_	_	_	_	_	_	_	_	_	PWAV	_	wie
+91-8	8252-8257	lange	_	_	_	_	_	_	_	_	_	ADV	_	lange
+91-9	8258-8263	etwas	_	_	_	_	_	_	_	_	_	PIS	*.*.Neut	etwas
+91-10	8264-8270	dauert	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	dauern
+91-11	8271-8272	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Erde umkreist die Sonne innerhalb eines Jahres .
+92-1	8275-8278	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+92-2	8279-8283	Erde	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Erde
+92-3	8284-8292	umkreist	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	umkreisen
+92-4	8293-8296	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+92-5	8297-8302	Sonne	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Sonne
+92-6	8303-8312	innerhalb	_	_	_	_	_	_	_	_	_	APPR	_	innerhalb
+92-7	8313-8318	eines	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	ein
+92-8	8319-8325	Jahres	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Jahr
+92-9	8326-8327	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Zeit , die der Mond für seine Reise einmal um die Erde benötigt , nennen wir fast so wie den Mon d selbst , nämlich Mon at .
+93-1	8330-8333	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+93-2	8334-8338	Zeit	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Zeit
+93-3	8339-8340	,	_	_	_	_	_	_	_	_	_	$,	_	,
+93-4	8341-8344	die	_	_	_	_	_	_	_	_	_	PRELS	Acc.Sg.Fem	der
+93-5	8345-8348	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+93-6	8349-8353	Mond	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Mond
+93-7	8354-8357	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+93-8	8358-8363	seine	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Fem	sein
+93-9	8364-8369	Reise	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Reise
+93-10	8370-8376	einmal	_	_	_	_	_	_	_	_	_	ADV	_	einmal
+93-11	8377-8379	um	_	_	_	_	_	_	_	_	_	APPR	_	um
+93-12	8380-8383	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+93-13	8384-8388	Erde	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Erde
+93-14	8389-8397	benötigt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	benötigen
+93-15	8398-8399	,	_	_	_	_	_	_	_	_	_	$,	_	,
+93-16	8400-8406	nennen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	nennen
+93-17	8407-8410	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+93-18	8411-8415	fast	_	_	_	_	_	_	_	_	_	ADV	_	fast
+93-19	8416-8418	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+93-20	8419-8422	wie	_	_	_	_	_	_	_	_	_	KOKOM	_	wie
+93-21	8423-8426	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der
+93-22	8427-8430	Mon	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Mon
+93-23	8431-8432	d	_	_	_	_	_	_	_	_	_	FM	_	d
+93-24	8433-8439	selbst	_	_	_	_	_	_	_	_	_	ADV	_	selbst
+93-25	8440-8441	,	_	_	_	_	_	_	_	_	_	$,	_	,
+93-26	8442-8449	nämlich	_	_	_	_	_	_	_	_	_	ADV	_	nämlich
+93-27	8450-8453	Mon	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Mon
+93-28	8454-8456	at	_	_	_	_	_	_	_	_	_	PTKVZ	_	at
+93-29	8457-8458	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Ein Tag ist eine komplette Drehung der Erde einmal um sich selbst .
+94-1	8461-8464	Ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+94-2	8465-8468	Tag	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Tag
+94-3	8469-8472	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+94-4	8473-8477	eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein
+94-5	8478-8487	komplette	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	komplett
+94-6	8488-8495	Drehung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Drehung
+94-7	8496-8499	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+94-8	8500-8504	Erde	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Erde
+94-9	8505-8511	einmal	_	_	_	_	_	_	_	_	_	ADV	_	einmal
+94-10	8512-8514	um	_	_	_	_	_	_	_	_	_	APPR	_	um
+94-11	8515-8519	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+94-12	8520-8526	selbst	_	_	_	_	_	_	_	_	_	ADV	_	selbst
+94-13	8527-8528	.	_	_	_	_	_	_	_	_	_	$.	_	.

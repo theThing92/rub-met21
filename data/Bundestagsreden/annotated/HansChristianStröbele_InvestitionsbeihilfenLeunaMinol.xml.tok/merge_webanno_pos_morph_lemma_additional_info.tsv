@@ -1,0 +1,1005 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.MET_A|MFlag|Rolle
+#T_SP=webanno.custom.MET_B|basic|c_mark
+#T_SP=webanno.custom.MET_B2|b_Lex
+#T_SP=webanno.custom.MET_C|a_Ref|b_Art
+#T_SP=webanno.custom.MET_D|a_Par
+
+
+#Text=Hans Christian Ströbele ( BÜNDNIS 90/DIE GRÜNEN ) : Die Antragsteller sind fast alle Kollegen und Kolleginnen aus der Union , die mit mir im Spendenuntersuchungsausschuss sitzen .
+1-1	0-4	Hans	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Hans	_	_
+1-2	5-14	Christian	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Christian	_	_
+1-3	15-23	Ströbele	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Ströbele	_	_
+1-4	24-25	(	_	_	_	_	_	_	_	_	$(	_	(	_	_
+1-5	26-33	BÜNDNIS	_	_	_	_	_	_	_	_	NE	Nom.Sg.Neut	Bündnis	_	_
+1-6	34-36	90	_	_	_	_	_	_	_	_	NE	*.*.*	90	_	_
+1-7	36-37	/	_	_	_	_	_	_	_	_	NE	*.*.*	/	_	_
+1-8	37-40	DIE	_	_	_	_	_	_	_	_	NE	*.*.*	DIE	_	_
+1-9	41-47	GRÜNEN	_	_	_	_	_	_	_	_	NE	Nom.Sg.Neut	Grünen	_	_
+1-10	48-49	)	_	_	_	_	_	_	_	_	$(	_	)	_	_
+1-11	50-51	:	_	_	_	_	_	_	_	_	$.	_	:	_	_
+1-12	52-55	Die	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der	_	_
+1-13	56-69	Antragsteller	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Antragsteller	_	_
+1-14	70-74	sind	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_
+1-15	75-79	fast	_	_	_	_	_	_	_	_	ADV	_	fast	_	_
+1-16	80-84	alle	_	_	_	_	_	_	_	_	PIAT	Nom.Pl.*	aller	_	_
+1-17	85-93	Kollegen	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Kollege	_	_
+1-18	94-97	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+1-19	98-109	Kolleginnen	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Kollegin	_	_
+1-20	110-113	aus	_	_	_	_	_	_	_	_	APPR	_	aus	_	_
+1-21	114-117	der	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+1-22	118-123	Union	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Union	_	_
+1-23	124-125	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+1-24	126-129	die	_	_	_	_	_	_	_	_	PRELS	Nom.Pl.Masc	der	_	_
+1-25	130-133	mit	_	_	_	_	_	_	_	_	APPR	_	mit	_	_
+1-26	134-137	mir	_	_	_	_	_	_	_	_	PPER	1.Dat.Sg.*	mir	_	_
+1-27	138-140	im	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in	_	_
+1-28	141-170	Spendenuntersuchungsausschuss	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Spendenuntersuchungsausschuss	_	_
+1-29	171-177	sitzen	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	sitzen	_	_
+1-30	178-179	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Das macht misstrauisch .
+2-1	182-185	Das	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der	_	_
+2-2	186-191	macht	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	machen	_	_
+2-3	192-204	misstrauisch	_	_	_	_	_	_	_	_	ADJD	Pos	misstrauisch	_	_
+2-4	205-206	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Ihre Absicht ist durchsichtig : Sie wollen mal wieder dem ehemaligen Bundeskanzler Dr . Kohl beispringen und der Bundesregierung Untätigkeit und Beteiligung an einer " Verleumdungskampagne " vorwerfen .
+3-1	209-213	Ihre	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Fem	ihr	_	_
+3-2	214-221	Absicht	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Absicht	_	_
+3-3	222-225	ist	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
+3-4	226-238	durchsichtig	_	_	_	_	_	_	_	_	ADJD	Pos	durchsichtig	_	_
+3-5	239-240	:	_	_	_	_	_	_	_	_	$.	_	:	_	_
+3-6	241-244	Sie	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie	_	_
+3-7	245-251	wollen	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	wollen	_	_
+3-8	252-255	mal	_	_	_	_	_	_	_	_	ADV	_	mal	_	_
+3-9	256-262	wieder	_	_	_	_	_	_	_	_	ADV	_	wieder	_	_
+3-10	263-266	dem	_	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	der	_	_
+3-11	267-277	ehemaligen	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Masc	ehemalig	_	_
+3-12	278-291	Bundeskanzler	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Bundeskanzler	_	_
+3-13	292-294	Dr	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Dr	_	_
+3-14	295-296	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+3-15	297-301	Kohl	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Kohl	_	_
+3-16	302-313	beispringen	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	beispringen	_	_
+3-17	314-317	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+3-18	318-321	der	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+3-19	322-337	Bundesregierung	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Bundesregierung	_	_
+3-20	338-349	Untätigkeit	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Untätigkeit	_	_
+3-21	350-353	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+3-22	354-365	Beteiligung	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Beteiligung	_	_
+3-23	366-368	an	_	_	_	_	_	_	_	_	APPR	_	an	_	_
+3-24	369-374	einer	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	ein	_	_
+3-25	375-376	"	_	_	_	_	_	_	_	_	$(	_	"	_	_
+3-26	377-397	Verleumdungskampagne	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Verleumdungskampagne	_	_
+3-27	398-399	"	_	_	_	_	_	_	_	_	$(	_	"	_	_
+3-28	400-409	vorwerfen	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	vorwerfen	_	_
+3-29	410-411	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Angeblich soll sie den Abschluss eines Prüfverfahrens von Subventionen verzögern , die bei der Privatisierung von Leuna und Minol gezahlt wurden .
+4-1	414-423	Angeblich	_	_	_	_	_	_	_	_	ADJD	Pos	angeblich	_	_
+4-2	424-428	soll	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	sollen	_	_
+4-3	429-432	sie	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Fem	sie	_	_
+4-4	433-436	den	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	_	_
+4-5	437-446	Abschluss	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Abschluss	_	_
+4-6	447-452	eines	_	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	ein	_	_
+4-7	453-467	Prüfverfahrens	_	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Prüfverfahren	_	_
+4-8	468-471	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+4-9	472-484	Subventionen	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Subvention	_	_
+4-10	485-494	verzögern	_	_	_	_	_	_	_	_	VVINF	Inf	verzögern	_	_
+4-11	495-496	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+4-12	497-500	die	_	_	_	_	_	_	_	_	PRELS	Nom.Pl.Fem	der	_	_
+4-13	501-504	bei	_	_	_	_	_	_	_	_	APPR	_	bei	_	_
+4-14	505-508	der	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+4-15	509-523	Privatisierung	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Privatisierung	_	_
+4-16	524-527	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+4-17	528-533	Leuna	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Leuna	_	_
+4-18	534-537	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+4-19	538-543	Minol	_	_	_	_	_	_	_	_	NE	Dat.Sg.*	Minol	_	_
+4-20	544-551	gezahlt	_	_	_	_	_	_	_	_	VVPP	Psp	zahlen	_	_
+4-21	552-558	wurden	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Ind	werden	_	_
+4-22	559-560	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Hätte sie aber schon zugestimmt , hätten Sie behauptet , was wir im Ausschuss noch klären wollen , sei schon geklärt und uns ginge es nur noch um Rufmord gegen Dr . Kohl .
+5-1	563-568	Hätte	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Subj	haben	_	_
+5-2	569-572	sie	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Fem	sie	_	_
+5-3	573-577	aber	_	_	_	_	_	_	_	_	ADV	_	aber	_	_
+5-4	578-583	schon	_	_	_	_	_	_	_	_	ADV	_	schon	_	_
+5-5	584-594	zugestimmt	_	_	_	_	_	_	_	_	VVPP	Psp	zustimmen	_	_
+5-6	595-596	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+5-7	597-603	hätten	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Subj	haben	_	_
+5-8	604-607	Sie	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie	_	_
+5-9	608-617	behauptet	_	_	_	_	_	_	_	_	VVPP	Psp	behaupten	_	_
+5-10	618-619	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+5-11	620-623	was	_	_	_	_	_	_	_	_	PWS	Acc.Sg.Neut	was	_	_
+5-12	624-627	wir	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir	_	_
+5-13	628-630	im	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in	_	_
+5-14	631-640	Ausschuss	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Ausschuss	_	_
+5-15	641-645	noch	_	_	_	_	_	_	_	_	ADV	_	noch	_	_
+5-16	646-652	klären	_	_	_	_	_	_	_	_	VVINF	Inf	klären	_	_
+5-17	653-659	wollen	_	_	_	_	_	_	_	_	VMFIN	1.Pl.Pres.Ind	wollen	_	_
+5-18	660-661	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+5-19	662-665	sei	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Subj	sein	_	_
+5-20	666-671	schon	_	_	_	_	_	_	_	_	ADV	_	schon	_	_
+5-21	672-679	geklärt	_	_	_	_	_	_	_	_	VVPP	Psp	klären	_	_
+5-22	680-683	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+5-23	684-687	uns	_	_	_	_	_	_	_	_	PPER	1.Dat.Pl.*	uns	_	_
+5-24	688-693	ginge	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Subj	gehen	_	_
+5-25	694-696	es	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
+5-26	697-700	nur	_	_	_	_	_	_	_	_	ADV	_	nur	_	_
+5-27	701-705	noch	_	_	_	_	_	_	_	_	ADV	_	noch	_	_
+5-28	706-708	um	_	_	_	_	_	_	_	_	APPR	_	um	_	_
+5-29	709-716	Rufmord	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Rufmord	_	_
+5-30	717-722	gegen	_	_	_	_	_	_	_	_	APPR	_	gegen	_	_
+5-31	723-725	Dr	_	_	_	_	_	_	_	_	NE	Acc.Sg.*	Dr	_	_
+5-32	726-727	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+5-33	728-732	Kohl	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Kohl	_	_
+5-34	733-734	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Nein , die Bundesregierung und auch die EU Kommission tun gut daran , den Bericht unseres Untersuchungsausschusses abzuwarten , bevor weitere Schritte erfolgen .
+6-1	737-741	Nein	_	_	_	_	_	_	_	_	PTKANT	_	nein	_	_
+6-2	742-743	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+6-3	744-747	die	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+6-4	748-763	Bundesregierung	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Bundesregierung	_	_
+6-5	764-767	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+6-6	768-772	auch	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
+6-7	773-776	die	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+6-8	777-779	EU	_	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	EU	_	_
+6-9	780-790	Kommission	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Kommission	_	_
+6-10	791-794	tun	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	tun	_	_
+6-11	795-798	gut	_	_	_	_	_	_	_	_	ADJD	Pos	gut	_	_
+6-12	799-804	daran	_	_	_	_	_	_	_	_	PROAV	_	daran	_	_
+6-13	805-806	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+6-14	807-810	den	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	_	_
+6-15	811-818	Bericht	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Bericht	_	_
+6-16	819-826	unseres	_	_	_	_	_	_	_	_	PPOSAT	Gen.Sg.Masc	unser	_	_
+6-17	827-851	Untersuchungsausschusses	_	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Untersuchungsausschuß	_	_
+6-18	852-862	abzuwarten	_	_	_	_	_	_	_	_	VVIZU	Infzu	abwarten	_	_
+6-19	863-864	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+6-20	865-870	bevor	_	_	_	_	_	_	_	_	KOUS	_	bevor	_	_
+6-21	871-878	weitere	_	_	_	_	_	_	_	_	ADJA	Comp.Nom.Pl.Masc	weit	_	_
+6-22	879-887	Schritte	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Schritt	_	_
+6-23	888-896	erfolgen	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	erfolgen	_	_
+6-24	897-898	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Schließlich geht es bei den zu prüfenden Subventionen um Steuergelder in beträchtlicher Höhe , nämlich mehr als 1 Milliarde DM .
+7-1	901-912	Schließlich	_	_	_	_	_	_	_	_	ADV	_	schließlich	_	_
+7-2	913-917	geht	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	gehen	_	_
+7-3	918-920	es	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
+7-4	921-924	bei	_	_	_	_	_	_	_	_	APPR	_	bei	_	_
+7-5	925-928	den	_	_	_	_	_	_	_	_	ART	Dat.Pl.Fem	der	_	_
+7-6	929-931	zu	_	_	_	_	_	_	_	_	PTKA	_	zu	_	_
+7-7	932-941	prüfenden	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Fem	prüfend	_	_
+7-8	942-954	Subventionen	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Subvention	_	_
+7-9	955-957	um	_	_	_	_	_	_	_	_	APPR	_	um	_	_
+7-10	958-970	Steuergelder	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Steuergeld	_	_
+7-11	971-973	in	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+7-12	974-988	beträchtlicher	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	beträchtlich	_	_
+7-13	989-993	Höhe	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Höhe	_	_
+7-14	994-995	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+7-15	996-1003	nämlich	_	_	_	_	_	_	_	_	ADV	_	nämlich	_	_
+7-16	1004-1008	mehr	_	_	_	_	_	_	_	_	PIAT	*.*.*	mehr	_	_
+7-17	1009-1012	als	_	_	_	_	_	_	_	_	KOKOM	_	als	_	_
+7-18	1013-1014	1	_	_	_	_	_	_	_	_	CARD	_	1	_	_
+7-19	1015-1024	Milliarde	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Milliarde	_	_
+7-20	1025-1027	DM	_	_	_	_	_	_	_	_	NN	*.*.Fem	DM	_	_
+7-21	1028-1029	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Die Bürgerinnen und Bürger wollen , dass gründlich geprüft wird , wenn es um den Verdacht von krimineller Subventionserschleichung geht .
+8-1	1032-1035	Die	_	_	_	_	_	_	_	_	ART	Nom.Pl.*	der	_	_
+8-2	1036-1047	Bürgerinnen	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Bürgerin	_	_
+8-3	1048-1051	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+8-4	1052-1058	Bürger	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Bürger	_	_
+8-5	1059-1065	wollen	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	wollen	_	_
+8-6	1066-1067	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+8-7	1068-1072	dass	_	_	_	_	_	_	_	_	KOUS	_	dass	_	_
+8-8	1073-1082	gründlich	_	_	_	_	_	_	_	_	ADJD	Pos	gründlich	_	_
+8-9	1083-1090	geprüft	_	_	_	_	_	_	_	_	VVPP	Psp	prüfen	_	_
+8-10	1091-1095	wird	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	werden	_	_
+8-11	1096-1097	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+8-12	1098-1102	wenn	_	_	_	_	_	_	_	_	KOUS	_	wenn	_	_
+8-13	1103-1105	es	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
+8-14	1106-1108	um	_	_	_	_	_	_	_	_	APPR	_	um	_	_
+8-15	1109-1112	den	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	_	_
+8-16	1113-1121	Verdacht	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Verdacht	_	_
+8-17	1122-1125	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+8-18	1126-1137	krimineller	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	kriminell	_	_
+8-19	1138-1162	Subventionserschleichung	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Subventionserschleichung	_	_
+8-20	1163-1167	geht	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	gehen	_	_
+8-21	1168-1169	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Unser Abschlussbericht wird hierzu die gesammelten Daten und Fakten zusammenstellen .
+9-1	1172-1177	Unser	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Masc	unser	_	_
+9-2	1178-1194	Abschlussbericht	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Abschlussbericht	_	_
+9-3	1195-1199	wird	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	werden	_	_
+9-4	1200-1206	hierzu	_	_	_	_	_	_	_	_	PROAV	_	hierzu	_	_
+9-5	1207-1210	die	_	_	_	_	_	_	_	_	ART	Acc.Pl.*	der	_	_
+9-6	1211-1222	gesammelten	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Neut	gesammelt	_	_
+9-7	1223-1228	Daten	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Datum	_	_
+9-8	1229-1232	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+9-9	1233-1239	Fakten	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Fakt	_	_
+9-10	1240-1255	zusammenstellen	_	_	_	_	_	_	_	_	VVINF	Inf	zusammenstellen	_	_
+9-11	1256-1257	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Vielleicht ist es das , was Sie fürchten .
+10-1	1260-1270	Vielleicht	_	_	_	_	_	_	_	_	ADV	_	vielleicht	_	_
+10-2	1271-1274	ist	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
+10-3	1275-1277	es	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
+10-4	1278-1281	das	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der	_	_
+10-5	1282-1283	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+10-6	1284-1287	was	_	_	_	_	_	_	_	_	PRELS	Acc.Sg.Neut	wer	_	_
+10-7	1288-1291	Sie	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie	_	_
+10-8	1292-1300	fürchten	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	fürchten	_	_
+10-9	1301-1302	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Das wollen Sie offensichtlich nicht abwarten .
+11-1	1305-1308	Das	_	_	_	_	_	_	_	_	PDS	Acc.Sg.Neut	der	_	_
+11-2	1309-1315	wollen	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	wollen	_	_
+11-3	1316-1319	Sie	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie	_	_
+11-4	1320-1334	offensichtlich	_	_	_	_	_	_	_	_	ADJD	Pos	offensichtlich	_	_
+11-5	1335-1340	nicht	_	_	_	_	_	_	_	_	PTKNEG	_	nicht	_	_
+11-6	1341-1349	abwarten	_	_	_	_	_	_	_	_	VVINF	Inf	abwarten	_	_
+11-7	1350-1351	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Verdachtsmomente , die jede Bundesregierung zu einer Prüfung geradezu verpflichten , sind : Erstens .
+12-1	1354-1370	Verdachtsmomente	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Verdachtsmoment	_	_
+12-2	1371-1372	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+12-3	1373-1376	die	_	_	_	_	_	_	_	_	PRELS	Nom.Pl.Neut	der	_	_
+12-4	1377-1381	jede	_	_	_	_	_	_	_	_	PIAT	Acc.Sg.Fem	jeder	_	_
+12-5	1382-1397	Bundesregierung	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Bundesregierung	_	_
+12-6	1398-1400	zu	_	_	_	_	_	_	_	_	APPR	_	zu	_	_
+12-7	1401-1406	einer	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	ein	_	_
+12-8	1407-1414	Prüfung	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Prüfung	_	_
+12-9	1415-1423	geradezu	_	_	_	_	_	_	_	_	ADV	_	geradezu	_	_
+12-10	1424-1436	verpflichten	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	verpflichten	_	_
+12-11	1437-1438	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+12-12	1439-1443	sind	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_
+12-13	1444-1445	:	_	_	_	_	_	_	_	_	$.	_	:	_	_
+12-14	1446-1453	Erstens	_	_	_	_	_	_	_	_	ADV	_	erstens	_	_
+12-15	1454-1455	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Akten zum Privatisierungsvorgang Leuna/Minol aus der Zeit der Kanzlerschaft von Dr . Kohl sind spurlos verschwunden .
+13-1	1458-1463	Akten	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Akte	_	_
+13-2	1464-1467	zum	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	zu	_	_
+13-3	1468-1490	Privatisierungsvorgang	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Privatisierungsvorgang	_	_
+13-4	1491-1496	Leuna	_	_	_	_	_	_	_	_	NE	Nom.Sg.Neut	Leuna	_	_
+13-5	1496-1497	/	_	_	_	_	_	_	_	_	NE	Nom.Sg.Neut	/	_	_
+13-6	1497-1502	Minol	_	_	_	_	_	_	_	_	NE	Nom.Sg.Neut	Minol	_	_
+13-7	1503-1506	aus	_	_	_	_	_	_	_	_	APPR	_	aus	_	_
+13-8	1507-1510	der	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+13-9	1511-1515	Zeit	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Zeit	_	_
+13-10	1516-1519	der	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	_	_
+13-11	1520-1533	Kanzlerschaft	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Kanzlerschaft	_	_
+13-12	1534-1537	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+13-13	1538-1540	Dr	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Dr	_	_
+13-14	1541-1542	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+13-15	1543-1547	Kohl	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Kohl	_	_
+13-16	1548-1552	sind	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_
+13-17	1553-1560	spurlos	_	_	_	_	_	_	_	_	ADJD	Pos	spurlos	_	_
+13-18	1561-1573	verschwunden	_	_	_	_	_	_	_	_	VVPP	Psp	verschwinden	_	_
+13-19	1574-1575	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Auch Aktenkopien sind nicht mehr da .
+14-1	1578-1582	Auch	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
+14-2	1583-1594	Aktenkopien	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Aktenkopie	_	_
+14-3	1595-1599	sind	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_
+14-4	1600-1605	nicht	_	_	_	_	_	_	_	_	PTKNEG	_	nicht	_	_
+14-5	1606-1610	mehr	_	_	_	_	_	_	_	_	ADV	_	mehr	_	_
+14-6	1611-1613	da	_	_	_	_	_	_	_	_	ADV	_	da	_	_
+14-7	1614-1615	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Soweit überhaupt schriftliche Unterlagen vorhanden sind , sind diese lückenhaft .
+15-1	1618-1624	Soweit	_	_	_	_	_	_	_	_	KOUS	_	soweit	_	_
+15-2	1625-1634	überhaupt	_	_	_	_	_	_	_	_	ADV	_	überhaupt	_	_
+15-3	1635-1647	schriftliche	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Fem	schriftlich	_	_
+15-4	1648-1658	Unterlagen	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Unterlage	_	_
+15-5	1659-1668	vorhanden	_	_	_	_	_	_	_	_	ADJD	Pos	vorhanden	_	_
+15-6	1669-1673	sind	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_
+15-7	1674-1675	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+15-8	1676-1680	sind	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_
+15-9	1681-1686	diese	_	_	_	_	_	_	_	_	PDS	Nom.Pl.Fem	dieser	_	_
+15-10	1687-1697	lückenhaft	_	_	_	_	_	_	_	_	ADJD	Pos	lückenhaft	_	_
+15-11	1698-1699	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Viele Papiere sind den Untersuchungsausschüssen der 12 . und 13 .
+16-1	1702-1707	Viele	_	_	_	_	_	_	_	_	PIAT	Nom.Pl.Neut	vieler	_	_
+16-2	1708-1715	Papiere	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Papier	_	_
+16-3	1716-1720	sind	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_
+16-4	1721-1724	den	_	_	_	_	_	_	_	_	ART	Dat.Pl.Masc	der	_	_
+16-5	1725-1749	Untersuchungsausschüssen	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Untersuchungsausschuß	_	_
+16-6	1750-1753	der	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	_	_
+16-7	1754-1756	12	_	_	_	_	_	_	_	_	CARD	_	12	_	_
+16-8	1757-1758	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+16-9	1759-1762	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+16-10	1763-1765	13	_	_	_	_	_	_	_	_	CARD	_	13	_	_
+16-11	1766-1767	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Wahlperiode von der Kohl Regierung vorenthalten worden .
+17-1	1770-1781	Wahlperiode	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Wahlperiode	_	_
+17-2	1782-1785	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+17-3	1786-1789	der	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+17-4	1790-1794	Kohl	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Kohl	_	_
+17-5	1795-1804	Regierung	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Regierung	_	_
+17-6	1805-1817	vorenthalten	_	_	_	_	_	_	_	_	VVPP	Psp	vorenthalten	_	_
+17-7	1818-1824	worden	_	_	_	_	_	_	_	_	VAPP	Psp	werden	_	_
+17-8	1825-1826	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Es ist auch nicht mehr nachvollziehbar , was dem Parlament überhaupt vorgelegt wurde .
+18-1	1829-1831	Es	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
+18-2	1832-1835	ist	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
+18-3	1836-1840	auch	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
+18-4	1841-1846	nicht	_	_	_	_	_	_	_	_	PTKNEG	_	nicht	_	_
+18-5	1847-1851	mehr	_	_	_	_	_	_	_	_	ADV	_	mehr	_	_
+18-6	1852-1867	nachvollziehbar	_	_	_	_	_	_	_	_	ADJD	Pos	nachvollziehbar	_	_
+18-7	1868-1869	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+18-8	1870-1873	was	_	_	_	_	_	_	_	_	PWS	Nom.Sg.Neut	was	_	_
+18-9	1874-1877	dem	_	_	_	_	_	_	_	_	ART	Dat.Sg.Neut	der	_	_
+18-10	1878-1887	Parlament	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Parlament	_	_
+18-11	1888-1897	überhaupt	_	_	_	_	_	_	_	_	ADV	_	überhaupt	_	_
+18-12	1898-1907	vorgelegt	_	_	_	_	_	_	_	_	VVPP	Psp	vorlegen	_	_
+18-13	1908-1913	wurde	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	werden	_	_
+18-14	1914-1915	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Zweitens .
+19-1	1918-1926	Zweitens	_	_	_	_	_	_	_	_	ADV	_	zweitens	_	_
+19-2	1927-1928	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Ein zweistelliger Millionenbetrag ist seit Beginn der 90er Jahre versteckt an die CDU und hohe Funktionsträger dieser Regierungspartei bzw . an Bundeskanzler Dr . Kohl geflossen .
+20-1	1931-1934	Ein	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	_	_
+20-2	1935-1948	zweistelliger	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	zweistellig	_	_
+20-3	1949-1964	Millionenbetrag	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Millionenbetrag	_	_
+20-4	1965-1968	ist	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
+20-5	1969-1973	seit	_	_	_	_	_	_	_	_	APPR	_	seit	_	_
+20-6	1974-1980	Beginn	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Beginn	_	_
+20-7	1981-1984	der	_	_	_	_	_	_	_	_	ART	Gen.Pl.Neut	der	_	_
+20-8	1985-1989	90er	_	_	_	_	_	_	_	_	ADJA	Pos.*.*.*	90	_	_
+20-9	1990-1995	Jahre	_	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Jahr	_	_
+20-10	1996-2005	versteckt	_	_	_	_	_	_	_	_	VVPP	Psp	verstecken	_	_
+20-11	2006-2008	an	_	_	_	_	_	_	_	_	APPR	_	an	_	_
+20-12	2009-2012	die	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	_	_
+20-13	2013-2016	CDU	_	_	_	_	_	_	_	_	NE	Acc.Sg.Fem	CDU	_	_
+20-14	2017-2020	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+20-15	2021-2025	hohe	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Masc	hoch	_	_
+20-16	2026-2041	Funktionsträger	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Funktionsträger	_	_
+20-17	2042-2048	dieser	_	_	_	_	_	_	_	_	PDAT	Gen.Sg.Fem	dieser	_	_
+20-18	2049-2065	Regierungspartei	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Regierungspartei	_	_
+20-19	2066-2069	bzw	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	bzw	_	_
+20-20	2070-2071	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+20-21	2072-2074	an	_	_	_	_	_	_	_	_	APPR	_	an	_	_
+20-22	2075-2088	Bundeskanzler	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Bundeskanzler	_	_
+20-23	2089-2091	Dr	_	_	_	_	_	_	_	_	XY	_	Dr	_	_
+20-24	2092-2093	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+20-25	2094-2098	Kohl	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Kohl	_	_
+20-26	2099-2108	geflossen	_	_	_	_	_	_	_	_	VVPP	Psp	fließen	_	_
+20-27	2109-2110	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Die Herkunft dieser Gelder ist ungeklärt .
+21-1	2113-2116	Die	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+21-2	2117-2125	Herkunft	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Herkunft	_	_
+21-3	2126-2132	dieser	_	_	_	_	_	_	_	_	PDAT	Gen.Pl.Neut	dieser	_	_
+21-4	2133-2139	Gelder	_	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Geld	_	_
+21-5	2140-2143	ist	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
+21-6	2144-2153	ungeklärt	_	_	_	_	_	_	_	_	ADJD	Pos	ungeklärt	_	_
+21-7	2154-2155	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Dr . Kohl behauptet , es waren Spenden .
+22-1	2158-2160	Dr	_	_	_	_	_	_	_	_	XY	_	Dr	_	_
+22-2	2161-2162	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+22-3	2163-2167	Kohl	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Kohl	_	_
+22-4	2168-2177	behauptet	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	behaupten	_	_
+22-5	2178-2179	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+22-6	2180-2182	es	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
+22-7	2183-2188	waren	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Ind	sein	_	_
+22-8	2189-2196	Spenden	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Spende	_	_
+22-9	2197-2198	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Aber stimmt das ?
+23-1	2201-2205	Aber	_	_	_	_	_	_	_	_	KON	_	aber	_	_
+23-2	2206-2212	stimmt	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	stimmen	_	_
+23-3	2213-2216	das	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der	_	_
+23-4	2217-2218	?	_	_	_	_	_	_	_	_	$.	_	?	_	_
+
+#Text=Er sagt nicht , von wem die Spenden stammten .
+24-1	2221-2223	Er	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er	_	_
+24-2	2224-2228	sagt	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	sagen	_	_
+24-3	2229-2234	nicht	_	_	_	_	_	_	_	_	PTKNEG	_	nicht	_	_
+24-4	2235-2236	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+24-5	2237-2240	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+24-6	2241-2244	wem	_	_	_	_	_	_	_	_	PWS	Dat.Sg.Masc	wem	_	_
+24-7	2245-2248	die	_	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der	_	_
+24-8	2249-2256	Spenden	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Spende	_	_
+24-9	2257-2265	stammten	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Past.Subj	stammen	_	_
+24-10	2266-2267	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Die CDU hat mindestens seit Beginn der 80er Jahre mysteriöse Konten , Schließfächer und Stiftungen mit so wohlklingenden Phantasienamen wie " Zaunkönig " in der Schweiz unterhalten , über die Gelder in Millionenhöhe abgewickelt wurden , ohne dass die Herkunft der Gelder geklärt wurde .
+25-1	2270-2273	Die	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+25-2	2274-2277	CDU	_	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	CDU	_	_
+25-3	2278-2281	hat	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben	_	_
+25-4	2282-2292	mindestens	_	_	_	_	_	_	_	_	ADV	_	mindestens	_	_
+25-5	2293-2297	seit	_	_	_	_	_	_	_	_	APPR	_	seit	_	_
+25-6	2298-2304	Beginn	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Beginn	_	_
+25-7	2305-2308	der	_	_	_	_	_	_	_	_	ART	Gen.Pl.Neut	der	_	_
+25-8	2309-2313	80er	_	_	_	_	_	_	_	_	ADJA	Pos.*.*.*	80er	_	_
+25-9	2314-2319	Jahre	_	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Jahr	_	_
+25-10	2320-2330	mysteriöse	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Neut	mysteriös	_	_
+25-11	2331-2337	Konten	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Konto	_	_
+25-12	2338-2339	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+25-13	2340-2353	Schließfächer	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Schließfach	_	_
+25-14	2354-2357	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+25-15	2358-2368	Stiftungen	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Stiftung	_	_
+25-16	2369-2372	mit	_	_	_	_	_	_	_	_	APPR	_	mit	_	_
+25-17	2373-2375	so	_	_	_	_	_	_	_	_	ADV	_	so	_	_
+25-18	2376-2390	wohlklingenden	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Masc	wohlklingend	_	_
+25-19	2391-2405	Phantasienamen	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Phantasiename	_	_
+25-20	2406-2409	wie	_	_	_	_	_	_	_	_	KOKOM	_	wie	_	_
+25-21	2410-2411	"	_	_	_	_	_	_	_	_	$(	_	"	_	_
+25-22	2412-2421	Zaunkönig	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Zaunkönig	_	_
+25-23	2422-2423	"	_	_	_	_	_	_	_	_	$(	_	"	_	_
+25-24	2424-2426	in	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+25-25	2427-2430	der	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+25-26	2431-2438	Schweiz	_	_	_	_	_	_	_	_	NE	Dat.Sg.Fem	Schweiz	_	_
+25-27	2439-2450	unterhalten	_	_	_	_	_	_	_	_	VVPP	Psp	unterhalten	_	_
+25-28	2451-2452	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+25-29	2453-2457	über	_	_	_	_	_	_	_	_	APPR	_	über	_	_
+25-30	2458-2461	die	_	_	_	_	_	_	_	_	ART	Acc.Pl.Neut	der	_	_
+25-31	2462-2468	Gelder	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Geld	_	_
+25-32	2469-2471	in	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+25-33	2472-2485	Millionenhöhe	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Millionenhöhe	_	_
+25-34	2486-2497	abgewickelt	_	_	_	_	_	_	_	_	VVPP	Psp	abwickeln	_	_
+25-35	2498-2504	wurden	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Ind	werden	_	_
+25-36	2505-2506	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+25-37	2507-2511	ohne	_	_	_	_	_	_	_	_	APPR	_	ohne	_	_
+25-38	2512-2516	dass	_	_	_	_	_	_	_	_	PRELS	Acc.Sg.Neut	der	_	_
+25-39	2517-2520	die	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+25-40	2521-2529	Herkunft	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Herkunft	_	_
+25-41	2530-2533	der	_	_	_	_	_	_	_	_	ART	Gen.Pl.Neut	der	_	_
+25-42	2534-2540	Gelder	_	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Geld	_	_
+25-43	2541-2548	geklärt	_	_	_	_	_	_	_	_	VVPP	Psp	klären	_	_
+25-44	2549-2554	wurde	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	werden	_	_
+25-45	2555-2556	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Beteiligt hieran waren die ehrenwertesten Kreise der CDU wie Ihr Bundesschatzmeister himself .
+26-1	2559-2568	Beteiligt	_	_	_	_	_	_	_	_	VVPP	Psp	beteiligen	_	_
+26-2	2569-2575	hieran	_	_	_	_	_	_	_	_	PROAV	_	hieran	_	_
+26-3	2576-2581	waren	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Ind	sein	_	_
+26-4	2582-2585	die	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der	_	_
+26-5	2586-2600	ehrenwertesten	_	_	_	_	_	_	_	_	ADJA	Sup.Nom.Pl.Masc	ehrenwert	_	_
+26-6	2601-2607	Kreise	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Kreis	_	_
+26-7	2608-2611	der	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	_	_
+26-8	2612-2615	CDU	_	_	_	_	_	_	_	_	NE	Gen.Sg.Fem	CDU	_	_
+26-9	2616-2619	wie	_	_	_	_	_	_	_	_	KOKOM	_	wie	_	_
+26-10	2620-2623	Ihr	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Masc	ihr	_	_
+26-11	2624-2643	Bundesschatzmeister	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Bundesschatzmeister	_	_
+26-12	2644-2651	himself	_	_	_	_	_	_	_	_	ADJD	Pos	himself	_	_
+26-13	2652-2653	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Der war übrigens auch im Rahmen der Privatisierung von Leuna/Minol höchst aktiv .
+27-1	2656-2659	Der	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Masc	der	_	_
+27-2	2660-2663	war	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	sein	_	_
+27-3	2664-2672	übrigens	_	_	_	_	_	_	_	_	ADV	_	übrigens	_	_
+27-4	2673-2677	auch	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
+27-5	2678-2680	im	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in	_	_
+27-6	2681-2687	Rahmen	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Rahmen	_	_
+27-7	2688-2691	der	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	_	_
+27-8	2692-2706	Privatisierung	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Privatisierung	_	_
+27-9	2707-2710	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+27-10	2711-2716	Leuna	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Leuna	_	_
+27-11	2716-2717	/	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	/	_	_
+27-12	2717-2722	Minol	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Minol	_	_
+27-13	2723-2729	höchst	_	_	_	_	_	_	_	_	ADV	_	höchst	_	_
+27-14	2730-2735	aktiv	_	_	_	_	_	_	_	_	ADJD	Pos	aktiv	_	_
+27-15	2736-2737	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Könnte es Zusammenhänge geben zwischen Schweizer Konten und Geschäften ?
+28-1	2740-2746	Könnte	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Past.Subj	können	_	_
+28-2	2747-2749	es	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
+28-3	2750-2763	Zusammenhänge	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Zusammenhang	_	_
+28-4	2764-2769	geben	_	_	_	_	_	_	_	_	VVINF	Inf	geben	_	_
+28-5	2770-2778	zwischen	_	_	_	_	_	_	_	_	APPR	_	zwischen	_	_
+28-6	2779-2788	Schweizer	_	_	_	_	_	_	_	_	ADJA	Pos.*.*.*	schweiz	_	_
+28-7	2789-2795	Konten	_	_	_	_	_	_	_	_	NN	Dat.Pl.Neut	Konto	_	_
+28-8	2796-2799	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+28-9	2800-2810	Geschäften	_	_	_	_	_	_	_	_	NN	Dat.Pl.Neut	Geschäft	_	_
+28-10	2811-2812	?	_	_	_	_	_	_	_	_	$.	_	?	_	_
+
+#Text=Waren es Einflussspenden ?
+29-1	2815-2820	Waren	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Ind	sein	_	_
+29-2	2821-2823	es	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
+29-3	2824-2839	Einflussspenden	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Einflussspende	_	_
+29-4	2840-2841	?	_	_	_	_	_	_	_	_	$.	_	?	_	_
+
+#Text=Drittens .
+30-1	2844-2852	Drittens	_	_	_	_	_	_	_	_	ADV	_	drittens	_	_
+30-2	2853-2854	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Des Weiteren ist Ihr ehemaliger Staatssekretär Dr . Pfahls zu nennen .
+31-1	2857-2860	Des	_	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	der	_	_
+31-2	2861-2869	Weiteren	_	_	_	_	_	_	_	_	PIS	Gen.Sg.Neut	weiterer	_	_
+31-3	2870-2873	ist	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
+31-4	2874-2877	Ihr	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Masc	ihr	_	_
+31-5	2878-2888	ehemaliger	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	ehemalig	_	_
+31-6	2889-2903	Staatssekretär	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Staatssekretär	_	_
+31-7	2904-2906	Dr	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Dr	_	_
+31-8	2907-2908	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+31-9	2909-2915	Pfahls	_	_	_	_	_	_	_	_	ADV	_	pfahls	_	_
+31-10	2916-2918	zu	_	_	_	_	_	_	_	_	PTKZU	_	zu	_	_
+31-11	2919-2925	nennen	_	_	_	_	_	_	_	_	VVINF	Inf	nennen	_	_
+31-12	2926-2927	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Bei der Leuna/Minol Privatisierung soll Herr Dr . Pfahls auch dabei gewesen sein , nicht nur bei dem Fuchs Panzergeschäft , das den Ausschuss beschäftigt .
+32-1	2930-2933	Bei	_	_	_	_	_	_	_	_	APPR	_	bei	_	_
+32-2	2934-2937	der	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+32-3	2938-2943	Leuna	_	_	_	_	_	_	_	_	NE	*.*.*	Leuna	_	_
+32-4	2943-2944	/	_	_	_	_	_	_	_	_	NE	*.*.*	/	_	_
+32-5	2944-2949	Minol	_	_	_	_	_	_	_	_	NE	*.*.*	Minol	_	_
+32-6	2950-2964	Privatisierung	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Privatisierung	_	_
+32-7	2965-2969	soll	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	sollen	_	_
+32-8	2970-2974	Herr	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Herr	_	_
+32-9	2975-2977	Dr	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Dr	_	_
+32-10	2978-2979	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+32-11	2980-2986	Pfahls	_	_	_	_	_	_	_	_	ADV	_	pfahls	_	_
+32-12	2987-2991	auch	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
+32-13	2992-2997	dabei	_	_	_	_	_	_	_	_	PROAV	_	dabei	_	_
+32-14	2998-3005	gewesen	_	_	_	_	_	_	_	_	VAPP	Psp	sein	_	_
+32-15	3006-3010	sein	_	_	_	_	_	_	_	_	VAINF	Inf	sein	_	_
+32-16	3011-3012	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+32-17	3013-3018	nicht	_	_	_	_	_	_	_	_	PTKNEG	_	nicht	_	_
+32-18	3019-3022	nur	_	_	_	_	_	_	_	_	ADV	_	nur	_	_
+32-19	3023-3026	bei	_	_	_	_	_	_	_	_	APPR	_	bei	_	_
+32-20	3027-3030	dem	_	_	_	_	_	_	_	_	ART	Dat.Sg.Neut	der	_	_
+32-21	3031-3036	Fuchs	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Fuchs	_	_
+32-22	3037-3051	Panzergeschäft	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Panzergeschäft	_	_
+32-23	3052-3053	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+32-24	3054-3057	das	_	_	_	_	_	_	_	_	PRELS	Nom.Sg.Neut	der	_	_
+32-25	3058-3061	den	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	_	_
+32-26	3062-3071	Ausschuss	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Ausschuss	_	_
+32-27	3072-3083	beschäftigt	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	beschäftigen	_	_
+32-28	3084-3085	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Nach seinem Ausscheiden beim Bundesministerium der Verteidigung im April 1992 begann er seine Lobby Tätigkeit für Elf Aquitaine .
+33-1	3088-3092	Nach	_	_	_	_	_	_	_	_	APPR	_	nach	_	_
+33-2	3093-3099	seinem	_	_	_	_	_	_	_	_	PPOSAT	Dat.Sg.Neut	sein	_	_
+33-3	3100-3111	Ausscheiden	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Ausscheiden	_	_
+33-4	3112-3116	beim	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	bei	_	_
+33-5	3117-3134	Bundesministerium	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Bundesministerium	_	_
+33-6	3135-3138	der	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	_	_
+33-7	3139-3151	Verteidigung	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Verteidigung	_	_
+33-8	3152-3154	im	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in	_	_
+33-9	3155-3160	April	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	April	_	_
+33-10	3161-3165	1992	_	_	_	_	_	_	_	_	CARD	_	1992	_	_
+33-11	3166-3172	begann	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	beginnen	_	_
+33-12	3173-3175	er	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er	_	_
+33-13	3176-3181	seine	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Fem	sein	_	_
+33-14	3182-3187	Lobby	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Lobby	_	_
+33-15	3188-3197	Tätigkeit	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Tätigkeit	_	_
+33-16	3198-3201	für	_	_	_	_	_	_	_	_	APPR	_	für	_	_
+33-17	3202-3205	Elf	_	_	_	_	_	_	_	_	NE	*.*.*	Elf	_	_
+33-18	3206-3215	Aquitaine	_	_	_	_	_	_	_	_	NE	Acc.Sg.*	Aquitaine	_	_
+33-19	3216-3217	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Inzwischen ist er in Augsburg der Bestechlichkeit und der Steuerhinterziehung angeklagt .
+34-1	3220-3230	Inzwischen	_	_	_	_	_	_	_	_	ADV	_	inzwischen	_	_
+34-2	3231-3234	ist	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
+34-3	3235-3237	er	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er	_	_
+34-4	3238-3240	in	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+34-5	3241-3249	Augsburg	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Augsburg	_	_
+34-6	3250-3253	der	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	_	_
+34-7	3254-3269	Bestechlichkeit	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Bestechlichkeit	_	_
+34-8	3270-3273	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+34-9	3274-3277	der	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	_	_
+34-10	3278-3297	Steuerhinterziehung	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Steuerhinterziehung	_	_
+34-11	3298-3307	angeklagt	_	_	_	_	_	_	_	_	VVPP	Psp	anklagen	_	_
+34-12	3308-3309	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Seit April 1999 ist er untergetaucht .
+35-1	3312-3316	Seit	_	_	_	_	_	_	_	_	APPR	_	seit	_	_
+35-2	3317-3322	April	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	April	_	_
+35-3	3323-3327	1999	_	_	_	_	_	_	_	_	CARD	_	1999	_	_
+35-4	3328-3331	ist	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
+35-5	3332-3334	er	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er	_	_
+35-6	3335-3348	untergetaucht	_	_	_	_	_	_	_	_	VVPP	Psp	untertauchen	_	_
+35-7	3349-3350	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Aus Unterlagen aus der Schweiz ist ersichtlich , dass auf Konten in Luxemburg , deren wirtschaftlich Berechtigter Dr . Pfahls war , in den letzten Jahren 1992 bis 1995 circa 13 Millionen DM und 8,5 Millionen FF aus den Elf Zahlungen geflossen sind .
+36-1	3353-3356	Aus	_	_	_	_	_	_	_	_	APPR	_	aus	_	_
+36-2	3357-3367	Unterlagen	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Unterlage	_	_
+36-3	3368-3371	aus	_	_	_	_	_	_	_	_	APPR	_	aus	_	_
+36-4	3372-3375	der	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+36-5	3376-3383	Schweiz	_	_	_	_	_	_	_	_	NE	Dat.Sg.Fem	Schweiz	_	_
+36-6	3384-3387	ist	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
+36-7	3388-3399	ersichtlich	_	_	_	_	_	_	_	_	ADJD	Pos	ersichtlich	_	_
+36-8	3400-3401	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+36-9	3402-3406	dass	_	_	_	_	_	_	_	_	KOUS	_	dass	_	_
+36-10	3407-3410	auf	_	_	_	_	_	_	_	_	APPR	_	auf	_	_
+36-11	3411-3417	Konten	_	_	_	_	_	_	_	_	NN	Dat.Pl.Neut	Konto	_	_
+36-12	3418-3420	in	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+36-13	3421-3430	Luxemburg	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Luxemburg	_	_
+36-14	3431-3432	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+36-15	3433-3438	deren	_	_	_	_	_	_	_	_	PRELAT	Gen.Pl.Fem	der	_	_
+36-16	3439-3453	wirtschaftlich	_	_	_	_	_	_	_	_	ADJD	Pos	wirtschaftlich	_	_
+36-17	3454-3466	Berechtigter	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	berechtigt	_	_
+36-18	3467-3469	Dr	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Dr	_	_
+36-19	3470-3471	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+36-20	3472-3478	Pfahls	_	_	_	_	_	_	_	_	ADJD	Pos	pfahls	_	_
+36-21	3479-3482	war	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	sein	_	_
+36-22	3483-3484	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+36-23	3485-3487	in	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+36-24	3488-3491	den	_	_	_	_	_	_	_	_	ART	Dat.Pl.Neut	der	_	_
+36-25	3492-3499	letzten	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Neut	letzter	_	_
+36-26	3500-3506	Jahren	_	_	_	_	_	_	_	_	NN	Dat.Pl.Neut	Jahr	_	_
+36-27	3507-3511	1992	_	_	_	_	_	_	_	_	CARD	_	1992	_	_
+36-28	3512-3515	bis	_	_	_	_	_	_	_	_	APPR	_	bis	_	_
+36-29	3516-3520	1995	_	_	_	_	_	_	_	_	CARD	_	1995	_	_
+36-30	3521-3526	circa	_	_	_	_	_	_	_	_	ADV	_	circa	_	_
+36-31	3527-3529	13	_	_	_	_	_	_	_	_	CARD	_	13	_	_
+36-32	3530-3539	Millionen	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Million	_	_
+36-33	3540-3542	DM	_	_	_	_	_	_	_	_	NN	*.*.Fem	DM	_	_
+36-34	3543-3546	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+36-35	3547-3550	8,5	_	_	_	_	_	_	_	_	CARD	_	8,5	_	_
+36-36	3551-3560	Millionen	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Million	_	_
+36-37	3561-3563	FF	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	FF	_	_
+36-38	3564-3567	aus	_	_	_	_	_	_	_	_	APPR	_	aus	_	_
+36-39	3568-3571	den	_	_	_	_	_	_	_	_	ART	Dat.Pl.Fem	der	_	_
+36-40	3572-3575	Elf	_	_	_	_	_	_	_	_	CARD	_	elf	_	_
+36-41	3576-3585	Zahlungen	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Zahlung	_	_
+36-42	3586-3595	geflossen	_	_	_	_	_	_	_	_	VVPP	Psp	fließen	_	_
+36-43	3596-3600	sind	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_
+36-44	3601-3602	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Viertens ist noch der ehemalige Bundeswirtschaftsminister Dr . Friedrichs anzuführen .
+37-1	3605-3613	Viertens	_	_	_	_	_	_	_	_	ADV	_	viertens	_	_
+37-2	3614-3617	ist	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
+37-3	3618-3622	noch	_	_	_	_	_	_	_	_	ADV	_	noch	_	_
+37-4	3623-3626	der	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	_	_
+37-5	3627-3636	ehemalige	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	ehemalig	_	_
+37-6	3637-3662	Bundeswirtschaftsminister	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Bundeswirtschaftsminister	_	_
+37-7	3663-3665	Dr	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Dr	_	_
+37-8	3666-3667	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+37-9	3668-3678	Friedrichs	_	_	_	_	_	_	_	_	NE	Gen.Sg.*	Friedrich	_	_
+37-10	3679-3689	anzuführen	_	_	_	_	_	_	_	_	VVIZU	Infzu	anführen	_	_
+37-11	3690-3691	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Dieser war International Advisor der Investmentbank Goldmann und Sachs , just jener Bank also , die das Ausschreibungsverfahren für Leuna/Minol maßgeblich gestaltete .
+38-1	3694-3700	Dieser	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Masc	dieser	_	_
+38-2	3701-3704	war	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	sein	_	_
+38-3	3705-3718	International	_	_	_	_	_	_	_	_	ADJD	Pos	international	_	_
+38-4	3719-3726	Advisor	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Advisor	_	_
+38-5	3727-3730	der	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	_	_
+38-6	3731-3745	Investmentbank	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Investmentbank	_	_
+38-7	3746-3754	Goldmann	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Goldmann	_	_
+38-8	3755-3758	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+38-9	3759-3764	Sachs	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Sachs	_	_
+38-10	3765-3766	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+38-11	3767-3771	just	_	_	_	_	_	_	_	_	ADV	_	just	_	_
+38-12	3772-3777	jener	_	_	_	_	_	_	_	_	PDAT	Dat.Sg.Fem	jener	_	_
+38-13	3778-3782	Bank	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Bank	_	_
+38-14	3783-3787	also	_	_	_	_	_	_	_	_	ADV	_	also	_	_
+38-15	3788-3789	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+38-16	3790-3793	die	_	_	_	_	_	_	_	_	PRELS	Nom.Sg.Fem	der	_	_
+38-17	3794-3797	das	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	_	_
+38-18	3798-3821	Ausschreibungsverfahren	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Ausschreibungsverfahren	_	_
+38-19	3822-3825	für	_	_	_	_	_	_	_	_	APPR	_	für	_	_
+38-20	3826-3831	Leuna	_	_	_	_	_	_	_	_	NE	Acc.Sg.Neut	Leuna	_	_
+38-21	3831-3832	/	_	_	_	_	_	_	_	_	NE	Acc.Sg.Neut	/	_	_
+38-22	3832-3837	Minol	_	_	_	_	_	_	_	_	NE	Acc.Sg.Neut	Minol	_	_
+38-23	3838-3848	maßgeblich	_	_	_	_	_	_	_	_	ADJD	Pos	maßgeblich	_	_
+38-24	3849-3859	gestaltete	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	gestalten	_	_
+38-25	3860-3861	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Gleichzeitig war er zunächst gegen ein monatliches Honorar von 50 000 DM für Elf Aquitaine tätig , für das Unternehmen also , welches bei der - von Goldmann und Sachs gestalteten - Verkaufsausschreibung von Leuna/Minol schließlich den Zuschlag erhielt .
+39-1	3864-3876	Gleichzeitig	_	_	_	_	_	_	_	_	ADJD	Pos	gleichzeitig	_	_
+39-2	3877-3880	war	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	sein	_	_
+39-3	3881-3883	er	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er	_	_
+39-4	3884-3892	zunächst	_	_	_	_	_	_	_	_	ADV	_	zunächst	_	_
+39-5	3893-3898	gegen	_	_	_	_	_	_	_	_	APPR	_	gegen	_	_
+39-6	3899-3902	ein	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	ein	_	_
+39-7	3903-3914	monatliches	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Neut	monatlich	_	_
+39-8	3915-3922	Honorar	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Honorar	_	_
+39-9	3923-3926	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+39-10	3927-3929	50	_	_	_	_	_	_	_	_	CARD	_	50	_	_
+39-11	3930-3933	000	_	_	_	_	_	_	_	_	CARD	_	000	_	_
+39-12	3934-3936	DM	_	_	_	_	_	_	_	_	NN	*.*.Fem	DM	_	_
+39-13	3937-3940	für	_	_	_	_	_	_	_	_	APPR	_	für	_	_
+39-14	3941-3944	Elf	_	_	_	_	_	_	_	_	NE	*.*.*	Elf	_	_
+39-15	3945-3954	Aquitaine	_	_	_	_	_	_	_	_	NE	Acc.Sg.*	Aquitaine	_	_
+39-16	3955-3960	tätig	_	_	_	_	_	_	_	_	ADJD	Pos	tätig	_	_
+39-17	3961-3962	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+39-18	3963-3966	für	_	_	_	_	_	_	_	_	APPR	_	für	_	_
+39-19	3967-3970	das	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	_	_
+39-20	3971-3982	Unternehmen	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Unternehmen	_	_
+39-21	3983-3987	also	_	_	_	_	_	_	_	_	ADV	_	also	_	_
+39-22	3988-3989	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+39-23	3990-3997	welches	_	_	_	_	_	_	_	_	PRELS	Nom.Sg.Neut	welcher	_	_
+39-24	3998-4001	bei	_	_	_	_	_	_	_	_	APPR	_	bei	_	_
+39-25	4002-4005	der	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+39-26	4006-4007	-	_	_	_	_	_	_	_	_	$(	_	-	_	_
+39-27	4008-4011	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+39-28	4012-4020	Goldmann	_	_	_	_	_	_	_	_	NE	Dat.Sg.*	Goldmann	_	_
+39-29	4021-4024	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+39-30	4025-4030	Sachs	_	_	_	_	_	_	_	_	NE	Dat.Sg.*	Sachs	_	_
+39-31	4031-4042	gestalteten	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	gestaltet	_	_
+39-32	4043-4044	-	_	_	_	_	_	_	_	_	$(	_	-	_	_
+39-33	4045-4066	Verkaufsausschreibung	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Verkaufsausschreibung	_	_
+39-34	4067-4070	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+39-35	4071-4076	Leuna	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Leuna	_	_
+39-36	4076-4077	/	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	/	_	_
+39-37	4077-4082	Minol	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Minol	_	_
+39-38	4083-4094	schließlich	_	_	_	_	_	_	_	_	ADV	_	schließlich	_	_
+39-39	4095-4098	den	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	_	_
+39-40	4099-4107	Zuschlag	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Zuschlag	_	_
+39-41	4108-4115	erhielt	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	erhalten	_	_
+39-42	4116-4117	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Überdies war er Aufsichtsratsvorsitzender der beiden Unternehmen , Leuna und Minol , die - wer mag hier noch an Zufall glauben ?
+40-1	4120-4128	Überdies	_	_	_	_	_	_	_	_	ADV	_	überdies	_	_
+40-2	4129-4132	war	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	sein	_	_
+40-3	4133-4135	er	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er	_	_
+40-4	4136-4161	Aufsichtsratsvorsitzender	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Aufsichtsratsvorsitzender	_	_
+40-5	4162-4165	der	_	_	_	_	_	_	_	_	ART	Gen.Pl.Neut	der	_	_
+40-6	4166-4172	beiden	_	_	_	_	_	_	_	_	PIAT	Gen.Pl.Neut	beide	_	_
+40-7	4173-4184	Unternehmen	_	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Unternehmen	_	_
+40-8	4185-4186	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+40-9	4187-4192	Leuna	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Leuna	_	_
+40-10	4193-4196	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+40-11	4197-4202	Minol	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Minol	_	_
+40-12	4203-4204	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+40-13	4205-4208	die	_	_	_	_	_	_	_	_	PRELS	Nom.Sg.Fem	der	_	_
+40-14	4209-4210	-	_	_	_	_	_	_	_	_	$(	_	-	_	_
+40-15	4211-4214	wer	_	_	_	_	_	_	_	_	PWS	Nom.Sg.Masc	wer	_	_
+40-16	4215-4218	mag	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	mögen	_	_
+40-17	4219-4223	hier	_	_	_	_	_	_	_	_	ADV	_	hier	_	_
+40-18	4224-4228	noch	_	_	_	_	_	_	_	_	ADV	_	noch	_	_
+40-19	4229-4231	an	_	_	_	_	_	_	_	_	APPR	_	an	_	_
+40-20	4232-4238	Zufall	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Zufall	_	_
+40-21	4239-4246	glauben	_	_	_	_	_	_	_	_	VVINF	Inf	glauben	_	_
+40-22	4247-4248	?	_	_	_	_	_	_	_	_	$.	_	?	_	_
+
+#Text=- an Elf Aquitaine verkauft wurden .
+41-1	4251-4252	-	_	_	_	_	_	_	_	_	$(	_	-	_	_
+41-2	4253-4255	an	_	_	_	_	_	_	_	_	APPR	_	an	_	_
+41-3	4256-4259	Elf	_	_	_	_	_	_	_	_	NE	*.*.*	Elf	_	_
+41-4	4260-4269	Aquitaine	_	_	_	_	_	_	_	_	NE	Acc.Sg.*	Aquitaine	_	_
+41-5	4270-4278	verkauft	_	_	_	_	_	_	_	_	VVPP	Psp	verkaufen	_	_
+41-6	4279-4285	wurden	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Ind	werden	_	_
+41-7	4286-4287	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Fünftens .
+42-1	4290-4298	Fünftens	_	_	_	_	_	_	_	_	ADV	_	fünftens	_	_
+42-2	4299-4300	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Es gibt Aussagen der ehemaligen Gewaltigen von Elf Aquitaine wie des damaligen Präsidenten Le Floch Prigent über Zahlungen an die CDU .
+43-1	4303-4305	Es	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
+43-2	4306-4310	gibt	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	geben	_	_
+43-3	4311-4319	Aussagen	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Aussage	_	_
+43-4	4320-4323	der	_	_	_	_	_	_	_	_	ART	Gen.Pl.*	der	_	_
+43-5	4324-4334	ehemaligen	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Pl.*	ehemalig	_	_
+43-6	4335-4345	Gewaltigen	false	0Kern	true	true	über eindrucksvolle Machtfülle verfügend	true	*	Machtinhaber	NN	Gen.Pl.*	gewaltige	_	_
+43-7	4346-4349	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+43-8	4350-4353	Elf	_	_	_	_	_	_	_	_	NE	*.*.*	Elf	_	_
+43-9	4354-4363	Aquitaine	_	_	_	_	_	_	_	_	NE	Dat.Sg.*	Aquitaine	_	_
+43-10	4364-4367	wie	_	_	_	_	_	_	_	_	KOKOM	_	wie	_	_
+43-11	4368-4371	des	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der	_	_
+43-12	4372-4381	damaligen	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Masc	damalig	_	_
+43-13	4382-4393	Präsidenten	_	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Präsident	_	_
+43-14	4394-4396	Le	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Le	_	_
+43-15	4397-4402	Floch	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Floch	_	_
+43-16	4403-4410	Prigent	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Prigent	_	_
+43-17	4411-4415	über	_	_	_	_	_	_	_	_	APPR	_	über	_	_
+43-18	4416-4425	Zahlungen	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Zahlung	_	_
+43-19	4426-4428	an	_	_	_	_	_	_	_	_	APPR	_	an	_	_
+43-20	4429-4432	die	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	_	_
+43-21	4433-4436	CDU	_	_	_	_	_	_	_	_	NE	Acc.Sg.Fem	CDU	_	_
+43-22	4437-4438	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Le Floch Prigent spricht in seiner Vernehmung am 22 .
+44-1	4441-4443	Le	_	_	_	_	_	_	_	_	NE	*.*.*	Le	_	_
+44-2	4444-4449	Floch	_	_	_	_	_	_	_	_	NE	*.*.*	Floch	_	_
+44-3	4450-4457	Prigent	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Prigent	_	_
+44-4	4458-4465	spricht	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	sprechen	_	_
+44-5	4466-4468	in	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+44-6	4469-4475	seiner	_	_	_	_	_	_	_	_	PPOSAT	Dat.Sg.Fem	sein	_	_
+44-7	4476-4486	Vernehmung	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Vernehmung	_	_
+44-8	4487-4489	am	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.*	an	_	_
+44-9	4490-4492	22	_	_	_	_	_	_	_	_	CARD	_	22	_	_
+44-10	4493-4494	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=August 2000 von so genannten " Lobbying Maßnahmen " , Schmiergelder also , um 2 Milliarden DM an Subventionen von der EU , vom Bund und den Ländern zu erreichen .
+45-1	4497-4503	August	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	August	_	_
+45-2	4504-4508	2000	_	_	_	_	_	_	_	_	CARD	_	2000	_	_
+45-3	4509-4512	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+45-4	4513-4515	so	_	_	_	_	_	_	_	_	ADV	_	so	_	_
+45-5	4516-4525	genannten	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Fem	genannt	_	_
+45-6	4526-4527	"	_	_	_	_	_	_	_	_	$(	_	"	_	_
+45-7	4528-4536	Lobbying	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Lobbying	_	_
+45-8	4537-4546	Maßnahmen	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Maßnahme	_	_
+45-9	4547-4548	"	_	_	_	_	_	_	_	_	$(	_	"	_	_
+45-10	4549-4550	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+45-11	4551-4564	Schmiergelder	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Schmiergeld	_	_
+45-12	4565-4569	also	_	_	_	_	_	_	_	_	ADV	_	also	_	_
+45-13	4570-4571	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+45-14	4572-4574	um	_	_	_	_	_	_	_	_	KOUI	_	um	_	_
+45-15	4575-4576	2	_	_	_	_	_	_	_	_	CARD	_	2	_	_
+45-16	4577-4587	Milliarden	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Milliarde	_	_
+45-17	4588-4590	DM	_	_	_	_	_	_	_	_	NN	*.*.Fem	DM	_	_
+45-18	4591-4593	an	_	_	_	_	_	_	_	_	APPR	_	an	_	_
+45-19	4594-4606	Subventionen	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Subvention	_	_
+45-20	4607-4610	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+45-21	4611-4614	der	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+45-22	4615-4617	EU	_	_	_	_	_	_	_	_	NE	Dat.Sg.Fem	EU	_	_
+45-23	4618-4619	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+45-24	4620-4623	vom	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	von	_	_
+45-25	4624-4628	Bund	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Bund	_	_
+45-26	4629-4632	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+45-27	4633-4636	den	_	_	_	_	_	_	_	_	ART	Dat.Pl.Neut	der	_	_
+45-28	4637-4644	Ländern	_	_	_	_	_	_	_	_	NN	Dat.Pl.Neut	Land	_	_
+45-29	4645-4647	zu	_	_	_	_	_	_	_	_	PTKZU	_	zu	_	_
+45-30	4648-4657	erreichen	_	_	_	_	_	_	_	_	VVINF	Inf	erreichen	_	_
+45-31	4658-4659	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Leider war Herr P . nicht bereit , seine Aussage vor einem deutschen Untersuchungsausschuss zu wiederholen .
+46-1	4662-4668	Leider	_	_	_	_	_	_	_	_	ADV	_	leider	_	_
+46-2	4669-4672	war	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	sein	_	_
+46-3	4673-4677	Herr	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Herr	_	_
+46-4	4678-4679	P	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	P	_	_
+46-5	4680-4681	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+46-6	4682-4687	nicht	_	_	_	_	_	_	_	_	PTKNEG	_	nicht	_	_
+46-7	4688-4694	bereit	_	_	_	_	_	_	_	_	ADJD	Pos	bereit	_	_
+46-8	4695-4696	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+46-9	4697-4702	seine	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Fem	sein	_	_
+46-10	4703-4710	Aussage	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Aussage	_	_
+46-11	4711-4714	vor	_	_	_	_	_	_	_	_	APPR	_	vor	_	_
+46-12	4715-4720	einem	_	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	ein	_	_
+46-13	4721-4730	deutschen	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Masc	deutsch	_	_
+46-14	4731-4753	Untersuchungsausschuss	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Untersuchungsausschuss	_	_
+46-15	4754-4756	zu	_	_	_	_	_	_	_	_	PTKZU	_	zu	_	_
+46-16	4757-4768	wiederholen	_	_	_	_	_	_	_	_	VVINF	Inf	wiederholen	_	_
+46-17	4769-4770	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Sechstens .
+47-1	4773-4782	Sechstens	_	_	_	_	_	_	_	_	ADV	_	sechstens	_	_
+47-2	4783-4784	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Auch der Generalbundesanwalt stellt einen wirren Kreislauf von Geldtransaktionen in Höhe von 256 Millionen FF aus Quellen von Elf Aquitaine ohne erkennbaren realen wirtschaftlichen Hintergrund fest .
+48-1	4787-4791	Auch	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
+48-2	4792-4795	der	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	_	_
+48-3	4796-4815	Generalbundesanwalt	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Generalbundesanwalt	_	_
+48-4	4816-4822	stellt	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	stellen	_	_
+48-5	4823-4828	einen	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein	_	_
+48-6	4829-4835	wirren	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	wirr	_	_
+48-7	4836-4845	Kreislauf	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Kreislauf	_	_
+48-8	4846-4849	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+48-9	4850-4867	Geldtransaktionen	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Geldtransaktion	_	_
+48-10	4868-4870	in	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+48-11	4871-4875	Höhe	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Höhe	_	_
+48-12	4876-4879	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+48-13	4880-4883	256	_	_	_	_	_	_	_	_	CARD	_	256	_	_
+48-14	4884-4893	Millionen	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Million	_	_
+48-15	4894-4896	FF	_	_	_	_	_	_	_	_	NN	*.*.Masc	FF	_	_
+48-16	4897-4900	aus	_	_	_	_	_	_	_	_	APPR	_	aus	_	_
+48-17	4901-4908	Quellen	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Quelle	_	_
+48-18	4909-4912	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+48-19	4913-4916	Elf	_	_	_	_	_	_	_	_	NE	*.*.*	Elf	_	_
+48-20	4917-4926	Aquitaine	_	_	_	_	_	_	_	_	NE	Dat.Sg.*	Aquitaine	_	_
+48-21	4927-4931	ohne	_	_	_	_	_	_	_	_	APPR	_	ohne	_	_
+48-22	4932-4943	erkennbaren	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	erkennbar	_	_
+48-23	4944-4950	realen	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	real	_	_
+48-24	4951-4967	wirtschaftlichen	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	wirtschaftlich	_	_
+48-25	4968-4979	Hintergrund	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Hintergrund	_	_
+48-26	4980-4984	fest	_	_	_	_	_	_	_	_	PTKVZ	_	fest	_	_
+48-27	4985-4986	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Und 11 Millionen DM sind in bar geflossen .
+49-1	4989-4992	Und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+49-2	4993-4995	11	_	_	_	_	_	_	_	_	CARD	_	11	_	_
+49-3	4996-5005	Millionen	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Million	_	_
+49-4	5006-5008	DM	_	_	_	_	_	_	_	_	NN	*.*.Fem	DM	_	_
+49-5	5009-5013	sind	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_
+49-6	5014-5016	in	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+49-7	5017-5020	bar	_	_	_	_	_	_	_	_	ADJD	Pos	bar	_	_
+49-8	5021-5030	geflossen	_	_	_	_	_	_	_	_	VVPP	Psp	fließen	_	_
+49-9	5031-5032	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Warum das , wenn es doch nichts zu verbergen gibt ?
+50-1	5035-5040	Warum	_	_	_	_	_	_	_	_	PWAV	_	warum	_	_
+50-2	5041-5044	das	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der	_	_
+50-3	5045-5046	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+50-4	5047-5051	wenn	_	_	_	_	_	_	_	_	KOUS	_	wenn	_	_
+50-5	5052-5054	es	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
+50-6	5055-5059	doch	_	_	_	_	_	_	_	_	ADV	_	doch	_	_
+50-7	5060-5066	nichts	_	_	_	_	_	_	_	_	PIS	*.*.Neut	nichts	_	_
+50-8	5067-5069	zu	_	_	_	_	_	_	_	_	PTKZU	_	zu	_	_
+50-9	5070-5079	verbergen	_	_	_	_	_	_	_	_	VVINF	Inf	verbergen	_	_
+50-10	5080-5084	gibt	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	geben	_	_
+50-11	5085-5086	?	_	_	_	_	_	_	_	_	$.	_	?	_	_
+
+#Text=Das sind genug Gründe nachzufragen und zu prüfen , wie dies die Bundesregierung macht .
+51-1	5089-5092	Das	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der	_	_
+51-2	5093-5097	sind	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_
+51-3	5098-5103	genug	_	_	_	_	_	_	_	_	PIAT	*.*.*	genug	_	_
+51-4	5104-5110	Gründe	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Grund	_	_
+51-5	5111-5123	nachzufragen	_	_	_	_	_	_	_	_	VVIZU	Infzu	nachfragen	_	_
+51-6	5124-5127	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+51-7	5128-5130	zu	_	_	_	_	_	_	_	_	PTKZU	_	zu	_	_
+51-8	5131-5137	prüfen	_	_	_	_	_	_	_	_	VVINF	Inf	prüfen	_	_
+51-9	5138-5139	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+51-10	5140-5143	wie	_	_	_	_	_	_	_	_	PWAV	_	wie	_	_
+51-11	5144-5148	dies	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	dieser	_	_
+51-12	5149-5152	die	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+51-13	5153-5168	Bundesregierung	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Bundesregierung	_	_
+51-14	5169-5174	macht	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	machen	_	_
+51-15	5175-5176	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Ihnen geht es auch nicht um den Standort Leuna , Ihnen geht es darum , endlich Schluss zu machen mit " dieser ganzen Aufklärerei " , die für Ihre Partei und Ihren ehemaligen Ehrenvorsitzenden so unangenehm ist .
+52-1	5179-5184	Ihnen	_	_	_	_	_	_	_	_	PPER	3.Dat.Pl.*	ihnen	_	_
+52-2	5185-5189	geht	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	gehen	_	_
+52-3	5190-5192	es	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
+52-4	5193-5197	auch	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
+52-5	5198-5203	nicht	_	_	_	_	_	_	_	_	PTKNEG	_	nicht	_	_
+52-6	5204-5206	um	_	_	_	_	_	_	_	_	APPR	_	um	_	_
+52-7	5207-5210	den	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	_	_
+52-8	5211-5219	Standort	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Standort	_	_
+52-9	5220-5225	Leuna	_	_	_	_	_	_	_	_	NE	Nom.Sg.Neut	Leuna	_	_
+52-10	5226-5227	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+52-11	5228-5233	Ihnen	_	_	_	_	_	_	_	_	PPER	3.Dat.Pl.*	ihnen	_	_
+52-12	5234-5238	geht	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	gehen	_	_
+52-13	5239-5241	es	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
+52-14	5242-5247	darum	_	_	_	_	_	_	_	_	PROAV	_	darum	_	_
+52-15	5248-5249	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+52-16	5250-5257	endlich	_	_	_	_	_	_	_	_	ADV	_	endlich	_	_
+52-17	5258-5265	Schluss	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Schlus	_	_
+52-18	5266-5268	zu	_	_	_	_	_	_	_	_	PTKZU	_	zu	_	_
+52-19	5269-5275	machen	_	_	_	_	_	_	_	_	VVINF	Inf	machen	_	_
+52-20	5276-5279	mit	_	_	_	_	_	_	_	_	APPR	_	mit	_	_
+52-21	5280-5281	"	_	_	_	_	_	_	_	_	$(	_	"	_	_
+52-22	5282-5288	dieser	_	_	_	_	_	_	_	_	PDAT	Dat.Sg.Fem	dieser	_	_
+52-23	5289-5295	ganzen	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	ganz	_	_
+52-24	5296-5307	Aufklärerei	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Aufklärerei	_	_
+52-25	5308-5309	"	_	_	_	_	_	_	_	_	$(	_	"	_	_
+52-26	5310-5311	,	_	_	_	_	_	_	_	_	$,	_	,	_	_
+52-27	5312-5315	die	_	_	_	_	_	_	_	_	PRELS	Nom.Sg.Fem	der	_	_
+52-28	5316-5319	für	_	_	_	_	_	_	_	_	APPR	_	für	_	_
+52-29	5320-5324	Ihre	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Fem	ihr	_	_
+52-30	5325-5331	Partei	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Partei	_	_
+52-31	5332-5335	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+52-32	5336-5341	Ihren	_	_	_	_	_	_	_	_	PPOSAT	Acc.Pl.*	ihr	_	_
+52-33	5342-5352	ehemaligen	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.*	ehemalig	_	_
+52-34	5353-5370	Ehrenvorsitzenden	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Ehrenvorsitzende	_	_
+52-35	5371-5373	so	_	_	_	_	_	_	_	_	ADV	_	so	_	_
+52-36	5374-5384	unangenehm	_	_	_	_	_	_	_	_	ADJD	Pos	unangenehm	_	_
+52-37	5385-5388	ist	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
+52-38	5389-5390	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Dafür ist Ihnen fast jedes Mittel recht .
+53-1	5393-5398	Dafür	_	_	_	_	_	_	_	_	PROAV	_	dafür	_	_
+53-2	5399-5402	ist	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
+53-3	5403-5408	Ihnen	_	_	_	_	_	_	_	_	PPER	3.Dat.Pl.*	ihnen	_	_
+53-4	5409-5413	fast	_	_	_	_	_	_	_	_	ADV	_	fast	_	_
+53-5	5414-5419	jedes	_	_	_	_	_	_	_	_	PIAT	Nom.Sg.Neut	jeder	_	_
+53-6	5420-5426	Mittel	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Mittel	_	_
+53-7	5427-5432	recht	_	_	_	_	_	_	_	_	ADJD	Pos	recht	_	_
+53-8	5433-5434	.	_	_	_	_	_	_	_	_	$.	_	.	_	_
+
+#Text=Deshalb zum Schluss mein Rat : Ziehen Sie Ihren Antrag zurück und helfen Sie bei der Aufklärung von Herkunft und Verbleib der CDU Gelder .
+54-1	5437-5444	Deshalb	_	_	_	_	_	_	_	_	PROAV	_	deshalb	_	_
+54-2	5445-5448	zum	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	zu	_	_
+54-3	5449-5456	Schluss	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Schluss	_	_
+54-4	5457-5461	mein	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Masc	mein	_	_
+54-5	5462-5465	Rat	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Rat	_	_
+54-6	5466-5467	:	_	_	_	_	_	_	_	_	$.	_	:	_	_
+54-7	5468-5474	Ziehen	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	ziehen	_	_
+54-8	5475-5478	Sie	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie	_	_
+54-9	5479-5484	Ihren	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Masc	ihr	_	_
+54-10	5485-5491	Antrag	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Antrag	_	_
+54-11	5492-5498	zurück	_	_	_	_	_	_	_	_	PTKVZ	_	zurück	_	_
+54-12	5499-5502	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+54-13	5503-5509	helfen	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	helfen	_	_
+54-14	5510-5513	Sie	_	_	_	_	_	_	_	_	PPER	3.Acc.*.*	sie	_	_
+54-15	5514-5517	bei	_	_	_	_	_	_	_	_	APPR	_	bei	_	_
+54-16	5518-5521	der	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+54-17	5522-5532	Aufklärung	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Aufklärung	_	_
+54-18	5533-5536	von	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+54-19	5537-5545	Herkunft	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Herkunft	_	_
+54-20	5546-5549	und	_	_	_	_	_	_	_	_	KON	_	und	_	_
+54-21	5550-5558	Verbleib	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Verbleib	_	_
+54-22	5559-5562	der	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	_	_
+54-23	5563-5566	CDU	_	_	_	_	_	_	_	_	NE	Gen.Sg.Fem	CDU	_	_
+54-24	5567-5573	Gelder	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Geld	_	_

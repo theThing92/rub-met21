@@ -1,0 +1,827 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.MET_A|MFlag|Rolle
+#T_SP=webanno.custom.MET_B|basic|c_mark
+#T_SP=webanno.custom.MET_B2|b_Lex
+#T_SP=webanno.custom.MET_C|a_Ref|b_Art
+#T_SP=webanno.custom.MET_D|a_Par
+#T_RL=webanno.custom.METD|BT_webanno.custom.MET_A
+
+
+#Text=Vizepräsident Dr . h . c .
+1-1	0-13	Vizepräsident	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Vizepräsident
+1-2	14-16	Dr	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Dr
+1-3	17-18	.	_	_	_	_	_	_	_	_	_	$.	_	.
+1-4	19-20	h	_	_	_	_	_	_	_	_	_	XY	_	h
+1-5	21-22	.	_	_	_	_	_	_	_	_	_	$.	_	.
+1-6	23-24	c	_	_	_	_	_	_	_	_	_	XY	_	c
+1-7	25-26	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Rudolf Seiters : Für die Fraktion Bündnis 90/Die Grünen spricht die Kollegin Christine Scheel .
+2-1	29-35	Rudolf	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Rudolf
+2-2	36-43	Seiters	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Seiters
+2-3	44-45	:	_	_	_	_	_	_	_	_	_	$.	_	:
+2-4	46-49	Für	_	_	_	_	_	_	_	_	_	APPR	_	für
+2-5	50-53	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+2-6	54-62	Fraktion	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Fraktion
+2-7	63-70	Bündnis	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Bündnis
+2-8	71-73	90	_	_	_	_	_	_	_	_	_	CARD	_	90
+2-9	73-74	/	_	_	_	_	_	_	_	_	_	CARD	_	/
+2-10	74-77	Die	_	_	_	_	_	_	_	_	_	CARD	_	Die
+2-11	78-84	Grünen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.*	grüne
+2-12	85-92	spricht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	sprechen
+2-13	93-96	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+2-14	97-105	Kollegin	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Kollegin
+2-15	106-115	Christine	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	Christine
+2-16	116-122	Scheel	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	Scheel
+2-17	123-124	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Christine Scheel ( BÜNDNIS 90/DIE GRÜNEN ) : Herr Präsident !
+3-1	127-136	Christine	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	Christine
+3-2	137-143	Scheel	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	Scheel
+3-3	144-145	(	_	_	_	_	_	_	_	_	_	$(	_	(
+3-4	146-153	BÜNDNIS	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Neut	Bündnis
+3-5	154-156	90	_	_	_	_	_	_	_	_	_	NE	*.*.*	90
+3-6	156-157	/	_	_	_	_	_	_	_	_	_	NE	*.*.*	/
+3-7	157-160	DIE	_	_	_	_	_	_	_	_	_	NE	*.*.*	DIE
+3-8	161-167	GRÜNEN	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Neut	Grünen
+3-9	168-169	)	_	_	_	_	_	_	_	_	_	$(	_	)
+3-10	170-171	:	_	_	_	_	_	_	_	_	_	$.	_	:
+3-11	172-176	Herr	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Herr
+3-12	177-186	Präsident	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Präsident
+3-13	187-188	!	_	_	_	_	_	_	_	_	_	$.	_	!
+
+#Text=Liebe Kolleginnen und Kollegen !
+4-1	191-196	Liebe	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.*	lieb
+4-2	197-208	Kolleginnen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Kollegin
+4-3	209-212	und	_	_	_	_	_	_	_	_	_	KON	_	und
+4-4	213-221	Kollegen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Kollege
+4-5	222-223	!	_	_	_	_	_	_	_	_	_	$.	_	!
+
+#Text=Herr Fromme , Ihr Beitrag war insofern wieder sehr erhellend , als wir jetzt wissen , dass die Union wirklich überhaupt kein Interesse daran hat , Steuerhinterziehung zu bekämpfen .
+5-1	226-230	Herr	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Herr
+5-2	231-237	Fromme	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Fromme
+5-3	238-239	,	_	_	_	_	_	_	_	_	_	$,	_	,
+5-4	240-243	Ihr	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Masc	ihr
+5-5	244-251	Beitrag	false	5clash	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Beitrag
+5-6	252-255	war	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	sein
+5-7	256-264	insofern	_	_	_	_	_	_	_	_	_	ADV	_	insofern
+5-8	265-271	wieder	_	_	_	_	_	_	_	_	_	ADV	_	wieder
+5-9	272-276	sehr	_	_	_	_	_	_	_	_	_	ADV	_	sehr
+5-10	277-286	erhellend	false	0Kern	true	true	etw. hell machen, erleuchten	true	*	deutlich werden	5-5	ADJD	Pos	erhellend
+5-11	287-288	,	_	_	_	_	_	_	_	_	_	$,	_	,
+5-12	289-292	als	_	_	_	_	_	_	_	_	_	KOUS	_	als
+5-13	293-296	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+5-14	297-302	jetzt	_	_	_	_	_	_	_	_	_	ADV	_	jetzt
+5-15	303-309	wissen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	wissen
+5-16	310-311	,	_	_	_	_	_	_	_	_	_	$,	_	,
+5-17	312-316	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+5-18	317-320	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+5-19	321-326	Union	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Union
+5-20	327-335	wirklich	_	_	_	_	_	_	_	_	_	ADJD	Pos	wirklich
+5-21	336-345	überhaupt	_	_	_	_	_	_	_	_	_	ADV	_	überhaupt
+5-22	346-350	kein	_	_	_	_	_	_	_	_	_	PIAT	Acc.Sg.Neut	kein
+5-23	351-360	Interesse	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Interesse
+5-24	361-366	daran	_	_	_	_	_	_	_	_	_	PROAV	_	daran
+5-25	367-370	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben
+5-26	371-372	,	_	_	_	_	_	_	_	_	_	$,	_	,
+5-27	373-392	Steuerhinterziehung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Steuerhinterziehung
+5-28	393-395	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+5-29	396-405	bekämpfen	_	_	_	_	_	_	_	_	_	VVINF	Inf	bekämpfen
+5-30	406-407	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das ist aus Ihren Ausführungen sehr deutlich geworden .
+6-1	410-413	Das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+6-2	414-417	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+6-3	418-421	aus	_	_	_	_	_	_	_	_	_	APPR	_	aus
+6-4	422-427	Ihren	_	_	_	_	_	_	_	_	_	PPOSAT	Dat.Pl.Fem	ihr
+6-5	428-440	Ausführungen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Ausführung
+6-6	441-445	sehr	_	_	_	_	_	_	_	_	_	ADV	_	sehr
+6-7	446-454	deutlich	_	_	_	_	_	_	_	_	_	ADJD	Pos	deutlich
+6-8	455-463	geworden	_	_	_	_	_	_	_	_	_	VAPP	Psp	werden
+6-9	464-465	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Welchen Sinn macht es denn , wenn ein Fahnder oder ein Prüfer kommt , nachdem er sich schriftlich angekündigt hat , und derjenige , der geprüft werden soll , vorher die Akten oder die Disketten verschwinden lässt ?
+7-1	468-475	Welchen	_	_	_	_	_	_	_	_	_	PWAT	Acc.Sg.Masc	welcher
+7-2	476-480	Sinn	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Sinn
+7-3	481-486	macht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	machen
+7-4	487-489	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+7-5	490-494	denn	_	_	_	_	_	_	_	_	_	ADV	_	denn
+7-6	495-496	,	_	_	_	_	_	_	_	_	_	$,	_	,
+7-7	497-501	wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn
+7-8	502-505	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+7-9	506-513	Fahnder	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Fahnder
+7-10	514-518	oder	_	_	_	_	_	_	_	_	_	KON	_	oder
+7-11	519-522	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+7-12	523-529	Prüfer	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Prüfer
+7-13	530-535	kommt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	kommen
+7-14	536-537	,	_	_	_	_	_	_	_	_	_	$,	_	,
+7-15	538-545	nachdem	_	_	_	_	_	_	_	_	_	KOUS	_	nachdem
+7-16	546-548	er	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+7-17	549-553	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+7-18	554-565	schriftlich	_	_	_	_	_	_	_	_	_	ADJD	Pos	schriftlich
+7-19	566-577	angekündigt	_	_	_	_	_	_	_	_	_	VVPP	Psp	ankündigen
+7-20	578-581	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben
+7-21	582-583	,	_	_	_	_	_	_	_	_	_	$,	_	,
+7-22	584-587	und	_	_	_	_	_	_	_	_	_	KON	_	und
+7-23	588-597	derjenige	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Masc	derjenige
+7-24	598-599	,	_	_	_	_	_	_	_	_	_	$,	_	,
+7-25	600-603	der	_	_	_	_	_	_	_	_	_	PRELS	Nom.Sg.Masc	der
+7-26	604-611	geprüft	_	_	_	_	_	_	_	_	_	VVPP	Psp	prüfen
+7-27	612-618	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+7-28	619-623	soll	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	sollen
+7-29	624-625	,	_	_	_	_	_	_	_	_	_	$,	_	,
+7-30	626-632	vorher	_	_	_	_	_	_	_	_	_	ADV	_	vorher
+7-31	633-636	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Fem	der
+7-32	637-642	Akten	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Akte
+7-33	643-647	oder	_	_	_	_	_	_	_	_	_	KON	_	oder
+7-34	648-651	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Fem	der
+7-35	652-661	Disketten	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Diskette
+7-36	662-674	verschwinden	_	_	_	_	_	_	_	_	_	VVINF	Inf	verschwinden
+7-37	675-680	lässt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	lassen
+7-38	681-682	?	_	_	_	_	_	_	_	_	_	$.	_	?
+
+#Text=Das ist doch Unsinn .
+8-1	685-688	Das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+8-2	689-692	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+8-3	693-697	doch	_	_	_	_	_	_	_	_	_	ADV	_	doch
+8-4	698-704	Unsinn	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Unsinn
+8-5	705-706	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Um Kriminalitätsbekämpfung vorzunehmen , ist es deshalb notwendig , dass man vernünftige Zugriffe organisiert .
+9-1	709-711	Um	_	_	_	_	_	_	_	_	_	KOUI	_	um
+9-2	712-735	Kriminalitätsbekämpfung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Kriminalitätsbekämpfung
+9-3	736-747	vorzunehmen	_	_	_	_	_	_	_	_	_	VVIZU	Infzu	vornehmen
+9-4	748-749	,	_	_	_	_	_	_	_	_	_	$,	_	,
+9-5	750-753	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+9-6	754-756	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+9-7	757-764	deshalb	_	_	_	_	_	_	_	_	_	PROAV	_	deshalb
+9-8	765-774	notwendig	_	_	_	_	_	_	_	_	_	ADJD	Pos	notwendig
+9-9	775-776	,	_	_	_	_	_	_	_	_	_	$,	_	,
+9-10	777-781	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+9-11	782-785	man	_	_	_	_	_	_	_	_	_	PIS	Nom.Sg.*	man
+9-12	786-797	vernünftige	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Masc	vernünftig
+9-13	798-806	Zugriffe	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Zugriff
+9-14	807-818	organisiert	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	organisieren
+9-15	819-820	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das haben wir gesetzlich geregelt ; das ist auch richtig so .
+10-1	823-826	Das	_	_	_	_	_	_	_	_	_	PDS	Acc.Sg.Neut	der
+10-2	827-832	haben	_	_	_	_	_	_	_	_	_	VAFIN	1.Pl.Pres.Ind	haben
+10-3	833-836	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+10-4	837-847	gesetzlich	_	_	_	_	_	_	_	_	_	ADJD	Pos	gesetzlich
+10-5	848-856	geregelt	_	_	_	_	_	_	_	_	_	VVPP	Psp	regeln
+10-6	857-858	;	_	_	_	_	_	_	_	_	_	$.	_	;
+10-7	859-862	das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+10-8	863-866	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+10-9	867-871	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+10-10	872-879	richtig	_	_	_	_	_	_	_	_	_	ADJD	Pos	richtig
+10-11	880-882	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+10-12	883-884	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wir sprechen jetzt hier über das Zollfahndungsneuregelungsgesetz .
+11-1	887-890	Wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+11-2	891-899	sprechen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	sprechen
+11-3	900-905	jetzt	_	_	_	_	_	_	_	_	_	ADV	_	jetzt
+11-4	906-910	hier	_	_	_	_	_	_	_	_	_	ADV	_	hier
+11-5	911-915	über	_	_	_	_	_	_	_	_	_	APPR	_	über
+11-6	916-919	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der
+11-7	920-951	Zollfahndungsneuregelungsgesetz	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Zollfahndungsneuregelungsgesetz
+11-8	952-953	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Es war für die Union anscheinend nicht so einfach , Gründe zu finden , warum sie dieses Gesetz ablehnen will .
+12-1	956-958	Es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+12-2	959-962	war	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	sein
+12-3	963-966	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+12-4	967-970	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+12-5	971-976	Union	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Union
+12-6	977-988	anscheinend	_	_	_	_	_	_	_	_	_	ADJD	Pos	anscheinend
+12-7	989-994	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+12-8	995-997	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+12-9	998-1005	einfach	_	_	_	_	_	_	_	_	_	ADJD	Pos	einfach
+12-10	1006-1007	,	_	_	_	_	_	_	_	_	_	$,	_	,
+12-11	1008-1014	Gründe	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Grund
+12-12	1015-1017	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+12-13	1018-1024	finden	_	_	_	_	_	_	_	_	_	VVINF	Inf	finden
+12-14	1025-1026	,	_	_	_	_	_	_	_	_	_	$,	_	,
+12-15	1027-1032	warum	_	_	_	_	_	_	_	_	_	PWAV	_	warum
+12-16	1033-1036	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Fem	sie
+12-17	1037-1043	dieses	_	_	_	_	_	_	_	_	_	PDAT	Acc.Sg.Neut	dieser
+12-18	1044-1050	Gesetz	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Gesetz
+12-19	1051-1059	ablehnen	_	_	_	_	_	_	_	_	_	VVINF	Inf	ablehnen
+12-20	1060-1064	will	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	wollen
+12-21	1065-1066	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Sie haben sich dann auf die eher formale Ebene zurückgezogen , sich aber nicht zu inhaltlichen Aspekten geäußert .
+13-1	1069-1072	Sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie
+13-2	1073-1078	haben	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	haben
+13-3	1079-1083	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Pl	sich
+13-4	1084-1088	dann	_	_	_	_	_	_	_	_	_	ADV	_	dann
+13-5	1089-1092	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+13-6	1093-1096	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+13-7	1097-1101	eher	_	_	_	_	_	_	_	_	_	ADV	_	eher
+13-8	1102-1109	formale	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	formal
+13-9	1110-1115	Ebene	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Ebene
+13-10	1116-1129	zurückgezogen	_	_	_	_	_	_	_	_	_	VVPP	Psp	zurückziehen
+13-11	1130-1131	,	_	_	_	_	_	_	_	_	_	$,	_	,
+13-12	1132-1136	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Pl	sich
+13-13	1137-1141	aber	_	_	_	_	_	_	_	_	_	ADV	_	aber
+13-14	1142-1147	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+13-15	1148-1150	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu
+13-16	1151-1163	inhaltlichen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Masc	inhaltlich
+13-17	1164-1172	Aspekten	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Aspekt
+13-18	1173-1181	geäußert	_	_	_	_	_	_	_	_	_	VVPP	Psp	äußern
+13-19	1182-1183	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das finde ich sehr bedauerlich , denn es geht darum , dass wir wegen des europäischen Binnenmarktes , wegen der Öffnung der Grenzen nach Osteuropa und wegen der in den letzten Jahren in verschiedenen Formen zunehmend auftretenden organisierten Kriminalität eine sehr wirksame Kriminalitätsbekämpfung benötigen .
+14-1	1186-1189	Das	_	_	_	_	_	_	_	_	_	PDS	Acc.Sg.Neut	der
+14-2	1190-1195	finde	_	_	_	_	_	_	_	_	_	VVFIN	1.Sg.Pres.Ind	finden
+14-3	1196-1199	ich	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Sg.*	ich
+14-4	1200-1204	sehr	_	_	_	_	_	_	_	_	_	ADV	_	sehr
+14-5	1205-1216	bedauerlich	_	_	_	_	_	_	_	_	_	ADJD	Pos	bedauerlich
+14-6	1217-1218	,	_	_	_	_	_	_	_	_	_	$,	_	,
+14-7	1219-1223	denn	_	_	_	_	_	_	_	_	_	KON	_	denn
+14-8	1224-1226	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+14-9	1227-1231	geht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	gehen
+14-10	1232-1237	darum	_	_	_	_	_	_	_	_	_	PROAV	_	darum
+14-11	1238-1239	,	_	_	_	_	_	_	_	_	_	$,	_	,
+14-12	1240-1244	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+14-13	1245-1248	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+14-14	1249-1254	wegen	_	_	_	_	_	_	_	_	_	APPR	_	wegen
+14-15	1255-1258	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der
+14-16	1259-1271	europäischen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Masc	europäisch
+14-17	1272-1285	Binnenmarktes	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Binnenmarkt
+14-18	1286-1287	,	_	_	_	_	_	_	_	_	_	$,	_	,
+14-19	1288-1293	wegen	_	_	_	_	_	_	_	_	_	APPR	_	wegen
+14-20	1294-1297	der	_	_	_	_	_	_	_	_	_	ART	*.Sg.Fem	der
+14-21	1298-1305	Öffnung	false	0Kern	true	true	bewirken, dass etwas offen ist	true	*	Überkommen	14-23	NN	*.Sg.Fem	Öffnung
+14-22	1306-1309	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Fem	der
+14-23	1310-1317	Grenzen	false	5clash	_	_	_	_	_	Landesgrenzen	_	NN	Gen.Pl.Fem	Grenze
+14-24	1318-1322	nach	_	_	_	_	_	_	_	_	_	APPR	_	nach
+14-25	1323-1332	Osteuropa	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Osteuropa
+14-26	1333-1336	und	_	_	_	_	_	_	_	_	_	KON	_	und
+14-27	1337-1342	wegen	_	_	_	_	_	_	_	_	_	APPR	_	wegen
+14-28	1343-1346	der	_	_	_	_	_	_	_	_	_	ART	*.Sg.Fem	der
+14-29	1347-1349	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+14-30	1350-1353	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Neut	der
+14-31	1354-1361	letzten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Neut	letzter
+14-32	1362-1368	Jahren	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Neut	Jahr
+14-33	1369-1371	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+14-34	1372-1385	verschiedenen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Fem	verschieden
+14-35	1386-1392	Formen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Form
+14-36	1393-1402	zunehmend	_	_	_	_	_	_	_	_	_	ADJD	Pos	zunehmend
+14-37	1403-1415	auftretenden	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Fem	auftretend
+14-38	1416-1429	organisierten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Fem	organisiert
+14-39	1430-1442	Kriminalität	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Kriminalität
+14-40	1443-1447	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+14-41	1448-1452	sehr	_	_	_	_	_	_	_	_	_	ADV	_	sehr
+14-42	1453-1461	wirksame	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	wirksam
+14-43	1462-1485	Kriminalitätsbekämpfung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Kriminalitätsbekämpfung
+14-44	1486-1495	benötigen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	benötigen
+14-45	1496-1497	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Dafür ist dieses Gesetz gedacht , denn bei den Zollfahndungsbehörden sind eine stärkere Konzentration von Personal und dessen stärkere Spezialisierung bei der Umsetzung der Aufgaben nötig .
+15-1	1500-1505	Dafür	_	_	_	_	_	_	_	_	_	PROAV	_	dafür
+15-2	1506-1509	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+15-3	1510-1516	dieses	_	_	_	_	_	_	_	_	_	PDAT	Nom.Sg.Neut	dieser
+15-4	1517-1523	Gesetz	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Gesetz
+15-5	1524-1531	gedacht	_	_	_	_	_	_	_	_	_	VVPP	Psp	denken
+15-6	1532-1533	,	_	_	_	_	_	_	_	_	_	$,	_	,
+15-7	1534-1538	denn	_	_	_	_	_	_	_	_	_	KON	_	denn
+15-8	1539-1542	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei
+15-9	1543-1546	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Fem	der
+15-10	1547-1568	Zollfahndungsbehörden	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Zollfahndungsbehörde
+15-11	1569-1573	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+15-12	1574-1578	eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein
+15-13	1579-1587	stärkere	_	_	_	_	_	_	_	_	_	ADJA	Comp.Nom.Sg.Fem	stark
+15-14	1588-1601	Konzentration	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Konzentration
+15-15	1602-1605	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+15-16	1606-1614	Personal	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Personal
+15-17	1615-1618	und	_	_	_	_	_	_	_	_	_	KON	_	und
+15-18	1619-1625	dessen	_	_	_	_	_	_	_	_	_	PDS	Gen.Sg.Neut	der
+15-19	1626-1634	stärkere	_	_	_	_	_	_	_	_	_	ADJA	Comp.Nom.Sg.Fem	stark
+15-20	1635-1650	Spezialisierung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Spezialisierung
+15-21	1651-1654	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei
+15-22	1655-1658	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+15-23	1659-1668	Umsetzung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Umsetzung
+15-24	1669-1672	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Fem	der
+15-25	1673-1681	Aufgaben	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Fem	Aufgabe
+15-26	1682-1687	nötig	_	_	_	_	_	_	_	_	_	ADJD	Pos	nötig
+15-27	1688-1689	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Dies gewährleistet einen effektiveren Personaleinsatz .
+16-1	1692-1696	Dies	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	dieser
+16-2	1697-1710	gewährleistet	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	gewährleisten
+16-3	1711-1716	einen	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein
+16-4	1717-1729	effektiveren	_	_	_	_	_	_	_	_	_	ADJA	Comp.Acc.Sg.Masc	effektiv
+16-5	1730-1745	Personaleinsatz	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Personaleinsatz
+16-6	1746-1747	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Zollfahndungsaktivitäten werden in Deutschland künftig hochspezialisiert mit schlagkräftigen Einheiten erfolgen können .
+17-1	1750-1774	Zollfahndungsaktivitäten	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Zollfahndungsaktivität
+17-2	1775-1781	werden	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	werden
+17-3	1782-1784	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+17-4	1785-1796	Deutschland	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Deutschland
+17-5	1797-1804	künftig	_	_	_	_	_	_	_	_	_	ADJD	Pos	künftig
+17-6	1805-1822	hochspezialisiert	_	_	_	_	_	_	_	_	_	VVPP	Psp	hochspezialisieren
+17-7	1823-1826	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+17-8	1827-1842	schlagkräftigen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Fem	schlagkräftig
+17-9	1843-1852	Einheiten	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Einheit
+17-10	1853-1861	erfolgen	_	_	_	_	_	_	_	_	_	VVINF	Inf	erfolgen
+17-11	1862-1868	können	_	_	_	_	_	_	_	_	_	VMINF	Inf	können
+17-12	1869-1870	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das ist der Hintergrund dieses Gesetzes .
+18-1	1873-1876	Das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+18-2	1877-1880	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+18-3	1881-1884	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+18-4	1885-1896	Hintergrund	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Hintergrund
+18-5	1897-1903	dieses	_	_	_	_	_	_	_	_	_	PDAT	Gen.Sg.Neut	dieser
+18-6	1904-1912	Gesetzes	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Gesetz
+18-7	1913-1914	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Es reicht aber nicht aus , allein auf diesen Punkt zu setzen .
+19-1	1917-1919	Es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+19-2	1920-1926	reicht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	reichen
+19-3	1927-1931	aber	_	_	_	_	_	_	_	_	_	ADV	_	aber
+19-4	1932-1937	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+19-5	1938-1941	aus	_	_	_	_	_	_	_	_	_	PTKVZ	_	aus
+19-6	1942-1943	,	_	_	_	_	_	_	_	_	_	$,	_	,
+19-7	1944-1950	allein	_	_	_	_	_	_	_	_	_	ADV	_	allein
+19-8	1951-1954	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+19-9	1955-1961	diesen	_	_	_	_	_	_	_	_	_	PDAT	Acc.Sg.Masc	dieser
+19-10	1962-1967	Punkt	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Punkt
+19-11	1968-1970	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+19-12	1971-1977	setzen	_	_	_	_	_	_	_	_	_	VVINF	Inf	setzen
+19-13	1978-1979	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Vielmehr benötigt der Zollfahndungsdienst auch klare Kompetenzen und klare Weisungswege .
+20-1	1982-1990	Vielmehr	_	_	_	_	_	_	_	_	_	ADV	_	vielmehr
+20-2	1991-1999	benötigt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	benötigen
+20-3	2000-2003	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+20-4	2004-2023	Zollfahndungsdienst	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Zollfahndungsdienst
+20-5	2024-2028	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+20-6	2029-2034	klare	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Fem	klar
+20-7	2035-2046	Kompetenzen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Kompetenz
+20-8	2047-2050	und	_	_	_	_	_	_	_	_	_	KON	_	und
+20-9	2051-2056	klare	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Masc	klar
+20-10	2057-2069	Weisungswege	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Weisungsweg
+20-11	2070-2071	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die gesamte Organisation muss weiter gestrafft werden .
+21-1	2074-2077	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+21-2	2078-2085	gesamte	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	gesamt
+21-3	2086-2098	Organisation	false	5clash	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Organisation
+21-4	2099-2103	muss	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	müssen
+21-5	2104-2110	weiter	_	_	_	_	_	_	_	_	_	ADV	_	weiter
+21-6	2111-2120	gestrafft	false	0Kern	true	true	straff sein, gespannt sein	true	*	klarer, einfacher gestaltet	21-3	VVPP	Psp	straffen
+21-7	2121-2127	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+21-8	2128-2129	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Auch dies ist Bestandteil des vorgelegten Gesetzentwurfes .
+22-1	2132-2136	Auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+22-2	2137-2141	dies	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	dieser
+22-3	2142-2145	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+22-4	2146-2157	Bestandteil	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Bestandteil
+22-5	2158-2161	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der
+22-6	2162-2173	vorgelegten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Masc	vorgelegt
+22-7	2174-2189	Gesetzentwurfes	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Gesetzentwurf
+22-8	2190-2191	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Mit diesem Gesetzentwurf , über den wir heute ab schließend beraten , findet die Neuordnung bei der Zollfahndung ihren Abschluss .
+23-1	2194-2197	Mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+23-2	2198-2204	diesem	_	_	_	_	_	_	_	_	_	PDAT	Dat.Sg.Masc	dieser
+23-3	2205-2218	Gesetzentwurf	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Gesetzentwurf
+23-4	2219-2220	,	_	_	_	_	_	_	_	_	_	$,	_	,
+23-5	2221-2225	über	_	_	_	_	_	_	_	_	_	APPR	_	über
+23-6	2226-2229	den	_	_	_	_	_	_	_	_	_	PRELS	Acc.Sg.Masc	der
+23-7	2230-2233	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+23-8	2234-2239	heute	_	_	_	_	_	_	_	_	_	ADV	_	heute
+23-9	2240-2242	ab	_	_	_	_	_	_	_	_	_	APPR	_	ab
+23-10	2243-2253	schließend	_	_	_	_	_	_	_	_	_	ADJD	Pos	schließend
+23-11	2254-2261	beraten	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	beraten
+23-12	2262-2263	,	_	_	_	_	_	_	_	_	_	$,	_	,
+23-13	2264-2270	findet	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	finden
+23-14	2271-2274	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+23-15	2275-2285	Neuordnung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Neuordnung
+23-16	2286-2289	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei
+23-17	2290-2293	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+23-18	2294-2306	Zollfahndung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Zollfahndung
+23-19	2307-2312	ihren	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Masc	ihr
+23-20	2313-2322	Abschluss	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Abschluss
+23-21	2323-2324	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Zollfahndungsbehörden erhalten mehr Befugnisse , um Zollvergehen im Vorfeld zu verhindern , um sie aufzudecken , um die Täter zu ermitteln .
+24-1	2327-2330	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der
+24-2	2331-2352	Zollfahndungsbehörden	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Zollfahndungsbehörde
+24-3	2353-2361	erhalten	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	erhalten
+24-4	2362-2366	mehr	_	_	_	_	_	_	_	_	_	PIAT	*.*.*	mehr
+24-5	2367-2377	Befugnisse	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Befugnis
+24-6	2378-2379	,	_	_	_	_	_	_	_	_	_	$,	_	,
+24-7	2380-2382	um	_	_	_	_	_	_	_	_	_	KOUI	_	um
+24-8	2383-2395	Zollvergehen	false	5clash	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Zollvergehen
+24-9	2396-2398	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	in
+24-10	2399-2406	Vorfeld	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Vorfeld
+24-11	2407-2409	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+24-12	2410-2420	verhindern	_	_	_	_	_	_	_	_	_	VVINF	Inf	verhindern
+24-13	2421-2422	,	_	_	_	_	_	_	_	_	_	$,	_	,
+24-14	2423-2425	um	_	_	_	_	_	_	_	_	_	KOUI	_	um
+24-15	2426-2429	sie	_	_	_	_	_	_	_	_	_	PPER	3.Acc.Pl.Fem	sie
+24-16	2430-2441	aufzudecken	false	0Kern	true	false	eine Decke von etw. abnehmen, wegnehmen	true	*	enthüllen, die Wahrheit zeigen	24-8	VVIZU	Infzu	aufdecken
+24-17	2442-2443	,	_	_	_	_	_	_	_	_	_	$,	_	,
+24-18	2444-2446	um	_	_	_	_	_	_	_	_	_	KOUI	_	um
+24-19	2447-2450	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Masc	der
+24-20	2451-2456	Täter	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Täter
+24-21	2457-2459	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+24-22	2460-2469	ermitteln	_	_	_	_	_	_	_	_	_	VVINF	Inf	ermitteln
+24-23	2470-2471	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=So dürfen sie künftig beispielsweise personenbezogene Daten sammeln .
+25-1	2474-2476	So	_	_	_	_	_	_	_	_	_	ADV	_	so
+25-2	2477-2483	dürfen	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	dürfen
+25-3	2484-2487	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie
+25-4	2488-2495	künftig	_	_	_	_	_	_	_	_	_	ADJD	Pos	künftig
+25-5	2496-2510	beispielsweise	_	_	_	_	_	_	_	_	_	ADV	_	beispielsweise
+25-6	2511-2527	personenbezogene	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Neut	personenbezogen
+25-7	2528-2533	Daten	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Datum
+25-8	2534-2541	sammeln	_	_	_	_	_	_	_	_	_	VVINF	Inf	sammeln
+25-9	2542-2543	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Sie dürfen zur Erhebung dieser Daten in gleicher Weise wie Polizeibeamte ermitteln .
+26-1	2546-2549	Sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie
+26-2	2550-2556	dürfen	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	dürfen
+26-3	2557-2560	zur	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Fem	zu
+26-4	2561-2569	Erhebung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Erhebung
+26-5	2570-2576	dieser	_	_	_	_	_	_	_	_	_	PDAT	Gen.Pl.Neut	dieser
+26-6	2577-2582	Daten	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Datum
+26-7	2583-2585	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+26-8	2586-2594	gleicher	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	gleich
+26-9	2595-2600	Weise	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Weise
+26-10	2601-2604	wie	_	_	_	_	_	_	_	_	_	KOKOM	_	wie
+26-11	2605-2618	Polizeibeamte	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Polizeibeamter
+26-12	2619-2628	ermitteln	_	_	_	_	_	_	_	_	_	VVINF	Inf	ermitteln
+26-13	2629-2630	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Dabei ist ganz klar geregelt , dass sehr eingriffsintensive Methoden wie zum Beispiel längerfristige Observationen mit Bild - und Tonaufzeichnungen eben nur bei gewerbs - , gewohnheits - oder bandenmäßig begangenen Straftaten eingesetzt werden dürfen .
+27-1	2633-2638	Dabei	_	_	_	_	_	_	_	_	_	PROAV	_	dabei
+27-2	2639-2642	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+27-3	2643-2647	ganz	_	_	_	_	_	_	_	_	_	ADV	_	ganz
+27-4	2648-2652	klar	_	_	_	_	_	_	_	_	_	ADJD	Pos	klar
+27-5	2653-2661	geregelt	_	_	_	_	_	_	_	_	_	VVPP	Psp	regeln
+27-6	2662-2663	,	_	_	_	_	_	_	_	_	_	$,	_	,
+27-7	2664-2668	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+27-8	2669-2673	sehr	_	_	_	_	_	_	_	_	_	ADV	_	sehr
+27-9	2674-2692	eingriffsintensive	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Fem	eingriffsintensiv
+27-10	2693-2701	Methoden	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Methode
+27-11	2702-2705	wie	_	_	_	_	_	_	_	_	_	KOKOM	_	wie
+27-12	2706-2709	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	zu
+27-13	2710-2718	Beispiel	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Beispiel
+27-14	2719-2733	längerfristige	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Fem	längerfristig
+27-15	2734-2747	Observationen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Observation
+27-16	2748-2751	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+27-17	2752-2756	Bild	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Bild
+27-18	2757-2758	-	_	_	_	_	_	_	_	_	_	$(	_	-
+27-19	2759-2762	und	_	_	_	_	_	_	_	_	_	KON	_	und
+27-20	2763-2780	Tonaufzeichnungen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Tonaufzeichnung
+27-21	2781-2785	eben	_	_	_	_	_	_	_	_	_	ADV	_	eben
+27-22	2786-2789	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur
+27-23	2790-2793	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei
+27-24	2794-2801	gewerbs	_	_	_	_	_	_	_	_	_	ADV	_	gewerbs
+27-25	2802-2803	-	_	_	_	_	_	_	_	_	_	$(	_	-
+27-26	2804-2805	,	_	_	_	_	_	_	_	_	_	$,	_	,
+27-27	2806-2817	gewohnheits	_	_	_	_	_	_	_	_	_	ADV	_	gewohnheits
+27-28	2818-2819	-	_	_	_	_	_	_	_	_	_	$(	_	-
+27-29	2820-2824	oder	_	_	_	_	_	_	_	_	_	KON	_	oder
+27-30	2825-2836	bandenmäßig	_	_	_	_	_	_	_	_	_	ADJD	Pos	bandenmäßig
+27-31	2837-2847	begangenen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Fem	begangen
+27-32	2848-2858	Straftaten	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Straftat
+27-33	2859-2869	eingesetzt	_	_	_	_	_	_	_	_	_	VVPP	Psp	einsetzen
+27-34	2870-2876	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+27-35	2877-2883	dürfen	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	dürfen
+27-36	2884-2885	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Dies ist auch dringend notwendig , denn Zollkriminalität und organisierte Kriminalität überschneiden sich immer stärker .
+28-1	2888-2892	Dies	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	dieser
+28-2	2893-2896	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+28-3	2897-2901	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+28-4	2902-2910	dringend	_	_	_	_	_	_	_	_	_	ADJD	Pos	dringend
+28-5	2911-2920	notwendig	_	_	_	_	_	_	_	_	_	ADJD	Pos	notwendig
+28-6	2921-2922	,	_	_	_	_	_	_	_	_	_	$,	_	,
+28-7	2923-2927	denn	_	_	_	_	_	_	_	_	_	KON	_	denn
+28-8	2928-2944	Zollkriminalität	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Zollkriminalität
+28-9	2945-2948	und	_	_	_	_	_	_	_	_	_	KON	_	und
+28-10	2949-2961	organisierte	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	organisiert
+28-11	2962-2974	Kriminalität	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Kriminalität
+28-12	2975-2988	überschneiden	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	überschneiden
+28-13	2989-2993	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Pl	sich
+28-14	2994-2999	immer	_	_	_	_	_	_	_	_	_	ADV	_	immer
+28-15	3000-3007	stärker	_	_	_	_	_	_	_	_	_	ADJD	Comp	stark
+28-16	3008-3009	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Eine Behörde kann nur effektiv arbeiten , wenn klar ist , wer welche Weisungen zu erteilen hat .
+29-1	3012-3016	Eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein
+29-2	3017-3024	Behörde	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Behörde
+29-3	3025-3029	kann	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	können
+29-4	3030-3033	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur
+29-5	3034-3042	effektiv	_	_	_	_	_	_	_	_	_	ADJD	Pos	effektiv
+29-6	3043-3051	arbeiten	_	_	_	_	_	_	_	_	_	VVINF	Inf	arbeiten
+29-7	3052-3053	,	_	_	_	_	_	_	_	_	_	$,	_	,
+29-8	3054-3058	wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn
+29-9	3059-3063	klar	_	_	_	_	_	_	_	_	_	ADJD	Pos	klar
+29-10	3064-3067	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+29-11	3068-3069	,	_	_	_	_	_	_	_	_	_	$,	_	,
+29-12	3070-3073	wer	_	_	_	_	_	_	_	_	_	PWS	Nom.Sg.Masc	wer
+29-13	3074-3080	welche	_	_	_	_	_	_	_	_	_	PWAT	Acc.Pl.Fem	welcher
+29-14	3081-3090	Weisungen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Weisung
+29-15	3091-3093	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+29-16	3094-3102	erteilen	_	_	_	_	_	_	_	_	_	VVINF	Inf	erteilen
+29-17	3103-3106	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben
+29-18	3107-3108	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Bisher überschneiden sich diese Weisungskompetenzen im Zollfahndungsdienst .
+30-1	3111-3117	Bisher	_	_	_	_	_	_	_	_	_	ADV	_	bisher
+30-2	3118-3131	überschneiden	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	überschneiden
+30-3	3132-3136	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Pl	sich
+30-4	3137-3142	diese	_	_	_	_	_	_	_	_	_	PDAT	Nom.Pl.Fem	dieser
+30-5	3143-3162	Weisungskompetenzen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Weisungskompetenz
+30-6	3163-3165	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in
+30-7	3166-3185	Zollfahndungsdienst	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Zollfahndungsdienst
+30-8	3186-3187	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das erschwert die Arbeit ; die eindeutige Anbindung der Zollfahndungsämter an das Zollkriminalamt ist auch aus diesem Grund dringend notwendig .
+31-1	3190-3193	Das	_	_	_	_	_	_	_	_	_	PDS	Acc.Sg.Neut	der
+31-2	3194-3203	erschwert	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	erschweren
+31-3	3204-3207	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+31-4	3208-3214	Arbeit	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Arbeit
+31-5	3215-3216	;	_	_	_	_	_	_	_	_	_	$.	_	;
+31-6	3217-3220	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+31-7	3221-3231	eindeutige	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	eindeutig
+31-8	3232-3241	Anbindung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Anbindung
+31-9	3242-3245	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Neut	der
+31-10	3246-3264	Zollfahndungsämter	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Zollfahndungsamt
+31-11	3265-3267	an	_	_	_	_	_	_	_	_	_	APPR	_	an
+31-12	3268-3271	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der
+31-13	3272-3287	Zollkriminalamt	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Zollkriminalamt
+31-14	3288-3291	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+31-15	3292-3296	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+31-16	3297-3300	aus	_	_	_	_	_	_	_	_	_	APPR	_	aus
+31-17	3301-3307	diesem	_	_	_	_	_	_	_	_	_	PDAT	Dat.Sg.Masc	dieser
+31-18	3308-3313	Grund	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Grund
+31-19	3314-3322	dringend	_	_	_	_	_	_	_	_	_	ADJD	Pos	dringend
+31-20	3323-3332	notwendig	_	_	_	_	_	_	_	_	_	ADJD	Pos	notwendig
+31-21	3333-3334	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Klare Organisationsstränge im Zollfahndungsdienst haben im Übrigen der Bundesrechnungshof schon seit 1996 und auch der Rechnungsprüfungsausschuss seit 1997 eingefordert .
+32-1	3337-3342	Klare	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Masc	klar
+32-2	3343-3363	Organisationsstränge	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Organisationsstrang
+32-3	3364-3366	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in
+32-4	3367-3386	Zollfahndungsdienst	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Zollfahndungsdienst
+32-5	3387-3392	haben	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	haben
+32-6	3393-3395	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	in
+32-7	3396-3403	Übrigen	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	übrige
+32-8	3404-3407	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+32-9	3408-3426	Bundesrechnungshof	_	_	_	_	_	_	_	_	_	NE	Gen.Sg.Fem	Bundesrechnungshof
+32-10	3427-3432	schon	_	_	_	_	_	_	_	_	_	ADV	_	schon
+32-11	3433-3437	seit	_	_	_	_	_	_	_	_	_	APPR	_	seit
+32-12	3438-3442	1996	_	_	_	_	_	_	_	_	_	CARD	_	1996
+32-13	3443-3446	und	_	_	_	_	_	_	_	_	_	KON	_	und
+32-14	3447-3451	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+32-15	3452-3455	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+32-16	3456-3482	Rechnungsprüfungsausschuss	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Rechnungsprüfungsausschuss
+32-17	3483-3487	seit	_	_	_	_	_	_	_	_	_	APPR	_	seit
+32-18	3488-3492	1997	_	_	_	_	_	_	_	_	_	CARD	_	1997
+32-19	3493-3505	eingefordert	_	_	_	_	_	_	_	_	_	VVPP	Psp	einfordern
+32-20	3506-3507	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Diese Forderungen setzen wir mit dem vorliegenden Gesetzentwurf um .
+33-1	3510-3515	Diese	_	_	_	_	_	_	_	_	_	PDAT	Acc.Pl.Fem	dieser
+33-2	3516-3527	Forderungen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Forderung
+33-3	3528-3534	setzen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	setzen
+33-4	3535-3538	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+33-5	3539-3542	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+33-6	3543-3546	dem	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	der
+33-7	3547-3559	vorliegenden	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Masc	vorliegend
+33-8	3560-3573	Gesetzentwurf	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Gesetzentwurf
+33-9	3574-3576	um	_	_	_	_	_	_	_	_	_	PTKVZ	_	um
+33-10	3577-3578	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Jetzt kann durch die direkte Zusammenarbeit des koordinierenden Zollkriminalamtes mit den regional selbstständigen Zollfahndungsämtern Kriminalität nachhaltig und erfolgreich bekämpft werden .
+34-1	3581-3586	Jetzt	_	_	_	_	_	_	_	_	_	ADV	_	jetzt
+34-2	3587-3591	kann	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	können
+34-3	3592-3597	durch	_	_	_	_	_	_	_	_	_	APPR	_	durch
+34-4	3598-3601	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+34-5	3602-3609	direkte	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	direkt
+34-6	3610-3624	Zusammenarbeit	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Zusammenarbeit
+34-7	3625-3628	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	der
+34-8	3629-3644	koordinierenden	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Neut	koordinierend
+34-9	3645-3662	Zollkriminalamtes	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Zollkriminalamt
+34-10	3663-3666	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+34-11	3667-3670	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Neut	der
+34-12	3671-3679	regional	_	_	_	_	_	_	_	_	_	ADJD	Pos	regional
+34-13	3680-3695	selbstständigen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Neut	selbstständig
+34-14	3696-3715	Zollfahndungsämtern	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Neut	Zollfahndungsamt
+34-15	3716-3728	Kriminalität	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Kriminalität
+34-16	3729-3739	nachhaltig	_	_	_	_	_	_	_	_	_	ADJD	Pos	nachhaltig
+34-17	3740-3743	und	_	_	_	_	_	_	_	_	_	KON	_	und
+34-18	3744-3755	erfolgreich	_	_	_	_	_	_	_	_	_	ADJD	Pos	erfolgreich
+34-19	3756-3764	bekämpft	_	_	_	_	_	_	_	_	_	VVPP	Psp	bekämpfen
+34-20	3765-3771	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+34-21	3772-3773	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=So können zum Beispiel die Zollfahndungsämter die Spezialeinheiten des Zollkriminalamtes nun kurzfristig und unkompliziert anfordern .
+35-1	3776-3778	So	_	_	_	_	_	_	_	_	_	ADV	_	so
+35-2	3779-3785	können	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	können
+35-3	3786-3789	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	zu
+35-4	3790-3798	Beispiel	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Beispiel
+35-5	3799-3802	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Neut	der
+35-6	3803-3821	Zollfahndungsämter	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Zollfahndungsämter
+35-7	3822-3825	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Fem	der
+35-8	3826-3842	Spezialeinheiten	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Spezialeinheit
+35-9	3843-3846	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	der
+35-10	3847-3864	Zollkriminalamtes	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Zollkriminalamt
+35-11	3865-3868	nun	_	_	_	_	_	_	_	_	_	ADV	_	nun
+35-12	3869-3880	kurzfristig	_	_	_	_	_	_	_	_	_	ADJD	Pos	kurzfristig
+35-13	3881-3884	und	_	_	_	_	_	_	_	_	_	KON	_	und
+35-14	3885-3898	unkompliziert	_	_	_	_	_	_	_	_	_	ADJD	Pos	unkompliziert
+35-15	3899-3908	anfordern	_	_	_	_	_	_	_	_	_	VVINF	Inf	anfordern
+35-16	3909-3910	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Umgekehrt laufen verschiedene dezentral gesammelte Informationen im Zollkriminalamt zusammen und können dort weiter ausgewertet werden .
+36-1	3913-3922	Umgekehrt	_	_	_	_	_	_	_	_	_	ADJD	Pos	umgekehrt
+36-2	3923-3929	laufen	false	0Kern	true	false	zusammenströmen, herbeiströmen	_	_	versammeln	36-9|36-6	VVFIN	3.Pl.Pres.Ind	laufen
+36-3	3930-3942	verschiedene	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Fem	verschieden
+36-4	3943-3952	dezentral	_	_	_	_	_	_	_	_	_	ADJD	Pos	dezentral
+36-5	3953-3963	gesammelte	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Fem	gesammelt
+36-6	3964-3977	Informationen	false	5clash	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Information
+36-7	3978-3980	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	in
+36-8	3981-3996	Zollkriminalamt	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Zollkriminalamt
+36-9	3997-4005	zusammen	false	1synt	_	_	_	_	_	_	_	PTKVZ	_	zusammen
+36-10	4006-4009	und	_	_	_	_	_	_	_	_	_	KON	_	und
+36-11	4010-4016	können	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	können
+36-12	4017-4021	dort	_	_	_	_	_	_	_	_	_	ADV	_	dort
+36-13	4022-4028	weiter	_	_	_	_	_	_	_	_	_	ADV	_	weiter
+36-14	4029-4040	ausgewertet	_	_	_	_	_	_	_	_	_	VVPP	Psp	auswerten
+36-15	4041-4047	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+36-16	4048-4049	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Unsere europäischen Partner brauchen einen eindeutigen Ansprechpartner , wenn Ermittlungen auch über die Grenzen hinweg - wir alle betonen immer , dass dies notwendig ist - erfolgreich sein sollen .
+37-1	4052-4058	Unsere	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Pl.Masc	unser
+37-2	4059-4071	europäischen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Masc	europäisch
+37-3	4072-4079	Partner	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Partner
+37-4	4080-4088	brauchen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	brauchen
+37-5	4089-4094	einen	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein
+37-6	4095-4106	eindeutigen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	eindeutig
+37-7	4107-4122	Ansprechpartner	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Ansprechpartner
+37-8	4123-4124	,	_	_	_	_	_	_	_	_	_	$,	_	,
+37-9	4125-4129	wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn
+37-10	4130-4142	Ermittlungen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Ermittlung
+37-11	4143-4147	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+37-12	4148-4152	über	_	_	_	_	_	_	_	_	_	APPR	_	über
+37-13	4153-4156	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Fem	der
+37-14	4157-4164	Grenzen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Grenze
+37-15	4165-4171	hinweg	_	_	_	_	_	_	_	_	_	ADV	_	hinweg
+37-16	4172-4173	-	_	_	_	_	_	_	_	_	_	$(	_	-
+37-17	4174-4177	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+37-18	4178-4182	alle	_	_	_	_	_	_	_	_	_	PIS	Nom.Pl.*	alle
+37-19	4183-4190	betonen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	betonen
+37-20	4191-4196	immer	_	_	_	_	_	_	_	_	_	ADV	_	immer
+37-21	4197-4198	,	_	_	_	_	_	_	_	_	_	$,	_	,
+37-22	4199-4203	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+37-23	4204-4208	dies	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	dieser
+37-24	4209-4218	notwendig	_	_	_	_	_	_	_	_	_	ADJD	Pos	notwendig
+37-25	4219-4222	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+37-26	4223-4224	-	_	_	_	_	_	_	_	_	_	$(	_	-
+37-27	4225-4236	erfolgreich	_	_	_	_	_	_	_	_	_	ADJD	Pos	erfolgreich
+37-28	4237-4241	sein	_	_	_	_	_	_	_	_	_	VAINF	Inf	sein
+37-29	4242-4248	sollen	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	sollen
+37-30	4249-4250	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Gerade auf der europäischen Ebene sind in den letzten Jahren neue Aufgaben entstanden .
+38-1	4253-4259	Gerade	_	_	_	_	_	_	_	_	_	ADV	_	gerade
+38-2	4260-4263	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+38-3	4264-4267	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+38-4	4268-4280	europäischen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	europäisch
+38-5	4281-4286	Ebene	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Ebene
+38-6	4287-4291	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+38-7	4292-4294	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+38-8	4295-4298	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Neut	der
+38-9	4299-4306	letzten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Neut	letzter
+38-10	4307-4313	Jahren	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Neut	Jahr
+38-11	4314-4318	neue	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Fem	neu
+38-12	4319-4327	Aufgaben	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Aufgabe
+38-13	4328-4338	entstanden	_	_	_	_	_	_	_	_	_	VVPP	Psp	entstehen
+38-14	4339-4340	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=In diesem Zusammenhang denke ich nur an die Bekämpfung der Geldwäsche .
+39-1	4343-4345	In	_	_	_	_	_	_	_	_	_	APPR	_	in
+39-2	4346-4352	diesem	_	_	_	_	_	_	_	_	_	PDAT	Dat.Sg.Masc	dieser
+39-3	4353-4365	Zusammenhang	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Zusammenhang
+39-4	4366-4371	denke	_	_	_	_	_	_	_	_	_	VVFIN	1.Sg.Pres.Ind	denken
+39-5	4372-4375	ich	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Sg.*	ich
+39-6	4376-4379	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur
+39-7	4380-4382	an	_	_	_	_	_	_	_	_	_	APPR	_	an
+39-8	4383-4386	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+39-9	4387-4397	Bekämpfung	false	0Kern	true	false	gegen jemanden kämpfen	_	_	Eindämmung	39-11	NN	Acc.Sg.Fem	Bekämpfung
+39-10	4398-4401	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+39-11	4402-4412	Geldwäsche	false	5clash	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Geldwäsche
+39-12	4413-4414	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Aber auch bei der Erledigung ihrer klassischen Aufgaben trifft die Zollfahndung heute immer wieder auf Täterstrukturen , die in der gesamten Europäischen Union agieren .
+40-1	4417-4421	Aber	_	_	_	_	_	_	_	_	_	KON	_	aber
+40-2	4422-4426	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+40-3	4427-4430	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei
+40-4	4431-4434	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+40-5	4435-4445	Erledigung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Erledigung
+40-6	4446-4451	ihrer	_	_	_	_	_	_	_	_	_	PPOSAT	Gen.Pl.Fem	ihr
+40-7	4452-4463	klassischen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Pl.Fem	klassisch
+40-8	4464-4472	Aufgaben	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Fem	Aufgabe
+40-9	4473-4479	trifft	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	treffen
+40-10	4480-4483	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+40-11	4484-4496	Zollfahndung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Zollfahndung
+40-12	4497-4502	heute	_	_	_	_	_	_	_	_	_	ADV	_	heute
+40-13	4503-4508	immer	_	_	_	_	_	_	_	_	_	ADV	_	immer
+40-14	4509-4515	wieder	_	_	_	_	_	_	_	_	_	ADV	_	wieder
+40-15	4516-4519	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+40-16	4520-4535	Täterstrukturen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Täterstruktur
+40-17	4536-4537	,	_	_	_	_	_	_	_	_	_	$,	_	,
+40-18	4538-4541	die	_	_	_	_	_	_	_	_	_	PRELS	Nom.Pl.Fem	der
+40-19	4542-4544	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+40-20	4545-4548	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+40-21	4549-4557	gesamten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	gesamt
+40-22	4558-4570	Europäischen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	europäisch
+40-23	4571-4576	Union	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Union
+40-24	4577-4584	agieren	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	agieren
+40-25	4585-4586	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Für die erfolgreiche Bekämpfung ist deshalb eine effektive Amts - und Rechtshilfe durch und für andere Länder immer wichtiger geworden .
+41-1	4589-4592	Für	_	_	_	_	_	_	_	_	_	APPR	_	für
+41-2	4593-4596	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+41-3	4597-4609	erfolgreiche	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	erfolgreich
+41-4	4610-4620	Bekämpfung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Bekämpfung
+41-5	4621-4624	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+41-6	4625-4632	deshalb	_	_	_	_	_	_	_	_	_	PROAV	_	deshalb
+41-7	4633-4637	eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein
+41-8	4638-4647	effektive	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	effektiv
+41-9	4648-4652	Amts	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Amt
+41-10	4653-4654	-	_	_	_	_	_	_	_	_	_	$(	_	-
+41-11	4655-4658	und	_	_	_	_	_	_	_	_	_	KON	_	und
+41-12	4659-4670	Rechtshilfe	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Rechtshilfe
+41-13	4671-4676	durch	_	_	_	_	_	_	_	_	_	ADV	_	durch
+41-14	4677-4680	und	_	_	_	_	_	_	_	_	_	KON	_	und
+41-15	4681-4684	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+41-16	4685-4691	andere	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Neut	anderer
+41-17	4692-4698	Länder	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Land
+41-18	4699-4704	immer	_	_	_	_	_	_	_	_	_	ADV	_	immer
+41-19	4705-4714	wichtiger	_	_	_	_	_	_	_	_	_	ADJD	Comp	wichtig
+41-20	4715-4723	geworden	_	_	_	_	_	_	_	_	_	VAPP	Psp	werden
+41-21	4724-4725	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das Zollkriminalamt wird hier eine zuverlässige Verbindung zu den entsprechenden Dienststellen der europäischen Partner sichern .
+42-1	4728-4731	Das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+42-2	4732-4747	Zollkriminalamt	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Zollkriminalamt
+42-3	4748-4752	wird	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	werden
+42-4	4753-4757	hier	_	_	_	_	_	_	_	_	_	ADV	_	hier
+42-5	4758-4762	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+42-6	4763-4775	zuverlässige	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	zuverlässig
+42-7	4776-4786	Verbindung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Verbindung
+42-8	4787-4789	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu
+42-9	4790-4793	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Fem	der
+42-10	4794-4808	entsprechenden	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Fem	entsprechend
+42-11	4809-4822	Dienststellen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Dienststelle
+42-12	4823-4826	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Masc	der
+42-13	4827-4839	europäischen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Pl.Masc	europäisch
+42-14	4840-4847	Partner	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Masc	Partner
+42-15	4848-4855	sichern	_	_	_	_	_	_	_	_	_	VVINF	Inf	sichern
+42-16	4856-4857	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Alle damit verbundenen Veränderungen werden uns in Zukunft helfen , Kriminalität zu bekämpfen .
+43-1	4860-4864	Alle	_	_	_	_	_	_	_	_	_	PIAT	Nom.Pl.Fem	aller
+43-2	4865-4870	damit	_	_	_	_	_	_	_	_	_	PROAV	_	damit
+43-3	4871-4882	verbundenen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Fem	verbunden
+43-4	4883-4896	Veränderungen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Veränderung
+43-5	4897-4903	werden	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	werden
+43-6	4904-4907	uns	_	_	_	_	_	_	_	_	_	PPER	1.Acc.Pl.*	uns
+43-7	4908-4910	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+43-8	4911-4918	Zukunft	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Zukunft
+43-9	4919-4925	helfen	_	_	_	_	_	_	_	_	_	VVINF	Inf	helfen
+43-10	4926-4927	,	_	_	_	_	_	_	_	_	_	$,	_	,
+43-11	4928-4940	Kriminalität	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Kriminalität
+43-12	4941-4943	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+43-13	4944-4953	bekämpfen	_	_	_	_	_	_	_	_	_	VVINF	Inf	bekämpfen
+43-14	4954-4955	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Deshalb bedaure ich es sehr , dass die Union diesen Gesetzentwurf nicht mittragen will .
+44-1	4958-4965	Deshalb	_	_	_	_	_	_	_	_	_	PROAV	_	deshalb
+44-2	4966-4973	bedaure	_	_	_	_	_	_	_	_	_	VVFIN	1.Sg.Pres.Ind	bedauern
+44-3	4974-4977	ich	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Sg.*	ich
+44-4	4978-4980	es	_	_	_	_	_	_	_	_	_	PPER	3.Acc.Sg.Neut	es
+44-5	4981-4985	sehr	_	_	_	_	_	_	_	_	_	ADV	_	sehr
+44-6	4986-4987	,	_	_	_	_	_	_	_	_	_	$,	_	,
+44-7	4988-4992	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+44-8	4993-4996	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+44-9	4997-5002	Union	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Union
+44-10	5003-5009	diesen	_	_	_	_	_	_	_	_	_	PDAT	Acc.Sg.Masc	dieser
+44-11	5010-5023	Gesetzentwurf	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Gesetzentwurf
+44-12	5024-5029	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+44-13	5030-5039	mittragen	_	_	_	_	_	_	_	_	_	VVINF	Inf	mittragen
+44-14	5040-5044	will	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	wollen
+44-15	5045-5046	.	_	_	_	_	_	_	_	_	_	$.	_	.

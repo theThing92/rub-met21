@@ -1,0 +1,897 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.MET_A|MFlag|Rolle
+#T_SP=webanno.custom.MET_B|basic|c_mark
+#T_SP=webanno.custom.MET_B2|b_Lex
+#T_SP=webanno.custom.MET_C|a_Ref|b_Art
+#T_SP=webanno.custom.MET_D|a_Par
+#T_RL=webanno.custom.METD|BT_webanno.custom.MET_A
+
+
+#Text=Christian Sterzing ( BÜNDNIS 90/DIE GRÜNEN ) : Die Europäische Union steht zu Beginn des 21 .
+1-1	0-9	Christian	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Christian
+1-2	10-18	Sterzing	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Sterzing
+1-3	19-20	(	_	_	_	_	_	_	_	_	_	$(	_	(
+1-4	21-28	BÜNDNIS	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Neut	Bündnis
+1-5	29-31	90	_	_	_	_	_	_	_	_	_	NE	*.*.*	90
+1-6	31-32	/	_	_	_	_	_	_	_	_	_	NE	*.*.*	/
+1-7	32-35	DIE	_	_	_	_	_	_	_	_	_	NE	*.*.*	DIE
+1-8	36-42	GRÜNEN	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Neut	Grünen
+1-9	43-44	)	_	_	_	_	_	_	_	_	_	$(	_	)
+1-10	45-46	:	_	_	_	_	_	_	_	_	_	$.	_	:
+1-11	47-50	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+1-12	51-62	Europäische	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	europäisch
+1-13	63-68	Union	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Union
+1-14	69-74	steht	false	0Kern	true	false	sich stehend an einer bestimmten Stelle befinden	_	_	befindet	_	VVFIN	3.Sg.Pres.Ind	stehen
+1-15	75-77	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu
+1-16	78-84	Beginn	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Beginn
+1-17	85-88	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	der
+1-18	89-91	21	_	_	_	_	_	_	_	_	_	CARD	_	21
+1-19	92-93	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Jahrhunderts vor einer riesigen Herausforderung .
+2-1	96-108	Jahrhunderts	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Jahrhundert
+2-2	109-112	vor	_	_	_	_	_	_	_	_	_	APPR	_	vor
+2-3	113-118	einer	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	ein
+2-4	119-127	riesigen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	riesig
+2-5	128-143	Herausforderung	false	0Kern	true	false	jemanden auffordern, sich zum Kampf zu stellen	_	_	Aufgabe	_	NN	Dat.Sg.Fem	Herausforderung
+2-6	144-145	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Erweiterung der Europäischen Union nach Osten und Südosten ist eine politische Notwendigkeit und Chance .
+3-1	148-151	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+3-2	152-163	Erweiterung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Erweiterung
+3-3	164-167	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+3-4	168-180	Europäischen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Fem	europäisch
+3-5	181-186	Union	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Union
+3-6	187-191	nach	_	_	_	_	_	_	_	_	_	APPR	_	nach
+3-7	192-197	Osten	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Osten
+3-8	198-201	und	_	_	_	_	_	_	_	_	_	KON	_	und
+3-9	202-210	Südosten	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Südosten
+3-10	211-214	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+3-11	215-219	eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein
+3-12	220-230	politische	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	politisch
+3-13	231-244	Notwendigkeit	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Notwendigkeit
+3-14	245-248	und	_	_	_	_	_	_	_	_	_	KON	_	und
+3-15	249-255	Chance	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Chance
+3-16	256-257	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wenn noch vor der nächsten Wahl des Europaparlamentes neue Mitglieder aufgenommen werden sollen - und das haben wir uns alle in der EU vorgenommen -, dann müssen die Beitrittsverhandlungen zügig zum Ende gebracht werden .
+4-1	260-264	Wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn
+4-2	265-269	noch	_	_	_	_	_	_	_	_	_	ADV	_	noch
+4-3	270-273	vor	_	_	_	_	_	_	_	_	_	APPR	_	vor
+4-4	274-277	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+4-5	278-286	nächsten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	nächster
+4-6	287-291	Wahl	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Wahl
+4-7	292-295	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	der
+4-8	296-313	Europaparlamentes	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Europaparlament
+4-9	314-318	neue	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Neut	neu
+4-10	319-329	Mitglieder	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Mitglied
+4-11	330-341	aufgenommen	_	_	_	_	_	_	_	_	_	VVPP	Psp	aufnehmen
+4-12	342-348	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+4-13	349-355	sollen	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	sollen
+4-14	356-357	-	_	_	_	_	_	_	_	_	_	$(	_	-
+4-15	358-361	und	_	_	_	_	_	_	_	_	_	KON	_	und
+4-16	362-365	das	_	_	_	_	_	_	_	_	_	PDS	Acc.Sg.Neut	der
+4-17	366-371	haben	_	_	_	_	_	_	_	_	_	VAFIN	1.Pl.Pres.Ind	haben
+4-18	372-375	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+4-19	376-379	uns	_	_	_	_	_	_	_	_	_	PRF	1.Acc.Pl	sich
+4-20	380-384	alle	_	_	_	_	_	_	_	_	_	PIS	Nom.Pl.*	alle
+4-21	385-387	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+4-22	388-391	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+4-23	392-394	EU	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Fem	EU
+4-24	395-406	vorgenommen	_	_	_	_	_	_	_	_	_	VVPP	Psp	vornehmen
+4-25	407-408	-	_	_	_	_	_	_	_	_	_	$(	_	-
+4-26	408-409	,	_	_	_	_	_	_	_	_	_	$,	_	,
+4-27	410-414	dann	_	_	_	_	_	_	_	_	_	ADV	_	dann
+4-28	415-421	müssen	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	müssen
+4-29	422-425	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der
+4-30	426-448	Beitrittsverhandlungen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Beitrittsverhandlung
+4-31	449-454	zügig	_	_	_	_	_	_	_	_	_	ADJD	Pos	zügig
+4-32	455-458	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	zu
+4-33	459-463	Ende	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Ende
+4-34	464-472	gebracht	_	_	_	_	_	_	_	_	_	VVPP	Psp	bringen
+4-35	473-479	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+4-36	480-481	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Jede Verzögerung des Verhandlungsprozesses birgt das Risiko in sich , dass damit rückwärtsgewandte Kräfte innerhalb Ost - und Mitteleuropas gestärkt werden und die vorhandene Zustimmung für einen Beitritt zur Union geschmälert wird .
+5-1	484-488	Jede	_	_	_	_	_	_	_	_	_	PIAT	Acc.Sg.Fem	jeder
+5-2	489-500	Verzögerung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Verzögerung
+5-3	501-504	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der
+5-4	505-526	Verhandlungsprozesses	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Verhandlungsprozeß
+5-5	527-532	birgt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	bergen
+5-6	533-536	das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+5-7	537-543	Risiko	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Risiko
+5-8	544-546	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+5-9	547-551	sich	_	_	_	_	_	_	_	_	_	PRF	3.Dat.Sg	sich
+5-10	552-553	,	_	_	_	_	_	_	_	_	_	$,	_	,
+5-11	554-558	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+5-12	559-564	damit	_	_	_	_	_	_	_	_	_	PROAV	_	damit
+5-13	565-582	rückwärtsgewandte	false	0Kern	true	false	nach hinten gewandt	_	_	rückschrittig	_	ADJA	Pos.Nom.Pl.Fem	rückwärtsgewandt
+5-14	583-589	Kräfte	false	0Kern	true	true	Sache oder Person, die eine Wirkung ausübt	true	starke, ausgeprägte Kräfte	Gruppierungen	_	NN	Nom.Pl.Fem	Kraft
+5-15	590-599	innerhalb	_	_	_	_	_	_	_	_	_	APPR	_	innerhalb
+5-16	600-603	Ost	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.*	Ost
+5-17	604-605	-	_	_	_	_	_	_	_	_	_	$(	_	-
+5-18	606-609	und	_	_	_	_	_	_	_	_	_	KON	_	und
+5-19	610-623	Mitteleuropas	_	_	_	_	_	_	_	_	_	NE	Gen.Sg.Neut	Mitteleuropa
+5-20	624-632	gestärkt	_	_	_	_	_	_	_	_	_	VVPP	Psp	stärken
+5-21	633-639	werden	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	werden
+5-22	640-643	und	_	_	_	_	_	_	_	_	_	KON	_	und
+5-23	644-647	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+5-24	648-658	vorhandene	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	vorhanden
+5-25	659-669	Zustimmung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Zustimmung
+5-26	670-673	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+5-27	674-679	einen	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein
+5-28	680-688	Beitritt	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Beitritt
+5-29	689-692	zur	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Fem	zu
+5-30	693-698	Union	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Union
+5-31	699-710	geschmälert	_	_	_	_	_	_	_	_	_	VVPP	Psp	schmälern
+5-32	711-715	wird	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	werden
+5-33	716-717	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Osterweiterung der Union darf daher aber auch bei uns nicht zum Spielball innenpolitischer Opportunitäten werden .
+6-1	720-723	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+6-2	724-738	Osterweiterung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Osterweiterung
+6-3	739-742	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+6-4	743-748	Union	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Union
+6-5	749-753	darf	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	dürfen
+6-6	754-759	daher	_	_	_	_	_	_	_	_	_	PROAV	_	daher
+6-7	760-764	aber	_	_	_	_	_	_	_	_	_	ADV	_	aber
+6-8	765-769	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+6-9	770-773	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei
+6-10	774-777	uns	_	_	_	_	_	_	_	_	_	PPER	1.Dat.Pl.*	uns
+6-11	778-783	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+6-12	784-787	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	zu
+6-13	788-797	Spielball	false	0Kern	true	true	in einem Spiel benutzter Ball	true	*	Argument	6-15	NN	Dat.Sg.Masc	Spielball
+6-14	798-814	innenpolitischer	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Pl.Fem	innenpolitisch
+6-15	815-829	Opportunitäten	false	5clash	_	_	_	_	_	_	_	NN	Gen.Pl.Fem	Opportunität
+6-16	830-836	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+6-17	837-838	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Erweiterung der Europäischen Union ist ein äußerst komplexer Vorgang .
+7-1	841-844	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+7-2	845-856	Erweiterung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Erweiterung
+7-3	857-860	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+7-4	861-873	Europäischen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Fem	europäisch
+7-5	874-879	Union	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Union
+7-6	880-883	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+7-7	884-887	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+7-8	888-895	äußerst	_	_	_	_	_	_	_	_	_	ADV	_	äußerst
+7-9	896-905	komplexer	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	komplex
+7-10	906-913	Vorgang	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Vorgang
+7-11	914-915	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Auch wenn längerfristig die wirtschaftlichen Vorteile überwiegen - niemand zweifelt daran -, sind Risiken nicht auszuschließen .
+8-1	918-922	Auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+8-2	923-927	wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn
+8-3	928-941	längerfristig	_	_	_	_	_	_	_	_	_	ADJD	Pos	längerfristig
+8-4	942-945	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der
+8-5	946-962	wirtschaftlichen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Masc	wirtschaftlich
+8-6	963-971	Vorteile	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Vorteil
+8-7	972-982	überwiegen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	überwiegen
+8-8	983-984	-	_	_	_	_	_	_	_	_	_	$(	_	-
+8-9	985-992	niemand	_	_	_	_	_	_	_	_	_	PIS	Nom.Sg.Masc	niemand
+8-10	993-1001	zweifelt	_	_	_	_	_	_	_	_	_	ADJD	Pos	zweifelt
+8-11	1002-1007	daran	_	_	_	_	_	_	_	_	_	PROAV	_	daran
+8-12	1008-1009	-	_	_	_	_	_	_	_	_	_	$(	_	-
+8-13	1009-1010	,	_	_	_	_	_	_	_	_	_	$,	_	,
+8-14	1011-1015	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+8-15	1016-1023	Risiken	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Risiko
+8-16	1024-1029	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+8-17	1030-1044	auszuschließen	_	_	_	_	_	_	_	_	_	VVIZU	Infzu	ausschließen
+8-18	1045-1046	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Je nach Region , nach Wirtschaftsbereich oder anderen spezifischen Bedingungen - etwa der Qualifizierung der Menschen - sind unterschiedliche Effekte denkbar .
+9-1	1049-1051	Je	_	_	_	_	_	_	_	_	_	ADV	_	je
+9-2	1052-1056	nach	_	_	_	_	_	_	_	_	_	APPR	_	nach
+9-3	1057-1063	Region	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Region
+9-4	1064-1065	,	_	_	_	_	_	_	_	_	_	$,	_	,
+9-5	1066-1070	nach	_	_	_	_	_	_	_	_	_	APPR	_	nach
+9-6	1071-1089	Wirtschaftsbereich	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Wirtschaftsbereich
+9-7	1090-1094	oder	_	_	_	_	_	_	_	_	_	KON	_	oder
+9-8	1095-1102	anderen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Fem	anderer
+9-9	1103-1115	spezifischen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Fem	spezifisch
+9-10	1116-1127	Bedingungen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Bedingung
+9-11	1128-1129	-	_	_	_	_	_	_	_	_	_	$(	_	-
+9-12	1130-1134	etwa	_	_	_	_	_	_	_	_	_	ADV	_	etwa
+9-13	1135-1138	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+9-14	1139-1153	Qualifizierung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Qualifizierung
+9-15	1154-1157	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Masc	der
+9-16	1158-1166	Menschen	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Masc	Mensch
+9-17	1167-1168	-	_	_	_	_	_	_	_	_	_	$(	_	-
+9-18	1169-1173	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+9-19	1174-1190	unterschiedliche	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Masc	unterschiedlich
+9-20	1191-1198	Effekte	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Effekt
+9-21	1199-1206	denkbar	_	_	_	_	_	_	_	_	_	ADJD	Pos	denkbar
+9-22	1207-1208	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Ängste , Sorgen und Skepsis gegenüber Europa sind deshalb verständlich , weil viele Menschen nicht verstehen , wer warum von weitem in ihren Alltag eingreift .
+10-1	1211-1217	Ängste	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Angst
+10-2	1218-1219	,	_	_	_	_	_	_	_	_	_	$,	_	,
+10-3	1220-1226	Sorgen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Sorge
+10-4	1227-1230	und	_	_	_	_	_	_	_	_	_	KON	_	und
+10-5	1231-1238	Skepsis	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Skepsis
+10-6	1239-1248	gegenüber	_	_	_	_	_	_	_	_	_	APPR	_	gegenüber
+10-7	1249-1255	Europa	false	0Kern	true	true	Kontinent	true	*	EU	_	NE	Dat.Sg.Neut	Europa
+10-8	1256-1260	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+10-9	1261-1268	deshalb	_	_	_	_	_	_	_	_	_	PROAV	_	deshalb
+10-10	1269-1281	verständlich	_	_	_	_	_	_	_	_	_	ADJD	Pos	verständlich
+10-11	1282-1283	,	_	_	_	_	_	_	_	_	_	$,	_	,
+10-12	1284-1288	weil	_	_	_	_	_	_	_	_	_	KOUS	_	weil
+10-13	1289-1294	viele	_	_	_	_	_	_	_	_	_	PIAT	Nom.Pl.Masc	vieler
+10-14	1295-1303	Menschen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Mensch
+10-15	1304-1309	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+10-16	1310-1319	verstehen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	verstehen
+10-17	1320-1321	,	_	_	_	_	_	_	_	_	_	$,	_	,
+10-18	1322-1325	wer	_	_	_	_	_	_	_	_	_	PWS	Nom.Sg.Masc	wer
+10-19	1326-1331	warum	_	_	_	_	_	_	_	_	_	PWAV	_	warum
+10-20	1332-1335	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+10-21	1336-1342	weitem	false	2sem	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Neut	weit
+10-22	1343-1345	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+10-23	1346-1351	ihren	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Masc	ihr
+10-24	1352-1358	Alltag	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Alltag
+10-25	1359-1368	eingreift	false	0Kern	true	true	fassen	true	*	entscheidend handeln, einschreiten	10-21	VVFIN	3.Sg.Pres.Ind	eingreifen
+10-26	1369-1370	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Hier muss sich gewiss manches ändern , um die Akzeptanz für Europa zu erhöhen .
+11-1	1373-1377	Hier	_	_	_	_	_	_	_	_	_	ADV	_	hier
+11-2	1378-1382	muss	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	müssen
+11-3	1383-1387	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+11-4	1388-1394	gewiss	_	_	_	_	_	_	_	_	_	ADV	_	gewiss
+11-5	1395-1402	manches	_	_	_	_	_	_	_	_	_	PIS	Nom.Sg.Neut	mancher
+11-6	1403-1409	ändern	_	_	_	_	_	_	_	_	_	VVINF	Inf	ändern
+11-7	1410-1411	,	_	_	_	_	_	_	_	_	_	$,	_	,
+11-8	1412-1414	um	_	_	_	_	_	_	_	_	_	KOUI	_	um
+11-9	1415-1418	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+11-10	1419-1428	Akzeptanz	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Akzeptanz
+11-11	1429-1432	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+11-12	1433-1439	Europa	_	_	_	_	_	_	_	_	_	NE	Acc.Sg.Neut	Europa
+11-13	1440-1442	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+11-14	1443-1450	erhöhen	_	_	_	_	_	_	_	_	_	VVINF	Inf	erhöhen
+11-15	1451-1452	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Aber wir sind heute sehr viel weiter als zur Zeit der Stellung des Antrags , über den wir heute diskutieren .
+12-1	1455-1459	Aber	_	_	_	_	_	_	_	_	_	KON	_	aber
+12-2	1460-1463	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+12-3	1464-1468	sind	_	_	_	_	_	_	_	_	_	VAFIN	1.Pl.Pres.Ind	sein
+12-4	1469-1474	heute	_	_	_	_	_	_	_	_	_	ADV	_	heute
+12-5	1475-1479	sehr	_	_	_	_	_	_	_	_	_	ADV	_	sehr
+12-6	1480-1484	viel	_	_	_	_	_	_	_	_	_	ADV	_	viel
+12-7	1485-1491	weiter	_	_	_	_	_	_	_	_	_	ADJD	Comp	weit
+12-8	1492-1495	als	_	_	_	_	_	_	_	_	_	KOKOM	_	als
+12-9	1496-1499	zur	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Fem	zu
+12-10	1500-1504	Zeit	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Zeit
+12-11	1505-1508	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+12-12	1509-1517	Stellung	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Stellung
+12-13	1518-1521	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der
+12-14	1522-1529	Antrags	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Antrag
+12-15	1530-1531	,	_	_	_	_	_	_	_	_	_	$,	_	,
+12-16	1532-1536	über	_	_	_	_	_	_	_	_	_	APPR	_	über
+12-17	1537-1540	den	_	_	_	_	_	_	_	_	_	PRELS	Acc.Sg.Masc	der
+12-18	1541-1544	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+12-19	1545-1550	heute	_	_	_	_	_	_	_	_	_	ADV	_	heute
+12-20	1551-1562	diskutieren	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	diskutieren
+12-21	1563-1564	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die weitgehend ausgehandelten Übergangsfristen werden mögliche negative Folgen der Erweiterung in besonders sensiblen Bereichen abfedern können .
+13-1	1567-1570	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der
+13-2	1571-1581	weitgehend	_	_	_	_	_	_	_	_	_	ADJD	Pos	weitgehend
+13-3	1582-1596	ausgehandelten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Fem	ausgehandelt
+13-4	1597-1613	Übergangsfristen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Übergangsfrist
+13-5	1614-1620	werden	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	werden
+13-6	1621-1629	mögliche	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Fem	möglich
+13-7	1630-1638	negative	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Fem	negativ
+13-8	1639-1645	Folgen	false	5clash	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Folge
+13-9	1646-1649	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+13-10	1650-1661	Erweiterung	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Erweiterung
+13-11	1662-1664	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+13-12	1665-1674	besonders	_	_	_	_	_	_	_	_	_	ADV	_	besonders
+13-13	1675-1684	sensiblen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Masc	sensibel
+13-14	1685-1694	Bereichen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Bereich
+13-15	1695-1703	abfedern	false	0Kern	true	true	eine Erschütterung federnd abfangen	true	*	mildern, abschwächen	13-8	VVINF	Inf	abfedern
+13-16	1704-1710	können	_	_	_	_	_	_	_	_	_	VMINF	Inf	können
+13-17	1711-1712	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wichtig ist für uns , dass die Übergangsfristen weder von den alten noch von den neuen Mitgliedstaaten dazu instrumentalisiert werden , einerseits überfälligen Strukturwandel künstlich zu verhindern oder falsch verstandene Partikularinteressen zu wahren .
+14-1	1715-1722	Wichtig	_	_	_	_	_	_	_	_	_	ADJD	Pos	wichtig
+14-2	1723-1726	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+14-3	1727-1730	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+14-4	1731-1734	uns	_	_	_	_	_	_	_	_	_	PPER	1.Acc.Pl.*	uns
+14-5	1735-1736	,	_	_	_	_	_	_	_	_	_	$,	_	,
+14-6	1737-1741	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+14-7	1742-1745	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der
+14-8	1746-1762	Übergangsfristen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Übergangsfrist
+14-9	1763-1768	weder	_	_	_	_	_	_	_	_	_	KON	_	weder
+14-10	1769-1772	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+14-11	1773-1776	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Masc	der
+14-12	1777-1782	alten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Masc	alt
+14-13	1783-1787	noch	_	_	_	_	_	_	_	_	_	KON	_	noch
+14-14	1788-1791	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+14-15	1792-1795	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Masc	der
+14-16	1796-1801	neuen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Masc	neu
+14-17	1802-1817	Mitgliedstaaten	false	5clash	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Mitgliedstaat
+14-18	1818-1822	dazu	_	_	_	_	_	_	_	_	_	PROAV	_	dazu
+14-19	1823-1841	instrumentalisiert	false	0Kern	true	false	als Instrument benutzen	_	_	missbrauchen	14-17	VVPP	Psp	instrumentalisieren
+14-20	1842-1848	werden	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	werden
+14-21	1849-1850	,	_	_	_	_	_	_	_	_	_	$,	_	,
+14-22	1851-1861	einerseits	_	_	_	_	_	_	_	_	_	ADV	_	einerseits
+14-23	1862-1874	überfälligen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	überfällig
+14-24	1875-1889	Strukturwandel	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Strukturwandel
+14-25	1890-1899	künstlich	false	0Kern	true	false	nicht natürlich	_	_	gezwungen	_	ADJD	Pos	künstlich
+14-26	1900-1902	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+14-27	1903-1913	verhindern	_	_	_	_	_	_	_	_	_	VVINF	Inf	verhindern
+14-28	1914-1918	oder	_	_	_	_	_	_	_	_	_	KON	_	oder
+14-29	1919-1925	falsch	_	_	_	_	_	_	_	_	_	ADJD	Pos	falsch
+14-30	1926-1937	verstandene	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Neut	verstanden
+14-31	1938-1958	Partikularinteressen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Partikularinteresse
+14-32	1959-1961	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+14-33	1962-1968	wahren	_	_	_	_	_	_	_	_	_	VVINF	Inf	wahren
+14-34	1969-1970	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Übergangsfristen sind , soweit bislang festgelegt - das ist für uns besonders wichtig - auch hinreichend flexibel , um auf mögliche unerwartete Entwicklungen reagieren zu können .
+15-1	1973-1976	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der
+15-2	1977-1993	Übergangsfristen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Übergangsfrist
+15-3	1994-1998	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+15-4	1999-2000	,	_	_	_	_	_	_	_	_	_	$,	_	,
+15-5	2001-2007	soweit	_	_	_	_	_	_	_	_	_	KOUS	_	soweit
+15-6	2008-2015	bislang	_	_	_	_	_	_	_	_	_	ADV	_	bislang
+15-7	2016-2026	festgelegt	_	_	_	_	_	_	_	_	_	VVPP	Psp	festlegen
+15-8	2027-2028	-	_	_	_	_	_	_	_	_	_	$(	_	-
+15-9	2029-2032	das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der
+15-10	2033-2036	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+15-11	2037-2040	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+15-12	2041-2044	uns	_	_	_	_	_	_	_	_	_	PPER	1.Acc.Pl.*	uns
+15-13	2045-2054	besonders	_	_	_	_	_	_	_	_	_	ADV	_	besonders
+15-14	2055-2062	wichtig	_	_	_	_	_	_	_	_	_	ADJD	Pos	wichtig
+15-15	2063-2064	-	_	_	_	_	_	_	_	_	_	$(	_	-
+15-16	2065-2069	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+15-17	2070-2081	hinreichend	_	_	_	_	_	_	_	_	_	ADJD	Pos	hinreichend
+15-18	2082-2090	flexibel	_	_	_	_	_	_	_	_	_	ADJD	Pos	flexibel
+15-19	2091-2092	,	_	_	_	_	_	_	_	_	_	$,	_	,
+15-20	2093-2095	um	_	_	_	_	_	_	_	_	_	KOUI	_	um
+15-21	2096-2099	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+15-22	2100-2108	mögliche	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Fem	möglich
+15-23	2109-2120	unerwartete	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Fem	unerwartet
+15-24	2121-2134	Entwicklungen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Entwicklung
+15-25	2135-2144	reagieren	_	_	_	_	_	_	_	_	_	VVINF	Inf	reagieren
+15-26	2145-2147	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+15-27	2148-2154	können	_	_	_	_	_	_	_	_	_	VMINF	Inf	können
+15-28	2155-2156	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Damit sind wir bei den Problemen der Grenzregionen .
+16-1	2159-2164	Damit	_	_	_	_	_	_	_	_	_	PROAV	_	damit
+16-2	2165-2169	sind	_	_	_	_	_	_	_	_	_	VAFIN	1.Pl.Pres.Ind	sein
+16-3	2170-2173	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+16-4	2174-2177	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei
+16-5	2178-2181	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Neut	der
+16-6	2182-2191	Problemen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Neut	Problem
+16-7	2192-2195	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Fem	der
+16-8	2196-2209	Grenzregionen	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Fem	Grenzregion
+16-9	2210-2211	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Auch in ihnen werden die meisten Menschen von der Erweiterung profitieren .
+17-1	2214-2218	Auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+17-2	2219-2221	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+17-3	2222-2227	ihnen	_	_	_	_	_	_	_	_	_	PPER	3.Dat.Pl.*	ihnen
+17-4	2228-2234	werden	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	werden
+17-5	2235-2238	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der
+17-6	2239-2246	meisten	_	_	_	_	_	_	_	_	_	PIAT	Nom.Pl.Masc	meister
+17-7	2247-2255	Menschen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Mensch
+17-8	2256-2259	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+17-9	2260-2263	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+17-10	2264-2275	Erweiterung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Erweiterung
+17-11	2276-2287	profitieren	_	_	_	_	_	_	_	_	_	VVINF	Inf	profitieren
+17-12	2288-2289	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die grenznahen Regionen rücken aus ihrer Randlage heraus und ihre bisherigen Standortnachteile können mittelfristig zu Standortvorteilen werden .
+18-1	2292-2295	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der
+18-2	2296-2306	grenznahen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Fem	grenznah
+18-3	2307-2315	Regionen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Region
+18-4	2316-2322	rücken	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	rücken
+18-5	2323-2326	aus	_	_	_	_	_	_	_	_	_	APPR	_	aus
+18-6	2327-2332	ihrer	_	_	_	_	_	_	_	_	_	PPOSAT	Dat.Sg.Fem	ihr
+18-7	2333-2341	Randlage	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Randlage
+18-8	2342-2348	heraus	_	_	_	_	_	_	_	_	_	PTKVZ	_	heraus
+18-9	2349-2352	und	_	_	_	_	_	_	_	_	_	KON	_	und
+18-10	2353-2357	ihre	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Pl.Masc	ihr
+18-11	2358-2368	bisherigen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Masc	bisherig
+18-12	2369-2386	Standortnachteile	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Standortnachteil
+18-13	2387-2393	können	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	können
+18-14	2394-2407	mittelfristig	_	_	_	_	_	_	_	_	_	ADJD	Pos	mittelfristig
+18-15	2408-2410	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu
+18-16	2411-2428	Standortvorteilen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Standortvorteil
+18-17	2429-2435	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+18-18	2436-2437	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Sie werden künftig zu wichtigen und zentral gelegenen Standorten im größeren EU Europa .
+19-1	2440-2443	Sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie
+19-2	2444-2450	werden	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	werden
+19-3	2451-2458	künftig	_	_	_	_	_	_	_	_	_	ADJD	Pos	künftig
+19-4	2459-2461	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+19-5	2462-2471	wichtigen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Masc	wichtig
+19-6	2472-2475	und	_	_	_	_	_	_	_	_	_	KON	_	und
+19-7	2476-2483	zentral	_	_	_	_	_	_	_	_	_	ADJD	Pos	zentral
+19-8	2484-2493	gelegenen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Masc	gelegen
+19-9	2494-2504	Standorten	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Standort
+19-10	2505-2507	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	in
+19-11	2508-2516	größeren	_	_	_	_	_	_	_	_	_	ADJA	Comp.Dat.Sg.Neut	groß
+19-12	2517-2519	EU	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	EU
+19-13	2520-2526	Europa	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Neut	Europa
+19-14	2527-2528	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Hier gibt es sicherlich Handlungsbedarf für einen Anpassungsprozess an eine sich im Übrigen schon seit längerem verändernde Situation .
+20-1	2531-2535	Hier	_	_	_	_	_	_	_	_	_	ADV	_	hier
+20-2	2536-2540	gibt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	geben
+20-3	2541-2543	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+20-4	2544-2554	sicherlich	_	_	_	_	_	_	_	_	_	ADV	_	sicherlich
+20-5	2555-2570	Handlungsbedarf	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Handlungsbedarf
+20-6	2571-2574	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+20-7	2575-2580	einen	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein
+20-8	2581-2598	Anpassungsprozess	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Anpassungsprozeß
+20-9	2599-2601	an	_	_	_	_	_	_	_	_	_	APPR	_	an
+20-10	2602-2606	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+20-11	2607-2611	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+20-12	2612-2614	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	in
+20-13	2615-2622	Übrigen	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	übrige
+20-14	2623-2628	schon	_	_	_	_	_	_	_	_	_	ADV	_	schon
+20-15	2629-2633	seit	_	_	_	_	_	_	_	_	_	APPR	_	seit
+20-16	2634-2642	längerem	_	_	_	_	_	_	_	_	_	ADJA	Comp.Dat.Sg.Neut	lang
+20-17	2643-2654	verändernde	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	verändernd
+20-18	2655-2664	Situation	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Situation
+20-19	2665-2666	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Also Ja zu einer gezielten regionalen Strukturförderung .
+21-1	2669-2673	Also	_	_	_	_	_	_	_	_	_	ADV	_	also
+21-2	2674-2676	Ja	_	_	_	_	_	_	_	_	_	PTKANT	_	ja
+21-3	2677-2679	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu
+21-4	2680-2685	einer	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	ein
+21-5	2686-2695	gezielten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	gezielt
+21-6	2696-2706	regionalen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	regional
+21-7	2707-2724	Strukturförderung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Strukturförderung
+21-8	2725-2726	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Aber : Förderung darf nicht der Konservierung alter Strukturen dienen und keine Belohnung für versäumte Anpassung und Veränderungsunwilligkeit sein .
+22-1	2729-2733	Aber	_	_	_	_	_	_	_	_	_	KON	_	aber
+22-2	2734-2735	:	_	_	_	_	_	_	_	_	_	$.	_	:
+22-3	2736-2745	Förderung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Förderung
+22-4	2746-2750	darf	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	dürfen
+22-5	2751-2756	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+22-6	2757-2760	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+22-7	2761-2774	Konservierung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Konservierung
+22-8	2775-2780	alter	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Pl.Fem	alt
+22-9	2781-2791	Strukturen	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Fem	Struktur
+22-10	2792-2798	dienen	_	_	_	_	_	_	_	_	_	VVINF	Inf	dienen
+22-11	2799-2802	und	_	_	_	_	_	_	_	_	_	KON	_	und
+22-12	2803-2808	keine	_	_	_	_	_	_	_	_	_	PIAT	Nom.Sg.Fem	kein
+22-13	2809-2818	Belohnung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Belohnung
+22-14	2819-2822	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+22-15	2823-2832	versäumte	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	versäumt
+22-16	2833-2842	Anpassung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Anpassung
+22-17	2843-2846	und	_	_	_	_	_	_	_	_	_	KON	_	und
+22-18	2847-2871	Veränderungsunwilligkeit	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Veränderungsunwilligkeit
+22-19	2872-2876	sein	_	_	_	_	_	_	_	_	_	VAINF	Inf	sein
+22-20	2877-2878	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Jede politische Ebene muss ihre Verantwortung wahrnehmen und ihren Teil zur politischen Flankierung des Erweiterungsprozesses beitragen .
+23-1	2881-2885	Jede	_	_	_	_	_	_	_	_	_	PIAT	Nom.Sg.Fem	jeder
+23-2	2886-2896	politische	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	politisch
+23-3	2897-2902	Ebene	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Ebene
+23-4	2903-2907	muss	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	müssen
+23-5	2908-2912	ihre	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Fem	ihr
+23-6	2913-2926	Verantwortung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Verantwortung
+23-7	2927-2937	wahrnehmen	_	_	_	_	_	_	_	_	_	VVINF	Inf	wahrnehmen
+23-8	2938-2941	und	_	_	_	_	_	_	_	_	_	KON	_	und
+23-9	2942-2947	ihren	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Masc	ihr
+23-10	2948-2952	Teil	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Teil
+23-11	2953-2956	zur	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Fem	zu
+23-12	2957-2968	politischen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	politisch
+23-13	2969-2980	Flankierung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Flankierung
+23-14	2981-2984	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der
+23-15	2985-3006	Erweiterungsprozesses	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Erweiterungsprozeß
+23-16	3007-3016	beitragen	_	_	_	_	_	_	_	_	_	VVINF	Inf	beitragen
+23-17	3017-3018	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die regionale Wirtschaftsförderung ist primär Sache der Länder .
+24-1	3021-3024	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+24-2	3025-3034	regionale	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	regional
+24-3	3035-3055	Wirtschaftsförderung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Wirtschaftsförderung
+24-4	3056-3059	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+24-5	3060-3066	primär	_	_	_	_	_	_	_	_	_	ADJD	Pos	primär
+24-6	3067-3072	Sache	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Sache
+24-7	3073-3076	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Neut	der
+24-8	3077-3083	Länder	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Land
+24-9	3084-3085	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die vorhandenen Mittel müssen mehr als bisher auf die besonders betroffenen Regionen konzentriert werden , wobei die zukunftsweisenden und innovativen Projekte zu bevorzugen sind .
+25-1	3088-3091	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Neut	der
+25-2	3092-3103	vorhandenen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Neut	vorhanden
+25-3	3104-3110	Mittel	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Mittel
+25-4	3111-3117	müssen	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	müssen
+25-5	3118-3122	mehr	_	_	_	_	_	_	_	_	_	PIS	*.*.*	mehr
+25-6	3123-3126	als	_	_	_	_	_	_	_	_	_	KOKOM	_	als
+25-7	3127-3133	bisher	_	_	_	_	_	_	_	_	_	ADV	_	bisher
+25-8	3134-3137	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+25-9	3138-3141	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Fem	der
+25-10	3142-3151	besonders	_	_	_	_	_	_	_	_	_	ADV	_	besonders
+25-11	3152-3163	betroffenen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Fem	betroffen
+25-12	3164-3172	Regionen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Region
+25-13	3173-3185	konzentriert	_	_	_	_	_	_	_	_	_	VVPP	Psp	konzentrieren
+25-14	3186-3192	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+25-15	3193-3194	,	_	_	_	_	_	_	_	_	_	$,	_	,
+25-16	3195-3200	wobei	_	_	_	_	_	_	_	_	_	PWAV	_	wobei
+25-17	3201-3204	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Neut	der
+25-18	3205-3222	zukunftsweisenden	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Neut	zukunftsweisend
+25-19	3223-3226	und	_	_	_	_	_	_	_	_	_	KON	_	und
+25-20	3227-3238	innovativen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Neut	innovativ
+25-21	3239-3247	Projekte	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Projekt
+25-22	3248-3250	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+25-23	3251-3261	bevorzugen	_	_	_	_	_	_	_	_	_	VVINF	Inf	bevorzugen
+25-24	3262-3266	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein
+25-25	3267-3268	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Auch der Bund leistet durch die Gemeinschaftsaufgabe " Regionale Wirtschaftsförderung " bereits jetzt einen Beitrag zu diesen Anpassungsprozessen .
+26-1	3271-3275	Auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+26-2	3276-3279	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+26-3	3280-3284	Bund	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Bund
+26-4	3285-3292	leistet	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	leisten
+26-5	3293-3298	durch	_	_	_	_	_	_	_	_	_	APPR	_	durch
+26-6	3299-3302	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+26-7	3303-3323	Gemeinschaftsaufgabe	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Gemeinschaftsaufgabe
+26-8	3324-3325	"	_	_	_	_	_	_	_	_	_	$(	_	"
+26-9	3326-3335	Regionale	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	regional
+26-10	3336-3356	Wirtschaftsförderung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Wirtschaftsförderung
+26-11	3357-3358	"	_	_	_	_	_	_	_	_	_	$(	_	"
+26-12	3359-3366	bereits	_	_	_	_	_	_	_	_	_	ADV	_	bereits
+26-13	3367-3372	jetzt	_	_	_	_	_	_	_	_	_	ADV	_	jetzt
+26-14	3373-3378	einen	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein
+26-15	3379-3386	Beitrag	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Beitrag
+26-16	3387-3389	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu
+26-17	3390-3396	diesen	_	_	_	_	_	_	_	_	_	PDAT	Dat.Pl.Masc	dieser
+26-18	3397-3416	Anpassungsprozessen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Anpassungsprozeß
+26-19	3417-3418	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Gerade bei der Gemeinschaftsaufgabe gilt es , künftig stärker noch als bisher auf eine Konzentration der Mittel zu drängen .
+27-1	3421-3427	Gerade	_	_	_	_	_	_	_	_	_	ADV	_	gerade
+27-2	3428-3431	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei
+27-3	3432-3435	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+27-4	3436-3456	Gemeinschaftsaufgabe	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Gemeinschaftsaufgabe
+27-5	3457-3461	gilt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	gelten
+27-6	3462-3464	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+27-7	3465-3466	,	_	_	_	_	_	_	_	_	_	$,	_	,
+27-8	3467-3474	künftig	_	_	_	_	_	_	_	_	_	ADJD	Pos	künftig
+27-9	3475-3482	stärker	_	_	_	_	_	_	_	_	_	ADJD	Comp	stark
+27-10	3483-3487	noch	_	_	_	_	_	_	_	_	_	ADV	_	noch
+27-11	3488-3491	als	_	_	_	_	_	_	_	_	_	KOKOM	_	als
+27-12	3492-3498	bisher	_	_	_	_	_	_	_	_	_	ADV	_	bisher
+27-13	3499-3502	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+27-14	3503-3507	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+27-15	3508-3521	Konzentration	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Konzentration
+27-16	3522-3525	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Neut	der
+27-17	3526-3532	Mittel	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Mittel
+27-18	3533-3535	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+27-19	3536-3543	drängen	_	_	_	_	_	_	_	_	_	VVINF	Inf	drängen
+27-20	3544-3545	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Natürlich ist nicht zuletzt die Europäische Union gefordert , ihren Teil beizutragen .
+28-1	3548-3557	Natürlich	_	_	_	_	_	_	_	_	_	ADV	_	natürlich
+28-2	3558-3561	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+28-3	3562-3567	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+28-4	3568-3575	zuletzt	_	_	_	_	_	_	_	_	_	ADV	_	zuletzt
+28-5	3576-3579	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+28-6	3580-3591	Europäische	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	europäisch
+28-7	3592-3597	Union	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Union
+28-8	3598-3607	gefordert	_	_	_	_	_	_	_	_	_	VVPP	Psp	fordern
+28-9	3608-3609	,	_	_	_	_	_	_	_	_	_	$,	_	,
+28-10	3610-3615	ihren	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Masc	ihr
+28-11	3616-3620	Teil	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Teil
+28-12	3621-3632	beizutragen	_	_	_	_	_	_	_	_	_	VVIZU	Infzu	beitragen
+28-13	3633-3634	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Schon jetzt ist sie mit ihrer Struktur - und Regionalpolitik aktiv .
+29-1	3637-3642	Schon	_	_	_	_	_	_	_	_	_	ADV	_	schon
+29-2	3643-3648	jetzt	_	_	_	_	_	_	_	_	_	ADV	_	jetzt
+29-3	3649-3652	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+29-4	3653-3656	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Fem	sie
+29-5	3657-3660	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit
+29-6	3661-3666	ihrer	_	_	_	_	_	_	_	_	_	PPOSAT	Dat.Sg.Fem	ihr
+29-7	3667-3675	Struktur	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Struktur
+29-8	3676-3677	-	_	_	_	_	_	_	_	_	_	$(	_	-
+29-9	3678-3681	und	_	_	_	_	_	_	_	_	_	KON	_	und
+29-10	3682-3697	Regionalpolitik	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Regionalpolitik
+29-11	3698-3703	aktiv	_	_	_	_	_	_	_	_	_	ADJD	Pos	aktiv
+29-12	3704-3705	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=In besonderer Weise versucht sie über ihre Fonds zukunftsträchtige Projekte zu forcieren .
+30-1	3708-3710	In	_	_	_	_	_	_	_	_	_	APPR	_	in
+30-2	3711-3721	besonderer	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	besonderer
+30-3	3722-3727	Weise	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Weise
+30-4	3728-3736	versucht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	versuchen
+30-5	3737-3740	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Fem	sie
+30-6	3741-3745	über	_	_	_	_	_	_	_	_	_	APPR	_	über
+30-7	3746-3750	ihre	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Pl.Masc	ihr
+30-8	3751-3756	Fonds	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Fonds
+30-9	3757-3774	zukunftsträchtige	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Neut	zukunftsträchtig
+30-10	3775-3783	Projekte	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Projekt
+30-11	3784-3786	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+30-12	3787-3796	forcieren	_	_	_	_	_	_	_	_	_	VVINF	Inf	forcieren
+30-13	3797-3798	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Aber seien wir ehrlich : Wir hatten uns von dem Aktionsplan der Europäischen Kommission etwas mehr an Masse versprochen .
+31-1	3801-3805	Aber	_	_	_	_	_	_	_	_	_	KON	_	aber
+31-2	3806-3811	seien	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Subj	sein
+31-3	3812-3815	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+31-4	3816-3823	ehrlich	_	_	_	_	_	_	_	_	_	ADJD	Pos	ehrlich
+31-5	3824-3825	:	_	_	_	_	_	_	_	_	_	$.	_	:
+31-6	3826-3829	Wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+31-7	3830-3836	hatten	_	_	_	_	_	_	_	_	_	VAFIN	1.Pl.Past.Ind	haben
+31-8	3837-3840	uns	_	_	_	_	_	_	_	_	_	PRF	1.Acc.Pl	sich
+31-9	3841-3844	von	_	_	_	_	_	_	_	_	_	APPR	_	von
+31-10	3845-3848	dem	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	der
+31-11	3849-3860	Aktionsplan	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Aktionsplan
+31-12	3861-3864	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+31-13	3865-3877	Europäischen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Fem	europäisch
+31-14	3878-3888	Kommission	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Kommission
+31-15	3889-3894	etwas	_	_	_	_	_	_	_	_	_	ADV	_	etwas
+31-16	3895-3899	mehr	_	_	_	_	_	_	_	_	_	ADV	_	mehr
+31-17	3900-3902	an	_	_	_	_	_	_	_	_	_	APPR	_	an
+31-18	3903-3908	Masse	false	0Kern	true	true	große Anzahl, Menge	true	*	Inhalt	_	NN	Dat.Sg.Fem	Masse
+31-19	3909-3920	versprochen	_	_	_	_	_	_	_	_	_	VVPP	Psp	versprechen
+31-20	3921-3922	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Aber alle finanziellen Wünsche können nun einmal nicht wahr werden .
+32-1	3925-3929	Aber	_	_	_	_	_	_	_	_	_	KON	_	aber
+32-2	3930-3934	alle	_	_	_	_	_	_	_	_	_	PIAT	Nom.Pl.Masc	aller
+32-3	3935-3947	finanziellen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Masc	finanziell
+32-4	3948-3955	Wünsche	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Wunsch
+32-5	3956-3962	können	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	können
+32-6	3963-3966	nun	_	_	_	_	_	_	_	_	_	ADV	_	nun
+32-7	3967-3973	einmal	_	_	_	_	_	_	_	_	_	ADV	_	einmal
+32-8	3974-3979	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+32-9	3980-3984	wahr	_	_	_	_	_	_	_	_	_	ADJD	Pos	wahr
+32-10	3985-3991	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+32-11	3992-3993	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Es geht auch nicht , dass wir das Einkassieren der Vorteile des Erweiterungsprozesses als selbstverständlichen nationalen Anspruch und das Auffangen der Nachteile als selbstverständliche europäische Aufgabe betrachten .
+33-1	3996-3998	Es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+33-2	3999-4003	geht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	gehen
+33-3	4004-4008	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+33-4	4009-4014	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+33-5	4015-4016	,	_	_	_	_	_	_	_	_	_	$,	_	,
+33-6	4017-4021	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+33-7	4022-4025	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+33-8	4026-4029	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der
+33-9	4030-4042	Einkassieren	false	0Kern	true	true	Geld kassieren	true	*	profitieren	33-11	NN	Acc.Sg.Neut	einkassieren
+33-10	4043-4046	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Masc	der
+33-11	4047-4055	Vorteile	false	5clash	_	_	_	_	_	_	_	NN	Gen.Pl.Masc	Vorteil
+33-12	4056-4059	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der
+33-13	4060-4081	Erweiterungsprozesses	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Erweiterungsprozeß
+33-14	4082-4085	als	_	_	_	_	_	_	_	_	_	APPR	_	als
+33-15	4086-4106	selbstverständlichen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	selbstverständlich
+33-16	4107-4117	nationalen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	national
+33-17	4118-4126	Anspruch	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Anspruch
+33-18	4127-4130	und	_	_	_	_	_	_	_	_	_	KON	_	und
+33-19	4131-4134	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der
+33-20	4135-4144	Auffangen	false	0Kern	true	false	etw., jmdn. im Fallen fangen	_	_	kompensieren	33-22	NN	Acc.Sg.Neut	auffangen
+33-21	4145-4148	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Masc	der
+33-22	4149-4158	Nachteile	false	5clash	_	_	_	_	_	_	_	NN	Gen.Pl.Masc	Nachteil
+33-23	4159-4162	als	_	_	_	_	_	_	_	_	_	APPR	_	als
+33-24	4163-4182	selbstverständliche	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	selbstverständlich
+33-25	4183-4194	europäische	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	europäisch
+33-26	4195-4202	Aufgabe	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Aufgabe
+33-27	4203-4213	betrachten	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	betrachten
+33-28	4214-4215	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Umso wichtiger ist es , dass die Verwendung aller Gelder und die Durchführung aller Maßnahmen zwischen allen Ebenen gut abgestimmt wird , damit es echte Investitionen in die Zukunft werden .
+34-1	4218-4222	Umso	_	_	_	_	_	_	_	_	_	ADV	_	umso
+34-2	4223-4232	wichtiger	_	_	_	_	_	_	_	_	_	ADJD	Comp	wichtig
+34-3	4233-4236	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+34-4	4237-4239	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+34-5	4240-4241	,	_	_	_	_	_	_	_	_	_	$,	_	,
+34-6	4242-4246	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+34-7	4247-4250	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+34-8	4251-4261	Verwendung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Verwendung
+34-9	4262-4267	aller	_	_	_	_	_	_	_	_	_	PIAT	Gen.Pl.Neut	aller
+34-10	4268-4274	Gelder	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Geld
+34-11	4275-4278	und	_	_	_	_	_	_	_	_	_	KON	_	und
+34-12	4279-4282	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+34-13	4283-4295	Durchführung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Durchführung
+34-14	4296-4301	aller	_	_	_	_	_	_	_	_	_	PIAT	Gen.Pl.Fem	aller
+34-15	4302-4311	Maßnahmen	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Fem	Maßnahme
+34-16	4312-4320	zwischen	_	_	_	_	_	_	_	_	_	APPR	_	zwischen
+34-17	4321-4326	allen	_	_	_	_	_	_	_	_	_	PIAT	Dat.Pl.Fem	aller
+34-18	4327-4333	Ebenen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Ebene
+34-19	4334-4337	gut	_	_	_	_	_	_	_	_	_	ADJD	Pos	gut
+34-20	4338-4348	abgestimmt	_	_	_	_	_	_	_	_	_	VVPP	Psp	abstimmen
+34-21	4349-4353	wird	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	werden
+34-22	4354-4355	,	_	_	_	_	_	_	_	_	_	$,	_	,
+34-23	4356-4361	damit	_	_	_	_	_	_	_	_	_	KOUS	_	damit
+34-24	4362-4364	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+34-25	4365-4370	echte	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Fem	echt
+34-26	4371-4384	Investitionen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Investition
+34-27	4385-4387	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+34-28	4388-4391	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+34-29	4392-4399	Zukunft	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Zukunft
+34-30	4400-4406	werden	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	werden
+34-31	4407-4408	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Nur eine öffentliche und ehrliche Debatte über die Chancen und Risiken der Erweiterung kann gewährleisten , dass eine breite politische Akzeptanz der Erweiterung erhalten bleibt .
+35-1	4411-4414	Nur	_	_	_	_	_	_	_	_	_	ADV	_	nur
+35-2	4415-4419	eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein
+35-3	4420-4431	öffentliche	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	öffentlich
+35-4	4432-4435	und	_	_	_	_	_	_	_	_	_	KON	_	und
+35-5	4436-4444	ehrliche	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	ehrlich
+35-6	4445-4452	Debatte	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Debatte
+35-7	4453-4457	über	_	_	_	_	_	_	_	_	_	APPR	_	über
+35-8	4458-4461	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.*	der
+35-9	4462-4469	Chancen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Chance
+35-10	4470-4473	und	_	_	_	_	_	_	_	_	_	KON	_	und
+35-11	4474-4481	Risiken	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Risiko
+35-12	4482-4485	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+35-13	4486-4497	Erweiterung	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Erweiterung
+35-14	4498-4502	kann	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	können
+35-15	4503-4516	gewährleisten	_	_	_	_	_	_	_	_	_	VVINF	Inf	gewährleisten
+35-16	4517-4518	,	_	_	_	_	_	_	_	_	_	$,	_	,
+35-17	4519-4523	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass
+35-18	4524-4528	eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein
+35-19	4529-4535	breite	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	breit
+35-20	4536-4546	politische	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	politisch
+35-21	4547-4556	Akzeptanz	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Akzeptanz
+35-22	4557-4560	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+35-23	4561-4572	Erweiterung	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Erweiterung
+35-24	4573-4581	erhalten	_	_	_	_	_	_	_	_	_	VVPP	Psp	erhalten
+35-25	4582-4588	bleibt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	bleiben
+35-26	4589-4590	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Ohne die breite Unterstützung der Bevölkerung wird die Erweiterung nur schwerlich gelingen .
+36-1	4593-4597	Ohne	_	_	_	_	_	_	_	_	_	APPR	_	ohne
+36-2	4598-4601	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+36-3	4602-4608	breite	false	0Kern	true	false	von größerer Ausdehnung in seitlicher Richtung	_	_	zum Großteil	36-4	ADJA	Pos.Acc.Sg.Fem	breit
+36-4	4609-4622	Unterstützung	false	5clash	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Unterstützung
+36-5	4623-4626	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+36-6	4627-4638	Bevölkerung	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Bevölkerung
+36-7	4639-4643	wird	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	werden
+36-8	4644-4647	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+36-9	4648-4659	Erweiterung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Erweiterung
+36-10	4660-4663	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur
+36-11	4664-4674	schwerlich	_	_	_	_	_	_	_	_	_	ADJD	Pos	schwerlich
+36-12	4675-4683	gelingen	_	_	_	_	_	_	_	_	_	VVINF	Inf	gelingen
+36-13	4684-4685	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Entwicklung der öffentlichen Diskussion in den EU Mitgliedstaaten können wir - so mein Eindruck - daher positiv bewerten .
+37-1	4688-4691	Die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+37-2	4692-4703	Entwicklung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Entwicklung
+37-3	4704-4707	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+37-4	4708-4720	öffentlichen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Fem	öffentlich
+37-5	4721-4731	Diskussion	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Diskussion
+37-6	4732-4734	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+37-7	4735-4738	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Masc	der
+37-8	4739-4741	EU	_	_	_	_	_	_	_	_	_	NE	Acc.Sg.Fem	EU
+37-9	4742-4757	Mitgliedstaaten	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Mitgliedstaat
+37-10	4758-4764	können	_	_	_	_	_	_	_	_	_	VMFIN	1.Pl.Pres.Ind	können
+37-11	4765-4768	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir
+37-12	4769-4770	-	_	_	_	_	_	_	_	_	_	$(	_	-
+37-13	4771-4773	so	_	_	_	_	_	_	_	_	_	ADV	_	so
+37-14	4774-4778	mein	_	_	_	_	_	_	_	_	_	PPOSAT	Nom.Sg.Masc	mein
+37-15	4779-4787	Eindruck	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Eindruck
+37-16	4788-4789	-	_	_	_	_	_	_	_	_	_	$(	_	-
+37-17	4790-4795	daher	_	_	_	_	_	_	_	_	_	PROAV	_	daher
+37-18	4796-4803	positiv	_	_	_	_	_	_	_	_	_	ADJD	Pos	positiv
+37-19	4804-4812	bewerten	_	_	_	_	_	_	_	_	_	VVINF	Inf	bewerten
+37-20	4813-4814	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das Informationsniveau steigt , das Verständnis für die Zusammenhänge wächst und die Ängste verringern sich - dies alles nicht zuletzt aufgrund der Anstrengungen der Bundesregierung und der Parteien , besonders in den Grenzregionen für die Erweiterung zu werben .
+38-1	4817-4820	Das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+38-2	4821-4839	Informationsniveau	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Informationsniveau
+38-3	4840-4846	steigt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	steigen
+38-4	4847-4848	,	_	_	_	_	_	_	_	_	_	$,	_	,
+38-5	4849-4852	das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+38-6	4853-4864	Verständnis	false	5clash	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Verständnis
+38-7	4865-4868	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+38-8	4869-4872	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Masc	der
+38-9	4873-4886	Zusammenhänge	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Zusammenhang
+38-10	4887-4893	wächst	false	0Kern	true	false	zum fertigen Organismus entwickeln	_	_	aufsteigen, größer werden	38-6	VVFIN	3.Sg.Pres.Ind	wachsen
+38-11	4894-4897	und	_	_	_	_	_	_	_	_	_	KON	_	und
+38-12	4898-4901	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der
+38-13	4902-4908	Ängste	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Angst
+38-14	4909-4919	verringern	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	verringern
+38-15	4920-4924	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Pl	sich
+38-16	4925-4926	-	_	_	_	_	_	_	_	_	_	$(	_	-
+38-17	4927-4931	dies	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	dieser
+38-18	4932-4937	alles	_	_	_	_	_	_	_	_	_	PIS	Nom.Sg.Neut	alle
+38-19	4938-4943	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+38-20	4944-4951	zuletzt	_	_	_	_	_	_	_	_	_	ADV	_	zuletzt
+38-21	4952-4960	aufgrund	_	_	_	_	_	_	_	_	_	APPR	_	aufgrund
+38-22	4961-4964	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Fem	der
+38-23	4965-4978	Anstrengungen	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Fem	Anstrengung
+38-24	4979-4982	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+38-25	4983-4998	Bundesregierung	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Bundesregierung
+38-26	4999-5002	und	_	_	_	_	_	_	_	_	_	KON	_	und
+38-27	5003-5006	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Fem	der
+38-28	5007-5015	Parteien	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Fem	Partei
+38-29	5016-5017	,	_	_	_	_	_	_	_	_	_	$,	_	,
+38-30	5018-5027	besonders	_	_	_	_	_	_	_	_	_	ADV	_	besonders
+38-31	5028-5030	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+38-32	5031-5034	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Fem	der
+38-33	5035-5048	Grenzregionen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Grenzregion
+38-34	5049-5052	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+38-35	5053-5056	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+38-36	5057-5068	Erweiterung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Erweiterung
+38-37	5069-5071	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu
+38-38	5072-5078	werben	_	_	_	_	_	_	_	_	_	VVINF	Inf	werben
+38-39	5079-5080	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Für uns Bündnisgrüne liegt ein besonderes Augenmerk auf der grenzüberschreitenden Zusammenarbeit , die sich aber auch nicht auf wirtschaftliche Kooperation beschränken darf .
+39-1	5083-5086	Für	_	_	_	_	_	_	_	_	_	APPR	_	für
+39-2	5087-5090	uns	_	_	_	_	_	_	_	_	_	PPER	1.Acc.Pl.*	uns
+39-3	5091-5103	Bündnisgrüne	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.*	bündnisgrüne
+39-4	5104-5109	liegt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	liegen
+39-5	5110-5113	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	ein
+39-6	5114-5124	besonderes	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Neut	besonderer
+39-7	5125-5134	Augenmerk	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Augenmerk
+39-8	5135-5138	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+39-9	5139-5142	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+39-10	5143-5164	grenzüberschreitenden	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	grenzüberschreitend
+39-11	5165-5179	Zusammenarbeit	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Zusammenarbeit
+39-12	5180-5181	,	_	_	_	_	_	_	_	_	_	$,	_	,
+39-13	5182-5185	die	_	_	_	_	_	_	_	_	_	PRELS	Nom.Sg.Fem	der
+39-14	5186-5190	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+39-15	5191-5195	aber	_	_	_	_	_	_	_	_	_	ADV	_	aber
+39-16	5196-5200	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+39-17	5201-5206	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht
+39-18	5207-5210	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf
+39-19	5211-5226	wirtschaftliche	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	wirtschaftlich
+39-20	5227-5238	Kooperation	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Kooperation
+39-21	5239-5250	beschränken	_	_	_	_	_	_	_	_	_	VVINF	Inf	beschränken
+39-22	5251-5255	darf	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	dürfen
+39-23	5256-5257	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Vor allem in der kulturellen , gesellschaftlichen und politischen Zusammenarbeit liegt ein enormes Potenzial für das Gelingen des Erweiterungsprozesses .
+40-1	5260-5263	Vor	_	_	_	_	_	_	_	_	_	APPR	_	vor
+40-2	5264-5269	allem	_	_	_	_	_	_	_	_	_	PIS	Dat.Sg.Neut	alle
+40-3	5270-5272	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+40-4	5273-5276	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+40-5	5277-5288	kulturellen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	kulturell
+40-6	5289-5290	,	_	_	_	_	_	_	_	_	_	$,	_	,
+40-7	5291-5309	gesellschaftlichen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	gesellschaftlich
+40-8	5310-5313	und	_	_	_	_	_	_	_	_	_	KON	_	und
+40-9	5314-5325	politischen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	politisch
+40-10	5326-5340	Zusammenarbeit	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Zusammenarbeit
+40-11	5341-5346	liegt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	liegen
+40-12	5347-5350	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	ein
+40-13	5351-5358	enormes	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Neut	enorm
+40-14	5359-5368	Potenzial	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Potenzial
+40-15	5369-5372	für	_	_	_	_	_	_	_	_	_	APPR	_	für
+40-16	5373-5376	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der
+40-17	5377-5385	Gelingen	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	gelingen
+40-18	5386-5389	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der
+40-19	5390-5411	Erweiterungsprozesses	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Erweiterungsprozeß
+40-20	5412-5413	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Wirtschaftliche Probleme können gerade auch in grenzüberschreitender Kooperation erfolgreich angegangen werden .
+41-1	5416-5431	Wirtschaftliche	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Neut	wirtschaftlich
+41-2	5432-5440	Probleme	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Problem
+41-3	5441-5447	können	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Pres.Ind	können
+41-4	5448-5454	gerade	_	_	_	_	_	_	_	_	_	ADV	_	gerade
+41-5	5455-5459	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch
+41-6	5460-5462	in	_	_	_	_	_	_	_	_	_	APPR	_	in
+41-7	5463-5484	grenzüberschreitender	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	grenzüberschreitend
+41-8	5485-5496	Kooperation	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Kooperation
+41-9	5497-5508	erfolgreich	_	_	_	_	_	_	_	_	_	ADJD	Pos	erfolgreich
+41-10	5509-5519	angegangen	_	_	_	_	_	_	_	_	_	VVPP	Psp	angehen
+41-11	5520-5526	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden
+41-12	5527-5528	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Dafür gibt es bereits viele gute Beispiele .
+42-1	5531-5536	Dafür	_	_	_	_	_	_	_	_	_	PROAV	_	dafür
+42-2	5537-5541	gibt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	geben
+42-3	5542-5544	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+42-4	5545-5552	bereits	_	_	_	_	_	_	_	_	_	ADV	_	bereits
+42-5	5553-5558	viele	_	_	_	_	_	_	_	_	_	PIAT	Acc.Pl.Neut	vieler
+42-6	5559-5563	gute	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Neut	gut
+42-7	5564-5573	Beispiele	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Beispiel
+42-8	5574-5575	.	_	_	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Daran sollten wird anknüpfen .
+43-1	5578-5583	Daran	_	_	_	_	_	_	_	_	_	PROAV	_	daran
+43-2	5584-5591	sollten	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Past.Ind	sollen
+43-3	5592-5596	wird	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	werden
+43-4	5597-5606	anknüpfen	false	0Kern	true	false	etw. an etw. knüpfen	_	_	anschließen	_	VVINF	Inf	anknüpfen
+43-5	5607-5608	.	_	_	_	_	_	_	_	_	_	$.	_	.

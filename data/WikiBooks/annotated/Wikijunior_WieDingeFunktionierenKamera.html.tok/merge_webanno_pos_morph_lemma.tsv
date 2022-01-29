@@ -1,0 +1,644 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.MET_A|MFlag|Rolle
+#T_SP=webanno.custom.MET_B|basic|c_mark
+#T_SP=webanno.custom.MET_B2|b_Lex
+#T_SP=webanno.custom.MET_D|a_Par
+#T_RL=webanno.custom.METD|BT_webanno.custom.MET_A
+
+
+#Text=Das Wort Kamera kommt aus dem Lateinischen und bedeutet „ Raum “ oder „ Kammer “ .
+1-1	0-3	Das	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+1-2	4-8	Wort	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Wort
+1-3	9-15	Kamera	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Kamera
+1-4	16-21	kommt	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	kommen
+1-5	22-25	aus	_	_	_	_	_	_	_	APPR	_	aus
+1-6	26-29	dem	_	_	_	_	_	_	_	ART	Dat.Sg.Neut	der
+1-7	30-42	Lateinischen	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	lateinische
+1-8	43-46	und	_	_	_	_	_	_	_	KON	_	und
+1-9	47-55	bedeutet	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	bedeuten
+1-10	56-57	„	_	_	_	_	_	_	_	$(	_	„
+1-11	58-62	Raum	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Raum
+1-12	63-64	“	_	_	_	_	_	_	_	$(	_	“
+1-13	65-69	oder	_	_	_	_	_	_	_	KON	_	oder
+1-14	70-71	„	_	_	_	_	_	_	_	APPR	_	„
+1-15	72-78	Kammer	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Kammer
+1-16	79-80	“	_	_	_	_	_	_	_	$(	_	“
+1-17	81-82	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die erste Kamera war ein sehr kleiner Raum mit einem Loch in der Mitte einer Wand .
+2-1	85-88	Die	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+2-2	89-94	erste	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	erster
+2-3	95-101	Kamera	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Kamera
+2-4	102-105	war	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	sein
+2-5	106-109	ein	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+2-6	110-114	sehr	_	_	_	_	_	_	_	ADV	_	sehr
+2-7	115-122	kleiner	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	klein
+2-8	123-127	Raum	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Raum
+2-9	128-131	mit	_	_	_	_	_	_	_	APPR	_	mit
+2-10	132-137	einem	_	_	_	_	_	_	_	ART	Dat.Sg.Neut	ein
+2-11	138-142	Loch	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Loch
+2-12	143-145	in	_	_	_	_	_	_	_	APPR	_	in
+2-13	146-149	der	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+2-14	150-155	Mitte	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Mitte
+2-15	156-161	einer	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	ein
+2-16	162-166	Wand	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Wand
+2-17	167-168	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Licht , das durch dieses „ Nadelloch “ hindurchfiel , erzeugte ein Bild an der hinteren Wand der Kamera , das auf dem Kopf stand .
+3-1	171-176	Licht	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Licht
+3-2	177-178	,	_	_	_	_	_	_	_	$,	_	,
+3-3	179-182	das	_	_	_	_	_	_	_	PRELS	Nom.Sg.Neut	der
+3-4	183-188	durch	_	_	_	_	_	_	_	APPR	_	durch
+3-5	189-195	dieses	_	_	_	_	_	_	_	PDAT	Acc.Sg.Neut	dieser
+3-6	196-197	„	_	_	_	_	_	_	_	FM	_	„
+3-7	198-207	Nadelloch	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Nadelloch
+3-8	208-209	“	_	_	_	_	_	_	_	NE	*.*.*	“
+3-9	210-222	hindurchfiel	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	hindurchfallen
+3-10	223-224	,	_	_	_	_	_	_	_	$,	_	,
+3-11	225-233	erzeugte	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	erzeugen
+3-12	234-237	ein	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	ein
+3-13	238-242	Bild	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Bild
+3-14	243-245	an	_	_	_	_	_	_	_	APPR	_	an
+3-15	246-249	der	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+3-16	250-258	hinteren	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	hinterer
+3-17	259-263	Wand	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Wand
+3-18	264-267	der	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+3-19	268-274	Kamera	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Kamera
+3-20	275-276	,	_	_	_	_	_	_	_	$,	_	,
+3-21	277-280	das	_	_	_	_	_	_	_	PRELS	Nom.Sg.Neut	der
+3-22	281-284	auf	_	_	_	_	_	_	_	APPR	_	auf
+3-23	285-288	dem	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	der
+3-24	289-293	Kopf	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Kopf
+3-25	294-299	stand	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	stehen
+3-26	300-301	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Jemand hatte die blendende Idee , die Kamera in einen Turm einzubauen und Spiegel hinzuzufügen .
+4-1	304-310	Jemand	_	_	_	_	_	_	_	PIS	Nom.Sg.Masc	jemand
+4-2	311-316	hatte	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	haben
+4-3	317-320	die	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+4-4	321-330	blendende	false	0Kern	true	true	strahlend	sehr gute Idee	4-5	ADJA	Pos.Acc.Sg.Fem	blendend
+4-5	331-335	Idee	false	5clash	_	_	_	_	_	NN	Acc.Sg.Fem	Idee
+4-6	336-337	,	_	_	_	_	_	_	_	$,	_	,
+4-7	338-341	die	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+4-8	342-348	Kamera	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Kamera
+4-9	349-351	in	_	_	_	_	_	_	_	APPR	_	in
+4-10	352-357	einen	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein
+4-11	358-362	Turm	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Turm
+4-12	363-373	einzubauen	_	_	_	_	_	_	_	VVIZU	Infzu	einbauen
+4-13	374-377	und	_	_	_	_	_	_	_	KON	_	und
+4-14	378-385	Spiegel	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Spiegel
+4-15	386-398	hinzuzufügen	_	_	_	_	_	_	_	VVIZU	Infzu	hinzufügen
+4-16	399-400	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Menschen in dem dunklen Raum schauten auf einen Tisch , auf dem sie die Außenwelt in einer Art Spiegelbild sehen konnten – der Tisch hatte eine Art „ Vogelperspektive “ ihrer Stadt produziert .
+5-1	403-406	Die	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der
+5-2	407-415	Menschen	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Mensch
+5-3	416-418	in	_	_	_	_	_	_	_	APPR	_	in
+5-4	419-422	dem	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	der
+5-5	423-430	dunklen	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Masc	dunkel
+5-6	431-435	Raum	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Raum
+5-7	436-444	schauten	_	_	_	_	_	_	_	VVFIN	3.Pl.Past.Ind	schauen
+5-8	445-448	auf	_	_	_	_	_	_	_	APPR	_	auf
+5-9	449-454	einen	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein
+5-10	455-460	Tisch	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Tisch
+5-11	461-462	,	_	_	_	_	_	_	_	$,	_	,
+5-12	463-466	auf	_	_	_	_	_	_	_	APPR	_	auf
+5-13	467-470	dem	_	_	_	_	_	_	_	PRELS	Dat.Sg.Masc	der
+5-14	471-474	sie	_	_	_	_	_	_	_	PPER	3.Nom.Pl.Masc	sie
+5-15	475-478	die	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+5-16	479-488	Außenwelt	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Außenwelt
+5-17	489-491	in	_	_	_	_	_	_	_	APPR	_	in
+5-18	492-497	einer	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	ein
+5-19	498-501	Art	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Art
+5-20	502-513	Spiegelbild	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Spiegelbild
+5-21	514-519	sehen	_	_	_	_	_	_	_	VVINF	Inf	sehen
+5-22	520-527	konnten	_	_	_	_	_	_	_	VMFIN	3.Pl.Past.Ind	können
+5-23	528-529	–	_	_	_	_	_	_	_	$(	_	–
+5-24	530-533	der	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+5-25	534-539	Tisch	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Tisch
+5-26	540-545	hatte	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	haben
+5-27	546-550	eine	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+5-28	551-554	Art	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Art
+5-29	555-556	„	_	_	_	_	_	_	_	$(	_	„
+5-30	557-573	Vogelperspektive	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Vogelperspektive
+5-31	574-575	“	_	_	_	_	_	_	_	APPR	_	“
+5-32	576-581	ihrer	_	_	_	_	_	_	_	PPOSAT	Gen.Sg.Fem	ihr
+5-33	582-587	Stadt	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Stadt
+5-34	588-598	produziert	_	_	_	_	_	_	_	VVPP	Psp	produzieren
+5-35	599-600	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Dies wurde „ Camera Obscura “ genannt .
+6-1	603-607	Dies	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	dieser
+6-2	608-613	wurde	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	werden
+6-3	614-615	„	_	_	_	_	_	_	_	NE	*.*.*	„
+6-4	616-622	Camera	_	_	_	_	_	_	_	NE	*.*.*	Camera
+6-5	623-630	Obscura	_	_	_	_	_	_	_	NE	Nom.Sg.Neut	Obscura
+6-6	631-632	“	_	_	_	_	_	_	_	FM	_	“
+6-7	633-640	genannt	_	_	_	_	_	_	_	VVPP	Psp	nennen
+6-8	641-642	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die erste wurde von einem Gelehrten namens Ali Al Hasan Ibn al Haitham gebaut .
+7-1	645-648	Die	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+7-2	649-654	erste	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	erster
+7-3	655-660	wurde	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	werden
+7-4	661-664	von	_	_	_	_	_	_	_	APPR	_	von
+7-5	665-670	einem	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	ein
+7-6	671-680	Gelehrten	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	gelehrter
+7-7	681-687	namens	_	_	_	_	_	_	_	APPR	_	namens
+7-8	688-691	Ali	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Ali
+7-9	692-694	Al	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Al
+7-10	695-700	Hasan	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Hasan
+7-11	701-704	Ibn	_	_	_	_	_	_	_	NE	*.*.*	Ibn
+7-12	705-707	al	_	_	_	_	_	_	_	FM	_	al
+7-13	708-715	Haitham	_	_	_	_	_	_	_	NE	Dat.Sg.*	Haitham
+7-14	716-722	gebaut	_	_	_	_	_	_	_	VVPP	Psp	bauen
+7-15	723-724	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Er wurde in Basra ( heute im Süd Irak ) um das Jahr 1000 geboren .
+8-1	727-729	Er	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+8-2	730-735	wurde	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	werden
+8-3	736-738	in	_	_	_	_	_	_	_	APPR	_	in
+8-4	739-744	Basra	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Basra
+8-5	745-746	(	_	_	_	_	_	_	_	$(	_	(
+8-6	747-752	heute	_	_	_	_	_	_	_	ADV	_	heute
+8-7	753-755	im	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in
+8-8	756-759	Süd	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Süd
+8-9	760-764	Irak	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Irak
+8-10	765-766	)	_	_	_	_	_	_	_	$(	_	)
+8-11	767-769	um	_	_	_	_	_	_	_	APPR	_	um
+8-12	770-773	das	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der
+8-13	774-778	Jahr	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Jahr
+8-14	779-783	1000	_	_	_	_	_	_	_	CARD	_	1000
+8-15	784-791	geboren	_	_	_	_	_	_	_	VVPP	Psp	gebären
+8-16	792-793	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Um 1600 fügte Giambattista della Porta eine Linse zur Nadelloch Kamera hinzu .
+9-1	796-798	Um	_	_	_	_	_	_	_	APPR	_	um
+9-2	799-803	1600	_	_	_	_	_	_	_	CARD	_	1600
+9-3	804-809	fügte	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	fügen
+9-4	810-822	Giambattista	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	Giambattista
+9-5	823-828	della	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	della
+9-6	829-834	Porta	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	Porta
+9-7	835-839	eine	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+9-8	840-845	Linse	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Linse
+9-9	846-849	zur	_	_	_	_	_	_	_	APPRART	Dat.Sg.Fem	zu
+9-10	850-859	Nadelloch	_	_	_	_	_	_	_	FM	_	Nadelloch
+9-11	860-866	Kamera	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Kamera
+9-12	867-872	hinzu	_	_	_	_	_	_	_	PTKVZ	_	hinzu
+9-13	873-874	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Es dauerte bis 1850 , bis ein schottischer Wissenschaftler , Sir David Brewster ( Sprich : Däivid Bruuster ) , das erste richtige Foto mit einer Nadelloch Kamera schoss .
+10-1	877-879	Es	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es
+10-2	880-887	dauerte	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	dauern
+10-3	888-891	bis	_	_	_	_	_	_	_	APPR	_	bis
+10-4	892-896	1850	_	_	_	_	_	_	_	CARD	_	1850
+10-5	897-898	,	_	_	_	_	_	_	_	$,	_	,
+10-6	899-902	bis	_	_	_	_	_	_	_	KOUS	_	bis
+10-7	903-906	ein	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+10-8	907-919	schottischer	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	schottisch
+10-9	920-935	Wissenschaftler	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Wissenschaftler
+10-10	936-937	,	_	_	_	_	_	_	_	$,	_	,
+10-11	938-941	Sir	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Sir
+10-12	942-947	David	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	David
+10-13	948-956	Brewster	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Brewster
+10-14	957-958	(	_	_	_	_	_	_	_	$(	_	(
+10-15	959-965	Sprich	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Sprich
+10-16	966-967	:	_	_	_	_	_	_	_	$.	_	:
+10-17	968-974	Däivid	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Däivid
+10-18	975-983	Bruuster	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Bruuster
+10-19	984-985	)	_	_	_	_	_	_	_	$(	_	)
+10-20	986-987	,	_	_	_	_	_	_	_	$,	_	,
+10-21	988-991	das	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+10-22	992-997	erste	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Neut	erster
+10-23	998-1006	richtige	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Neut	richtig
+10-24	1007-1011	Foto	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Foto
+10-25	1012-1015	mit	_	_	_	_	_	_	_	APPR	_	mit
+10-26	1016-1021	einer	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	ein
+10-27	1022-1031	Nadelloch	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Nadelloch
+10-28	1032-1038	Kamera	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Kamera
+10-29	1039-1045	schoss	_	_	_	_	_	_	_	ADJD	Pos	schoß
+10-30	1046-1047	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die Fotografie ist das Ergebnis der Kombination mehrerer technischer Entdeckungen : Die erste permanente Fotografie war ein Bild , das 1825 von dem französischen Erfinder Nicéphore Niépce gemacht wurde .
+11-1	1050-1053	Die	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+11-2	1054-1064	Fotografie	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Fotografie
+11-3	1065-1068	ist	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+11-4	1069-1072	das	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+11-5	1073-1081	Ergebnis	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Ergebnis
+11-6	1082-1085	der	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der
+11-7	1086-1097	Kombination	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Kombination
+11-8	1098-1106	mehrerer	_	_	_	_	_	_	_	PIAT	Gen.Pl.Fem	mehrere
+11-9	1107-1118	technischer	_	_	_	_	_	_	_	ADJA	Pos.Gen.Pl.Fem	technisch
+11-10	1119-1131	Entdeckungen	_	_	_	_	_	_	_	NN	Gen.Pl.Fem	Entdeckung
+11-11	1132-1133	:	_	_	_	_	_	_	_	$.	_	:
+11-12	1134-1137	Die	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+11-13	1138-1143	erste	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	erster
+11-14	1144-1154	permanente	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	permanent
+11-15	1155-1165	Fotografie	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Fotografie
+11-16	1166-1169	war	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	sein
+11-17	1170-1173	ein	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	ein
+11-18	1174-1178	Bild	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Bild
+11-19	1179-1180	,	_	_	_	_	_	_	_	$,	_	,
+11-20	1181-1184	das	_	_	_	_	_	_	_	PRELS	Nom.Sg.Neut	der
+11-21	1185-1189	1825	_	_	_	_	_	_	_	CARD	_	1825
+11-22	1190-1193	von	_	_	_	_	_	_	_	APPR	_	von
+11-23	1194-1197	dem	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	der
+11-24	1198-1211	französischen	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Masc	französisch
+11-25	1212-1220	Erfinder	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Erfinder
+11-26	1221-1230	Nicéphore	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Nicéphore
+11-27	1231-1237	Niépce	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Niépce
+11-28	1238-1245	gemacht	_	_	_	_	_	_	_	VVPP	Psp	machen
+11-29	1246-1251	wurde	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	werden
+11-30	1252-1253	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Diese Fotografie dauerte aber noch sehr lange .
+12-1	1256-1261	Diese	_	_	_	_	_	_	_	PDAT	Nom.Sg.Fem	dieser
+12-2	1262-1272	Fotografie	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Fotografie
+12-3	1273-1280	dauerte	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	dauern
+12-4	1281-1285	aber	_	_	_	_	_	_	_	ADV	_	aber
+12-5	1286-1290	noch	_	_	_	_	_	_	_	ADV	_	noch
+12-6	1291-1295	sehr	_	_	_	_	_	_	_	ADV	_	sehr
+12-7	1296-1301	lange	_	_	_	_	_	_	_	ADJD	_	lang
+12-8	1302-1303	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Er tat sich mit Louis Daguerre zusammen und sie experimentierten mit Silberverbindungen .
+13-1	1306-1308	Er	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+13-2	1309-1312	tat	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	tun
+13-3	1313-1317	sich	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+13-4	1318-1321	mit	_	_	_	_	_	_	_	APPR	_	mit
+13-5	1322-1327	Louis	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Louis
+13-6	1328-1336	Daguerre	_	_	_	_	_	_	_	NE	Dat.Sg.Masc	Daguerre
+13-7	1337-1345	zusammen	_	_	_	_	_	_	_	PTKVZ	_	zusammen
+13-8	1346-1349	und	_	_	_	_	_	_	_	KON	_	und
+13-9	1350-1353	sie	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie
+13-10	1354-1370	experimentierten	_	_	_	_	_	_	_	VVFIN	3.Pl.Past.Ind	experimentieren
+13-11	1371-1374	mit	_	_	_	_	_	_	_	APPR	_	mit
+13-12	1375-1393	Silberverbindungen	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Silberverbindung
+13-13	1394-1395	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Ein deutscher Chemikers Johann Heinrich Schultz fand im Jahr 1724 heraus , dass sich eine Mixtur aus Silber und Kreide verdunkelt , wenn diese Licht ausgesetzt wird .
+14-1	1398-1401	Ein	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein
+14-2	1402-1411	deutscher	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	deutsch
+14-3	1412-1421	Chemikers	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Chemikers
+14-4	1422-1428	Johann	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Johann
+14-5	1429-1437	Heinrich	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Heinrich
+14-6	1438-1445	Schultz	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Schultz
+14-7	1446-1450	fand	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	finden
+14-8	1451-1453	im	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	in
+14-9	1454-1458	Jahr	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Jahr
+14-10	1459-1463	1724	_	_	_	_	_	_	_	CARD	_	1724
+14-11	1464-1470	heraus	_	_	_	_	_	_	_	PTKVZ	_	heraus
+14-12	1471-1472	,	_	_	_	_	_	_	_	$,	_	,
+14-13	1473-1477	dass	_	_	_	_	_	_	_	KOUS	_	dass
+14-14	1478-1482	sich	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich
+14-15	1483-1487	eine	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein
+14-16	1488-1494	Mixtur	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Mixtur
+14-17	1495-1498	aus	_	_	_	_	_	_	_	APPR	_	aus
+14-18	1499-1505	Silber	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Silber
+14-19	1506-1509	und	_	_	_	_	_	_	_	KON	_	und
+14-20	1510-1516	Kreide	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Kreide
+14-21	1517-1527	verdunkelt	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	verdunkeln
+14-22	1528-1529	,	_	_	_	_	_	_	_	$,	_	,
+14-23	1530-1534	wenn	_	_	_	_	_	_	_	KOUS	_	wenn
+14-24	1535-1540	diese	_	_	_	_	_	_	_	PDAT	Nom.Sg.Fem	dieser
+14-25	1541-1546	Licht	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Licht
+14-26	1547-1557	ausgesetzt	_	_	_	_	_	_	_	VVPP	Psp	aussetzen
+14-27	1558-1562	wird	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	werden
+14-28	1563-1564	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Der britische Wissenschaftler William Fox Talbot ( Sprich : Uilliam Fox Tälbat ) entdeckte ein anderes Mittel , um ein Silberprozess Bild zu fixieren .
+15-1	1567-1570	Der	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+15-2	1571-1580	britische	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	britisch
+15-3	1581-1596	Wissenschaftler	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Wissenschaftler
+15-4	1597-1604	William	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	William
+15-5	1605-1608	Fox	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Fox
+15-6	1609-1615	Talbot	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Talbot
+15-7	1616-1617	(	_	_	_	_	_	_	_	$(	_	(
+15-8	1618-1624	Sprich	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Sprich
+15-9	1625-1626	:	_	_	_	_	_	_	_	$.	_	:
+15-10	1627-1634	Uilliam	_	_	_	_	_	_	_	NE	*.*.*	Uilliam
+15-11	1635-1638	Fox	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Fox
+15-12	1639-1645	Tälbat	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Tälbat
+15-13	1646-1647	)	_	_	_	_	_	_	_	$(	_	)
+15-14	1648-1657	entdeckte	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	entdecken
+15-15	1658-1661	ein	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	ein
+15-16	1662-1669	anderes	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Neut	anderer
+15-17	1670-1676	Mittel	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Mittel
+15-18	1677-1678	,	_	_	_	_	_	_	_	$,	_	,
+15-19	1679-1681	um	_	_	_	_	_	_	_	KOUI	_	um
+15-20	1682-1685	ein	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	ein
+15-21	1686-1699	Silberprozess	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Silberprozeß
+15-22	1700-1704	Bild	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Bild
+15-23	1705-1707	zu	_	_	_	_	_	_	_	PTKZU	_	zu
+15-24	1708-1716	fixieren	_	_	_	_	_	_	_	VVINF	Inf	fixieren
+15-25	1717-1718	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Dies hielt er aber geheim .
+16-1	1721-1725	Dies	_	_	_	_	_	_	_	PDS	Acc.Sg.Neut	dieser
+16-2	1726-1731	hielt	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	halten
+16-3	1732-1734	er	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+16-4	1735-1739	aber	_	_	_	_	_	_	_	ADV	_	aber
+16-5	1740-1746	geheim	_	_	_	_	_	_	_	ADJD	Pos	geheim
+16-6	1747-1748	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Er entdeckte 1819 die Natrium Thiosulfat Lösung als Lösungsmittel für Silbersalze .
+17-1	1751-1753	Er	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+17-2	1754-1763	entdeckte	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	entdecken
+17-3	1764-1768	1819	_	_	_	_	_	_	_	CARD	_	1819
+17-4	1769-1772	die	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+17-5	1773-1780	Natrium	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Natrium
+17-6	1781-1791	Thiosulfat	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Thiosulfat
+17-7	1792-1798	Lösung	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Lösung
+17-8	1799-1802	als	_	_	_	_	_	_	_	APPR	_	als
+17-9	1803-1816	Lösungsmittel	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Lösungsmittel
+17-10	1817-1820	für	_	_	_	_	_	_	_	APPR	_	für
+17-11	1821-1832	Silbersalze	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Silbersalz
+17-12	1833-1834	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Und er war der erste , der die Fotografie verkaufte und die Begriffe „ Negativ “ und „ Positiv “ verwendete .
+18-1	1837-1840	Und	_	_	_	_	_	_	_	KON	_	und
+18-2	1841-1843	er	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er
+18-3	1844-1847	war	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	sein
+18-4	1848-1851	der	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+18-5	1852-1857	erste	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	erster
+18-6	1858-1859	,	_	_	_	_	_	_	_	$,	_	,
+18-7	1860-1863	der	_	_	_	_	_	_	_	PRELS	Nom.Sg.Masc	der
+18-8	1864-1867	die	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+18-9	1868-1878	Fotografie	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Fotografie
+18-10	1879-1888	verkaufte	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	verkaufen
+18-11	1889-1892	und	_	_	_	_	_	_	_	KON	_	und
+18-12	1893-1896	die	_	_	_	_	_	_	_	ART	Acc.Pl.Masc	der
+18-13	1897-1905	Begriffe	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Begriff
+18-14	1906-1907	„	_	_	_	_	_	_	_	$(	_	„
+18-15	1908-1915	Negativ	_	_	_	_	_	_	_	ADJD	Pos	negativ
+18-16	1916-1917	“	_	_	_	_	_	_	_	XY	_	“
+18-17	1918-1921	und	_	_	_	_	_	_	_	KON	_	und
+18-18	1922-1923	„	_	_	_	_	_	_	_	XY	_	„
+18-19	1924-1931	Positiv	_	_	_	_	_	_	_	ADJD	Pos	positiv
+18-20	1932-1933	“	_	_	_	_	_	_	_	$(	_	“
+18-21	1934-1944	verwendete	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	verwenden
+18-22	1945-1946	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Um 1900 stellte Eastman Kodak ( Sprich : IIstmän Kodak ) aus Amerika die erste populäre Schwarzweißkamera „ The Brownie “ massenhaft her .
+19-1	1949-1951	Um	_	_	_	_	_	_	_	APPR	_	um
+19-2	1952-1956	1900	_	_	_	_	_	_	_	CARD	_	1900
+19-3	1957-1964	stellte	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	stellen
+19-4	1965-1972	Eastman	_	_	_	_	_	_	_	NE	*.*.*	Eastman
+19-5	1973-1978	Kodak	_	_	_	_	_	_	_	NE	Nom.Sg.*	Kodak
+19-6	1979-1980	(	_	_	_	_	_	_	_	$(	_	(
+19-7	1981-1987	Sprich	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Sprich
+19-8	1988-1989	:	_	_	_	_	_	_	_	$.	_	:
+19-9	1990-1997	IIstmän	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	IIstmän
+19-10	1998-2003	Kodak	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	Kodak
+19-11	2004-2005	)	_	_	_	_	_	_	_	$(	_	)
+19-12	2006-2009	aus	_	_	_	_	_	_	_	APPR	_	aus
+19-13	2010-2017	Amerika	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Amerika
+19-14	2018-2021	die	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+19-15	2022-2027	erste	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	erster
+19-16	2028-2036	populäre	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	populär
+19-17	2037-2054	Schwarzweißkamera	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Schwarzweißkamera
+19-18	2055-2056	„	_	_	_	_	_	_	_	NE	*.*.*	„
+19-19	2057-2060	The	_	_	_	_	_	_	_	NE	*.*.*	The
+19-20	2061-2068	Brownie	_	_	_	_	_	_	_	NE	*.*.*	Brownie
+19-21	2069-2070	“	_	_	_	_	_	_	_	NE	*.*.*	“
+19-22	2071-2081	massenhaft	_	_	_	_	_	_	_	ADJD	Pos	massenhaft
+19-23	2082-2085	her	_	_	_	_	_	_	_	PTKVZ	_	her
+19-24	2086-2087	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Dies machte Fotografie preiswert und bekannt .
+20-1	2090-2094	Dies	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	dieser
+20-2	2095-2101	machte	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	machen
+20-3	2102-2112	Fotografie	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Fotografie
+20-4	2113-2122	preiswert	_	_	_	_	_	_	_	ADJD	Pos	preiswert
+20-5	2123-2126	und	_	_	_	_	_	_	_	KON	_	und
+20-6	2127-2134	bekannt	_	_	_	_	_	_	_	ADJD	Pos	bekannt
+20-7	2135-2136	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Um diese Zeit wurde also der „ Schnappschuss “ , das schnelle Foto nebenbei , erfunden .
+21-1	2139-2141	Um	_	_	_	_	_	_	_	APPR	_	um
+21-2	2142-2147	diese	_	_	_	_	_	_	_	PDAT	Acc.Sg.Fem	dieser
+21-3	2148-2152	Zeit	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Zeit
+21-4	2153-2158	wurde	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	werden
+21-5	2159-2163	also	_	_	_	_	_	_	_	ADV	_	also
+21-6	2164-2167	der	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+21-7	2168-2169	„	_	_	_	_	_	_	_	FM	_	„
+21-8	2170-2183	Schnappschuss	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Schnappschuss
+21-9	2184-2185	“	_	_	_	_	_	_	_	$(	_	“
+21-10	2186-2187	,	_	_	_	_	_	_	_	$,	_	,
+21-11	2188-2191	das	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+21-12	2192-2200	schnelle	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Neut	schnell
+21-13	2201-2205	Foto	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Foto
+21-14	2206-2214	nebenbei	_	_	_	_	_	_	_	ADV	_	nebenbei
+21-15	2215-2216	,	_	_	_	_	_	_	_	$,	_	,
+21-16	2217-2225	erfunden	_	_	_	_	_	_	_	VVPP	Psp	erfinden
+21-17	2226-2227	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das Produkt war eine sehr einfache Kartonkamera mit einem einfachen Objektiv .
+22-1	2230-2233	Das	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+22-2	2234-2241	Produkt	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Produkt
+22-3	2242-2245	war	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	sein
+22-4	2246-2250	eine	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein
+22-5	2251-2255	sehr	_	_	_	_	_	_	_	ADV	_	sehr
+22-6	2256-2264	einfache	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	einfach
+22-7	2265-2277	Kartonkamera	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Kartonkamera
+22-8	2278-2281	mit	_	_	_	_	_	_	_	APPR	_	mit
+22-9	2282-2287	einem	_	_	_	_	_	_	_	ART	Dat.Sg.Neut	ein
+22-10	2288-2297	einfachen	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Neut	einfach
+22-11	2298-2306	Objektiv	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Objektiv
+22-12	2307-2308	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Sie verwendete Rollen mit fotografischem Film , die etwa acht bis ein Dutzend [ 1 ] Bilder aufnehmen konnten .
+23-1	2311-2314	Sie	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Fem	sie
+23-2	2315-2325	verwendete	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	verwenden
+23-3	2326-2332	Rollen	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Rolle
+23-4	2333-2336	mit	_	_	_	_	_	_	_	APPR	_	mit
+23-5	2337-2351	fotografischem	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Masc	fotografisch
+23-6	2352-2356	Film	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Film
+23-7	2357-2358	,	_	_	_	_	_	_	_	$,	_	,
+23-8	2359-2362	die	_	_	_	_	_	_	_	PRELS	Nom.Pl.Fem	der
+23-9	2363-2367	etwa	_	_	_	_	_	_	_	ADV	_	etwa
+23-10	2368-2372	acht	_	_	_	_	_	_	_	CARD	_	acht
+23-11	2373-2376	bis	_	_	_	_	_	_	_	APPR	_	bis
+23-12	2377-2380	ein	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	ein
+23-13	2381-2388	Dutzend	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Dutzend
+23-14	2389-2390	[	_	_	_	_	_	_	_	XY	_	[
+23-15	2391-2392	1	_	_	_	_	_	_	_	CARD	_	1
+23-16	2393-2394	]	_	_	_	_	_	_	_	$(	_	]
+23-17	2395-2401	Bilder	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Bild
+23-18	2402-2411	aufnehmen	_	_	_	_	_	_	_	VVINF	Inf	aufnehmen
+23-19	2412-2419	konnten	_	_	_	_	_	_	_	VMFIN	3.Pl.Past.Ind	können
+23-20	2420-2421	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die meisten Apotheken entwickelten und druckten die Bilder .
+24-1	2424-2427	Die	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der
+24-2	2428-2435	meisten	_	_	_	_	_	_	_	PIAT	Nom.Pl.Fem	meister
+24-3	2436-2445	Apotheken	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Apotheke
+24-4	2446-2458	entwickelten	_	_	_	_	_	_	_	VVFIN	3.Pl.Past.Ind	entwickeln
+24-5	2459-2462	und	_	_	_	_	_	_	_	KON	_	und
+24-6	2463-2471	druckten	_	_	_	_	_	_	_	VVFIN	3.Pl.Past.Ind	drucken
+24-7	2472-2475	die	_	_	_	_	_	_	_	ART	Acc.Pl.Neut	der
+24-8	2476-2482	Bilder	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Bild
+24-9	2483-2484	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Sie verkauften auch die Kamera und den Film .
+25-1	2487-2490	Sie	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie
+25-2	2491-2501	verkauften	_	_	_	_	_	_	_	VVFIN	3.Pl.Past.Ind	verkaufen
+25-3	2502-2506	auch	_	_	_	_	_	_	_	ADV	_	auch
+25-4	2507-2510	die	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der
+25-5	2511-2517	Kamera	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Kamera
+25-6	2518-2521	und	_	_	_	_	_	_	_	KON	_	und
+25-7	2522-2525	den	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der
+25-8	2526-2530	Film	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Film
+25-9	2531-2532	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Das Ergebnis waren 6 cm ( 2¼ Zoll ) große quadratische Schwarz Weiß Bilder von angemessener Qualität , die verblassten , wenn sie nicht im Dunkeln aufbewahrt wurden .
+26-1	2535-2538	Das	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+26-2	2539-2547	Ergebnis	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Ergebnis
+26-3	2548-2553	waren	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Ind	sein
+26-4	2554-2555	6	_	_	_	_	_	_	_	CARD	_	6
+26-5	2556-2558	cm	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	cn
+26-6	2559-2560	(	_	_	_	_	_	_	_	$(	_	(
+26-7	2561-2563	2¼	_	_	_	_	_	_	_	CARD	_	2<unk>
+26-8	2564-2568	Zoll	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Zoll
+26-9	2569-2570	)	_	_	_	_	_	_	_	$(	_	)
+26-10	2571-2576	große	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Masc	groß
+26-11	2577-2589	quadratische	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	quadratisch
+26-12	2590-2597	Schwarz	_	_	_	_	_	_	_	ADJD	Pos	schwarz
+26-13	2598-2602	Weiß	_	_	_	_	_	_	_	CARD	_	weiß
+26-14	2603-2609	Bilder	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Bild
+26-15	2610-2613	von	_	_	_	_	_	_	_	APPR	_	von
+26-16	2614-2626	angemessener	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	angemessen
+26-17	2627-2635	Qualität	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Qualität
+26-18	2636-2637	,	_	_	_	_	_	_	_	$,	_	,
+26-19	2638-2641	die	_	_	_	_	_	_	_	PRELS	Nom.Pl.Neut	der
+26-20	2642-2653	verblassten	_	_	_	_	_	_	_	VVFIN	3.Pl.Past.Ind	verblassen
+26-21	2654-2655	,	_	_	_	_	_	_	_	$,	_	,
+26-22	2656-2660	wenn	_	_	_	_	_	_	_	KOUS	_	wenn
+26-23	2661-2664	sie	_	_	_	_	_	_	_	PPER	3.Nom.Pl.Neut	sie
+26-24	2665-2670	nicht	_	_	_	_	_	_	_	PTKNEG	_	nicht
+26-25	2671-2673	im	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	in
+26-26	2674-2681	Dunkeln	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	dunkele
+26-27	2682-2692	aufbewahrt	_	_	_	_	_	_	_	VVPP	Psp	aufbewahren
+26-28	2693-2699	wurden	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Ind	werden
+26-29	2700-2701	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Zu diesem Zweck wurden Fotoalben mit dunklem Papier erfunden .
+27-1	2704-2706	Zu	_	_	_	_	_	_	_	APPR	_	zu
+27-2	2707-2713	diesem	_	_	_	_	_	_	_	PDAT	Dat.Sg.Masc	dieser
+27-3	2714-2719	Zweck	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Zweck
+27-4	2720-2726	wurden	_	_	_	_	_	_	_	VAFIN	3.Pl.Past.Ind	werden
+27-5	2727-2736	Fotoalben	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Fotoalbe
+27-6	2737-2740	mit	_	_	_	_	_	_	_	APPR	_	mit
+27-7	2741-2748	dunklem	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Neut	dunkel
+27-8	2749-2755	Papier	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Papier
+27-9	2756-2764	erfunden	_	_	_	_	_	_	_	VVPP	Psp	erfinden
+27-10	2765-2766	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Der erste moderne Farbfilm nach dem „ Dreifarben Emulsionsverfahren “ hieß Kodachrome .
+28-1	2769-2772	Der	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der
+28-2	2773-2778	erste	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	erster
+28-3	2779-2786	moderne	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	modern
+28-4	2787-2795	Farbfilm	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Farbfilm
+28-5	2796-2800	nach	_	_	_	_	_	_	_	APPR	_	nach
+28-6	2801-2804	dem	_	_	_	_	_	_	_	ART	Dat.Sg.Neut	der
+28-7	2805-2806	„	_	_	_	_	_	_	_	$(	_	„
+28-8	2807-2817	Dreifarben	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Neut	dreifarb
+28-9	2818-2836	Emulsionsverfahren	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Emulsionsverfahren
+28-10	2837-2838	“	_	_	_	_	_	_	_	XY	_	“
+28-11	2839-2843	hieß	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	heißen
+28-12	2844-2854	Kodachrome	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Kodachrom
+28-13	2855-2856	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Ein beliebtes Produkt , das um 1935 von Eastman Kodak in den Vereinigten Staaten von Amerika eingeführt wurde .
+29-1	2859-2862	Ein	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	ein
+29-2	2863-2872	beliebtes	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Neut	beliebt
+29-3	2873-2880	Produkt	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Produkt
+29-4	2881-2882	,	_	_	_	_	_	_	_	$,	_	,
+29-5	2883-2886	das	_	_	_	_	_	_	_	PRELS	Nom.Sg.Neut	der
+29-6	2887-2889	um	_	_	_	_	_	_	_	APPR	_	um
+29-7	2890-2894	1935	_	_	_	_	_	_	_	CARD	_	1935
+29-8	2895-2898	von	_	_	_	_	_	_	_	APPR	_	von
+29-9	2899-2906	Eastman	_	_	_	_	_	_	_	NE	*.*.*	Eastman
+29-10	2907-2912	Kodak	_	_	_	_	_	_	_	NE	Dat.Sg.*	Kodak
+29-11	2913-2915	in	_	_	_	_	_	_	_	APPR	_	in
+29-12	2916-2919	den	_	_	_	_	_	_	_	ART	Dat.Pl.Masc	der
+29-13	2920-2931	Vereinigten	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Masc	vereinigt
+29-14	2932-2939	Staaten	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Staat
+29-15	2940-2943	von	_	_	_	_	_	_	_	APPR	_	von
+29-16	2944-2951	Amerika	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Amerika
+29-17	2952-2962	eingeführt	_	_	_	_	_	_	_	VVPP	Psp	einführen
+29-18	2963-2968	wurde	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	werden
+29-19	2969-2970	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Heute verwenden elektronische Kameras in der Regel eine integrierte Schaltung , die jeden Punkt oder „ Pixel “ eines Bildes abtastet und elektrische Signale erzeugt .
+30-1	2973-2978	Heute	_	_	_	_	_	_	_	ADV	_	heute
+30-2	2979-2988	verwenden	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	verwenden
+30-3	2989-3002	elektronische	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Fem	elektronisch
+30-4	3003-3010	Kameras	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Kamera
+30-5	3011-3013	in	_	_	_	_	_	_	_	APPR	_	in
+30-6	3014-3017	der	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der
+30-7	3018-3023	Regel	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Regel
+30-8	3024-3028	eine	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+30-9	3029-3040	integrierte	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	integriert
+30-10	3041-3050	Schaltung	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Schaltung
+30-11	3051-3052	,	_	_	_	_	_	_	_	$,	_	,
+30-12	3053-3056	die	_	_	_	_	_	_	_	PRELS	Nom.Sg.Fem	der
+30-13	3057-3062	jeden	_	_	_	_	_	_	_	PIAT	Acc.Sg.Masc	jeder
+30-14	3063-3068	Punkt	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Punkt
+30-15	3069-3073	oder	_	_	_	_	_	_	_	KON	_	oder
+30-16	3074-3075	„	_	_	_	_	_	_	_	APPR	_	„
+30-17	3076-3081	Pixel	_	_	_	_	_	_	_	NE	Acc.Sg.Masc	Pixel
+30-18	3082-3083	“	_	_	_	_	_	_	_	APPR	_	“
+30-19	3084-3089	eines	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	ein
+30-20	3090-3096	Bildes	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Bild
+30-21	3097-3105	abtastet	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	abtasten
+30-22	3106-3109	und	_	_	_	_	_	_	_	KON	_	und
+30-23	3110-3121	elektrische	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Neut	elektrisch
+30-24	3122-3129	Signale	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Signal
+30-25	3130-3137	erzeugt	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	erzeugen
+30-26	3138-3139	.	_	_	_	_	_	_	_	$.	_	.
+
+#Text=Die grundlegende „ leere Lochkamera “ hierbei ist – im Vergleich zur „ Camera Obscura “ – winzig , aber das Prinzip zur Erzeugung eines Bildes auf einem Bildschirm ist genau das selbe , wie die Projektion eines Bildes auf eine Raumwand .
+31-1	3142-3145	Die	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+31-2	3146-3158	grundlegende	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	grundlegend
+31-3	3159-3160	„	_	_	_	_	_	_	_	FM	_	„
+31-4	3161-3166	leere	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	leer
+31-5	3167-3177	Lochkamera	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Lochkamera
+31-6	3178-3179	“	_	_	_	_	_	_	_	FM	_	“
+31-7	3180-3187	hierbei	_	_	_	_	_	_	_	ADV	_	hierbei
+31-8	3188-3191	ist	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+31-9	3192-3193	–	_	_	_	_	_	_	_	FM	_	–
+31-10	3194-3196	im	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in
+31-11	3197-3206	Vergleich	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Vergleich
+31-12	3207-3210	zur	_	_	_	_	_	_	_	APPRART	Dat.Sg.Fem	zu
+31-13	3211-3212	„	_	_	_	_	_	_	_	FM	_	„
+31-14	3213-3219	Camera	_	_	_	_	_	_	_	NE	*.*.*	Camera
+31-15	3220-3227	Obscura	_	_	_	_	_	_	_	FM	_	Obscura
+31-16	3228-3229	“	_	_	_	_	_	_	_	FM	_	“
+31-17	3230-3231	–	_	_	_	_	_	_	_	FM	_	–
+31-18	3232-3238	winzig	_	_	_	_	_	_	_	ADJD	Pos	winzig
+31-19	3239-3240	,	_	_	_	_	_	_	_	$,	_	,
+31-20	3241-3245	aber	_	_	_	_	_	_	_	KON	_	aber
+31-21	3246-3249	das	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+31-22	3250-3257	Prinzip	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Prinzip
+31-23	3258-3261	zur	_	_	_	_	_	_	_	APPRART	Dat.Sg.Fem	zu
+31-24	3262-3271	Erzeugung	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Erzeugung
+31-25	3272-3277	eines	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	ein
+31-26	3278-3284	Bildes	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Bild
+31-27	3285-3288	auf	_	_	_	_	_	_	_	APPR	_	auf
+31-28	3289-3294	einem	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	ein
+31-29	3295-3305	Bildschirm	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Bildschirm
+31-30	3306-3309	ist	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein
+31-31	3310-3315	genau	_	_	_	_	_	_	_	ADJD	Pos	genau
+31-32	3316-3319	das	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der
+31-33	3320-3325	selbe	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Neut	selber
+31-34	3326-3327	,	_	_	_	_	_	_	_	$,	_	,
+31-35	3328-3331	wie	_	_	_	_	_	_	_	KOKOM	_	wie
+31-36	3332-3335	die	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der
+31-37	3336-3346	Projektion	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Projektion
+31-38	3347-3352	eines	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	ein
+31-39	3353-3359	Bildes	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Bild
+31-40	3360-3363	auf	_	_	_	_	_	_	_	APPR	_	auf
+31-41	3364-3368	eine	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein
+31-42	3369-3377	Raumwand	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Raumwand
+31-43	3378-3379	.	_	_	_	_	_	_	_	$.	_	.
