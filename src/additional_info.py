@@ -4,9 +4,9 @@ def functional_verb_phrase(fnc_verbs: list, token: list):
     # fnc_verbs = Liste mit Verben die in Funktionsverbgefügen auftreten können
     # token = Eine Token Zeile aus unseren Daten als Liste
     
-    if token[12] in fnc_verbs and token[4] != "_" and token[4] != "5clash":
+    if token[14] in fnc_verbs and token[4] != "_" and token[4] != "5clash":
         return "true"
-    elif token[12] in fnc_verbs:
+    elif token[14] in fnc_verbs:
         return "false"
     else:
         return "_"
@@ -18,9 +18,9 @@ def function_in_metaphor(fnc_words: list, token: list):
     # fnc_words = Liste mit POS-Tags die Funktionswörter beschreiben
     # token = Eine Token Zeile aus unseren Daten als Liste
 
-    if token[10] in fnc_words and token[4] != "_" and token[4] != "5clash":
+    if token[12] in fnc_words and token[4] != "_" and token[4] != "5clash":
         return "true"
-    elif token[10] in fnc_words:
+    elif token[12] in fnc_words:
         return "false"
     else:
         return "_"

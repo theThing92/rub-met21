@@ -9,7 +9,7 @@
 
 #Text=Rede zu Protokoll Michaele Hustedt ( BÜNDNIS 90/DIE GRÜNEN ) : Wir bringen heute das Energiewirtschaftsgesetz in unveränderter Form neu ein .
 1-1	0-4	Rede	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Rede	_	_
-1-2	5-7	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	_	_
+1-2	5-7	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	false	_
 1-3	8-17	Protokoll	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Protokoll	_	_
 1-4	18-26	Michaele	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	Michaele	_	_
 1-5	27-34	Hustedt	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Fem	Hustedt	_	_
@@ -22,42 +22,42 @@
 1-12	59-60	)	_	_	_	_	_	_	_	_	_	$(	_	)	_	_
 1-13	61-62	:	_	_	_	_	_	_	_	_	_	$.	_	:	_	_
 1-14	63-66	Wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir	_	_
-1-15	67-74	bringen	false	Kern	true	false	einfangen, festsetzen	true	*	zur Beschlussfassung vorlegen	1-23	VVFIN	1.Pl.Pres.Ind	bringen	_	_
+1-15	67-74	bringen	false	Kern	true	false	einfangen, festsetzen	true	*	zur Beschlussfassung vorlegen	1-23	VVFIN	1.Pl.Pres.Ind	bringen	_	true
 1-16	75-80	heute	_	_	_	_	_	_	_	_	_	ADV	_	heute	_	_
-1-17	81-84	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	_	_
+1-17	81-84	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	false	_
 1-18	85-109	Energiewirtschaftsgesetz	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Energiewirtschaftsgesetz	_	_
-1-19	110-112	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+1-19	110-112	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
 1-20	113-126	unveränderter	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	unverändert	_	_
 1-21	127-131	Form	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Form	_	_
 1-22	132-135	neu	_	_	_	_	_	_	_	_	_	ADJD	Pos	neu	_	_
-1-23	136-139	ein	false	synt.	_	_	_	_	_	_	_	PTKVZ	_	ein	_	_
+1-23	136-139	ein	false	synt.	_	_	_	_	_	_	_	PTKVZ	_	ein	true	_
 1-24	140-141	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Die Grünen erweisen sich damit als verlässlicher Koalitionspartner , die Koalition als verlässlicher Partner gegenüber der Stromwirtschaft und den Verbänden .
-2-1	144-147	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.*	der	_	_
+2-1	144-147	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.*	der	false	_
 2-2	148-154	Grünen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.*	grüne	_	_
 2-3	155-163	erweisen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	erweisen	_	_
 2-4	164-168	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Pl	sich	_	_
 2-5	169-174	damit	_	_	_	_	_	_	_	_	_	PROAV	_	damit	_	_
-2-6	175-178	als	_	_	_	_	_	_	_	_	_	APPR	_	als	_	_
+2-6	175-178	als	_	_	_	_	_	_	_	_	_	APPR	_	als	false	_
 2-7	179-192	verlässlicher	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	verlässlich	_	_
 2-8	193-210	Koalitionspartner	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Koalitionspartner	_	_
 2-9	211-212	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-2-10	213-216	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	_	_
+2-10	213-216	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	false	_
 2-11	217-226	Koalition	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Koalition	_	_
-2-12	227-230	als	_	_	_	_	_	_	_	_	_	APPR	_	als	_	_
+2-12	227-230	als	_	_	_	_	_	_	_	_	_	APPR	_	als	false	_
 2-13	231-244	verlässlicher	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	verlässlich	_	_
 2-14	245-252	Partner	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Partner	_	_
-2-15	253-262	gegenüber	_	_	_	_	_	_	_	_	_	APPR	_	gegenüber	_	_
-2-16	263-266	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+2-15	253-262	gegenüber	_	_	_	_	_	_	_	_	_	APPR	_	gegenüber	false	_
+2-16	263-266	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 2-17	267-282	Stromwirtschaft	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Stromwirtschaft	_	_
-2-18	283-286	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
-2-19	287-290	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Masc	der	_	_
+2-18	283-286	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
+2-19	287-290	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Masc	der	false	_
 2-20	291-300	Verbänden	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Verband	_	_
 2-21	301-302	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Die schnelle Verabschiedung dieses Gesetzes ist notwendig , da wir immer noch säumig sind in der Umsetzung der EU Gasrichtlinie .
-3-1	305-308	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+3-1	305-308	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_
 3-2	309-317	schnelle	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	schnell	_	_
 3-3	318-332	Verabschiedung	false	Kern	true	false	Abschiednehmen	true	*	Beschlussfassung zum Inkrafttreten	_	NN	Nom.Sg.Fem	Verabschiedung	_	_
 3-4	333-339	dieses	_	_	_	_	_	_	_	_	_	PDAT	Gen.Sg.Neut	dieser	_	_
@@ -65,16 +65,16 @@
 3-6	349-352	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
 3-7	353-362	notwendig	_	_	_	_	_	_	_	_	_	ADJD	Pos	notwendig	_	_
 3-8	363-364	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-3-9	365-367	da	_	_	_	_	_	_	_	_	_	KOUS	_	da	_	_
+3-9	365-367	da	_	_	_	_	_	_	_	_	_	KOUS	_	da	false	_
 3-10	368-371	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir	_	_
 3-11	372-377	immer	_	_	_	_	_	_	_	_	_	ADV	_	immer	_	_
 3-12	378-382	noch	_	_	_	_	_	_	_	_	_	ADV	_	noch	_	_
 3-13	383-389	säumig	_	_	_	_	_	_	_	_	_	ADJD	Pos	säumig	_	_
 3-14	390-394	sind	_	_	_	_	_	_	_	_	_	VAFIN	1.Pl.Pres.Ind	sein	_	_
-3-15	395-397	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
-3-16	398-401	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+3-15	395-397	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
+3-16	398-401	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 3-17	402-411	Umsetzung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Umsetzung	_	_
-3-18	412-415	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	_	_
+3-18	412-415	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	false	_
 3-19	416-418	EU	_	_	_	_	_	_	_	_	_	NE	Gen.Sg.Fem	EU	_	_
 3-20	419-432	Gasrichtlinie	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Gasrichtlinie	_	_
 3-21	433-434	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
@@ -101,49 +101,49 @@
 
 #Text=Zudem setzen wir den Sofortvollzug des Kartellamts um .
 7-1	522-527	Zudem	_	_	_	_	_	_	_	_	_	PROAV	_	zudem	_	_
-7-2	528-534	setzen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	setzen	_	_
+7-2	528-534	setzen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	setzen	_	false
 7-3	535-538	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir	_	_
-7-4	539-542	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	_	_
+7-4	539-542	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	false	_
 7-5	543-556	Sofortvollzug	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Sofortvollzug	_	_
-7-6	557-560	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	der	_	_
+7-6	557-560	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	der	false	_
 7-7	561-572	Kartellamts	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Kartellamt	_	_
-7-8	573-575	um	_	_	_	_	_	_	_	_	_	PTKVZ	_	um	_	_
+7-8	573-575	um	_	_	_	_	_	_	_	_	_	PTKVZ	_	um	false	_
 7-9	576-577	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Ein wichtiger Punkt , das Kartellamt zu stärken und in strittigen Fällen die Entscheidungen zu beschleunigen .
-8-1	580-583	Ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	_	_
+8-1	580-583	Ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	false	_
 8-2	584-593	wichtiger	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	wichtig	_	_
 8-3	594-599	Punkt	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Punkt	_	_
 8-4	600-601	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-8-5	602-605	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	_	_
+8-5	602-605	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	false	_
 8-6	606-616	Kartellamt	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Kartellamt	_	_
-8-7	617-619	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu	_	_
+8-7	617-619	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu	false	_
 8-8	620-627	stärken	false	Kern	true	false	(körperlich) stark machen	true	*	mit weiteren Befugnissen auszustatten	_	VVINF	Inf	stärken	_	_
-8-9	628-631	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
-8-10	632-634	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+8-9	628-631	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
+8-10	632-634	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
 8-11	635-645	strittigen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Masc	strittig	_	_
 8-12	646-652	Fällen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Fall	_	_
-8-13	653-656	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Fem	der	_	_
+8-13	653-656	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Fem	der	false	_
 8-14	657-671	Entscheidungen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Entscheidung	_	_
-8-15	672-674	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu	_	_
+8-15	672-674	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu	false	_
 8-16	675-688	beschleunigen	_	_	_	_	_	_	_	_	_	VVINF	Inf	beschleunigen	_	_
 8-17	689-690	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Darüber hinaus verrechtlichen wir die Verbändevereinbarungen Strom und Gas .
 9-1	693-700	Darüber	_	_	_	_	_	_	_	_	_	PROAV	_	darüber	_	_
-9-2	701-707	hinaus	_	_	_	_	_	_	_	_	_	APZR	_	hinaus	_	_
+9-2	701-707	hinaus	_	_	_	_	_	_	_	_	_	APZR	_	hinaus	false	_
 9-3	708-722	verrechtlichen	_	_	_	_	_	_	_	_	_	VVFIN	1.Pl.Pres.Ind	verrechtlichen	_	_
 9-4	723-726	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir	_	_
-9-5	727-730	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Fem	der	_	_
+9-5	727-730	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Fem	der	false	_
 9-6	731-753	Verbändevereinbarungen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Verbändevereinbarung	_	_
 9-7	754-759	Strom	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Strom	_	_
-9-8	760-763	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+9-8	760-763	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 9-9	764-767	Gas	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Gas	_	_
 9-10	768-769	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Daran gibt es Kritik .
 10-1	772-777	Daran	_	_	_	_	_	_	_	_	_	PROAV	_	daran	_	_
-10-2	778-782	gibt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	geben	_	_
+10-2	778-782	gibt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	geben	_	false
 10-3	783-785	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
 10-4	786-792	Kritik	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Kritik	_	_
 10-5	793-794	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
@@ -156,17 +156,17 @@
 #Text=-, da insbesondere die Verbändevereinbarung Gas bei weitem nicht einen echten und fairen Wettbewerb ermöglicht .
 12-1	816-817	-	_	_	_	_	_	_	_	_	_	$(	_	-	_	_
 12-2	817-818	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-12-3	819-821	da	_	_	_	_	_	_	_	_	_	KOUS	_	da	_	_
+12-3	819-821	da	_	_	_	_	_	_	_	_	_	KOUS	_	da	false	_
 12-4	822-834	insbesondere	_	_	_	_	_	_	_	_	_	ADV	_	insbesondere	_	_
-12-5	835-838	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+12-5	835-838	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_
 12-6	839-859	Verbändevereinbarung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Verbändevereinbarung	_	_
 12-7	860-863	Gas	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Gas	_	_
-12-8	864-867	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei	_	_
+12-8	864-867	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei	false	_
 12-9	868-874	weitem	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Neut	weit	_	_
 12-10	875-880	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht	_	_
-12-11	881-886	einen	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein	_	_
+12-11	881-886	einen	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	ein	false	_
 12-12	887-893	echten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	echt	_	_
-12-13	894-897	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+12-13	894-897	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 12-14	898-904	fairen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	fair	_	_
 12-15	905-915	Wettbewerb	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Wettbewerb	_	_
 12-16	916-926	ermöglicht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	ermöglichen	_	_
@@ -178,7 +178,7 @@
 13-3	949-954	diese	_	_	_	_	_	_	_	_	_	PDAT	Nom.Pl.Fem	dieser	_	_
 13-4	955-977	Verbändevereinbarungen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Verbändevereinbarung	_	_
 13-5	978-981	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur	_	_
-13-6	982-985	bis	_	_	_	_	_	_	_	_	_	APPR	_	bis	_	_
+13-6	982-985	bis	_	_	_	_	_	_	_	_	_	APPR	_	bis	false	_
 13-7	986-990	Ende	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Ende	_	_
 13-8	991-995	2003	_	_	_	_	_	_	_	_	_	CARD	_	2003	_	_
 13-9	996-1009	verrechtlicht	_	_	_	_	_	_	_	_	_	VVPP	Psp	verrechtlichen	_	_
@@ -192,8 +192,8 @@
 14-5	1039-1040	:	_	_	_	_	_	_	_	_	_	$.	_	:	_	_
 14-6	1041-1045	Soll	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	sollen	_	_
 14-7	1046-1048	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
-14-8	1049-1052	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei	_	_
-14-9	1053-1056	dem	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	der	_	_
+14-8	1049-1052	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei	false	_
+14-9	1053-1056	dem	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	der	false	_
 14-10	1057-1069	verhandelten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Masc	verhandelt	_	_
 14-11	1070-1080	Netzzugang	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Netzzugang	_	_
 14-12	1081-1088	bleiben	_	_	_	_	_	_	_	_	_	VVINF	Inf	bleiben	_	_
@@ -201,11 +201,11 @@
 14-14	1091-1095	muss	_	_	_	_	_	_	_	_	_	VMFIN	3.Pl.Past.Subj	müssen	_	_
 14-15	1096-1098	es	_	_	_	_	_	_	_	_	_	PPER	3.Acc.Sg.Neut	es	_	_
 14-16	1099-1103	hier	_	_	_	_	_	_	_	_	_	ADV	_	hier	_	_
-14-17	1104-1106	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	_	_
+14-17	1104-1106	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	false	_
 14-18	1107-1111	sehr	_	_	_	_	_	_	_	_	_	ADV	_	sehr	_	_
 14-19	1112-1124	weitgehenden	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Fem	weitgehend	_	_
 14-20	1125-1139	Verbesserungen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Verbesserung	_	_
-14-21	1140-1146	kommen	_	_	_	_	_	_	_	_	_	VVINF	Inf	kommen	_	_
+14-21	1140-1146	kommen	_	_	_	_	_	_	_	_	_	VVINF	Inf	kommen	_	false
 14-22	1147-1148	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Ich will auch nicht meine Besorgnis verhehlen über den Stand des Wettbewerbs in Deutschland .
@@ -216,19 +216,19 @@
 15-5	1171-1176	meine	_	_	_	_	_	_	_	_	_	PPOSAT	Acc.Sg.Fem	mein	_	_
 15-6	1177-1186	Besorgnis	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Besorgnis	_	_
 15-7	1187-1196	verhehlen	_	_	_	_	_	_	_	_	_	VVINF	Inf	verhehlen	_	_
-15-8	1197-1201	über	_	_	_	_	_	_	_	_	_	APPR	_	über	_	_
-15-9	1202-1205	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	_	_
+15-8	1197-1201	über	_	_	_	_	_	_	_	_	_	APPR	_	über	false	_
+15-9	1202-1205	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	false	_
 15-10	1206-1211	Stand	false	Kern	true	false	sich an einer Stelle befinden	true	*	Situation	_	NN	Acc.Sg.Masc	Stand	_	_
-15-11	1212-1215	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der	_	_
+15-11	1212-1215	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der	false	_
 15-12	1216-1227	Wettbewerbs	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Wettbewerb	_	_
-15-13	1228-1230	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+15-13	1228-1230	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
 15-14	1231-1242	Deutschland	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Deutschland	_	_
 15-15	1243-1244	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Im Gasbereich gibt es ihn schlichtweg noch gar nicht .
-16-1	1247-1249	Im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in	_	_
+16-1	1247-1249	Im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in	false	_
 16-2	1250-1260	Gasbereich	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Gasbereich	_	_
-16-3	1261-1265	gibt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	geben	_	_
+16-3	1261-1265	gibt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	geben	_	false
 16-4	1266-1268	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
 16-5	1269-1272	ihn	_	_	_	_	_	_	_	_	_	PPER	3.Acc.Sg.Masc	ihn	_	_
 16-6	1273-1284	schlichtweg	_	_	_	_	_	_	_	_	_	ADV	_	schlichtweg	_	_
@@ -242,19 +242,19 @@
 17-2	1307-1310	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
 17-3	1311-1317	bisher	_	_	_	_	_	_	_	_	_	ADV	_	bisher	_	_
 17-4	1318-1321	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur	_	_
-17-5	1322-1324	zu	false	1synt	_	_	_	_	_	_	_	APPR	_	zu	_	_
+17-5	1322-1324	zu	false	1synt	_	_	_	_	_	_	_	APPR	_	zu	true	_
 17-6	1325-1337	vereinzelten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Fem	vereinzelt	_	_
 17-7	1338-1352	Durchleitungen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Durchleitung	_	_
-17-8	1353-1361	gekommen	false	Kern	true	false	auf ein Ziel gerichtete Bewegung	true	*	eintreffen, Wirklichkeit werden	17-5	VVPP	Psp	kommen	_	_
+17-8	1353-1361	gekommen	false	Kern	true	false	auf ein Ziel gerichtete Bewegung	true	*	eintreffen, Wirklichkeit werden	17-5	VVPP	Psp	kommen	_	true
 17-9	1362-1363	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Notwendig ist ein Paradigmenwechsel wie beim Strom : Wir brauchen Durchleitungsbedingungen , die von der konkreten Transaktion unabhängig sind .
 18-1	1366-1375	Notwendig	_	_	_	_	_	_	_	_	_	ADJD	Pos	notwendig	_	_
 18-2	1376-1379	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
-18-3	1380-1383	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	_	_
+18-3	1380-1383	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	false	_
 18-4	1384-1401	Paradigmenwechsel	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Paradigmenwechsel	_	_
-18-5	1402-1405	wie	_	_	_	_	_	_	_	_	_	KOKOM	_	wie	_	_
-18-6	1406-1410	beim	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	bei	_	_
+18-5	1402-1405	wie	_	_	_	_	_	_	_	_	_	KOKOM	_	wie	false	_
+18-6	1406-1410	beim	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	bei	false	_
 18-7	1411-1416	Strom	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Strom	_	_
 18-8	1417-1418	:	_	_	_	_	_	_	_	_	_	$.	_	:	_	_
 18-9	1419-1422	Wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir	_	_
@@ -262,8 +262,8 @@
 18-11	1432-1456	Durchleitungsbedingungen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Durchleitungsbedingung	_	_
 18-12	1457-1458	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
 18-13	1459-1462	die	_	_	_	_	_	_	_	_	_	PRELS	Nom.Pl.Fem	der	_	_
-18-14	1463-1466	von	_	_	_	_	_	_	_	_	_	APPR	_	von	_	_
-18-15	1467-1470	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+18-14	1463-1466	von	_	_	_	_	_	_	_	_	_	APPR	_	von	false	_
+18-15	1467-1470	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 18-16	1471-1480	konkreten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	konkret	_	_
 18-17	1481-1492	Transaktion	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Transaktion	_	_
 18-18	1493-1503	unabhängig	_	_	_	_	_	_	_	_	_	ADJD	Pos	unabhängig	_	_
@@ -271,33 +271,33 @@
 18-20	1509-1510	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Und die Zeit drängt : Die EU will 2005 den Erfahrungsbericht von Deutschland auswerten , inwieweit der Weg des verhandelten Netzzugangs zu gleich guten Ergebnissen führte wie der regulierte , den alle anderen Länder in der EU praktizieren .
-19-1	1513-1516	Und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
-19-2	1517-1520	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+19-1	1513-1516	Und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
+19-2	1517-1520	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_
 19-3	1521-1525	Zeit	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Zeit	_	_
 19-4	1526-1532	drängt	false	Kern	true	false	heftig, ungeduldig schieben und drücken, in dem Bestreben, rascher an ein Ziel zu kommen	true	*	eilen	_	VVFIN	3.Sg.Pres.Ind	drängen	_	_
 19-5	1533-1534	:	_	_	_	_	_	_	_	_	_	$.	_	:	_	_
-19-6	1535-1538	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+19-6	1535-1538	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_
 19-7	1539-1541	EU	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	EU	_	_
 19-8	1542-1546	will	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	wollen	_	_
 19-9	1547-1551	2005	_	_	_	_	_	_	_	_	_	CARD	_	2005	_	_
-19-10	1552-1555	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	_	_
+19-10	1552-1555	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	false	_
 19-11	1556-1573	Erfahrungsbericht	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Erfahrungsbericht	_	_
-19-12	1574-1577	von	_	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+19-12	1574-1577	von	_	_	_	_	_	_	_	_	_	APPR	_	von	false	_
 19-13	1578-1589	Deutschland	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Deutschland	_	_
 19-14	1590-1599	auswerten	_	_	_	_	_	_	_	_	_	VVINF	Inf	auswerten	_	_
 19-15	1600-1601	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
 19-16	1602-1611	inwieweit	_	_	_	_	_	_	_	_	_	PWAV	_	inwieweit	_	_
-19-17	1612-1615	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	_	_
+19-17	1612-1615	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	false	_
 19-18	1616-1619	Weg	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Weg	_	_
-19-19	1620-1623	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der	_	_
+19-19	1620-1623	des	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der	false	_
 19-20	1624-1636	verhandelten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Masc	verhandelt	_	_
 19-21	1637-1648	Netzzugangs	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Netzzugang	_	_
-19-22	1649-1651	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	_	_
+19-22	1649-1651	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	false	_
 19-23	1652-1658	gleich	_	_	_	_	_	_	_	_	_	ADJD	Pos	gleich	_	_
 19-24	1659-1664	guten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Neut	gut	_	_
 19-25	1665-1676	Ergebnissen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Neut	Ergebnis	_	_
-19-26	1677-1683	führte	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	führen	_	_
-19-27	1684-1687	wie	_	_	_	_	_	_	_	_	_	KOKOM	_	wie	_	_
+19-26	1677-1683	führte	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	führen	_	false
+19-27	1684-1687	wie	_	_	_	_	_	_	_	_	_	KOKOM	_	wie	false	_
 19-28	1688-1691	der	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Masc	der	_	_
 19-29	1692-1702	regulierte	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Past.Ind	regulieren	_	_
 19-30	1703-1704	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
@@ -305,8 +305,8 @@
 19-32	1709-1713	alle	_	_	_	_	_	_	_	_	_	PIAT	Nom.Pl.Neut	aller	_	_
 19-33	1714-1721	anderen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Neut	anderer	_	_
 19-34	1722-1728	Länder	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Land	_	_
-19-35	1729-1731	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
-19-36	1732-1735	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+19-35	1729-1731	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
+19-36	1732-1735	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 19-37	1736-1738	EU	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Fem	EU	_	_
 19-38	1739-1751	praktizieren	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	praktizieren	_	_
 19-39	1752-1753	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
@@ -314,30 +314,30 @@
 #Text=Wir müssen den Nachweis erbringen , dass auch so eine faire und kostengünstige Durchleitung durch die Gas - und Stromnetze möglich ist .
 20-1	1756-1759	Wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir	_	_
 20-2	1760-1766	müssen	_	_	_	_	_	_	_	_	_	VMFIN	1.Pl.Pres.Ind	müssen	_	_
-20-3	1767-1770	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	_	_
+20-3	1767-1770	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	false	_
 20-4	1771-1779	Nachweis	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Nachweis	_	_
 20-5	1780-1789	erbringen	_	_	_	_	_	_	_	_	_	VVINF	Inf	erbringen	_	_
 20-6	1790-1791	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-20-7	1792-1796	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	_	_
+20-7	1792-1796	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	false	_
 20-8	1797-1801	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
 20-9	1802-1804	so	_	_	_	_	_	_	_	_	_	ADV	_	so	_	_
-20-10	1805-1809	eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein	_	_
+20-10	1805-1809	eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein	false	_
 20-11	1810-1815	faire	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	fair	_	_
-20-12	1816-1819	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+20-12	1816-1819	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 20-13	1820-1834	kostengünstige	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	kostengünstig	_	_
 20-14	1835-1847	Durchleitung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Durchleitung	_	_
-20-15	1848-1853	durch	_	_	_	_	_	_	_	_	_	APPR	_	durch	_	_
-20-16	1854-1857	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	_	_
+20-15	1848-1853	durch	_	_	_	_	_	_	_	_	_	APPR	_	durch	false	_
+20-16	1854-1857	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	false	_
 20-17	1858-1861	Gas	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Gas	_	_
 20-18	1862-1863	-	_	_	_	_	_	_	_	_	_	$(	_	-	_	_
-20-19	1864-1867	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+20-19	1864-1867	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 20-20	1868-1878	Stromnetze	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Stromnetz	_	_
 20-21	1879-1886	möglich	_	_	_	_	_	_	_	_	_	ADJD	Pos	möglich	_	_
 20-22	1887-1890	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
 20-23	1891-1892	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Für diesen Erfahrungsbericht müssen wir Erfahrungen sammeln .
-21-1	1895-1898	Für	_	_	_	_	_	_	_	_	_	APPR	_	für	_	_
+21-1	1895-1898	Für	_	_	_	_	_	_	_	_	_	APPR	_	für	false	_
 21-2	1899-1905	diesen	_	_	_	_	_	_	_	_	_	PDAT	Acc.Sg.Masc	dieser	_	_
 21-3	1906-1923	Erfahrungsbericht	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Erfahrungsbericht	_	_
 21-4	1924-1930	müssen	_	_	_	_	_	_	_	_	_	VMFIN	1.Pl.Pres.Ind	müssen	_	_
@@ -347,34 +347,34 @@
 21-8	1955-1956	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=In Konsequenz bedeutet das , dass die neue Verbändevereinbarung schon im April und nicht erst im September 2003 unter Dach und Fach sein muss .
-22-1	1959-1961	In	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+22-1	1959-1961	In	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
 22-2	1962-1972	Konsequenz	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Konsequenz	_	_
 22-3	1973-1981	bedeutet	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	bedeuten	_	_
 22-4	1982-1985	das	_	_	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der	_	_
 22-5	1986-1987	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-22-6	1988-1992	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	_	_
-22-7	1993-1996	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+22-6	1988-1992	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	false	_
+22-7	1993-1996	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_
 22-8	1997-2001	neue	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	neu	_	_
 22-9	2002-2022	Verbändevereinbarung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Verbändevereinbarung	_	_
 22-10	2023-2028	schon	_	_	_	_	_	_	_	_	_	ADV	_	schon	_	_
-22-11	2029-2031	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in	_	_
+22-11	2029-2031	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in	false	_
 22-12	2032-2037	April	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	April	_	_
-22-13	2038-2041	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+22-13	2038-2041	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 22-14	2042-2047	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht	_	_
 22-15	2048-2052	erst	_	_	_	_	_	_	_	_	_	ADV	_	erst	_	_
-22-16	2053-2055	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in	_	_
+22-16	2053-2055	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in	false	_
 22-17	2056-2065	September	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	September	_	_
 22-18	2066-2070	2003	_	_	_	_	_	_	_	_	_	CARD	_	2003	_	_
-22-19	2071-2076	unter	false	3idiom	_	_	_	_	_	_	_	APPR	_	unter	_	_
+22-19	2071-2076	unter	false	3idiom	_	_	_	_	_	_	_	APPR	_	unter	true	_
 22-20	2077-2081	Dach	false	Kern	true	true	oberer Abschluss eines Gebäudes	true	*	abgeschlossen, in Sicherheit	22-22|22-19	NN	Dat.Sg.Neut	Dach	_	_
-22-21	2082-2085	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+22-21	2082-2085	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 22-22	2086-2090	Fach	false	3idiom	_	_	_	true	*	_	_	NN	Dat.Sg.Neut	Fach	_	_
 22-23	2091-2095	sein	_	_	_	_	_	_	_	_	_	VAINF	Inf	sein	_	_
 22-24	2096-2100	muss	_	_	_	_	_	_	_	_	_	VMFIN	3.Sg.Pres.Ind	müssen	_	_
 22-25	2101-2102	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=In diesem Zusammenhang möchte ich darauf hinweisen , dass es wesentlich mehr Vertrauen zu der Verbändevereinbarung vonseiten der Politik und auch der Gesellschaft geben würde , wenn nicht nur die Energiewirtschaft mit der Großindustrie verhandeln würde , sondern auch die neuen Anbieter , die Händler , der Mittelstand und die Verbraucher mit am Tisch säßen .
-23-1	2105-2107	In	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+23-1	2105-2107	In	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
 23-2	2108-2114	diesem	_	_	_	_	_	_	_	_	_	PDAT	Dat.Sg.Masc	dieser	_	_
 23-3	2115-2127	Zusammenhang	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Zusammenhang	_	_
 23-4	2128-2134	möchte	_	_	_	_	_	_	_	_	_	VMFIN	1.Sg.Pres.Ind	möchten	_	_
@@ -382,69 +382,69 @@
 23-6	2139-2145	darauf	_	_	_	_	_	_	_	_	_	PROAV	_	darauf	_	_
 23-7	2146-2155	hinweisen	_	_	_	_	_	_	_	_	_	VVINF	Inf	hinweisen	_	_
 23-8	2156-2157	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-23-9	2158-2162	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	_	_
+23-9	2158-2162	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	false	_
 23-10	2163-2165	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
 23-11	2166-2176	wesentlich	_	_	_	_	_	_	_	_	_	ADJD	Pos	wesentlich	_	_
 23-12	2177-2181	mehr	_	_	_	_	_	_	_	_	_	PIAT	*.*.*	mehr	_	_
 23-13	2182-2191	Vertrauen	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	vertrauen	_	_
-23-14	2192-2194	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	_	_
-23-15	2195-2198	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+23-14	2192-2194	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	false	_
+23-15	2195-2198	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 23-16	2199-2219	Verbändevereinbarung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Verbändevereinbarung	_	_
 23-17	2220-2229	vonseiten	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	vonseite	_	_
-23-18	2230-2233	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+23-18	2230-2233	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 23-19	2234-2241	Politik	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Politik	_	_
-23-20	2242-2245	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+23-20	2242-2245	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 23-21	2246-2250	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
-23-22	2251-2254	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+23-22	2251-2254	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 23-23	2255-2267	Gesellschaft	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Gesellschaft	_	_
-23-24	2268-2273	geben	_	_	_	_	_	_	_	_	_	VVINF	Inf	geben	_	_
+23-24	2268-2273	geben	_	_	_	_	_	_	_	_	_	VVINF	Inf	geben	_	false
 23-25	2274-2279	würde	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Subj	werden	_	_
 23-26	2280-2281	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-23-27	2282-2286	wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn	_	_
+23-27	2282-2286	wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn	false	_
 23-28	2287-2292	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht	_	_
 23-29	2293-2296	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur	_	_
-23-30	2297-2300	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+23-30	2297-2300	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_
 23-31	2301-2318	Energiewirtschaft	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Energiewirtschaft	_	_
-23-32	2319-2322	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit	_	_
-23-33	2323-2326	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+23-32	2319-2322	mit	_	_	_	_	_	_	_	_	_	APPR	_	mit	false	_
+23-33	2323-2326	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 23-34	2327-2340	Großindustrie	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Großindustrie	_	_
 23-35	2341-2351	verhandeln	_	_	_	_	_	_	_	_	_	VVINF	Inf	verhandeln	_	_
 23-36	2352-2357	würde	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Subj	werden	_	_
 23-37	2358-2359	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-23-38	2360-2367	sondern	_	_	_	_	_	_	_	_	_	KON	_	sondern	_	_
+23-38	2360-2367	sondern	_	_	_	_	_	_	_	_	_	KON	_	sondern	false	_
 23-39	2368-2372	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
-23-40	2373-2376	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der	_	_
+23-40	2373-2376	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der	false	_
 23-41	2377-2382	neuen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Masc	neu	_	_
 23-42	2383-2391	Anbieter	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Anbieter	_	_
 23-43	2392-2393	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-23-44	2394-2397	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der	_	_
+23-44	2394-2397	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der	false	_
 23-45	2398-2405	Händler	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Händler	_	_
 23-46	2406-2407	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-23-47	2408-2411	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	_	_
+23-47	2408-2411	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	false	_
 23-48	2412-2423	Mittelstand	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Mittelstand	_	_
-23-49	2424-2427	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
-23-50	2428-2431	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der	_	_
+23-49	2424-2427	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
+23-50	2428-2431	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der	false	_
 23-51	2432-2443	Verbraucher	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Verbraucher	_	_
 23-52	2444-2447	mit	false	3idiom	_	_	_	_	_	_	_	ADV	_	mit	_	_
-23-53	2448-2450	am	false	3idiom	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	an	_	_
+23-53	2448-2450	am	false	3idiom	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	an	true	_
 23-54	2451-2456	Tisch	false	Kern	true	true	Möbelstück, das aus einer auf vier, auch drei Beinen ruhenden, waagerechten Platte besteht	true	*	Gespräch unter gleichberechtigten Teilnehmern	23-55|23-52|23-53	NN	Dat.Sg.Masc	Tisch	_	_
 23-55	2457-2462	säßen	false	3idiom	_	_	_	true	*	_	_	VVFIN	3.Pl.Past.Subj	sitzen	_	_
 23-56	2463-2464	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Der Wettbewerb in der Gaswirtschaft hat noch gar nicht begonnen , in der Stromwirtschaft ist er stark rückläufig .
-24-1	2467-2470	Der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	_	_
+24-1	2467-2470	Der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	false	_
 24-2	2471-2481	Wettbewerb	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Wettbewerb	_	_
-24-3	2482-2484	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
-24-4	2485-2488	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+24-3	2482-2484	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
+24-4	2485-2488	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 24-5	2489-2502	Gaswirtschaft	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Gaswirtschaft	_	_
-24-6	2503-2506	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben	_	_
+24-6	2503-2506	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben	_	false
 24-7	2507-2511	noch	_	_	_	_	_	_	_	_	_	ADV	_	noch	_	_
 24-8	2512-2515	gar	_	_	_	_	_	_	_	_	_	ADV	_	gar	_	_
 24-9	2516-2521	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht	_	_
 24-10	2522-2530	begonnen	_	_	_	_	_	_	_	_	_	VVPP	Psp	beginnen	_	_
 24-11	2531-2532	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-24-12	2533-2535	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
-24-13	2536-2539	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+24-12	2533-2535	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
+24-13	2536-2539	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 24-14	2540-2555	Stromwirtschaft	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Stromwirtschaft	_	_
 24-15	2556-2559	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
 24-16	2560-2562	er	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Masc	er	_	_
@@ -455,12 +455,12 @@
 #Text=Zwar ist der Markt rechtlich schon bis zum Endkunden geöffnet , faktisch ist er aber fast genau so abgeschottet wie in Frankreich .
 25-1	2584-2588	Zwar	_	_	_	_	_	_	_	_	_	ADV	_	zwar	_	_
 25-2	2589-2592	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
-25-3	2593-2596	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	_	_
+25-3	2593-2596	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	false	_
 25-4	2597-2602	Markt	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Markt	_	_
 25-5	2603-2612	rechtlich	_	_	_	_	_	_	_	_	_	ADJD	Pos	rechtlich	_	_
 25-6	2613-2618	schon	_	_	_	_	_	_	_	_	_	ADV	_	schon	_	_
-25-7	2619-2622	bis	_	_	_	_	_	_	_	_	_	APPR	_	bis	_	_
-25-8	2623-2626	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	zu	_	_
+25-7	2619-2622	bis	_	_	_	_	_	_	_	_	_	APPR	_	bis	false	_
+25-8	2623-2626	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	zu	false	_
 25-9	2627-2636	Endkunden	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Endkunde	_	_
 25-10	2637-2645	geöffnet	false	Kern	true	false	Zugeschlossenes aufmachen	true	*	verfügbar, zugänglich	_	VVPP	Psp	öffnen	_	_
 25-11	2646-2647	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
@@ -472,29 +472,29 @@
 25-17	2674-2679	genau	_	_	_	_	_	_	_	_	_	ADJD	Pos	genau	_	_
 25-18	2680-2682	so	_	_	_	_	_	_	_	_	_	ADV	_	so	_	_
 25-19	2683-2695	abgeschottet	false	Kern	true	false	gegen äußere EInflüsse abschirmen	true	*	unzugänglich, abgeschlossen	_	VVPP	Psp	abschotten	_	_
-25-20	2696-2699	wie	_	_	_	_	_	_	_	_	_	KOKOM	_	wie	_	_
-25-21	2700-2702	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+25-20	2696-2699	wie	_	_	_	_	_	_	_	_	_	KOKOM	_	wie	false	_
+25-21	2700-2702	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
 25-22	2703-2713	Frankreich	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Frankreich	_	_
 25-23	2714-2715	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Das Endkundengeschäft ist gescheitert , neue Akteure ziehen sich zurück , durch Fusionen schlittern wir in ein Oligo - bzw . Monopol .
-26-1	2718-2721	Das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der	_	_
+26-1	2718-2721	Das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der	false	_
 26-2	2722-2739	Endkundengeschäft	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Endkundengeschäft	_	_
 26-3	2740-2743	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
 26-4	2744-2755	gescheitert	_	_	_	_	_	_	_	_	_	VVPP	Psp	scheitern	_	_
 26-5	2756-2757	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
 26-6	2758-2762	neue	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Masc	neu	_	_
 26-7	2763-2770	Akteure	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Akteur	_	_
-26-8	2771-2777	ziehen	false	0Kern	true	false	nach hinten, auf den den Ausgangsort verlegen	true	*	entfernen sich aus dem Markt	26-10	VVFIN	3.Pl.Pres.Ind	ziehen	_	_
+26-8	2771-2777	ziehen	false	0Kern	true	false	nach hinten, auf den den Ausgangsort verlegen	true	*	entfernen sich aus dem Markt	26-10	VVFIN	3.Pl.Pres.Ind	ziehen	_	true
 26-9	2778-2782	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Pl	sich	_	_
-26-10	2783-2789	zurück	false	synt.	_	_	_	_	_	_	_	PTKVZ	_	zurück	_	_
+26-10	2783-2789	zurück	false	synt.	_	_	_	_	_	_	_	PTKVZ	_	zurück	true	_
 26-11	2790-2791	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-26-12	2792-2797	durch	_	_	_	_	_	_	_	_	_	APPR	_	durch	_	_
+26-12	2792-2797	durch	_	_	_	_	_	_	_	_	_	APPR	_	durch	false	_
 26-13	2798-2806	Fusionen	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Fem	Fusion	_	_
 26-14	2807-2817	schlittern	false	Kern	true	true	über Eisfläche rutschen	true	*	in eine unangenehme Lage geraten	_	VVFIN	1.Pl.Pres.Ind	schlittern	_	_
 26-15	2818-2821	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir	_	_
-26-16	2822-2824	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
-26-17	2825-2828	ein	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	ein	_	_
+26-16	2822-2824	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
+26-17	2825-2828	ein	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	ein	false	_
 26-18	2829-2834	Oligo	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Oligo	_	_
 26-19	2835-2836	-	_	_	_	_	_	_	_	_	_	$(	_	-	_	_
 26-20	2837-2840	bzw	_	_	_	_	_	_	_	_	_	ITJ	_	bzw	_	_
@@ -505,66 +505,66 @@
 #Text=Folge : Die Gewinne der Stromkonzerne wachsen wieder auf Monopolniveau , die Preise für Verbraucher und Industrie liegen wieder über dem Niveau vor der Liberalisierung .
 27-1	2855-2860	Folge	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Folge	_	_
 27-2	2861-2862	:	_	_	_	_	_	_	_	_	_	$.	_	:	_	_
-27-3	2863-2866	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der	_	_
+27-3	2863-2866	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der	false	_
 27-4	2867-2874	Gewinne	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Gewinn	_	_
-27-5	2875-2878	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Masc	der	_	_
+27-5	2875-2878	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Masc	der	false	_
 27-6	2879-2892	Stromkonzerne	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Masc	Stromkonzern	_	_
 27-7	2893-2900	wachsen	false	0Kern	true	false	zum fertigen Organismus heranreifen	_	_	steigen	27-10	VVFIN	3.Pl.Pres.Ind	wachsen	_	_
 27-8	2901-2907	wieder	_	_	_	_	_	_	_	_	_	ADV	_	wieder	_	_
-27-9	2908-2911	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf	_	_
+27-9	2908-2911	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf	false	_
 27-10	2912-2925	Monopolniveau	false	2sem	_	_	_	true	*	_	_	NN	Dat.Sg.Neut	Monopolniveau	_	_
 27-11	2926-2927	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-27-12	2928-2931	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der	_	_
+27-12	2928-2931	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Masc	der	false	_
 27-13	2932-2938	Preise	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Preis	_	_
-27-14	2939-2942	für	_	_	_	_	_	_	_	_	_	APPR	_	für	_	_
+27-14	2939-2942	für	_	_	_	_	_	_	_	_	_	APPR	_	für	false	_
 27-15	2943-2954	Verbraucher	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Verbraucher	_	_
-27-16	2955-2958	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+27-16	2955-2958	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 27-17	2959-2968	Industrie	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Industrie	_	_
-27-18	2969-2975	liegen	false	0Kern	true	false	sich in horizontaler Lage befinden	_	_	sich befinden	27-22	VVFIN	3.Pl.Pres.Ind	liegen	_	_
+27-18	2969-2975	liegen	false	0Kern	true	false	sich in horizontaler Lage befinden	_	_	sich befinden	27-22	VVFIN	3.Pl.Pres.Ind	liegen	_	true
 27-19	2976-2982	wieder	_	_	_	_	_	_	_	_	_	ADV	_	wieder	_	_
-27-20	2983-2987	über	_	_	_	_	_	_	_	_	_	APPR	_	über	_	_
-27-21	2988-2991	dem	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Neut	der	_	_
+27-20	2983-2987	über	_	_	_	_	_	_	_	_	_	APPR	_	über	false	_
+27-21	2988-2991	dem	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Neut	der	false	_
 27-22	2992-2998	Niveau	false	2sem	_	_	_	true	*	_	_	NN	Dat.Sg.Neut	Niveau	_	_
-27-23	2999-3002	vor	_	_	_	_	_	_	_	_	_	APPR	_	vor	_	_
-27-24	3003-3006	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+27-23	2999-3002	vor	_	_	_	_	_	_	_	_	_	APPR	_	vor	false	_
+27-24	3003-3006	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 27-25	3007-3022	Liberalisierung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Liberalisierung	_	_
 27-26	3023-3024	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Der VIK hat die Entgelte der deutschen Stromnetzbetreiber für die Benutzung ihrer Netze untersucht und dabei festgestellt , dass 28 Prozent der Hoch - , 9 Prozent der Mittel - und 13 Prozent der Niederspannungsnetzbetreiber zu teuer sind .
-28-1	3027-3030	Der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	_	_
+28-1	3027-3030	Der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	false	_
 28-2	3031-3034	VIK	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Masc	VIK	_	_
-28-3	3035-3038	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben	_	_
-28-4	3039-3042	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Neut	der	_	_
+28-3	3035-3038	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben	_	false
+28-4	3039-3042	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Neut	der	false	_
 28-5	3043-3051	Entgelte	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Entgelt	_	_
-28-6	3052-3055	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Masc	der	_	_
+28-6	3052-3055	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Masc	der	false	_
 28-7	3056-3065	deutschen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Gen.Pl.Masc	deutsch	_	_
 28-8	3066-3084	Stromnetzbetreiber	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Masc	Stromnetzbetreiber	_	_
-28-9	3085-3088	für	_	_	_	_	_	_	_	_	_	APPR	_	für	_	_
-28-10	3089-3092	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	_	_
+28-9	3085-3088	für	_	_	_	_	_	_	_	_	_	APPR	_	für	false	_
+28-10	3089-3092	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	false	_
 28-11	3093-3102	Benutzung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Benutzung	_	_
 28-12	3103-3108	ihrer	_	_	_	_	_	_	_	_	_	PPOSAT	Gen.Pl.Neut	ihr	_	_
 28-13	3109-3114	Netze	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Netz	_	_
 28-14	3115-3125	untersucht	_	_	_	_	_	_	_	_	_	VVPP	Psp	untersuchen	_	_
-28-15	3126-3129	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+28-15	3126-3129	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 28-16	3130-3135	dabei	_	_	_	_	_	_	_	_	_	PROAV	_	dabei	_	_
 28-17	3136-3148	festgestellt	_	_	_	_	_	_	_	_	_	VVPP	Psp	feststellen	_	_
 28-18	3149-3150	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-28-19	3151-3155	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	_	_
+28-19	3151-3155	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	false	_
 28-20	3156-3158	28	_	_	_	_	_	_	_	_	_	CARD	_	28	_	_
 28-21	3159-3166	Prozent	_	_	_	_	_	_	_	_	_	NN	*.*.Neut	Prozent	_	_
-28-22	3167-3170	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	_	_
+28-22	3167-3170	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	false	_
 28-23	3171-3175	Hoch	_	_	_	_	_	_	_	_	_	NN	Gen.Sg.Fem	Hoch	_	_
 28-24	3176-3177	-	_	_	_	_	_	_	_	_	_	$(	_	-	_	_
 28-25	3178-3179	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
 28-26	3180-3181	9	_	_	_	_	_	_	_	_	_	CARD	_	9	_	_
 28-27	3182-3189	Prozent	_	_	_	_	_	_	_	_	_	NN	*.*.Neut	Prozent	_	_
-28-28	3190-3193	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Neut	der	_	_
+28-28	3190-3193	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Neut	der	false	_
 28-29	3194-3200	Mittel	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Mittel	_	_
 28-30	3201-3202	-	_	_	_	_	_	_	_	_	_	$(	_	-	_	_
-28-31	3203-3206	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+28-31	3203-3206	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 28-32	3207-3209	13	_	_	_	_	_	_	_	_	_	CARD	_	13	_	_
 28-33	3210-3217	Prozent	_	_	_	_	_	_	_	_	_	NN	*.*.Neut	Prozent	_	_
-28-34	3218-3221	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Masc	der	_	_
+28-34	3218-3221	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Masc	der	false	_
 28-35	3222-3250	Niederspannungsnetzbetreiber	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Masc	Niederspannungsnetzbetreiber	_	_
 28-36	3251-3253	zu	_	_	_	_	_	_	_	_	_	PTKA	_	zu	_	_
 28-37	3254-3259	teuer	_	_	_	_	_	_	_	_	_	ADJD	Pos	teuer	_	_
@@ -572,25 +572,25 @@
 28-39	3265-3266	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Als Kriterien dienen die Strukturklassen der VVII plus .
-29-1	3269-3272	Als	_	_	_	_	_	_	_	_	_	APPR	_	als	_	_
+29-1	3269-3272	Als	_	_	_	_	_	_	_	_	_	APPR	_	als	false	_
 29-2	3273-3282	Kriterien	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Kriterium	_	_
 29-3	3283-3289	dienen	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	dienen	_	_
-29-4	3290-3293	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der	_	_
+29-4	3290-3293	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Fem	der	false	_
 29-5	3294-3309	Strukturklassen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Strukturklasse	_	_
-29-6	3310-3313	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.*	der	_	_
+29-6	3310-3313	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.*	der	false	_
 29-7	3314-3318	VVII	_	_	_	_	_	_	_	_	_	CARD	_	VVII	_	_
-29-8	3319-3323	plus	_	_	_	_	_	_	_	_	_	PTKVZ	_	plus	_	_
+29-8	3319-3323	plus	_	_	_	_	_	_	_	_	_	PTKVZ	_	plus	false	_
 29-9	3324-3325	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Aus diesem Grund hat das Kartell amt gegen zehn Netzbetreiber auch Verfahren eingeleitet .
-30-1	3328-3331	Aus	_	_	_	_	_	_	_	_	_	APPR	_	aus	_	_
+30-1	3328-3331	Aus	_	_	_	_	_	_	_	_	_	APPR	_	aus	false	_
 30-2	3332-3338	diesem	_	_	_	_	_	_	_	_	_	PDAT	Dat.Sg.Masc	dieser	_	_
 30-3	3339-3344	Grund	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Grund	_	_
-30-4	3345-3348	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben	_	_
-30-5	3349-3352	das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der	_	_
+30-4	3345-3348	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben	_	false
+30-5	3349-3352	das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der	false	_
 30-6	3353-3360	Kartell	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Kartell	_	_
 30-7	3361-3364	amt	_	_	_	_	_	_	_	_	_	ADJD	Pos	amt	_	_
-30-8	3365-3370	gegen	_	_	_	_	_	_	_	_	_	APPR	_	gegen	_	_
+30-8	3365-3370	gegen	_	_	_	_	_	_	_	_	_	APPR	_	gegen	false	_
 30-9	3371-3375	zehn	_	_	_	_	_	_	_	_	_	CARD	_	zehn	_	_
 30-10	3376-3389	Netzbetreiber	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Netzbetreiber	_	_
 30-11	3390-3394	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
@@ -600,65 +600,65 @@
 
 #Text=Es gibt also guten Grund , anzunehmen , dass hier immer noch überhöhte Netzentgelte genommen werden , schlimmer noch , dass es auch zu Quersubventionierungen kommt und damit zu Wettbewerbsverzerrungen .
 31-1	3421-3423	Es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
-31-2	3424-3428	gibt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	geben	_	_
+31-2	3424-3428	gibt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	geben	_	false
 31-3	3429-3433	also	_	_	_	_	_	_	_	_	_	ADV	_	also	_	_
 31-4	3434-3439	guten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	gut	_	_
 31-5	3440-3445	Grund	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Grund	_	_
 31-6	3446-3447	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
 31-7	3448-3458	anzunehmen	_	_	_	_	_	_	_	_	_	VVIZU	Infzu	annehmen	_	_
 31-8	3459-3460	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-31-9	3461-3465	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	_	_
+31-9	3461-3465	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	false	_
 31-10	3466-3470	hier	_	_	_	_	_	_	_	_	_	ADV	_	hier	_	_
 31-11	3471-3476	immer	_	_	_	_	_	_	_	_	_	ADV	_	immer	_	_
 31-12	3477-3481	noch	_	_	_	_	_	_	_	_	_	ADV	_	noch	_	_
 31-13	3482-3491	überhöhte	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Pl.Neut	überhöht	_	_
 31-14	3492-3504	Netzentgelte	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Netzentgelt	_	_
-31-15	3505-3513	genommen	_	_	_	_	_	_	_	_	_	VVPP	Psp	nehmen	_	_
+31-15	3505-3513	genommen	_	_	_	_	_	_	_	_	_	VVPP	Psp	nehmen	_	false
 31-16	3514-3520	werden	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	werden	_	_
 31-17	3521-3522	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
 31-18	3523-3532	schlimmer	_	_	_	_	_	_	_	_	_	ADJD	Comp	schlimm	_	_
 31-19	3533-3537	noch	_	_	_	_	_	_	_	_	_	ADV	_	noch	_	_
 31-20	3538-3539	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-31-21	3540-3544	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	_	_
+31-21	3540-3544	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	false	_
 31-22	3545-3547	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
 31-23	3548-3552	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
-31-24	3553-3555	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	_	_
+31-24	3553-3555	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	false	_
 31-25	3556-3578	Quersubventionierungen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Quersubventionierung	_	_
-31-26	3579-3584	kommt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	kommen	_	_
-31-27	3585-3588	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+31-26	3579-3584	kommt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	kommen	_	false
+31-27	3585-3588	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 31-28	3589-3594	damit	_	_	_	_	_	_	_	_	_	PROAV	_	damit	_	_
-31-29	3595-3597	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	_	_
+31-29	3595-3597	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	false	_
 31-30	3598-3621	Wettbewerbsverzerrungen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Wettbewerbsverzerrung	_	_
 31-31	3622-3623	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Zu Recht schaut deshalb die EU Kommission skeptisch auf Deutschland ( und nicht nur auf Frankreich ) .
-32-1	3626-3628	Zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	_	_
+32-1	3626-3628	Zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	false	_
 32-2	3629-3634	Recht	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Recht	_	_
 32-3	3635-3641	schaut	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	schauen	_	_
 32-4	3642-3649	deshalb	_	_	_	_	_	_	_	_	_	PROAV	_	deshalb	_	_
-32-5	3650-3653	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+32-5	3650-3653	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_
 32-6	3654-3656	EU	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	EU	_	_
 32-7	3657-3667	Kommission	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Kommission	_	_
 32-8	3668-3677	skeptisch	_	_	_	_	_	_	_	_	_	ADJD	Pos	skeptisch	_	_
-32-9	3678-3681	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf	_	_
+32-9	3678-3681	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf	false	_
 32-10	3682-3693	Deutschland	_	_	_	_	_	_	_	_	_	NE	Acc.Sg.Neut	Deutschland	_	_
 32-11	3694-3695	(	_	_	_	_	_	_	_	_	_	$(	_	(	_	_
-32-12	3696-3699	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+32-12	3696-3699	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 32-13	3700-3705	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht	_	_
 32-14	3706-3709	nur	_	_	_	_	_	_	_	_	_	ADV	_	nur	_	_
-32-15	3710-3713	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf	_	_
+32-15	3710-3713	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf	false	_
 32-16	3714-3724	Frankreich	_	_	_	_	_	_	_	_	_	NE	Acc.Sg.Neut	Frankreich	_	_
 32-17	3725-3726	)	_	_	_	_	_	_	_	_	_	$(	_	)	_	_
 32-18	3727-3728	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Die neue EU Richtlinie , die am 25 .
-33-1	3731-3734	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+33-1	3731-3734	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_
 33-2	3735-3739	neue	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	neu	_	_
 33-3	3740-3742	EU	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Fem	EU	_	_
 33-4	3743-3753	Richtlinie	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Richtlinie	_	_
 33-5	3754-3755	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
 33-6	3756-3759	die	_	_	_	_	_	_	_	_	_	PRELS	Nom.Sg.Fem	der	_	_
-33-7	3760-3762	am	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	an	_	_
+33-7	3760-3762	am	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	an	false	_
 33-8	3763-3765	25	_	_	_	_	_	_	_	_	_	CARD	_	25	_	_
 33-9	3766-3767	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
@@ -668,31 +668,31 @@
 34-3	3784-3795	beschlossen	_	_	_	_	_	_	_	_	_	VVPP	Psp	beschließen	_	_
 34-4	3796-3801	wurde	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Ind	werden	_	_
 34-5	3802-3803	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-34-6	3804-3810	stellt	false	Kern	true	false	an einen bestimmten Ort begeben	true	*	erzwingt Auseinandersetzung mit einer Herausforderung	34-9|34-11	VVFIN	3.Sg.Pres.Ind	stellen	_	_
+34-6	3804-3810	stellt	false	Kern	true	false	an einen bestimmten Ort begeben	true	*	erzwingt Auseinandersetzung mit einer Herausforderung	34-9|34-11	VVFIN	3.Sg.Pres.Ind	stellen	_	true
 34-7	3811-3814	uns	_	_	_	_	_	_	_	_	_	PPER	1.Acc.Pl.*	uns	_	_
 34-8	3815-3822	deshalb	_	_	_	_	_	_	_	_	_	PROAV	_	deshalb	_	_
-34-9	3823-3826	vor	false	synt.	_	_	_	_	_	_	_	APPR	_	vor	_	_
-34-10	3827-3830	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	_	_
+34-9	3823-3826	vor	false	synt.	_	_	_	_	_	_	_	APPR	_	vor	true	_
+34-10	3827-3830	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	false	_
 34-11	3831-3846	Herausforderung	false	2sem	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Herausforderung	_	_
 34-12	3847-3848	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
 34-13	3849-3853	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
-34-14	3854-3856	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+34-14	3854-3856	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
 34-15	3857-3868	Deutschland	_	_	_	_	_	_	_	_	_	NE	Dat.Sg.Neut	Deutschland	_	_
 34-16	3869-3880	nachzulegen	false	Kern	true	true	nachträglich an die Stelle von etw. anderem hinlegen	true	*	Änderungen nachzuholen, Gesetze zu erneuern	_	VVIZU	Infzu	nachlegen	_	_
 34-17	3881-3882	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Das Strom - und Gasnetz sind die natürlichen Monopole , von denen jeder Lieferant abhängig ist .
-35-1	3885-3888	Das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der	_	_
+35-1	3885-3888	Das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der	false	_
 35-2	3889-3894	Strom	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Strom	_	_
 35-3	3895-3896	-	_	_	_	_	_	_	_	_	_	$(	_	-	_	_
-35-4	3897-3900	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+35-4	3897-3900	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 35-5	3901-3908	Gasnetz	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.*	Gasnetz	_	_
 35-6	3909-3913	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_
-35-7	3914-3917	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Neut	der	_	_
+35-7	3914-3917	die	_	_	_	_	_	_	_	_	_	ART	Nom.Pl.Neut	der	false	_
 35-8	3918-3929	natürlichen	false	0Kern	true	true	von Natur aus gegeben, künstlich	true	*	aus dem Wesen der Sache entsprechend	_	ADJA	Pos.Nom.Pl.Neut	natürlich	_	_
 35-9	3930-3938	Monopole	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Monopol	_	_
 35-10	3939-3940	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-35-11	3941-3944	von	_	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+35-11	3941-3944	von	_	_	_	_	_	_	_	_	_	APPR	_	von	false	_
 35-12	3945-3950	denen	_	_	_	_	_	_	_	_	_	PRELS	Dat.Pl.Neut	der	_	_
 35-13	3951-3956	jeder	_	_	_	_	_	_	_	_	_	PIAT	Nom.Sg.Masc	jeder	_	_
 35-14	3957-3966	Lieferant	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Lieferant	_	_
@@ -701,65 +701,65 @@
 35-17	3980-3981	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Die Strom - und Gasnetze organisatorisch von den Produzenten und Lieferanten zu trennen , ist deshalb der unbürokratischste Weg zum fairen Netzzugang .
-36-1	3984-3987	Die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Masc	der	_	_
+36-1	3984-3987	Die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Masc	der	false	_
 36-2	3988-3993	Strom	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Strom	_	_
 36-3	3994-3995	-	_	_	_	_	_	_	_	_	_	$(	_	-	_	_
-36-4	3996-3999	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+36-4	3996-3999	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 36-5	4000-4008	Gasnetze	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Gasnetz	_	_
 36-6	4009-4024	organisatorisch	_	_	_	_	_	_	_	_	_	ADJD	Pos	organisatorisch	_	_
-36-7	4025-4028	von	_	_	_	_	_	_	_	_	_	APPR	_	von	_	_
-36-8	4029-4032	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Masc	der	_	_
+36-7	4025-4028	von	_	_	_	_	_	_	_	_	_	APPR	_	von	false	_
+36-8	4029-4032	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Masc	der	false	_
 36-9	4033-4044	Produzenten	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Produzent	_	_
-36-10	4045-4048	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+36-10	4045-4048	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 36-11	4049-4060	Lieferanten	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Masc	Lieferant	_	_
-36-12	4061-4063	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu	_	_
+36-12	4061-4063	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu	false	_
 36-13	4064-4071	trennen	_	_	_	_	_	_	_	_	_	VVINF	Inf	trennen	_	_
 36-14	4072-4073	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
 36-15	4074-4077	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
 36-16	4078-4085	deshalb	_	_	_	_	_	_	_	_	_	PROAV	_	deshalb	_	_
-36-17	4086-4089	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	_	_
+36-17	4086-4089	der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	false	_
 36-18	4090-4107	unbürokratischste	_	_	_	_	_	_	_	_	_	ADJA	Sup.Nom.Sg.Masc	unbürokratisch	_	_
 36-19	4108-4111	Weg	false	Kern	true	false	schmale Bahn für Fußgänger	true	*	Prozess, Verfahren	_	NN	Nom.Sg.Masc	Weg	_	_
-36-20	4112-4115	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	zu	_	_
+36-20	4112-4115	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	zu	false	_
 36-21	4116-4122	fairen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Masc	fair	_	_
 36-22	4123-4133	Netzzugang	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Netzzugang	_	_
 36-23	4134-4135	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Der Beschluss der EU Minister wird wieder Wettbewerbsdynamik in die Gas - und Strommärkte bringen .
-37-1	4138-4141	Der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	_	_
+37-1	4138-4141	Der	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	false	_
 37-2	4142-4151	Beschluss	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Beschluss	_	_
-37-3	4152-4155	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	_	_
+37-3	4152-4155	der	_	_	_	_	_	_	_	_	_	ART	Gen.Sg.Fem	der	false	_
 37-4	4156-4158	EU	_	_	_	_	_	_	_	_	_	NE	Gen.Sg.Fem	EU	_	_
 37-5	4159-4167	Minister	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Minister	_	_
 37-6	4168-4172	wird	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	werden	_	_
 37-7	4173-4179	wieder	_	_	_	_	_	_	_	_	_	ADV	_	wieder	_	_
 37-8	4180-4198	Wettbewerbsdynamik	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Wettbewerbsdynamik	_	_
-37-9	4199-4201	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
-37-10	4202-4205	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	_	_
+37-9	4199-4201	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
+37-10	4202-4205	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	false	_
 37-11	4206-4209	Gas	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Gas	_	_
 37-12	4210-4211	-	_	_	_	_	_	_	_	_	_	$(	_	-	_	_
-37-13	4212-4215	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+37-13	4212-4215	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 37-14	4216-4227	Strommärkte	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Strommarkt	_	_
-37-15	4228-4235	bringen	_	_	_	_	_	_	_	_	_	VVINF	Inf	bringen	_	_
+37-15	4228-4235	bringen	_	_	_	_	_	_	_	_	_	VVINF	Inf	bringen	_	false
 37-16	4236-4237	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Davon profitieren Verbraucher und Industrie .
 38-1	4240-4245	Davon	_	_	_	_	_	_	_	_	_	PROAV	_	davon	_	_
 38-2	4246-4257	profitieren	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	profitieren	_	_
 38-3	4258-4269	Verbraucher	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Masc	Verbraucher	_	_
-38-4	4270-4273	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+38-4	4270-4273	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 38-5	4274-4283	Industrie	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Industrie	_	_
 38-6	4284-4285	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Wir werden die En WG Novelle aus der letzten Legislaturperiode unverändert zügig beschließen .
 39-1	4288-4291	Wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir	_	_
 39-2	4292-4298	werden	_	_	_	_	_	_	_	_	_	VAFIN	1.Pl.Pres.Ind	werden	_	_
-39-3	4299-4302	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	_	_
+39-3	4299-4302	die	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	false	_
 39-4	4303-4305	En	_	_	_	_	_	_	_	_	_	NE	Acc.Sg.Fem	En	_	_
 39-5	4306-4308	WG	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	WG	_	_
 39-6	4309-4316	Novelle	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Novelle	_	_
-39-7	4317-4320	aus	_	_	_	_	_	_	_	_	_	APPR	_	aus	_	_
-39-8	4321-4324	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+39-7	4317-4320	aus	_	_	_	_	_	_	_	_	_	APPR	_	aus	false	_
+39-8	4321-4324	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 39-9	4325-4332	letzten	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	letzter	_	_
 39-10	4333-4350	Legislaturperiode	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Legislaturperiode	_	_
 39-11	4351-4362	unverändert	_	_	_	_	_	_	_	_	_	ADJD	Pos	unverändert	_	_
@@ -771,30 +771,30 @@
 40-1	4385-4390	Darin	_	_	_	_	_	_	_	_	_	PROAV	_	darin	_	_
 40-2	4391-4400	enthalten	_	_	_	_	_	_	_	_	_	VVPP	Psp	enthalten	_	_
 40-3	4401-4404	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
-40-4	4405-4408	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	_	_
+40-4	4405-4408	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	false	_
 40-5	4409-4422	unbefristeter	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	unbefristet	_	_
 40-6	4423-4436	Sofortvollzug	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Sofortvollzug	_	_
-40-7	4437-4440	für	_	_	_	_	_	_	_	_	_	APPR	_	für	_	_
-40-8	4441-4444	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	_	_
+40-7	4437-4440	für	_	_	_	_	_	_	_	_	_	APPR	_	für	false	_
+40-8	4441-4444	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	false	_
 40-9	4445-4455	Kartellamt	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Kartellamt	_	_
-40-10	4456-4459	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
-40-11	4460-4464	eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein	_	_
-40-12	4465-4468	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf	_	_
+40-10	4456-4459	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
+40-11	4460-4464	eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein	false	_
+40-12	4465-4468	auf	_	_	_	_	_	_	_	_	_	APPR	_	auf	false	_
 40-13	4469-4473	Ende	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Ende	_	_
 40-14	4474-4478	2003	_	_	_	_	_	_	_	_	_	CARD	_	2003	_	_
 40-15	4479-4489	befristete	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	befristet	_	_
 40-16	4490-4505	Verrechtlichung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Verrechtlichung	_	_
-40-17	4506-4509	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Fem	der	_	_
+40-17	4506-4509	der	_	_	_	_	_	_	_	_	_	ART	Gen.Pl.Fem	der	false	_
 40-18	4510-4532	Verbändevereinbarungen	_	_	_	_	_	_	_	_	_	NN	Gen.Pl.Fem	Verbändevereinbarung	_	_
 40-19	4533-4534	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Wenn bei den Verhandlungen zu den nachfolgenden Verbändevereinbarungen kein deutlicher Fortschritt erzielt wird bzw . sie sogar zum Beispiel im Gasbereich scheitern , werden wir um eine stärkere staatliche Regulierung ex ante nicht herum kommen .
-41-1	4537-4541	Wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn	_	_
-41-2	4542-4545	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei	_	_
-41-3	4546-4549	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Fem	der	_	_
+41-1	4537-4541	Wenn	_	_	_	_	_	_	_	_	_	KOUS	_	wenn	false	_
+41-2	4542-4545	bei	_	_	_	_	_	_	_	_	_	APPR	_	bei	false	_
+41-3	4546-4549	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Fem	der	false	_
 41-4	4550-4563	Verhandlungen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Verhandlung	_	_
-41-5	4564-4566	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	_	_
-41-6	4567-4570	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Fem	der	_	_
+41-5	4564-4566	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	false	_
+41-6	4567-4570	den	_	_	_	_	_	_	_	_	_	ART	Dat.Pl.Fem	der	false	_
 41-7	4571-4584	nachfolgenden	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.Fem	nachfolgend	_	_
 41-8	4585-4607	Verbändevereinbarungen	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Verbändevereinbarung	_	_
 41-9	4608-4612	kein	_	_	_	_	_	_	_	_	_	PIAT	Nom.Sg.Masc	kein	_	_
@@ -806,37 +806,37 @@
 41-15	4653-4654	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 41-16	4655-4658	sie	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Pl.*	sie	_	_
 41-17	4659-4664	sogar	_	_	_	_	_	_	_	_	_	ADV	_	sogar	_	_
-41-18	4665-4668	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	zu	_	_
+41-18	4665-4668	zum	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Neut	zu	false	_
 41-19	4669-4677	Beispiel	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Beispiel	_	_
-41-20	4678-4680	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in	_	_
+41-20	4678-4680	im	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Masc	in	false	_
 41-21	4681-4691	Gasbereich	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Gasbereich	_	_
 41-22	4692-4701	scheitern	_	_	_	_	_	_	_	_	_	VVFIN	3.Pl.Pres.Ind	scheitern	_	_
 41-23	4702-4703	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
 41-24	4704-4710	werden	_	_	_	_	_	_	_	_	_	VAFIN	1.Pl.Pres.Ind	werden	_	_
 41-25	4711-4714	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir	_	_
-41-26	4715-4717	um	_	_	_	_	_	_	_	_	_	APPR	_	um	_	_
-41-27	4718-4722	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein	_	_
+41-26	4715-4717	um	_	_	_	_	_	_	_	_	_	APPR	_	um	false	_
+41-27	4718-4722	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein	false	_
 41-28	4723-4731	stärkere	_	_	_	_	_	_	_	_	_	ADJA	Comp.Acc.Sg.Fem	stark	_	_
 41-29	4732-4742	staatliche	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	staatlich	_	_
 41-30	4743-4754	Regulierung	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Regulierung	_	_
 41-31	4755-4757	ex	_	_	_	_	_	_	_	_	_	FM	_	ex	_	_
 41-32	4758-4762	ante	_	_	_	_	_	_	_	_	_	ADV	_	ante	_	_
 41-33	4763-4768	nicht	_	_	_	_	_	_	_	_	_	PTKNEG	_	nicht	_	_
-41-34	4769-4774	herum	_	_	_	_	_	_	_	_	_	APZR	_	herum	_	_
-41-35	4775-4781	kommen	_	_	_	_	_	_	_	_	_	VVINF	Inf	kommen	_	_
+41-34	4769-4774	herum	_	_	_	_	_	_	_	_	_	APZR	_	herum	false	_
+41-35	4775-4781	kommen	_	_	_	_	_	_	_	_	_	VVINF	Inf	kommen	_	false
 41-36	4782-4783	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Deshalb wächst die Debatte über das " Wie " einer gegebenenfalls nötigen Regulierung .
 42-1	4786-4793	Deshalb	_	_	_	_	_	_	_	_	_	PROAV	_	deshalb	_	_
 42-2	4794-4800	wächst	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	wachsen	_	_
-42-3	4801-4804	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+42-3	4801-4804	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_
 42-4	4805-4812	Debatte	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Debatte	_	_
-42-5	4813-4817	über	_	_	_	_	_	_	_	_	_	APPR	_	über	_	_
-42-6	4818-4821	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	_	_
+42-5	4813-4817	über	_	_	_	_	_	_	_	_	_	APPR	_	über	false	_
+42-6	4818-4821	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	false	_
 42-7	4822-4823	"	_	_	_	_	_	_	_	_	_	$(	_	"	_	_
 42-8	4824-4827	Wie	_	_	_	_	_	_	_	_	_	PWAV	_	wie	_	_
 42-9	4828-4829	"	_	_	_	_	_	_	_	_	_	$(	_	"	_	_
-42-10	4830-4835	einer	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	ein	_	_
+42-10	4830-4835	einer	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	ein	false	_
 42-11	4836-4850	gegebenenfalls	_	_	_	_	_	_	_	_	_	ADV	_	gegebenenfalls	_	_
 42-12	4851-4858	nötigen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	nötig	_	_
 42-13	4859-4870	Regulierung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Regulierung	_	_
@@ -845,27 +845,27 @@
 #Text=Unbundling ist ein unbürokratischer Weg , fairen Netzzugang zu gewährleisten , weil damit die Möglichkeit zur Quersubventionierung von Netzgebühren zur Produktion reduziert bzw . abgeschafft wird .
 43-1	4875-4885	Unbundling	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Unbundling	_	_
 43-2	4886-4889	ist	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
-43-3	4890-4893	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	_	_
+43-3	4890-4893	ein	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	false	_
 43-4	4894-4910	unbürokratischer	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	unbürokratisch	_	_
 43-5	4911-4914	Weg	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Weg	_	_
 43-6	4915-4916	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
 43-7	4917-4923	fairen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Masc	fair	_	_
 43-8	4924-4934	Netzzugang	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Netzzugang	_	_
-43-9	4935-4937	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu	_	_
+43-9	4935-4937	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu	false	_
 43-10	4938-4951	gewährleisten	_	_	_	_	_	_	_	_	_	VVINF	Inf	gewährleisten	_	_
 43-11	4952-4953	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-43-12	4954-4958	weil	_	_	_	_	_	_	_	_	_	KOUS	_	weil	_	_
+43-12	4954-4958	weil	_	_	_	_	_	_	_	_	_	KOUS	_	weil	false	_
 43-13	4959-4964	damit	_	_	_	_	_	_	_	_	_	PROAV	_	damit	_	_
-43-14	4965-4968	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+43-14	4965-4968	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_
 43-15	4969-4980	Möglichkeit	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Möglichkeit	_	_
-43-16	4981-4984	zur	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Fem	zu	_	_
+43-16	4981-4984	zur	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Fem	zu	false	_
 43-17	4985-5005	Quersubventionierung	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Quersubventionierung	_	_
-43-18	5006-5009	von	_	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+43-18	5006-5009	von	_	_	_	_	_	_	_	_	_	APPR	_	von	false	_
 43-19	5010-5022	Netzgebühren	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.Fem	Netzgebühr	_	_
-43-20	5023-5026	zur	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Fem	zu	_	_
+43-20	5023-5026	zur	_	_	_	_	_	_	_	_	_	APPRART	Dat.Sg.Fem	zu	false	_
 43-21	5027-5037	Produktion	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Produktion	_	_
 43-22	5038-5047	reduziert	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	reduzieren	_	_
-43-23	5048-5051	bzw	_	_	_	_	_	_	_	_	_	KON	_	bzw	_	_
+43-23	5048-5051	bzw	_	_	_	_	_	_	_	_	_	KON	_	bzw	false	_
 43-24	5052-5053	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 43-25	5054-5065	abgeschafft	_	_	_	_	_	_	_	_	_	VVPP	Psp	abschaffen	_	_
 43-26	5066-5070	wird	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	werden	_	_
@@ -876,24 +876,24 @@
 44-2	5083-5088	senkt	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	senken	_	_
 44-3	5089-5091	es	_	_	_	_	_	_	_	_	_	PPER	3.Nom.Sg.Neut	es	_	_
 44-4	5092-5096	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
-44-5	5097-5100	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	_	_
+44-5	5097-5100	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	false	_
 44-6	5101-5111	Misstrauen	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Misstrauen	_	_
 44-7	5112-5113	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-44-8	5114-5118	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	_	_
+44-8	5114-5118	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	false	_
 44-9	5119-5131	Netzgebühren	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Netzgebühr	_	_
 44-10	5132-5140	überhöht	_	_	_	_	_	_	_	_	_	VVPP	Psp	überhöhen	_	_
 44-11	5141-5145	sind	_	_	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_
 44-12	5146-5147	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Eine wichtige Voraussetzung dafür , dass Zukunftsinvestionen ins Netz refinanziert werden können .
-45-1	5150-5154	Eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein	_	_
+45-1	5150-5154	Eine	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein	false	_
 45-2	5155-5163	wichtige	_	_	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Fem	wichtig	_	_
 45-3	5164-5177	Voraussetzung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Voraussetzung	_	_
 45-4	5178-5183	dafür	_	_	_	_	_	_	_	_	_	PROAV	_	dafür	_	_
 45-5	5184-5185	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-45-6	5186-5190	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	_	_
+45-6	5186-5190	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	false	_
 45-7	5191-5210	Zukunftsinvestionen	_	_	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Zukunftsinvestion	_	_
-45-8	5211-5214	ins	_	_	_	_	_	_	_	_	_	APPRART	Acc.Sg.Neut	in	_	_
+45-8	5211-5214	ins	_	_	_	_	_	_	_	_	_	APPRART	Acc.Sg.Neut	in	false	_
 45-9	5215-5219	Netz	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Netz	_	_
 45-10	5220-5232	refinanziert	_	_	_	_	_	_	_	_	_	VVPP	Psp	refinanzieren	_	_
 45-11	5233-5239	werden	_	_	_	_	_	_	_	_	_	VAINF	Inf	werden	_	_
@@ -901,91 +901,91 @@
 45-13	5247-5248	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Die Ausnahme für die Stadtwerke bis 100 000 Endkunden macht Sinn , da ab einer gewissen Organisationsgröße die Trennung von Netz und Produktion/Vertrieb zu übermäßigen Kosten führen würde .
-46-1	5251-5254	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+46-1	5251-5254	Die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_
 46-2	5255-5263	Ausnahme	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Ausnahme	_	_
-46-3	5264-5267	für	_	_	_	_	_	_	_	_	_	APPR	_	für	_	_
-46-4	5268-5271	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Neut	der	_	_
+46-3	5264-5267	für	_	_	_	_	_	_	_	_	_	APPR	_	für	false	_
+46-4	5268-5271	die	_	_	_	_	_	_	_	_	_	ART	Acc.Pl.Neut	der	false	_
 46-5	5272-5282	Stadtwerke	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Stadtwerk	_	_
-46-6	5283-5286	bis	_	_	_	_	_	_	_	_	_	APPR	_	bis	_	_
+46-6	5283-5286	bis	_	_	_	_	_	_	_	_	_	APPR	_	bis	false	_
 46-7	5287-5290	100	_	_	_	_	_	_	_	_	_	CARD	_	100	_	_
 46-8	5291-5294	000	_	_	_	_	_	_	_	_	_	CARD	_	000	_	_
 46-9	5295-5304	Endkunden	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Endkunde	_	_
-46-10	5305-5310	macht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	machen	_	_
+46-10	5305-5310	macht	_	_	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	machen	_	false
 46-11	5311-5315	Sinn	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Sinn	_	_
 46-12	5316-5317	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-46-13	5318-5320	da	_	_	_	_	_	_	_	_	_	KOUS	_	da	_	_
-46-14	5321-5323	ab	_	_	_	_	_	_	_	_	_	APPR	_	ab	_	_
-46-15	5324-5329	einer	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	ein	_	_
+46-13	5318-5320	da	_	_	_	_	_	_	_	_	_	KOUS	_	da	false	_
+46-14	5321-5323	ab	_	_	_	_	_	_	_	_	_	APPR	_	ab	false	_
+46-15	5324-5329	einer	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	ein	false	_
 46-16	5330-5338	gewissen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Sg.Fem	gewiß	_	_
 46-17	5339-5357	Organisationsgröße	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Organisationsgröße	_	_
-46-18	5358-5361	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	_	_
+46-18	5358-5361	die	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_
 46-19	5362-5370	Trennung	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Trennung	_	_
-46-20	5371-5374	von	_	_	_	_	_	_	_	_	_	APPR	_	von	_	_
+46-20	5371-5374	von	_	_	_	_	_	_	_	_	_	APPR	_	von	false	_
 46-21	5375-5379	Netz	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Neut	Netz	_	_
-46-22	5380-5383	und	_	_	_	_	_	_	_	_	_	KON	_	und	_	_
+46-22	5380-5383	und	_	_	_	_	_	_	_	_	_	KON	_	und	false	_
 46-23	5384-5394	Produktion	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Produktion	_	_
 46-24	5394-5395	/	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	/	_	_
 46-25	5395-5403	Vertrieb	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Masc	Vertrieb	_	_
-46-26	5404-5406	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	_	_
+46-26	5404-5406	zu	_	_	_	_	_	_	_	_	_	APPR	_	zu	false	_
 46-27	5407-5418	übermäßigen	_	_	_	_	_	_	_	_	_	ADJA	Pos.Dat.Pl.*	übermäßig	_	_
 46-28	5419-5425	Kosten	_	_	_	_	_	_	_	_	_	NN	Dat.Pl.*	Kosten	_	_
-46-29	5426-5432	führen	_	_	_	_	_	_	_	_	_	VVINF	Inf	führen	_	_
+46-29	5426-5432	führen	_	_	_	_	_	_	_	_	_	VVINF	Inf	führen	_	false
 46-30	5433-5438	würde	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Past.Subj	werden	_	_
 46-31	5439-5440	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Damit hat sich aber dann auch das Argument erledigt , dass Deutschland eine andere Struktur in der Energiewirtschaft als andere Länder hat .
 47-1	5443-5448	Damit	_	_	_	_	_	_	_	_	_	PROAV	_	damit	_	_
-47-2	5449-5452	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben	_	_
+47-2	5449-5452	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben	_	false
 47-3	5453-5457	sich	_	_	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich	_	_
 47-4	5458-5462	aber	_	_	_	_	_	_	_	_	_	ADV	_	aber	_	_
 47-5	5463-5467	dann	_	_	_	_	_	_	_	_	_	ADV	_	dann	_	_
 47-6	5468-5472	auch	_	_	_	_	_	_	_	_	_	ADV	_	auch	_	_
-47-7	5473-5476	das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der	_	_
+47-7	5473-5476	das	_	_	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der	false	_
 47-8	5477-5485	Argument	_	_	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Argument	_	_
 47-9	5486-5494	erledigt	_	_	_	_	_	_	_	_	_	VVPP	Psp	erledigen	_	_
 47-10	5495-5496	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-47-11	5497-5501	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	_	_
+47-11	5497-5501	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	false	_
 47-12	5502-5513	Deutschland	_	_	_	_	_	_	_	_	_	NE	Nom.Sg.Neut	Deutschland	_	_
-47-13	5514-5518	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein	_	_
+47-13	5514-5518	eine	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein	false	_
 47-14	5519-5525	andere	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	anderer	_	_
 47-15	5526-5534	Struktur	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Struktur	_	_
-47-16	5535-5537	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
-47-17	5538-5541	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	_	_
+47-16	5535-5537	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
+47-17	5538-5541	der	_	_	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 47-18	5542-5559	Energiewirtschaft	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Energiewirtschaft	_	_
-47-19	5560-5563	als	_	_	_	_	_	_	_	_	_	KOKOM	_	als	_	_
+47-19	5560-5563	als	_	_	_	_	_	_	_	_	_	KOKOM	_	als	false	_
 47-20	5564-5570	andere	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Neut	anderer	_	_
 47-21	5571-5577	Länder	_	_	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Land	_	_
-47-22	5578-5581	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben	_	_
+47-22	5578-5581	hat	_	_	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	haben	_	false
 47-23	5582-5583	.	_	_	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Ich gehe deshalb abschließend davon aus , dass wir noch in dieser Legislaturperiode ein zweites Mal das Energiewirtschaftsgesetz novellieren müssen , um mehr Wettbewerbsintensität in den Markt zu bringen .
 48-1	5586-5589	Ich	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Sg.*	ich	_	_
-48-2	5590-5594	gehe	_	_	_	_	_	_	_	_	_	VVFIN	1.Sg.Pres.Ind	gehen	_	_
+48-2	5590-5594	gehe	_	_	_	_	_	_	_	_	_	VVFIN	1.Sg.Pres.Ind	gehen	_	false
 48-3	5595-5602	deshalb	_	_	_	_	_	_	_	_	_	PROAV	_	deshalb	_	_
 48-4	5603-5615	abschließend	_	_	_	_	_	_	_	_	_	ADJD	Pos	abschließend	_	_
 48-5	5616-5621	davon	_	_	_	_	_	_	_	_	_	PROAV	_	davon	_	_
-48-6	5622-5625	aus	_	_	_	_	_	_	_	_	_	PTKVZ	_	aus	_	_
+48-6	5622-5625	aus	_	_	_	_	_	_	_	_	_	PTKVZ	_	aus	false	_
 48-7	5626-5627	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-48-8	5628-5632	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	_	_
+48-8	5628-5632	dass	_	_	_	_	_	_	_	_	_	KOUS	_	dass	false	_
 48-9	5633-5636	wir	_	_	_	_	_	_	_	_	_	PPER	1.Nom.Pl.*	wir	_	_
 48-10	5637-5641	noch	_	_	_	_	_	_	_	_	_	ADV	_	noch	_	_
-48-11	5642-5644	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
+48-11	5642-5644	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
 48-12	5645-5651	dieser	_	_	_	_	_	_	_	_	_	PDAT	Dat.Sg.Fem	dieser	_	_
 48-13	5652-5669	Legislaturperiode	_	_	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Legislaturperiode	_	_
-48-14	5670-5673	ein	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	ein	_	_
+48-14	5670-5673	ein	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	ein	false	_
 48-15	5674-5681	zweites	_	_	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Neut	zweiter	_	_
 48-16	5682-5685	Mal	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Mal	_	_
-48-17	5686-5689	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	_	_
+48-17	5686-5689	das	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Neut	der	false	_
 48-18	5690-5714	Energiewirtschaftsgesetz	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Neut	Energiewirtschaftsgesetz	_	_
 48-19	5715-5726	novellieren	_	_	_	_	_	_	_	_	_	VVINF	Inf	novellieren	_	_
 48-20	5727-5733	müssen	_	_	_	_	_	_	_	_	_	VMFIN	1.Pl.Pres.Ind	müssen	_	_
 48-21	5734-5735	,	_	_	_	_	_	_	_	_	_	$,	_	,	_	_
-48-22	5736-5738	um	_	_	_	_	_	_	_	_	_	KOUI	_	um	_	_
+48-22	5736-5738	um	_	_	_	_	_	_	_	_	_	KOUI	_	um	false	_
 48-23	5739-5743	mehr	_	_	_	_	_	_	_	_	_	PIAT	*.*.*	mehr	_	_
 48-24	5744-5765	Wettbewerbsintensität	_	_	_	_	_	true	*	_	_	NN	Acc.Sg.Fem	Wettbewerbsintensität	_	_
 48-24.1	5755-5765	intensität	false	0Kern	true	true	Stärke, Eindringlichkeit	_	_	erhöhter Wettbewerb zwischen Marktteilnehmern	_		_	_	_	_	_	_	_	_	_	_	_
-48-25	5766-5768	in	_	_	_	_	_	_	_	_	_	APPR	_	in	_	_
-48-26	5769-5772	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	_	_
+48-25	5766-5768	in	_	_	_	_	_	_	_	_	_	APPR	_	in	false	_
+48-26	5769-5772	den	_	_	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	false	_
 48-27	5773-5778	Markt	_	_	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Markt	_	_
-48-28	5779-5781	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu	_	_
-48-29	5782-5789	bringen	_	_	_	_	_	_	_	_	_	VVINF	Inf	bringen	_	_
+48-28	5779-5781	zu	_	_	_	_	_	_	_	_	_	PTKZU	_	zu	false	_
+48-29	5782-5789	bringen	_	_	_	_	_	_	_	_	_	VVINF	Inf	bringen	_	false
