@@ -6,7 +6,7 @@ import csv
 import os
 from copy import deepcopy
 import re
-from src.additional_info import additional_info
+from src.additional_merge import additional_info
 
 def prep_bund(path: str):
     # takes the path of the corresponding xml file and returns the speech as a string.

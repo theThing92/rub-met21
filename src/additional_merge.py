@@ -74,37 +74,41 @@ def additional_info(inpath: str, outpath: str):
     out = []
     old = old_version(inpath)
 
-    # Daten öffnen und Infos berechnen
-    with open(inpath, "r", encoding="utf-8") as f:
+    try:
+        # Daten öffnen und Infos berechnen
+        with open(inpath, "r", encoding="utf-8") as f:
 
-        # for old guidelines
-        if old:
-            for token in f.readlines():
-                if token != "" and token!= "\n" and not startswith(token, "#"):
-                    tok = token.rstrip().split("\t")
-                    tok_list, tok_new = remove_columns(tok)
-                    out.append((tok_new, function_in_metaphor(fnc_words, tok_list), functional_verb_phrase(fnc_verbs, tok_list)))
-                elif "MET_C" in token:
-                    continue
-                else:
-                    out.append(token)
-            f.close()
+            # for old guidelines
+            if old:
+                for token in f.readlines():
+                    if token != "" and token!= "\n" and not startswith(token, "#"):
+                        tok = token.rstrip().split("\t")
+                        tok_list, tok_new = remove_columns(tok)
+                        out.append((tok_new, function_in_metaphor(fnc_words, tok_list), functional_verb_phrase(fnc_verbs, tok_list)))
+                    elif "MET_C" in token:
+                        continue
+                    else:
+                        out.append(token)
+                f.close()
 
-        # for new guidelines
-        else:
-            for token in f.readlines():
-                if token != "" and token!= "\n" and not startswith(token, "#"):
-                    tok = token.rstrip().split("\t")
-                    out.append((token, function_in_metaphor(fnc_words, tok), functional_verb_phrase(fnc_verbs, tok)))
-                else:
-                    out.append(token)
-            f.close()
-
-    # Daten mit neuen Infos in neue Datei schreiben
-    with open(outpath, "w", encoding="utf-8") as f:
-        for i in range(0, len(out)-1):
-            if len(out[i]) == 3:
-                f.write(out[i][0].rstrip() + "\t" + out[i][1] + "\t" + out[i][2] + "\n")
+            # for new guidelines
             else:
-                f.write(out[i])
-        f.close()
+                for token in f.readlines():
+                    if token != "" and token!= "\n" and not startswith(token, "#"):
+                        tok = token.rstrip().split("\t")
+                        out.append((token, function_in_metaphor(fnc_words, tok), functional_verb_phrase(fnc_verbs, tok)))
+                    else:
+                        out.append(token)
+                f.close()
+
+        # Daten mit neuen Infos in neue Datei schreiben
+        with open(outpath, "w", encoding="utf-8") as f:
+            for i in range(0, len(out)-1):
+                if len(out[i]) == 3:
+                    f.write(out[i][0].rstrip() + "\t" + out[i][1] + "\t" + out[i][2] + "\n")
+                else:
+                    f.write(out[i])
+            f.close()
+    except Exception as e:
+        print(f"Exception of type {type(e)} occured in file {inpath} - passing." )
+        pass
