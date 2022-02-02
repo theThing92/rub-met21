@@ -214,8 +214,8 @@
 #Text=Der Spannungsbogen oder auch die Brücke zwischen dem " Europäischen Jahr der Chancengleichheit für alle " auf der einen Seite und der " Charta der Vielfalt " ist etwas sehr Interessantes .
 11-1	1172-1175	Der	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	false	_
 11-2	1176-1190	Spannungsbogen	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Spannungsbogen	_	_
-11-2.1	1176-1185	Spannungs	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-11-2.2	1185-1190	bogen	false	0Kern	true	true	gebogene Linie	_	_		_	_	_	_	_	_	_	_	_	_	_
+11-2.1	1176-1185	Spannungs	false	2sem	_	_	_	_	_	_	_	_	_	_
+11-2.2	1185-1190	bogen	false	0Kern	true	true	gebogene Linie	_	_	_	_	_	_	_
 11-3	1191-1195	oder	_	_	_	_	_	_	_	KON	_	oder	false	_
 11-4	1196-1200	auch	_	_	_	_	_	_	_	ADV	_	auch	_	_
 11-5	1201-1204	die	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_

@@ -261,8 +261,8 @@
 14-8	1495-1498	die	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	false	_
 14-9	1499-1507	deutsche	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	deutsch	_	_
 14-10	1508-1524	Medienlandschaft	_	_	_	_	_	Assoziation von Weitläufigkeit	_	NN	Acc.Sg.Fem	Medienlandschaft	_	_
-14-10.1	1508-1514	Medien	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-14-10.2	1514-1524	landschaft	false	0Kern	true	true	kennzeichnet in Bildungen mit Substantiven die Gesamtheit von etwas (in seiner Vielfalt)	_	_		_	_	_	_	_	_	_	_	_	_	_
+14-10.1	1508-1514	Medien	false	2sem	_	_	_	_	_	_	_	_	_	_
+14-10.2	1514-1524	landschaft	false	0Kern	true	true	kennzeichnet in Bildungen mit Substantiven die Gesamtheit von etwas (in seiner Vielfalt)	_	_	_	_	_	_	_
 14-11	1525-1528	und	_	_	_	_	_	_	_	KON	_	und	false	_
 14-12	1529-1532	die	_	_	_	_	_	_	_	ART	Acc.Pl.Masc	der	false	_
 14-13	1533-1546	Arbeitsplätze	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Arbeitsplatz	_	_
@@ -462,8 +462,8 @@
 22-9	2714-2717	die	_	_	_	_	_	_	_	ART	Acc.Pl.Masc	der	false	_
 22-10	2718-2728	nationalen	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Masc	national	_	_
 22-11	2729-2741	Medienmärkte	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Medienmarkt	_	_
-22-11.1	2729-2735	Medien	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-22-11.2	2735-2741	märkte	false	0Kern	true	true	Verkaufsveranstaltung	_	_		_	_	_	_	_	_	_	_	_	_	_
+22-11.1	2729-2735	Medien	false	2sem	_	_	_	_	_	_	_	_	_	_
+22-11.2	2735-2741	märkte	false	0Kern	true	true	Verkaufsveranstaltung	_	_	_	_	_	_	_
 22-12	2742-2750	isoliert	_	_	_	_	_	_	_	VVPP	Psp	isolieren	_	_
 22-13	2751-2753	zu	_	_	_	_	_	_	_	PTKZU	_	zu	false	_
 22-14	2754-2764	betrachten	_	_	_	_	_	_	_	VVINF	Inf	betrachten	_	_
@@ -601,8 +601,8 @@
 29-9	3661-3662	,	_	_	_	_	_	_	_	$,	_	,	_	_
 29-10	3663-3665	um	_	_	_	_	_	_	_	KOUI	_	um	false	_
 29-11	3666-3679	Meinungsmacht	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Meinungsmacht	_	_
-29-11.1	3666-3674	Meinungs	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-29-11.2	3674-3679	macht	false	0Kern	true	true	Einfluss	_	_		_	_	_	_	_	_	_	_	_	_	_
+29-11.1	3666-3674	Meinungs	false	2sem	_	_	_	_	_	_	_	_	_	_
+29-11.2	3674-3679	macht	false	0Kern	true	true	Einfluss	_	_	_	_	_	_	_
 29-12	3680-3683	und	_	_	_	_	_	_	_	KON	_	und	false	_
 29-13	3684-3703	Medienkonzentration	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Medienkonzentration	_	_
 29-14	3704-3706	zu	_	_	_	_	_	_	_	PTKZU	_	zu	false	_

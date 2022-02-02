@@ -522,8 +522,8 @@
 18-8	3248-3254	Frauen	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Frau	_	_
 18-9	3255-3258	das	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der	false	_
 18-10	3259-3273	Lieblingsopfer	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Lieblingsopfer	_	_
-18-10.1	3259-3268	Lieblings	false	3sonst	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-18-10.2	3268-3273	opfer	false	0Kern	true	true	in einer kultischen Handlung vollzogene Hingabe	*	_		_	_	_	_	_	_	_	_	_	_	_
+18-10.1	3259-3268	Lieblings	false	3sonst	_	_	_	_	_	_	_	_	_	_
+18-10.2	3268-3273	opfer	false	0Kern	true	true	in einer kultischen Handlung vollzogene Hingabe	*	_	_	_	_	_	_
 18-11	3274-3277	des	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	der	false	_
 18-12	3278-3290	Justizwesens	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Justizwesen	_	_
 18-13	3291-3295	sind	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_

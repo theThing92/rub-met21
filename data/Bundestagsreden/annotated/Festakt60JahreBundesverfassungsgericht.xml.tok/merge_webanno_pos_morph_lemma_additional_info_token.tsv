@@ -225,8 +225,8 @@
 12-5	1346-1352	Lehrer	false	5clash	_	_	_	_	_	NN	Nom.Sg.Masc	Lehrer	_	_
 12-6	1353-1356	ein	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	false	_
 12-7	1357-1370	Einzelkämpfer	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Einzelkämpfer	_	_
-12-7.1	1363-1370	kämpfer	false	0Kern	true	true	männliche Person, die sich mit Heftigkeit handgreiflich mit jemandem auseinandersetzt	*	12-5		_	_	_	_	_	_	_	_	_	_	_
-12-7.2	1357-1363	Einzel	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
+12-7.1	1363-1370	kämpfer	false	0Kern	true	true	männliche Person, die sich mit Heftigkeit handgreiflich mit jemandem auseinandersetzt	*	12-5	_	_	_	_	_
+12-7.2	1357-1363	Einzel	false	2sem	_	_	_	_	_	_	_	_	_	_
 12-8	1371-1372	,	_	_	_	_	_	_	_	$,	_	,	_	_
 12-9	1373-1379	andere	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Masc	anderer	_	_
 12-10	1380-1386	Lehrer	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Lehrer	_	_

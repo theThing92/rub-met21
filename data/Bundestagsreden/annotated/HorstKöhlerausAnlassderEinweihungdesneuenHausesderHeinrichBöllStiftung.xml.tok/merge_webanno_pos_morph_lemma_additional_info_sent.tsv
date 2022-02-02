@@ -421,8 +421,8 @@
 
 23-1	2547-2550	Der	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	false	_
 23-2	2551-2563	Wissensdurst	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Wissensdurst	_	_
-23-2.1	2551-2558	Wissens	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-23-2.2	2558-2563	durst	false	0Kern	true	true	Bedürfnis zu trinken	Verlangen nach Wissen	_		_	_	_	_	_	_	_	_	_	_	_
+23-2.1	2551-2558	Wissens	false	2sem	_	_	_	_	_	_	_	_	_	_
+23-2.2	2558-2563	durst	false	0Kern	true	true	Bedürfnis zu trinken	Verlangen nach Wissen	_	_	_	_	_	_
 23-3	2564-2569	zieht	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	ziehen	_	false
 23-4	2570-2574	sich	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich	_	_
 23-5	2575-2578	wie	_	_	_	_	_	_	_	KOKOM	_	wie	false	_

@@ -84,8 +84,8 @@
 5-10	471-473	50	_	_	_	_	_	_	_	CARD	_	50	_	_
 5-11	474-479	Jahre	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Jahr	_	_
 5-12	480-494	Atlantikbrücke	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Atlantikbrücke	_	_
-5-12.1	480-488	Atlantik	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-5-12.2	488-494	brücke	false	0Kern	true	false	Bauwerk	*	_		_	_	_	_	_	_	_	_	_	_	_
+5-12.1	480-488	Atlantik	false	2sem	_	_	_	_	_	_	_	_	_	_
+5-12.2	488-494	brücke	false	0Kern	true	false	Bauwerk	*	_	_	_	_	_	_
 5-13	495-496	,	_	_	_	_	_	_	_	$,	_	,	_	_
 5-14	497-500	das	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der	_	_
 5-15	501-504	ist	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_

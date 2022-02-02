@@ -880,7 +880,7 @@
 48-22	5736-5738	um	_	_	_	_	_	_	_	KOUI	_	um	false	_
 48-23	5739-5743	mehr	_	_	_	_	_	_	_	PIAT	*.*.*	mehr	_	_
 48-24	5744-5765	Wettbewerbsintensität	_	_	_	_	_	*	_	NN	Acc.Sg.Fem	Wettbewerbsintensität	_	_
-48-24.1	5755-5765	intensität	false	0Kern	true	true	Stärke, Eindringlichkeit	_	_		_	_	_	_	_	_	_	_	_	_	_
+48-24.1	5755-5765	intensität	false	0Kern	true	true	Stärke, Eindringlichkeit	_	_	_	_	_	_	_
 48-25	5766-5768	in	_	_	_	_	_	_	_	APPR	_	in	false	_
 48-26	5769-5772	den	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	false	_
 48-27	5773-5778	Markt	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Markt	_	_

@@ -570,8 +570,8 @@
 17-30	3425-3426	;	_	_	_	_	_	_	_	$.	_	;	_	_
 17-31	3427-3431	eine	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein	false	_
 17-32	3432-3446	Inzuchtdebatte	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Inzuchtdebatte	_	_
-17-32.1	3432-3439	Inzucht	false	0Kern	true	true	Fortpflanzung unter nahe verwandten Lebewesen	Debatte auf nationaler Ebene, ohne Meinung und Einfluss von außen	_		_	_	_	_	_	_	_	_	_	_	_
-17-32.2	3439-3446	debatte	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
+17-32.1	3432-3439	Inzucht	false	0Kern	true	true	Fortpflanzung unter nahe verwandten Lebewesen	Debatte auf nationaler Ebene, ohne Meinung und Einfluss von außen	_	_	_	_	_	_
+17-32.2	3439-3446	debatte	false	2sem	_	_	_	_	_	_	_	_	_	_
 17-33	3447-3448	.	_	_	_	_	_	_	_	$.	_	.	_	_
 
 #Text=Hier in Brüssel oder im Parlament findet derzeit eine europäische Debatte statt , aber in jedem Land der Europäischen Union dominiert die nationale Debatte , nicht die europäische Debatte .

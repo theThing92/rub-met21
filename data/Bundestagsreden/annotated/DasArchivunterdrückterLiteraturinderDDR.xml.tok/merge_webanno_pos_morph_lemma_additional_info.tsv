@@ -196,8 +196,8 @@
 6-3	1148-1152	eine	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein	false	_
 6-4	1153-1157	neue	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	neu	_	_
 6-5	1158-1176	Stiftungsoffensive	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Stiftungsoffensive	_	_
-6-5.1	1158-1167	Stiftungs	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-6-5.2	1167-1176	offensive	false	0Kern	true	true	Angriff	*	_		_	_	_	_	_	_	_	_	_	_	_
+6-5.1	1158-1167	Stiftungs	false	2sem	_	_	_	_	_	_	_	_	_	_
+6-5.2	1167-1176	offensive	false	0Kern	true	true	Angriff	*	_	_	_	_	_	_
 6-6	1177-1178	,	_	_	_	_	_	_	_	$,	_	,	_	_
 6-7	1179-1182	die	_	_	_	_	_	_	_	PRELS	Nom.Sg.Fem	der	_	_
 6-8	1183-1187	mehr	_	_	_	_	_	_	_	PIAT	*.*.*	mehr	_	_
@@ -1013,8 +1013,8 @@
 33-23	5894-5900	allein	_	_	_	_	_	_	_	ADV	_	allein	_	_
 33-24	5901-5906	durch	_	_	_	_	_	_	_	APPR	_	durch	false	_
 33-25	5907-5922	Haushaltsmittel	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Haushaltsmittel	_	_
-33-25.1	5907-5915	Haushalt	false	0Kern	true	false	Wirtschaftsführung mehrerer \[in einer Familie\] zusammenlebender Personen	_	_		_	_	_	_	_	_	_	_	_	_	_
-33-25.2	5915-5922	smittel	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
+33-25.1	5907-5915	Haushalt	false	0Kern	true	false	Wirtschaftsführung mehrerer \[in einer Familie\] zusammenlebender Personen	_	_	_	_	_	_	_
+33-25.2	5915-5922	smittel	false	2sem	_	_	_	_	_	_	_	_	_	_
 33-26	5923-5924	,	_	_	_	_	_	_	_	$,	_	,	_	_
 33-27	5925-5927	zu	_	_	_	_	_	_	_	PTKZU	_	zu	false	_
 33-28	5928-5939	garantieren	_	_	_	_	_	_	_	VVINF	Inf	garantieren	_	_

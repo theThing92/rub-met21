@@ -75,6 +75,9 @@ def stats(df):
 
     # pos tags + met (percent / pie diagram)
     pos_percent_core = df[df["#MET_A|Rolle"] == "0Kern"]["#POS"].value_counts().to_dict()
+
+    for k in pos_percent_core:
+        pos_percent_core[k] = pos_percent_core[k] / num_core
     print(f"pos_percent_core:\t{pos_percent_core}")
 
 

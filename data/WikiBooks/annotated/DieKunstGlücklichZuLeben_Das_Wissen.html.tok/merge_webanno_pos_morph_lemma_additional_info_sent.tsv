@@ -1014,8 +1014,8 @@
 65-4	5998-6001	der	_	_	_	_	_	_	_	ART	Gen.Pl.Fem	der	false	_
 65-5	6002-6008	großen	_	_	_	_	_	_	_	ADJA	Pos.Gen.Pl.Fem	groß	_	_
 65-6	6009-6021	Glücksfallen	_	_	_	_	_	_	_	NN	Gen.Pl.Fem	Glücksfalle	_	_
-65-6.1	6009-6015	Glücks	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-65-6.2	6015-6021	fallen	false	0Kern	true	true	Vorrichtung zum Fangen von Tieren	Glück geht verloren	_		_	_	_	_	_	_	_	_	_	_	_
+65-6.1	6009-6015	Glücks	false	2sem	_	_	_	_	_	_	_	_	_	_
+65-6.2	6015-6021	fallen	false	0Kern	true	true	Vorrichtung zum Fangen von Tieren	Glück geht verloren	_	_	_	_	_	_
 65-7	6022-6025	auf	_	_	_	_	_	_	_	APPR	_	auf	false	_
 65-8	6026-6029	der	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 65-9	6030-6034	Welt	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Welt	_	_
@@ -1936,8 +1936,8 @@
 121-1	11546-11548	So	_	_	_	_	_	_	_	ADV	_	so	_	_
 121-2	11549-11552	ein	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	false	_
 121-3	11553-11571	Bewusstseinssprung	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Bewusstseinssprung	_	_
-121-3.1	11553-11565	Bewusstseins	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-121-3.2	11565-11571	sprung	false	0Kern	true	true	springende Bewegung	Veränderung	_		_	_	_	_	_	_	_	_	_	_	_
+121-3.1	11553-11565	Bewusstseins	false	2sem	_	_	_	_	_	_	_	_	_	_
+121-3.2	11565-11571	sprung	false	0Kern	true	true	springende Bewegung	Veränderung	_	_	_	_	_	_
 121-4	11572-11577	macht	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	machen	_	false
 121-5	11578-11583	einem	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	ein	false	_
 121-6	11584-11590	zuerst	_	_	_	_	_	_	_	ADV	_	zuerst	_	_

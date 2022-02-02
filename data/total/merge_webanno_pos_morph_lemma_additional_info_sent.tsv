@@ -88,8 +88,8 @@
 5-10	471-473	50	_	_	_	_	_	_	_	CARD	_	50	_	_
 5-11	474-479	Jahre	_	_	_	_	_	_	_	NN	Nom.Pl.Neut	Jahr	_	_
 5-12	480-494	Atlantikbrücke	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Atlantikbrücke	_	_
-5-12.1	480-488	Atlantik	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-5-12.2	488-494	brücke	false	0Kern	true	false	Bauwerk	*	_		_	_	_	_	_	_	_	_	_	_	_
+5-12.1	480-488	Atlantik	false	2sem	_	_	_	_	_	_	_	_	_	_
+5-12.2	488-494	brücke	false	0Kern	true	false	Bauwerk	*	_	_	_	_	_	_
 5-13	495-496	,	_	_	_	_	_	_	_	$,	_	,	_	_
 5-14	497-500	das	_	_	_	_	_	_	_	PDS	Nom.Sg.Neut	der	_	_
 5-15	501-504	ist	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
@@ -4412,8 +4412,8 @@
 
 11-1	1172-1175	Der	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	false	_
 11-2	1176-1190	Spannungsbogen	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Spannungsbogen	_	_
-11-2.1	1176-1185	Spannungs	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-11-2.2	1185-1190	bogen	false	0Kern	true	true	gebogene Linie	_	_		_	_	_	_	_	_	_	_	_	_	_
+11-2.1	1176-1185	Spannungs	false	2sem	_	_	_	_	_	_	_	_	_	_
+11-2.2	1185-1190	bogen	false	0Kern	true	true	gebogene Linie	_	_	_	_	_	_	_
 11-3	1191-1195	oder	_	_	_	_	_	_	_	KON	_	oder	false	_
 11-4	1196-1200	auch	_	_	_	_	_	_	_	ADV	_	auch	_	_
 11-5	1201-1204	die	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	der	false	_
@@ -9737,8 +9737,8 @@
 6-3	1148-1152	eine	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	ein	false	_
 6-4	1153-1157	neue	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	neu	_	_
 6-5	1158-1176	Stiftungsoffensive	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Stiftungsoffensive	_	_
-6-5.1	1158-1167	Stiftungs	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-6-5.2	1167-1176	offensive	false	0Kern	true	true	Angriff	*	_		_	_	_	_	_	_	_	_	_	_	_
+6-5.1	1158-1167	Stiftungs	false	2sem	_	_	_	_	_	_	_	_	_	_
+6-5.2	1167-1176	offensive	false	0Kern	true	true	Angriff	*	_	_	_	_	_	_
 6-6	1177-1178	,	_	_	_	_	_	_	_	$,	_	,	_	_
 6-7	1179-1182	die	_	_	_	_	_	_	_	PRELS	Nom.Sg.Fem	der	_	_
 6-8	1183-1187	mehr	_	_	_	_	_	_	_	PIAT	*.*.*	mehr	_	_
@@ -10527,8 +10527,8 @@
 33-23	5894-5900	allein	_	_	_	_	_	_	_	ADV	_	allein	_	_
 33-24	5901-5906	durch	_	_	_	_	_	_	_	APPR	_	durch	false	_
 33-25	5907-5922	Haushaltsmittel	_	_	_	_	_	_	_	NN	Acc.Pl.Neut	Haushaltsmittel	_	_
-33-25.1	5907-5915	Haushalt	false	0Kern	true	false	Wirtschaftsführung mehrerer \[in einer Familie\] zusammenlebender Personen	_	_		_	_	_	_	_	_	_	_	_	_	_
-33-25.2	5915-5922	smittel	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
+33-25.1	5907-5915	Haushalt	false	0Kern	true	false	Wirtschaftsführung mehrerer \[in einer Familie\] zusammenlebender Personen	_	_	_	_	_	_	_
+33-25.2	5915-5922	smittel	false	2sem	_	_	_	_	_	_	_	_	_	_
 33-26	5923-5924	,	_	_	_	_	_	_	_	$,	_	,	_	_
 33-27	5925-5927	zu	_	_	_	_	_	_	_	PTKZU	_	zu	false	_
 33-28	5928-5939	garantieren	_	_	_	_	_	_	_	VVINF	Inf	garantieren	_	_
@@ -11450,8 +11450,8 @@
 12-5	1346-1352	Lehrer	false	5clash	_	_	_	_	_	NN	Nom.Sg.Masc	Lehrer	_	_
 12-6	1353-1356	ein	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	false	_
 12-7	1357-1370	Einzelkämpfer	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Einzelkämpfer	_	_
-12-7.1	1363-1370	kämpfer	false	0Kern	true	true	männliche Person, die sich mit Heftigkeit handgreiflich mit jemandem auseinandersetzt	*	12-5		_	_	_	_	_	_	_	_	_	_	_
-12-7.2	1357-1363	Einzel	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
+12-7.1	1363-1370	kämpfer	false	0Kern	true	true	männliche Person, die sich mit Heftigkeit handgreiflich mit jemandem auseinandersetzt	*	12-5	_	_	_	_	_
+12-7.2	1357-1363	Einzel	false	2sem	_	_	_	_	_	_	_	_	_	_
 12-8	1371-1372	,	_	_	_	_	_	_	_	$,	_	,	_	_
 12-9	1373-1379	andere	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Masc	anderer	_	_
 12-10	1380-1386	Lehrer	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Lehrer	_	_
@@ -12906,8 +12906,8 @@
 14-8	1495-1498	die	_	_	_	_	_	_	_	ART	Acc.Sg.Fem	der	false	_
 14-9	1499-1507	deutsche	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	deutsch	_	_
 14-10	1508-1524	Medienlandschaft	_	_	_	_	_	Assoziation von Weitläufigkeit	_	NN	Acc.Sg.Fem	Medienlandschaft	_	_
-14-10.1	1508-1514	Medien	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-14-10.2	1514-1524	landschaft	false	0Kern	true	true	kennzeichnet in Bildungen mit Substantiven die Gesamtheit von etwas (in seiner Vielfalt)	_	_		_	_	_	_	_	_	_	_	_	_	_
+14-10.1	1508-1514	Medien	false	2sem	_	_	_	_	_	_	_	_	_	_
+14-10.2	1514-1524	landschaft	false	0Kern	true	true	kennzeichnet in Bildungen mit Substantiven die Gesamtheit von etwas (in seiner Vielfalt)	_	_	_	_	_	_	_
 14-11	1525-1528	und	_	_	_	_	_	_	_	KON	_	und	false	_
 14-12	1529-1532	die	_	_	_	_	_	_	_	ART	Acc.Pl.Masc	der	false	_
 14-13	1533-1546	Arbeitsplätze	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Arbeitsplatz	_	_
@@ -13107,8 +13107,8 @@
 22-9	2714-2717	die	_	_	_	_	_	_	_	ART	Acc.Pl.Masc	der	false	_
 22-10	2718-2728	nationalen	_	_	_	_	_	_	_	ADJA	Pos.Acc.Pl.Masc	national	_	_
 22-11	2729-2741	Medienmärkte	_	_	_	_	_	_	_	NN	Acc.Pl.Masc	Medienmarkt	_	_
-22-11.1	2729-2735	Medien	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-22-11.2	2735-2741	märkte	false	0Kern	true	true	Verkaufsveranstaltung	_	_		_	_	_	_	_	_	_	_	_	_	_
+22-11.1	2729-2735	Medien	false	2sem	_	_	_	_	_	_	_	_	_	_
+22-11.2	2735-2741	märkte	false	0Kern	true	true	Verkaufsveranstaltung	_	_	_	_	_	_	_
 22-12	2742-2750	isoliert	_	_	_	_	_	_	_	VVPP	Psp	isolieren	_	_
 22-13	2751-2753	zu	_	_	_	_	_	_	_	PTKZU	_	zu	false	_
 22-14	2754-2764	betrachten	_	_	_	_	_	_	_	VVINF	Inf	betrachten	_	_
@@ -13246,8 +13246,8 @@
 29-9	3661-3662	,	_	_	_	_	_	_	_	$,	_	,	_	_
 29-10	3663-3665	um	_	_	_	_	_	_	_	KOUI	_	um	false	_
 29-11	3666-3679	Meinungsmacht	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Meinungsmacht	_	_
-29-11.1	3666-3674	Meinungs	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-29-11.2	3674-3679	macht	false	0Kern	true	true	Einfluss	_	_		_	_	_	_	_	_	_	_	_	_	_
+29-11.1	3666-3674	Meinungs	false	2sem	_	_	_	_	_	_	_	_	_	_
+29-11.2	3674-3679	macht	false	0Kern	true	true	Einfluss	_	_	_	_	_	_	_
 29-12	3680-3683	und	_	_	_	_	_	_	_	KON	_	und	false	_
 29-13	3684-3703	Medienkonzentration	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Medienkonzentration	_	_
 29-14	3704-3706	zu	_	_	_	_	_	_	_	PTKZU	_	zu	false	_
@@ -13974,8 +13974,8 @@
 
 23-1	2547-2550	Der	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	der	false	_
 23-2	2551-2563	Wissensdurst	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Wissensdurst	_	_
-23-2.1	2551-2558	Wissens	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-23-2.2	2558-2563	durst	false	0Kern	true	true	Bedürfnis zu trinken	Verlangen nach Wissen	_		_	_	_	_	_	_	_	_	_	_	_
+23-2.1	2551-2558	Wissens	false	2sem	_	_	_	_	_	_	_	_	_	_
+23-2.2	2558-2563	durst	false	0Kern	true	true	Bedürfnis zu trinken	Verlangen nach Wissen	_	_	_	_	_	_
 23-3	2564-2569	zieht	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	ziehen	_	false
 23-4	2570-2574	sich	_	_	_	_	_	_	_	PRF	3.Acc.Sg	sich	_	_
 23-5	2575-2578	wie	_	_	_	_	_	_	_	KOKOM	_	wie	false	_
@@ -17208,7 +17208,7 @@
 48-22	5736-5738	um	_	_	_	_	_	_	_	KOUI	_	um	false	_
 48-23	5739-5743	mehr	_	_	_	_	_	_	_	PIAT	*.*.*	mehr	_	_
 48-24	5744-5765	Wettbewerbsintensität	_	_	_	_	_	*	_	NN	Acc.Sg.Fem	Wettbewerbsintensität	_	_
-48-24.1	5755-5765	intensität	false	0Kern	true	true	Stärke, Eindringlichkeit	_	_		_	_	_	_	_	_	_	_	_	_	_
+48-24.1	5755-5765	intensität	false	0Kern	true	true	Stärke, Eindringlichkeit	_	_	_	_	_	_	_
 48-25	5766-5768	in	_	_	_	_	_	_	_	APPR	_	in	false	_
 48-26	5769-5772	den	_	_	_	_	_	_	_	ART	Acc.Sg.Masc	der	false	_
 48-27	5773-5778	Markt	_	_	_	_	_	_	_	NN	Acc.Sg.Masc	Markt	_	_
@@ -18033,7 +18033,7 @@
 5-3	717-735	Leistungsfähigkeit	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Leistungsfähigkeit	_	_
 5-4	736-739	des	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der	false	_
 5-5	740-755	Naturhaushaltes	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Naturhaushalt	_	_
-5-5.1	745-755	haushaltes	false	0Kern	true	true	gemeinsame Wirtschaft der in einer Wohnung lebenden Personen	Ressourcen der Natur	_		_	_	_	_	_	_	_	_	_	_	_
+5-5.1	745-755	haushaltes	false	0Kern	true	true	gemeinsame Wirtschaft der in einer Wohnung lebenden Personen	Ressourcen der Natur	_	_	_	_	_	_
 5-6	756-759	ist	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
 5-7	760-767	Verlust	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Verlust	_	_
 5-8	768-770	an	_	_	_	_	_	_	_	APPR	_	an	false	_
@@ -18396,7 +18396,7 @@
 20-3	2904-2907	als	_	_	_	_	_	_	_	APPR	_	als	false	_
 20-4	2908-2923	kontinuierliche	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	kontinuierlich	_	_
 20-5	2924-2943	Querschnittsaufgabe	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Querschnittsaufgabe	_	_
-20-5.1	2924-2935	Querschnitt	false	0Kern	true	false	ebener Schnitt senkrecht zur Längsachse eines Körpers	übergreifend über getrennte Bereiche, in Kooperation mit anderen Bereichen	_		_	_	_	_	_	_	_	_	_	_	_
+20-5.1	2924-2935	Querschnitt	false	0Kern	true	false	ebener Schnitt senkrecht zur Längsachse eines Körpers	übergreifend über getrennte Bereiche, in Kooperation mit anderen Bereichen	_	_	_	_	_	_
 20-6	2944-2949	aller	_	_	_	_	_	_	_	PIAT	Gen.Pl.Neut	aller	_	_
 20-7	2950-2958	Ressorts	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Ressort	_	_
 20-8	2959-2968	betrieben	_	_	_	_	_	_	_	VVPP	Psp	betreiben	_	_
@@ -18758,7 +18758,7 @@
 37-6	5442-5445	und	_	_	_	_	_	_	_	KON	_	und	false	_
 37-7	5446-5457	europaweite	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	europaweit	_	_
 37-8	5458-5475	Vernetzungsbedarf	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Vernetzungsbedarf	_	_
-37-8.1	5458-5468	Vernetzung	false	0Kern	true	false	Verbindung, Verknüpfung	fachliche Kooperation	_		_	_	_	_	_	_	_	_	_	_	_
+37-8.1	5458-5468	Vernetzung	false	0Kern	true	false	Verbindung, Verknüpfung	fachliche Kooperation	_	_	_	_	_	_
 37-9	5476-5488	hinsichtlich	_	_	_	_	_	_	_	APPR	_	hinsichtlich	false	_
 37-10	5489-5492	des	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der	false	_
 37-11	5493-5505	europäischen	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Masc	europäisch	_	_
@@ -18861,7 +18861,7 @@
 42-24	6241-6248	unseres	_	_	_	_	_	_	_	PPOSAT	Gen.Sg.Neut	unser	_	_
 42-25	6249-6259	nationalen	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Neut	national	_	_
 42-26	6260-6270	Naturerbes	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Naturerbe	_	_
-42-26.1	6265-6270	erbes	false	0Kern	true	true	von Verstorbenem erhaltenes Eigentum	übergebene Verantwortung zum Erhalt der Natur	_		_	_	_	_	_	_	_	_	_	_	_
+42-26.1	6265-6270	erbes	false	0Kern	true	true	von Verstorbenem erhaltenes Eigentum	übergebene Verantwortung zum Erhalt der Natur	_	_	_	_	_	_
 42-27	6271-6273	zu	_	_	_	_	_	_	_	PTKZU	_	zu	false	_
 42-28	6274-6279	lösen	_	_	_	_	_	_	_	VVINF	Inf	lösen	_	_
 42-29	6280-6283	und	_	_	_	_	_	_	_	KON	_	und	false	_
@@ -19411,8 +19411,8 @@
 18-8	3248-3254	Frauen	_	_	_	_	_	_	_	NN	Nom.Pl.Fem	Frau	_	_
 18-9	3255-3258	das	_	_	_	_	_	_	_	ART	Nom.Sg.Neut	der	false	_
 18-10	3259-3273	Lieblingsopfer	_	_	_	_	_	_	_	NN	Nom.Sg.Neut	Lieblingsopfer	_	_
-18-10.1	3259-3268	Lieblings	false	3sonst	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-18-10.2	3268-3273	opfer	false	0Kern	true	true	in einer kultischen Handlung vollzogene Hingabe	*	_		_	_	_	_	_	_	_	_	_	_	_
+18-10.1	3259-3268	Lieblings	false	3sonst	_	_	_	_	_	_	_	_	_	_
+18-10.2	3268-3273	opfer	false	0Kern	true	true	in einer kultischen Handlung vollzogene Hingabe	*	_	_	_	_	_	_
 18-11	3274-3277	des	_	_	_	_	_	_	_	ART	Gen.Sg.Neut	der	false	_
 18-12	3278-3290	Justizwesens	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Justizwesen	_	_
 18-13	3291-3295	sind	_	_	_	_	_	_	_	VAFIN	3.Pl.Pres.Ind	sein	_	_
@@ -23797,8 +23797,8 @@
 17-30	3425-3426	;	_	_	_	_	_	_	_	$.	_	;	_	_
 17-31	3427-3431	eine	_	_	_	_	_	_	_	ART	Nom.Sg.Fem	ein	false	_
 17-32	3432-3446	Inzuchtdebatte	_	_	_	_	_	_	_	NN	Nom.Sg.Fem	Inzuchtdebatte	_	_
-17-32.1	3432-3439	Inzucht	false	0Kern	true	true	Fortpflanzung unter nahe verwandten Lebewesen	Debatte auf nationaler Ebene, ohne Meinung und Einfluss von außen	_		_	_	_	_	_	_	_	_	_	_	_
-17-32.2	3439-3446	debatte	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
+17-32.1	3432-3439	Inzucht	false	0Kern	true	true	Fortpflanzung unter nahe verwandten Lebewesen	Debatte auf nationaler Ebene, ohne Meinung und Einfluss von außen	_	_	_	_	_	_
+17-32.2	3439-3446	debatte	false	2sem	_	_	_	_	_	_	_	_	_	_
 17-33	3447-3448	.	_	_	_	_	_	_	_	$.	_	.	_	_
 
 18-1	3451-3455	Hier	_	_	_	_	_	_	_	ADV	_	hier	_	_
@@ -38170,8 +38170,8 @@
 65-4	5998-6001	der	_	_	_	_	_	_	_	ART	Gen.Pl.Fem	der	false	_
 65-5	6002-6008	großen	_	_	_	_	_	_	_	ADJA	Pos.Gen.Pl.Fem	groß	_	_
 65-6	6009-6021	Glücksfallen	_	_	_	_	_	_	_	NN	Gen.Pl.Fem	Glücksfalle	_	_
-65-6.1	6009-6015	Glücks	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-65-6.2	6015-6021	fallen	false	0Kern	true	true	Vorrichtung zum Fangen von Tieren	Glück geht verloren	_		_	_	_	_	_	_	_	_	_	_	_
+65-6.1	6009-6015	Glücks	false	2sem	_	_	_	_	_	_	_	_	_	_
+65-6.2	6015-6021	fallen	false	0Kern	true	true	Vorrichtung zum Fangen von Tieren	Glück geht verloren	_	_	_	_	_	_
 65-7	6022-6025	auf	_	_	_	_	_	_	_	APPR	_	auf	false	_
 65-8	6026-6029	der	_	_	_	_	_	_	_	ART	Dat.Sg.Fem	der	false	_
 65-9	6030-6034	Welt	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Welt	_	_
@@ -39092,8 +39092,8 @@
 121-1	11546-11548	So	_	_	_	_	_	_	_	ADV	_	so	_	_
 121-2	11549-11552	ein	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	false	_
 121-3	11553-11571	Bewusstseinssprung	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Bewusstseinssprung	_	_
-121-3.1	11553-11565	Bewusstseins	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-121-3.2	11565-11571	sprung	false	0Kern	true	true	springende Bewegung	Veränderung	_		_	_	_	_	_	_	_	_	_	_	_
+121-3.1	11553-11565	Bewusstseins	false	2sem	_	_	_	_	_	_	_	_	_	_
+121-3.2	11565-11571	sprung	false	0Kern	true	true	springende Bewegung	Veränderung	_	_	_	_	_	_
 121-4	11572-11577	macht	_	_	_	_	_	_	_	VVFIN	3.Sg.Pres.Ind	machen	_	false
 121-5	11578-11583	einem	_	_	_	_	_	_	_	ART	Dat.Sg.Masc	ein	false	_
 121-6	11584-11590	zuerst	_	_	_	_	_	_	_	ADV	_	zuerst	_	_
@@ -45987,8 +45987,8 @@
 3-1	242-245	Ein	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	false	_
 3-2	246-254	riesiger	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	riesig	_	_
 3-3	255-264	Feuerball	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Feuerball	_	_
-3-3.1	255-260	Feuer	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-3-3.2	260-264	ball	false	0Kern	true	true	kugelförmiger, gewöhnlich mit Luft gefüllter \[elastischer\] Gegenstand, der als Spielzeug oder Sportgerät verwendet wird	*	_		_	_	_	_	_	_	_	_	_	_	_
+3-3.1	255-260	Feuer	false	2sem	_	_	_	_	_	_	_	_	_	_
+3-3.2	260-264	ball	false	0Kern	true	true	kugelförmiger, gewöhnlich mit Luft gefüllter \[elastischer\] Gegenstand, der als Spielzeug oder Sportgerät verwendet wird	*	_	_	_	_	_	_
 3-4	265-266	,	_	_	_	_	_	_	_	$,	_	,	_	_
 3-5	267-269	so	_	_	_	_	_	_	_	ADV	_	so	_	_
 3-6	270-274	groß	_	_	_	_	_	_	_	ADJD	Pos	groß	_	_

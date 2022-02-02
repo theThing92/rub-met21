@@ -143,7 +143,7 @@
 5-3	717-735	Leistungsfähigkeit	_	_	_	_	_	_	_	NN	Dat.Sg.Fem	Leistungsfähigkeit	_	_
 5-4	736-739	des	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der	false	_
 5-5	740-755	Naturhaushaltes	_	_	_	_	_	_	_	NN	Gen.Sg.Masc	Naturhaushalt	_	_
-5-5.1	745-755	haushaltes	false	0Kern	true	true	gemeinsame Wirtschaft der in einer Wohnung lebenden Personen	Ressourcen der Natur	_		_	_	_	_	_	_	_	_	_	_	_
+5-5.1	745-755	haushaltes	false	0Kern	true	true	gemeinsame Wirtschaft der in einer Wohnung lebenden Personen	Ressourcen der Natur	_	_	_	_	_	_
 5-6	756-759	ist	_	_	_	_	_	_	_	VAFIN	3.Sg.Pres.Ind	sein	_	_
 5-7	760-767	Verlust	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Verlust	_	_
 5-8	768-770	an	_	_	_	_	_	_	_	APPR	_	an	false	_
@@ -521,7 +521,7 @@
 20-3	2904-2907	als	_	_	_	_	_	_	_	APPR	_	als	false	_
 20-4	2908-2923	kontinuierliche	_	_	_	_	_	_	_	ADJA	Pos.Acc.Sg.Fem	kontinuierlich	_	_
 20-5	2924-2943	Querschnittsaufgabe	_	_	_	_	_	_	_	NN	Acc.Sg.Fem	Querschnittsaufgabe	_	_
-20-5.1	2924-2935	Querschnitt	false	0Kern	true	false	ebener Schnitt senkrecht zur Längsachse eines Körpers	übergreifend über getrennte Bereiche, in Kooperation mit anderen Bereichen	_		_	_	_	_	_	_	_	_	_	_	_
+20-5.1	2924-2935	Querschnitt	false	0Kern	true	false	ebener Schnitt senkrecht zur Längsachse eines Körpers	übergreifend über getrennte Bereiche, in Kooperation mit anderen Bereichen	_	_	_	_	_	_
 20-6	2944-2949	aller	_	_	_	_	_	_	_	PIAT	Gen.Pl.Neut	aller	_	_
 20-7	2950-2958	Ressorts	_	_	_	_	_	_	_	NN	Gen.Pl.Neut	Ressort	_	_
 20-8	2959-2968	betrieben	_	_	_	_	_	_	_	VVPP	Psp	betreiben	_	_
@@ -900,7 +900,7 @@
 37-6	5442-5445	und	_	_	_	_	_	_	_	KON	_	und	false	_
 37-7	5446-5457	europaweite	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	europaweit	_	_
 37-8	5458-5475	Vernetzungsbedarf	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Vernetzungsbedarf	_	_
-37-8.1	5458-5468	Vernetzung	false	0Kern	true	false	Verbindung, Verknüpfung	fachliche Kooperation	_		_	_	_	_	_	_	_	_	_	_	_
+37-8.1	5458-5468	Vernetzung	false	0Kern	true	false	Verbindung, Verknüpfung	fachliche Kooperation	_	_	_	_	_	_
 37-9	5476-5488	hinsichtlich	_	_	_	_	_	_	_	APPR	_	hinsichtlich	false	_
 37-10	5489-5492	des	_	_	_	_	_	_	_	ART	Gen.Sg.Masc	der	false	_
 37-11	5493-5505	europäischen	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Masc	europäisch	_	_
@@ -1008,7 +1008,7 @@
 42-24	6241-6248	unseres	_	_	_	_	_	_	_	PPOSAT	Gen.Sg.Neut	unser	_	_
 42-25	6249-6259	nationalen	_	_	_	_	_	_	_	ADJA	Pos.Gen.Sg.Neut	national	_	_
 42-26	6260-6270	Naturerbes	_	_	_	_	_	_	_	NN	Gen.Sg.Neut	Naturerbe	_	_
-42-26.1	6265-6270	erbes	false	0Kern	true	true	von Verstorbenem erhaltenes Eigentum	übergebene Verantwortung zum Erhalt der Natur	_		_	_	_	_	_	_	_	_	_	_	_
+42-26.1	6265-6270	erbes	false	0Kern	true	true	von Verstorbenem erhaltenes Eigentum	übergebene Verantwortung zum Erhalt der Natur	_	_	_	_	_	_
 42-27	6271-6273	zu	_	_	_	_	_	_	_	PTKZU	_	zu	false	_
 42-28	6274-6279	lösen	_	_	_	_	_	_	_	VVINF	Inf	lösen	_	_
 42-29	6280-6283	und	_	_	_	_	_	_	_	KON	_	und	false	_

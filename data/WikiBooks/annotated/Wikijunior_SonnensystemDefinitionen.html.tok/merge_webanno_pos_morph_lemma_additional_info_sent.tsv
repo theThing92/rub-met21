@@ -48,8 +48,8 @@
 3-1	242-245	Ein	_	_	_	_	_	_	_	ART	Nom.Sg.Masc	ein	false	_
 3-2	246-254	riesiger	_	_	_	_	_	_	_	ADJA	Pos.Nom.Sg.Masc	riesig	_	_
 3-3	255-264	Feuerball	_	_	_	_	_	_	_	NN	Nom.Sg.Masc	Feuerball	_	_
-3-3.1	255-260	Feuer	false	2sem	_	_	_	_	_		_	_	_	_	_	_	_	_	_	_	_
-3-3.2	260-264	ball	false	0Kern	true	true	kugelförmiger, gewöhnlich mit Luft gefüllter \[elastischer\] Gegenstand, der als Spielzeug oder Sportgerät verwendet wird	*	_		_	_	_	_	_	_	_	_	_	_	_
+3-3.1	255-260	Feuer	false	2sem	_	_	_	_	_	_	_	_	_	_
+3-3.2	260-264	ball	false	0Kern	true	true	kugelförmiger, gewöhnlich mit Luft gefüllter \[elastischer\] Gegenstand, der als Spielzeug oder Sportgerät verwendet wird	*	_	_	_	_	_	_
 3-4	265-266	,	_	_	_	_	_	_	_	$,	_	,	_	_
 3-5	267-269	so	_	_	_	_	_	_	_	ADV	_	so	_	_
 3-6	270-274	groß	_	_	_	_	_	_	_	ADJD	Pos	groß	_	_
